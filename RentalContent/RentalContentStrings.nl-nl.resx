@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="content_contactinfo_title" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="content_contactinfo_helptext" xml:space="preserve">
+    <value>Biedt de gast uw contact-telefoon, e-mail, enz., zodat ze u kunnen contacteren voor, tijdens en na het verblijf.</value>
+  </data>
+  <data name="content_contactinfo_keywords" xml:space="preserve">
+    <value>contact, eigenaar, telefoon</value>
+  </data>
+  <data name="content_drivingdirections_title" xml:space="preserve">
+    <value>Routebeschrijving</value>
+  </data>
+  <data name="content_drivingdirections_helptext" xml:space="preserve">
+    <value>Een GPS-kaart naar uw accommodatie zal automatisch worden verstrekt, maar soms helpt het ook om geschreven aanwijzingen te hebben.</value>
+  </data>
+  <data name="content_drivingdirections_keywords" xml:space="preserve">
+    <value>Rijden, richtingen</value>
+  </data>
+  <data name="content_whattopack_title" xml:space="preserve">
+    <value>Wat te Pakken</value>
+  </data>
+  <data name="content_whattopack_helptext" xml:space="preserve">
+    <value>Help uw gasten tijdens het pakken om ervoor te zorgen dat ze de benodigde dingen van thuis meebrengen voor het verbeteren van hun verblijf.</value>
+  </data>
+  <data name="content_whattopack_keywords" xml:space="preserve">
+    <value>pak, breng, inbegrepen</value>
+  </data>
+  <data name="content_checkin_title" xml:space="preserve">
+    <value>Check-in</value>
+  </data>
+  <data name="content_checkin_helptext" xml:space="preserve">
+    <value>Verschaf de gasten meer informatie over wat er nodig is om in te checken in uw accommodatie.  Verstrek ook details voor een vroege of late aankomst</value>
+  </data>
+  <data name="content_checkin_keywords" xml:space="preserve">
+    <value>check-in, aankomst, aankomst</value>
+  </data>
+  <data name="content_parking_title" xml:space="preserve">
+    <value>Parkeergelegenheid</value>
+  </data>
+  <data name="content_parking_helptext" xml:space="preserve">
+    <value>Als er bijzonderheden zijn over het parkeren bij uw accommodatie, biedt ze dan hier aan de gast aan.  Dit kunnen onder meer parkeerplaatsen codes, enz zijn.</value>
+  </data>
+  <data name="content_parking_keywords" xml:space="preserve">
+    <value>parkeren, auto, regels, garage</value>
+  </data>
+  <data name="content_whatsprovided_title" xml:space="preserve">
+    <value>Wat is er voorzien</value>
+  </data>
+  <data name="content_whatsprovided_helptext" xml:space="preserve">
+    <value>Geef een lijst van items zoals handdoeken, enz. die worden geleverd in uw accommodatie zodat gasten dit weten voordat ze arriveren.</value>
+  </data>
+  <data name="content_whatsprovided_keywords" xml:space="preserve">
+    <value>pak, breng, inbegrepen</value>
+  </data>
+  <data name="content_smoking_title" xml:space="preserve">
+    <value>Roken</value>
+  </data>
+  <data name="content_smoking_helptext" xml:space="preserve">
+    <value>Verstrek ook details voor een vroege of late aankomst</value>
+  </data>
+  <data name="content_smoking_keywords" xml:space="preserve">
+    <value>roken, rook, sigaretten, regels</value>
+  </data>
+  <data name="content_pets_title" xml:space="preserve">
+    <value>Huisdieren</value>
+  </data>
+  <data name="content_pets_helptext" xml:space="preserve">
+    <value>Verstrek ook details voor een vroege of late aankomst</value>
+  </data>
+  <data name="content_pets_keywords" xml:space="preserve">
+    <value>hond, kat, huisdier</value>
+  </data>
+  <data name="content_grilling_title" xml:space="preserve">
+    <value>Grillen</value>
+  </data>
+  <data name="content_grilling_helptext" xml:space="preserve">
+    <value>Uw gasten zullen geïnteresseerd zijn in het grillen, laat hen dus de bijzonderheden weten i.v.m. de gril of misschien wel hoe het niet aan te pakken</value>
+  </data>
+  <data name="content_grilling_keywords" xml:space="preserve">
+    <value>grill, kook, brand</value>
+  </data>
+  <data name="content_trash_title" xml:space="preserve">
+    <value>Afval</value>
+  </data>
+  <data name="content_trash_helptext" xml:space="preserve">
+    <value>Laat uw gasten weten wanneer afval wordt opgehaald.  Kies de dag  en een herinnering zal de avond voordien worden ingesteld om hen eraan te herinneren.</value>
+  </data>
+  <data name="content_trash_keywords" xml:space="preserve">
+    <value>huisvuil, afval, vuilnis verwijdering</value>
+  </data>
+  <data name="content_elevator_title" xml:space="preserve">
+    <value>lift</value>
+  </data>
+  <data name="content_elevator_helptext" xml:space="preserve">
+    <value>Als er een lift moet gebruikt worden voor uw accommodatie en er zijn speciale codes nodig of misschien wel instructies, voorzie die dan hier</value>
+  </data>
+  <data name="content_elevator_keywords" xml:space="preserve">
+    <value>lift, regels</value>
+  </data>
+  <data name="content_checkout_title" xml:space="preserve">
+    <value>Check-out</value>
+  </data>
+  <data name="content_checkout_helptext" xml:space="preserve">
+    <value>Laat uw gasten weten wat ze moeten doen om ervoor te zorgen dat het check-out proces soepel verloopt.  De gast zal er aan herinnerd worden een dag voor dat ze vertrekken.</value>
+  </data>
+  <data name="content_checkout_keywords" xml:space="preserve">
+    <value>vertrek, vertrek, check-out</value>
+  </data>
+  <data name="content_wifi_title" xml:space="preserve">
+    <value>WIFI</value>
+  </data>
+  <data name="content_wifi_helptext" xml:space="preserve">
+    <value>Alle nodige informatie om uw gasten toegang te geven tot het Internet.  Verschaf de naam van de router en de paswoorden.</value>
+  </data>
+  <data name="content_wifi_keywords" xml:space="preserve">
+    <value>internet, wifi, router, breedband</value>
+  </data>
+  <data name="content_noisepolicy_title" xml:space="preserve">
+    <value>Geluidsbeleid</value>
+  </data>
+  <data name="content_noisepolicy_helptext" xml:space="preserve">
+    <value>Als er specifieke geluidsverordeningen bestaan in uw omgeving na bepaalde tijden laat uw gasten dat dan hier weten.</value>
+  </data>
+  <data name="content_noisepolicy_keywords" xml:space="preserve">
+    <value>lawaai, muziek, stereo</value>
+  </data>
+  <data name="content_pool_title" xml:space="preserve">
+    <value>Zwembad(en)</value>
+  </data>
+  <data name="content_pool_helptext" xml:space="preserve">
+    <value>Zorg voor details over het zwembad verbonden met uw accommodatie als u dit bezit.  Laat uw gasten ook weten dat een jacuzzi hebt en hoe deze te bedienen.</value>
+  </data>
+  <data name="content_pool_keywords" xml:space="preserve">
+    <value>zwemmen, zwembad, water</value>
+  </data>
+  <data name="content_coffeemaker_title" xml:space="preserve">
+    <value>Koffiezetapparaat</value>
+  </data>
+  <data name="content_coffeemaker_helptext" xml:space="preserve">
+    <value>Bezorg uw gasten details over het koffiezetapparaat, moeten ze filters meebrengen, zijn er speciale instructies.</value>
+  </data>
+  <data name="content_coffeemaker_keywords" xml:space="preserve">
+    <value>keuken, koffie, espresso</value>
+  </data>
+  <data name="content_kitchen_title" xml:space="preserve">
+    <value>Keuken</value>
+  </data>
+  <data name="content_kitchen_helptext" xml:space="preserve">
+    <value>Zorg voor bijzonderheden over uw keuken indien uw gasten op de hoogte moeten worden gebracht over iets speciaals.</value>
+  </data>
+  <data name="content_kitchen_keywords" xml:space="preserve">
+    <value>keuken, oven, kookplaat, magnetron, vaatwasser, vriezer, koelkast, ijs</value>
+  </data>
+  <data name="content_beachaccess_title" xml:space="preserve">
+    <value>Strand</value>
+  </data>
+  <data name="content_beachaccess_helptext" xml:space="preserve">
+    <value>Als uw woning in de buurt is van een strand laat uw gasten dan weten makkelijkste en de beste manier weten voor toegang ertoe.</value>
+  </data>
+  <data name="content_beachaccess_keywords" xml:space="preserve">
+    <value>strand, oceaan, water, code</value>
+  </data>
+  <data name="content_tv_title" xml:space="preserve">
+    <value>TV / Kabel</value>
+  </data>
+  <data name="content_tv_helptext" xml:space="preserve">
+    <value>Voorzie uw gasten van instructies over het gebruik van de tv en biedt links naar de televisiestations in uw omgeving.</value>
+  </data>
+  <data name="content_tv_keywords" xml:space="preserve">
+    <value>tv, kabel, HD, ESPN, HBO, satelliet</value>
+  </data>
+  <data name="content_golfcart_title" xml:space="preserve">
+    <value>golf</value>
+  </data>
+  <data name="content_golfcart_helptext" xml:space="preserve">
+    <value>Als u een golfkarretje verstrekt of als er karretjes verhuurd worden in uw omgeving, laat uw gasten dit dan weten. </value>
+  </data>
+  <data name="content_golfcart_keywords" xml:space="preserve">
+    <value>golf</value>
+  </data>
+  <data name="content_boating_title" xml:space="preserve">
+    <value>Varen</value>
+  </data>
+  <data name="content_boating_helptext" xml:space="preserve">
+    <value>Als er een lift moet gebruikt worden voor uw accommodatie en er zijn speciale codes nodig of misschien wel instructies, voorzie die dan hier</value>
+  </data>
+  <data name="content_boating_keywords" xml:space="preserve">
+    <value>boot, vissen, dok</value>
+  </data>
+  <data name="content_biking_title" xml:space="preserve">
+    <value>Fietsen</value>
+  </data>
+  <data name="content_biking_helptext" xml:space="preserve">
+    <value>Als u een golfkarretje verstrekt of als er karretjes verhuurd worden in uw omgeving, laat uw gasten dit dan weten.   U zou de beste plek kunnen meedelen om fietsen te huren, enz.</value>
+  </data>
+  <data name="content_biking_keywords" xml:space="preserve">
+    <value>ski, verhuur, berg</value>
+  </data>
+  <data name="content_skiing_title" xml:space="preserve">
+    <value>Skiën</value>
+  </data>
+  <data name="content_skiing_helptext" xml:space="preserve">
+    <value>Bied uw gasten informatie over skie-opties, enz.</value>
+  </data>
+  <data name="content_skiing_keywords" xml:space="preserve">
+    <value>ski, lift, verhuur, tickets, berg</value>
+  </data>
+  <data name="content_fireplace_title" xml:space="preserve">
+    <value>open haard, vuurput</value>
+  </data>
+  <data name="content_fireplace_helptext" xml:space="preserve">
+    <value>Laat uw gasten weten hoe de open haard/vuurput te gebruiken in uw pand</value>
+  </data>
+  <data name="content_fireplace_keywords" xml:space="preserve">
+    <value>vuur, korf, hout, kampvuur</value>
+  </data>
+  <data name="content_maintenance_title" xml:space="preserve">
+    <value>Onderhoudsproblemen</value>
+  </data>
+  <data name="content_maintenance_helptext" xml:space="preserve">
+    <value>Als er iets mis gaat tijdens het verblijf van uw gasten laat hen dan de procedure weten voor oplossing van de problemen.  Dit kan ondermeer bestaan uit een alternatief telefoonnummer, e-mail, enz.</value>
+  </data>
+  <data name="content_maintenance_keywords" xml:space="preserve">
+    <value>repareren, stuk, onderhoud</value>
+  </data>
+  <data name="content_fitness_title" xml:space="preserve">
+    <value>fitness, fitnesscenter</value>
+  </data>
+  <data name="content_fitness_helptext" xml:space="preserve">
+    <value>Als er een fitnesscenter is of er fitnessactiviteiten plaatsvinden in uw omgeving laat uw gasten dit dan weten, verstrek bijzonderheden i.v.m. toegang enz.</value>
+  </data>
+  <data name="content_fitness_keywords" xml:space="preserve">
+    <value>fitness, oefeningen, fietsen, rennen, lopen</value>
+  </data>
+  <data name="content_electronics_title" xml:space="preserve">
+    <value>Elektronica</value>
+  </data>
+  <data name="content_electronics_helptext" xml:space="preserve">
+    <value>Als uw accommodatie is voorzien van elektronische apparaten, zoals game-systems, dvd's, enz. die misschien speciale instructies vereisen, voorzie die dan hier.</value>
+  </data>
+  <data name="content_electronics_keywords" xml:space="preserve">
+    <value>dvd, xbox, nintendo, wii, ps3, sony, video, stereo-installatie</value>
+  </data>
+  <data name="content_homephone_title" xml:space="preserve">
+    <value>Thuistelefoon </value>
+  </data>
+  <data name="content_homephone_helptext" xml:space="preserve">
+    <value>Als uw woning een vaste landlijn heeft, deel die dan hier mee aan uw gasten zodat ze die kunnen gebruiken tijdens het verblijf.</value>
+  </data>
+  <data name="content_homephone_keywords" xml:space="preserve">
+    <value>Thuis, telefoon</value>
+  </data>
+  <data name="content_transportation_title" xml:space="preserve">
+    <value>vervoer</value>
+  </data>
+  <data name="content_transportation_helptext" xml:space="preserve">
+    <value>Zijn trams of andere vormen van transport beschikbaar voor uw gasten.  Laat ze het hier weten.</value>
+  </data>
+  <data name="content_transportation_keywords" xml:space="preserve">
+    <value>vervoer, bus, bestelwagen, tram</value>
+  </data>
+  <data name="content_helpfultips_title" xml:space="preserve">
+    <value>Handige Tips</value>
+  </data>
+  <data name="content_helpfultips_helptext" xml:space="preserve">
+    <value>Dit is een goede plaats om een lijst van alle andere tips te plaatsen voor uw gasten, op die manier kunnen ze genieten  van de omgeving, enz.</value>
+  </data>
+  <data name="content_helpfultips_keywords" xml:space="preserve">
+    <value>tip, gebied, instructies</value>
+  </data>
+  <data name="content_emergency_title" xml:space="preserve">
+    <value>Noodgeval</value>
+  </data>
+  <data name="content_emergency_helptext" xml:space="preserve">
+    <value>In het geval van een noodsituatie is het best uw gasten te voorzien van al wat nodig is voor veiligheid.</value>
+  </data>
+  <data name="content_emergency_keywords" xml:space="preserve">
+    <value>politie, hulpdiensten, evacuatie</value>
+  </data>
+  <data name="content_delivery_title" xml:space="preserve">
+    <value>Levering van Boodschappen</value>
+  </data>
+  <data name="content_delivery_helptext" xml:space="preserve">
+    <value>Heeft u in de buurt een bezorgdienst voor boodschappen? Uw gasten willen daar zeker graag gebruik van maken.  Laat ze het hier weten als dat dan het geval is</value>
+  </data>
+  <data name="content_delivery_keywords" xml:space="preserve">
+    <value>kruidenier, voedsel, markt</value>
+  </data>
+  <data name="content_laundry_title" xml:space="preserve">
+    <value>Wasserij</value>
+  </data>
+  <data name="content_laundry_helptext" xml:space="preserve">
+    <value>Bied uw gasten met details i.v.m. het wassen van kledij enz., hoe de wasmachines en drogers te bedienen enz..</value>
+  </data>
+  <data name="content_laundry_keywords" xml:space="preserve">
+    <value>wasmachine, droger, droogkuis</value>
+  </data>
+  <data name="content_safety_title" xml:space="preserve">
+    <value>Veiligheid</value>
+  </data>
+  <data name="content_safety_helptext" xml:space="preserve">
+    <value>Voorzie uw gasten van veiligheidsinformatie over stranden, bergen, enz.</value>
+  </data>
+  <data name="content_safety_keywords" xml:space="preserve">
+    <value>Veiligheid, Noodgeval</value>
+  </data>
+  <data name="content_fishing_title" xml:space="preserve">
+    <value>Vissen</value>
+  </data>
+  <data name="content_fishing_helptext" xml:space="preserve">
+    <value>Bied uw gasten informatie over visvergunningen, de beste plekken om te vissen enz.</value>
+  </data>
+  <data name="content_fishing_keywords" xml:space="preserve">
+    <value>boot, vissen</value>
+  </data>
+  <data name="content_heatac_title" xml:space="preserve">
+    <value>Verwarming en A / C</value>
+  </data>
+  <data name="content_heatac_helptext" xml:space="preserve">
+    <value>Bied uw gasten de bijzonderheden over de verwarming en airconditioning.</value>
+  </data>
+  <data name="content_heatac_keywords" xml:space="preserve">
+    <value>verwarming, a / c, airconditioner</value>
+  </data>
+  <data name="content_houserules_title" xml:space="preserve">
+    <value>Huisregels</value>
+  </data>
+  <data name="content_houserules_helptext" xml:space="preserve">
+    <value>Verstrek uw gasten alle regels waaraan ze zich moeten houden i.v.m. de accommodatie.</value>
+  </data>
+  <data name="content_houserules_keywords" xml:space="preserve">
+    <value>Instructies voor</value>
+  </data>
+  <data name="content_aboutowner_title" xml:space="preserve">
+    <value>Over de eigenaar</value>
+  </data>
+  <data name="content_aboutowner_helptext" xml:space="preserve">
+    <value>Vertel uw gasten het verhaal over uw accommodatie</value>
+  </data>
+  <data name="content_aboutowner_keywords" xml:space="preserve">
+    <value>verhaal over</value>
+  </data>
+  <data name="content_accessrental_title" xml:space="preserve">
+    <value>Toegang tot accommodatie</value>
+  </data>
+  <data name="content_accessrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_accessrental_keywords" xml:space="preserve">
+    <value>toegang, code, deur, routebeschrijvingen</value>
+  </data>
+  <data name="content_thankyou_title" xml:space="preserve">
+    <value>Thank You</value>
+  </data>
+  <data name="content_thankyou_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_thankyou_keywords" xml:space="preserve">
+    <value>dank, </value>
+  </data>
+  <data name="content_welcome_title" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="content_welcome_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_welcome_keywords" xml:space="preserve">
+    <value>welkom, intro, over, eigenaar</value>
+  </data>
+  <data name="content_viewguestbook_title" xml:space="preserve">
+    <value>Bekijk Gastenboek</value>
+  </data>
+  <data name="content_viewguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_viewguestbook_keywords" xml:space="preserve">
+    <value>Gastenboek </value>
+  </data>
+  <data name="content_signguestbook_title" xml:space="preserve">
+    <value>Teken gastenboek</value>
+  </data>
+  <data name="content_signguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_signguestbook_keywords" xml:space="preserve">
+    <value>Teken, Gastenboek</value>
+  </data>
+  <data name="content_inviteother_title" xml:space="preserve">
+    <value>Nodig anderen uit</value>
+  </data>
+  <data name="content_inviteother_helptext" xml:space="preserve">
+    <value>Nodig anderen uit die met u meegaan om ook toegang te krijgen tot deze informatie, enz.</value>
+  </data>
+  <data name="content_inviteother_keywords" xml:space="preserve">
+    <value>nodig uit, deel, toegang, code</value>
+  </data>
+  <data name="content_findmyrental_title" xml:space="preserve">
+    <value>Zoek mijn accommodatie</value>
+  </data>
+  <data name="content_findmyrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_findmyrental_keywords" xml:space="preserve">
+    <value>kaart, routebeschrijvingen, locatie, snelweg, vinden</value>
+  </data>
+  <data name="content_misc_title" xml:space="preserve">
+    <value>Diversen</value>
+  </data>
+  <data name="content_misc_helptext" xml:space="preserve">
+    <value>Dit is een geweldige plek om al het andere te plaatsen dat uw gast misschien wel leuk vindt</value>
+  </data>
+  <data name="content_misc_keywords" xml:space="preserve">
+    <value>allerlei</value>
+  </data>
+  <data name="content_tennis_title" xml:space="preserve">
+    <value>tennis</value>
+  </data>
+  <data name="content_tennis_helptext" xml:space="preserve">
+    <value>Dit is een geweldige plek om uw gasten te voorzien van informatie over de tennisopties in uw omgeving</value>
+  </data>
+  <data name="content_tennis_keywords" xml:space="preserve">
+    <value>tennis, sport</value>
+  </data>
+  <data name="content_rainy_title" xml:space="preserve">
+    <value>Regenachtige dagen</value>
+  </data>
+  <data name="content_rainy_helptext" xml:space="preserve">
+    <value>Vertel uw gasten wat te doen op regenachtige dagen.</value>
+  </data>
+  <data name="content_rainy_keywords" xml:space="preserve">
+    <value>regen, water</value>
+  </data>
+  <data name="content_tides_title" xml:space="preserve">
+    <value>Zeegetijden </value>
+  </data>
+  <data name="content_tides_helptext" xml:space="preserve">
+    <value>Als uw accommodaties zich bevinden in gebieden met waar getijden belangrijk zijn, verschaft u uw gasten best een getijdentabel.</value>
+  </data>
+  <data name="content_tides_keywords" xml:space="preserve">
+    <value>oceaan, water, getijden, veiligheid, de maan</value>
+  </data>
+  <data name="content_finalpayment_title" xml:space="preserve">
+    <value>Eindbetaling</value>
+  </data>
+  <data name="content_finalpayment_helptext" xml:space="preserve">
+    <value>Als er enige bijzonderheden bestaan rond eindbetalingen voor uw gasten laat deze dan hier weten</value>
+  </data>
+  <data name="content_finalpayment_keywords" xml:space="preserve">
+    <value>betaling, geld, eind</value>
+  </data>
+  <data name="content_housekeeping_title" xml:space="preserve">
+    <value>Huishouding</value>
+  </data>
+  <data name="content_housekeeping_helptext" xml:space="preserve">
+    <value>Als een gast beroep kan doen op een schoomaakdienst of als er iets is wat ze moeten weten kan u die informatie hier plaatsen</value>
+  </data>
+  <data name="content_housekeeping_keywords" xml:space="preserve">
+    <value>schoonmaken, huis, bezem, stofblik</value>
+  </data>
+  <data name="content_hiking_title" xml:space="preserve">
+    <value>Wandelen</value>
+  </data>
+  <data name="content_hiking_helptext" xml:space="preserve">
+    <value>Vertel uw gasten hier over wandelen en wandelpaden in uw omgeving</value>
+  </data>
+  <data name="content_hiking_keywords" xml:space="preserve">
+    <value>wandelen, oefening, in openlucht, wandeling, berg</value>
+  </data>
+  <data name="content_beforeyouleave_title" xml:space="preserve">
+    <value>Voordat u een bezoek brengt</value>
+  </data>
+  <data name="content_beforeyouleave_helptext" xml:space="preserve">
+    <value>Als er sprake is van details zoals het maken van reserveringen in restaurants, enz laat dit dan hier weten voor het vertrek naar uw accommodatie</value>
+  </data>
+  <data name="content_beforeyouleave_keywords" xml:space="preserve">
+    <value>rit, aankomst</value>
+  </data>
+</root>

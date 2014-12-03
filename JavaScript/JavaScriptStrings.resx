@@ -1,0 +1,2910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_Dashboard_" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="_DashboardBack_" xml:space="preserve">
+    <value>Back to Dashboard</value>
+  </data>
+  <data name="_Activity_" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="_MyRentals_" xml:space="preserve">
+    <value>My Rentals</value>
+  </data>
+  <data name="_Reservations_" xml:space="preserve">
+    <value>Reservations</value>
+  </data>
+  <data name="_MyGuests_" xml:space="preserve">
+    <value>My Guests</value>
+  </data>
+  <data name="_Reviews_" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="_Settings_" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="_ActivityTooltip_" xml:space="preserve">
+    <value>Whats Going On!</value>
+  </data>
+  <data name="_MyRentalsTooltip_" xml:space="preserve">
+    <value>Home sweet home...</value>
+  </data>
+  <data name="_ReservationsTooltip_" xml:space="preserve">
+    <value>Who, When and Where</value>
+  </data>
+  <data name="_AddOnsTooltip_" xml:space="preserve">
+    <value>We got your store here!</value>
+  </data>
+  <data name="_SettingsTooltip_" xml:space="preserve">
+    <value>Your profile and accounts...</value>
+  </data>
+  <data name="_BtnTop_" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="_Help_" xml:space="preserve">
+    <value>Show Help</value>
+  </data>
+  <data name="_CloseHelp_" xml:space="preserve">
+    <value>Hide Help</value>
+  </data>
+  <data name="_Add_" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="_Save_" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="_Saving_" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="_UndoChanges_" xml:space="preserve">
+    <value>Undo changes</value>
+  </data>
+  <data name="_LetsGo_" xml:space="preserve">
+    <value>Got it!</value>
+  </data>
+  <data name="_Start_" xml:space="preserve">
+    <value>Start Upload</value>
+  </data>
+  <data name="_Cancel_" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="_Delete_" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_CompleteAddRental_" xml:space="preserve">
+    <value>Complete! Add This Rental</value>
+  </data>
+  <data name="_AddRentalInitialPhotoNotice_" xml:space="preserve">
+    <value>Please select your first photograph for this rental.  Once your registration is complete you will be able to add multiple photos.  </value>
+  </data>
+  <data name="_Previous_" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="_PreviousTooltip_" xml:space="preserve">
+    <value>go back to the previous step</value>
+  </data>
+  <data name="_Next_" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="_NextTooltip_" xml:space="preserve">
+    <value>goto the next step</value>
+  </data>
+  <data name="_Search_" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="_Clear_" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_Street_" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="_City_" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="_Country_" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_State_" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="_ZipCode_" xml:space="preserve">
+    <value>Zip Code / Postal Code</value>
+  </data>
+  <data name="_PostalCodeValidation_" xml:space="preserve">
+    <value>Postal Code Is Required</value>
+  </data>
+  <data name="_RentalFriendlyName_" xml:space="preserve">
+    <value>Rental Friendly Name</value>
+  </data>
+  <data name="_RentalCheckInCheckOutTimes_" xml:space="preserve">
+    <value>Reservation Check-In / Check-Out Times</value>
+  </data>
+  <data name="_RentalCheckInTime_" xml:space="preserve">
+    <value>Check-In Time</value>
+  </data>
+  <data name="_RentalPhoto_" xml:space="preserve">
+    <value>Rental Photo</value>
+  </data>
+  <data name="_RentalCheckOutTime_" xml:space="preserve">
+    <value>Check-Out Time</value>
+  </data>
+  <data name="_RentalColor_" xml:space="preserve">
+    <value>Rental Color</value>
+  </data>
+  <data name="_VRBONumber_" xml:space="preserve">
+    <value>Listing Number</value>
+  </data>
+  <data name="_HomeAwayICalFeed_" xml:space="preserve">
+    <value>iCal Feed</value>
+  </data>
+  <data name="_HomeAwayICalFeedInstructions_" xml:space="preserve">
+    <value>We can automatically import reservations for this unit with your HomeAway/VRBO calendar. Please Note -- this is one way meaning we pull your reservations from the .ICS feed but any new ones you add in our system do not get pushed back over. For more instructions and to get started click the 'Setup' button above.</value>
+  </data>
+  <data name="_HomeAwayICalFeedSetupButton_" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="_HomeAwayICalFeedModalInstructions_" xml:space="preserve">
+    <value>In the HomeAway/VRBO dashboard there are different types of 'Share Your Calendar' links.  Make sure you use the one for use with HomeAway as shown in the example below.  When you have found the correct link, copy and paste it into this form.</value>
+  </data>
+  <data name="_ICalFeedExample_" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="_PasteICalHeedHere_" xml:space="preserve">
+    <value>Paste Url Here</value>
+  </data>
+  <data name="_HomeAwayICalFeedLaunchModalInstructions_" xml:space="preserve">
+    <value>Click here for an example of this link in the dashboard.</value>
+  </data>
+  <data name="_ICalExample_" xml:space="preserve">
+    <value>YOUR CALENDAR DATA SETUP</value>
+  </data>
+  <data name="_ICalFinishSetup_" xml:space="preserve">
+    <value>Finish Setup</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmed_" xml:space="preserve">
+    <value>Setup Complete -- Please Be Aware Of The Following</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet1_" xml:space="preserve">
+    <value>This is an automatic import of reservations from HomeAway.  </value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet2_" xml:space="preserve">
+    <value>Any door access codes will only show to the guest if the contract is paid in full, contract is signed and only within 14 days of the reservation start.</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet3_" xml:space="preserve">
+    <value>Continue to add new reservations in HomeAway / VRBO and they will show up here. </value>
+  </data>
+  <data name="_ICalFinishSetupDontForget_" xml:space="preserve">
+    <value>Don't Forget!</value>
+  </data>
+  <data name="_ICalFinishSetupDontForgetInstructions_" xml:space="preserve">
+    <value>Click here to save your changes.</value>
+  </data>
+  <data name="_HomeAwayICalFeedTooltip_" xml:space="preserve">
+    <value>have a HomeAway or VRBO iCal feed for this property? enter it here</value>
+  </data>
+  <data name="_ICalLinkClearCurrent_" xml:space="preserve">
+    <value>Remove Calendar Import</value>
+  </data>
+  <data name="_ICalClearLinkConfirm_" xml:space="preserve">
+    <value>Are you sure you want to remove this calendar import?</value>
+  </data>
+  <data name="_WebPage_" xml:space="preserve">
+    <value>Web Page</value>
+  </data>
+  <data name="_Rentals_" xml:space="preserve">
+    <value>Rentals</value>
+  </data>
+  <data name="_DeleteRental_" xml:space="preserve">
+    <value>Delete Rental</value>
+  </data>
+  <data name="_DeleteRentalTooltip_" xml:space="preserve">
+    <value>delete rental</value>
+  </data>
+  <data name="_UndoChangesTooltip_" xml:space="preserve">
+    <value>undo changes</value>
+  </data>
+  <data name="_SaveRentalTooltip_" xml:space="preserve">
+    <value>save rental</value>
+  </data>
+  <data name="_GTHYTM_" xml:space="preserve">
+    <value>HomeAway™</value>
+  </data>
+  <data name="_GuestActivity_" xml:space="preserve">
+    <value>Guest Activity</value>
+  </data>
+  <data name="_AddARental_" xml:space="preserve">
+    <value>Add a Rental</value>
+  </data>
+  <data name="_VerifyLocation_" xml:space="preserve">
+    <value>Verify Location</value>
+  </data>
+  <data name="_Address_" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="_VerifyLocationDescrLine1_" xml:space="preserve">
+    <value>Please verify that your rental's location is correct on the map below. To adjust the location, please </value>
+  </data>
+  <data name="_VerifyLocationDescrLineContactUs_" xml:space="preserve">
+    <value>contact us</value>
+  </data>
+  <data name="_VerifyLocationDescrLine3_" xml:space="preserve">
+    <value>. To add driving directions, click on the "Pre-Arrival" section.</value>
+  </data>
+  <data name="_VerifyLocationError_" xml:space="preserve">
+    <value>Sorry, but we unable to determine your property location.  Please verify your address information and try again!</value>
+  </data>
+  <data name="_FeatureOptions_" xml:space="preserve">
+    <value>Guestbook and Review Options</value>
+  </data>
+  <data name="_DisableGuestBook_" xml:space="preserve">
+    <value>Disable Guest Book</value>
+  </data>
+  <data name="_PropertyInformation_" xml:space="preserve">
+    <value>Rental Information</value>
+  </data>
+  <data name="_UploadRentalPhoto_" xml:space="preserve">
+    <value>Select Rental Photo</value>
+  </data>
+  <data name="_Error_" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="_RequiredCity_" xml:space="preserve">
+    <value>City is required.</value>
+  </data>
+  <data name="_RentalNameValidation_" xml:space="preserve">
+    <value>Name is required.</value>
+  </data>
+  <data name="_RentalListingIdValidation_" xml:space="preserve">
+    <value>Listing ID is required.</value>
+  </data>
+  <data name="_RentalCheckInOutTimeValidation_" xml:space="preserve">
+    <value>Time is required.</value>
+  </data>
+  <data name="_ColorValidation_" xml:space="preserve">
+    <value>Color is required.</value>
+  </data>
+  <data name="_DepartureValidation_" xml:space="preserve">
+    <value>Departure should be later than arrival</value>
+  </data>
+  <data name="_RequiredAddress_" xml:space="preserve">
+    <value>Address is required.</value>
+  </data>
+  <data name="_SelectCountry_" xml:space="preserve">
+    <value>Select a Country</value>
+  </data>
+  <data name="_SelectState_" xml:space="preserve">
+    <value>Select a State</value>
+  </data>
+  <data name="_ContentCurrentlyProvided_" xml:space="preserve">
+    <value>Current Content</value>
+  </data>
+  <data name="_AvailableContent_" xml:space="preserve">
+    <value>AVAILABLE CONTENT</value>
+  </data>
+  <data name="_CriticalContent_" xml:space="preserve">
+    <value>CRITICAL CONTENT</value>
+  </data>
+  <data name="_CriticalContentInstructions_" xml:space="preserve">
+    <value>These items are considered critical for the quality of a guest’s experience.  Please populate this content soon!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountSingle_" xml:space="preserve">
+    <value>A guest has requested this information.  Please provide it!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountMultiple_" xml:space="preserve">
+    <value>** COUNT ** guests have requested this information.  Please provide it!</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySetup_" xml:space="preserve">
+    <value>You currently do not have any content provided for this rental.  Add items under Available Content that apply to this rental.</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySuggested_" xml:space="preserve">
+    <value>You currently do not have any local suggestions.  Click/Touch the items below to recommend items in your area.</value>
+  </data>
+  <data name="_NoSuggestionsFound_" xml:space="preserve">
+    <value>Sorry but we could not find any suggestion for this category.   Please try changing your search keyword.</value>
+  </data>
+  <data name="_NoPlaceSuggestions_" xml:space="preserve">
+    <value>We don't have any suggestions for this category.  We suggest that you use the 'Add Custom' button below to add some of your own.</value>
+  </data>
+  <data name="_PreviousDescriptionLoaded_" xml:space="preserve">
+    <value>We have copied your previous description for this place.  You may save this description as is or change it.</value>
+  </data>
+  <data name="_NoOwnerSuggestions_" xml:space="preserve">
+    <value>You currently do not have any suggestions for this category.  To see what we recommend click the 'HomeAway Suggested' tab below.  If you find something that you would like to add click the green plus symbol next to it.</value>
+  </data>
+  <data name="_SuggestionsEditFormNameAndContactHeader_" xml:space="preserve">
+    <value>Name and Contact Information</value>
+  </data>
+  <data name="_SuggestionsEditFormAddressHeader_" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="_SuggestionsEditFormNotesHeader_" xml:space="preserve">
+    <value>My Recommendation Notes</value>
+  </data>
+  <data name="_AddingSuggestionPleaseWait_" xml:space="preserve">
+    <value>Adding Suggestion!  Please Wait!</value>
+  </data>
+  <data name="_AssociatedEmail_" xml:space="preserve">
+    <value>Associated Email</value>
+  </data>
+  <data name="_AssociatedPhoneNumberTitle_" xml:space="preserve">
+    <value>Phone Title</value>
+  </data>
+  <data name="_AssociatedPhoneNumber_" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="_AssociatedWebLinkTitle_" xml:space="preserve">
+    <value>Web link Title</value>
+  </data>
+  <data name="_AssociatedWebLink_" xml:space="preserve">
+    <value>http://example.website</value>
+  </data>
+  <data name="_AssociatedPlace_" xml:space="preserve">
+    <value>Associated Place</value>
+  </data>
+  <data name="_DaysOfWeek_" xml:space="preserve">
+    <value>Days of week</value>
+  </data>
+  <data name="_RelevantDaysInstructions_" xml:space="preserve">
+    <value>Use the checkboxes below to specific which days of the week apply to this content.</value>
+  </data>
+  <data name="_Sunday_" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="_Monday_" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="_Tuesday_" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="_Wednesday_" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="_Thursday_" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="_Friday_" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="_Saturday_" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="_Notes_" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="_StreetTooltip_" xml:space="preserve">
+    <value>the address of the rental</value>
+  </data>
+  <data name="_CityTooltip_" xml:space="preserve">
+    <value>the city of the rental</value>
+  </data>
+  <data name="_CountryTooltip_" xml:space="preserve">
+    <value>the country of the rental</value>
+  </data>
+  <data name="_StateTooltip_" xml:space="preserve">
+    <value>the state of the rental</value>
+  </data>
+  <data name="_ZipcodeTooltip_" xml:space="preserve">
+    <value>the postal code</value>
+  </data>
+  <data name="_RentalNameTooltip_" xml:space="preserve">
+    <value>this is what guests will call your rental</value>
+  </data>
+  <data name="_RentalNamePlaceholder_" xml:space="preserve">
+    <value>rental name</value>
+  </data>
+  <data name="_VrboNumberTooltip_" xml:space="preserve">
+    <value>have a HomeAway or VRBO number? enter it here</value>
+  </data>
+  <data name="_WebsiteTooltip_" xml:space="preserve">
+    <value>have a webpage for this rental?</value>
+  </data>
+  <data name="_StreetValidation_" xml:space="preserve">
+    <value>Address is required.</value>
+  </data>
+  <data name="_CityValidation_" xml:space="preserve">
+    <value>City is required.</value>
+  </data>
+  <data name="_CountryValidation_" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="_StateValidation_" xml:space="preserve">
+    <value>State is required.</value>
+  </data>
+  <data name="_AddAnotherRental_" xml:space="preserve">
+    <value>Add Another Rental</value>
+  </data>
+  <data name="_AddAnotherRentalTooltip_" xml:space="preserve">
+    <value>Got another Rental to Add?  Great!</value>
+  </data>
+  <data name="_RentalInfo_" xml:space="preserve">
+    <value>Rental Info</value>
+  </data>
+  <data name="_WelcomeMessage_" xml:space="preserve">
+    <value>Welcome Message</value>
+  </data>
+  <data name="_ThankYouMessage_" xml:space="preserve">
+    <value>Thank You Message</value>
+  </data>
+  <data name="_BeforeArrival_" xml:space="preserve">
+    <value>Pre-Arrival</value>
+  </data>
+  <data name="_Instructions_" xml:space="preserve">
+    <value>Rental Instructions</value>
+  </data>
+  <data name="_LocalSuggestions_" xml:space="preserve">
+    <value>Local Suggestions</value>
+  </data>
+  <data name="_Suggestions_" xml:space="preserve">
+    <value>Suggestions</value>
+  </data>
+  <data name="_LocationSuggestions_" xml:space="preserve">
+    <value>Location Suggestions</value>
+  </data>
+  <data name="_ProvideLocalKnowledge_" xml:space="preserve">
+    <value>Provide Local Knowledge</value>
+  </data>
+  <data name="_ProvideLocalKnowledgeText_" xml:space="preserve">
+    <value>&lt;h5&gt;share your &lt;b&gt;favorite&lt;/b&gt; items&lt;/h5&gt;&lt;p&gt;Why did you purchase a rental in this area?  Was it the attractions, the beach, the bike trails, the skiiing, the shopping, the night life?&lt;/p&gt;&lt;p&gt;HomeAway™ will provide suggestions for all of these, but your Guests are counting on you to provide your advice.  Take note of some of our tips, and add yours to the boxes below.&lt;/p&gt;</value>
+  </data>
+  <data name="_OwnerRecommended_" xml:space="preserve">
+    <value>Owner Recommended</value>
+  </data>
+  <data name="_OwnerRecommendedCurrentlyActive_" xml:space="preserve">
+    <value>Currently Active</value>
+  </data>
+  <data name="_GTHYSuggested_" xml:space="preserve">
+    <value>Suggestions Powered By Google</value>
+  </data>
+  <data name="_GTHYSuggestedAvailable_" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="_Close_" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="_LetsGoTooltip_" xml:space="preserve">
+    <value>Yep... You got this!</value>
+  </data>
+  <data name="_FirstTimeUser_" xml:space="preserve">
+    <value>First Time User?</value>
+  </data>
+  <data name="_FirstTimeUserText1_" xml:space="preserve">
+    <value>This is where you can see the latest activity in your Hospitality Manager. Every time a guest does something or an email is sent, you’ll get an alert here. </value>
+  </data>
+  <data name="_FirstTimeUserText2_" xml:space="preserve">
+    <value>HomeAway</value>
+  </data>
+  <data name="_FirstTimeUserText3_" xml:space="preserve">
+    <value>This here is the activity stream. Simply put, it tells you whats going on with your rentals. Anything and everything that happens is laid out for you right here. You can search by name or action and even filter by rental or type of activity. You're going to see what suggestions people liked, what the guestbook entries look like and even</value>
+  </data>
+  <data name="_FirstTimeUserText4_" xml:space="preserve">
+    <value>Make it Personal</value>
+  </data>
+  <data name="_FirstTimeUserText5_" xml:space="preserve">
+    <value>Provide a benefit for Returning ( ex. Return Guests Don't Pay a Cleaning Fee )</value>
+  </data>
+  <data name="_FirstTimeUserText6_" xml:space="preserve">
+    <value>Ask them to Sign the Guestbook</value>
+  </data>
+  <data name="_FirstTimeUserText7_" xml:space="preserve">
+    <value>Ask them to book next years stay in advance.</value>
+  </data>
+  <data name="_FirstTimeUserText8_" xml:space="preserve">
+    <value>If something was wrong, ask for feedback.</value>
+  </data>
+  <data name="_SearchByNamePlaceholder_" xml:space="preserve">
+    <value>search by name</value>
+  </data>
+  <data name="_SearchByNameTooltip_" xml:space="preserve">
+    <value>Don't see it below, try searching for it.</value>
+  </data>
+  <data name="_AddSuggestionTooltip_" xml:space="preserve">
+    <value>Add this as a suggestion!</value>
+  </data>
+  <data name="_RemoveSuggestionTooltip_" xml:space="preserve">
+    <value>Remove this from your suggestions</value>
+  </data>
+  <data name="_DescriptionPlaceholder_" xml:space="preserve">
+    <value>please provide a description...</value>
+  </data>
+  <data name="_DescriptionTooltip_" xml:space="preserve">
+    <value>tell the guests why they will love this</value>
+  </data>
+  <data name="_FirstTime_" xml:space="preserve">
+    <value>First Time Huh?</value>
+  </data>
+  <data name="_FirstTimeThankText1_" xml:space="preserve">
+    <value>Wonderful...  Check this out.</value>
+  </data>
+  <data name="_FirstTimeThankText2_" xml:space="preserve">
+    <value>Upon selecting Checkout, or after their check-out date has lapsed, your guests are shown a Thank you Message. This is it, now is your chance to say thanks.  We prepopulate one for you, but encourage you to make it your own.  Here are some helpful guidelines:</value>
+  </data>
+  <data name="_FirstTimeThankText3_" xml:space="preserve">
+    <value>Make it Personal</value>
+  </data>
+  <data name="_FirstTimeThankText4_" xml:space="preserve">
+    <value>Provide a benefit for Returning ( ex. Return Guests Don't Pay a Cleaning Fee )</value>
+  </data>
+  <data name="_FirstTimeThankText5_" xml:space="preserve">
+    <value>Ask them to Sign the Guestbook</value>
+  </data>
+  <data name="_FirstTimeThankText6_" xml:space="preserve">
+    <value>Ask them to book next years stay in advance.</value>
+  </data>
+  <data name="_FirstTimeThankText7_" xml:space="preserve">
+    <value>If something was wrong, ask for feedback.</value>
+  </data>
+  <data name="_ThanksMessage_" xml:space="preserve">
+    <value>Thank You Message</value>
+  </data>
+  <data name="_FirstTimeWelcomeText1_" xml:space="preserve">
+    <value>Wonderful...  Check this out.</value>
+  </data>
+  <data name="_FirstTimeWelcomeText2_" xml:space="preserve">
+    <value>This is a great place to welcome your guest, thank them for choosing you and let them know that you care and that their happiness is important to you.  We prepopulate one for you, but encourage you to make it your own.  Here are some helpful guidelines:</value>
+  </data>
+  <data name="_FirstTimeWelcomeText3_" xml:space="preserve">
+    <value>Make it Personal</value>
+  </data>
+  <data name="_FirstTimeWelcomeText4_" xml:space="preserve">
+    <value>Show you Care</value>
+  </data>
+  <data name="_FirstTimeWelcomeText5_" xml:space="preserve">
+    <value>Encourage them to take Advantage of all this cool stuff</value>
+  </data>
+  <data name="_FirstTimeWelcomeText6_" xml:space="preserve">
+    <value>Request they sign your digital guestbook</value>
+  </data>
+  <data name="_NeedHelpTitle_" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_NeedHelpContent_" xml:space="preserve">
+    <value>Hover over the section this page that you need help with.  If you still have questions click the black support tab to the left.</value>
+  </data>
+  <data name="_AddContent_" xml:space="preserve">
+    <value>If you like the changes you made, click this thing</value>
+  </data>
+  <data name="_ThatsYou_" xml:space="preserve">
+    <value>That's you</value>
+  </data>
+  <data name="_Login_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_Welcome_" xml:space="preserve">
+    <value>Welcome...</value>
+  </data>
+  <data name="_Email_" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_EmailPlaceholder_" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="_EmailTooltip_" xml:space="preserve">
+    <value>this cannot be changed later</value>
+  </data>
+  <data name="_EmailRequired_" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="_EmailPattern_" xml:space="preserve">
+    <value>Email is invalid.</value>
+  </data>
+  <data name="_EmailVerify_" xml:space="preserve">
+    <value>Fields are not equal!</value>
+  </data>
+  <data name="_EmailConfirmation_" xml:space="preserve">
+    <value>Email Confirmation</value>
+  </data>
+  <data name="_EmailConfirmationPlaceholder_" xml:space="preserve">
+    <value>email confirmation</value>
+  </data>
+  <data name="_EmailConfirmationTooltip_" xml:space="preserve">
+    <value>sorry, this thing is really important</value>
+  </data>
+  <data name="_Password_" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="_PasswordPlaceholder_" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="_RememberMe_" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="_ForgotPassword_" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="_ChangePassword_" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="_ChangingPassword_" xml:space="preserve">
+    <value>Changing Password</value>
+  </data>
+  <data name="_CurrentPassword_" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="_CurrentPasswordPlaceholder_" xml:space="preserve">
+    <value>current password</value>
+  </data>
+  <data name="_PasswordsDoNotMatch_" xml:space="preserve">
+    <value>Please make sure your new password matches the confirmation password.</value>
+  </data>
+  <data name="_PasswordNotLongEnough_" xml:space="preserve">
+    <value>Please make sure your new password is at least 6 characters in length.</value>
+  </data>
+  <data name="_CurrentPasswordMissing_" xml:space="preserve">
+    <value>Please enter your current password.</value>
+  </data>
+  <data name="_ChangePasswordInstructions_" xml:space="preserve">
+    <value>Please enter your current password and select a new one.</value>
+  </data>
+  <data name="_PasswordChanged_" xml:space="preserve">
+    <value>Your password has been changed!</value>
+  </data>
+  <data name="_PasswordNotChanged_" xml:space="preserve">
+    <value>Password Not Changed!  Please Confirm Your Current Password!</value>
+  </data>
+  <data name="_SignIn_" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="_SigninIn_" xml:space="preserve">
+    <value>Signing in...</value>
+  </data>
+  <data name="_Register_" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="_CurrentUserPleaseLogin_" xml:space="preserve">
+    <value>Been Here Before? Please Login....</value>
+  </data>
+  <data name="_NewUserPleaseRegister_" xml:space="preserve">
+    <value>If This Is Your First Time Please Register Now</value>
+  </data>
+  <data name="_RegisterIn_" xml:space="preserve">
+    <value>Registering...</value>
+  </data>
+  <data name="_LoginDLT_" xml:space="preserve">
+    <value>Loggin In...</value>
+  </data>
+  <data name="_DontWorry_" xml:space="preserve">
+    <value>Don't Worry...</value>
+  </data>
+  <data name="_RequestPassword_" xml:space="preserve">
+    <value>Request Password</value>
+  </data>
+  <data name="_RequestPasswordDLT_" xml:space="preserve">
+    <value>Here we go...</value>
+  </data>
+  <data name="_CreateAnAccount_" xml:space="preserve">
+    <value>Create an Account...</value>
+  </data>
+  <data name="_FirstName_" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="_FirstNamePlaceholder_" xml:space="preserve">
+    <value>first name</value>
+  </data>
+  <data name="_FirstNameRequired_" xml:space="preserve">
+    <value>First Name is required</value>
+  </data>
+  <data name="_LastName_" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="_LastNamePlaceholder_" xml:space="preserve">
+    <value>last name</value>
+  </data>
+  <data name="_LastNameRequired_" xml:space="preserve">
+    <value>Last Name is required</value>
+  </data>
+  <data name="_PasswordRequired_" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="_PasswordMinlength_" xml:space="preserve">
+    <value>Password must have minimum 6 characters</value>
+  </data>
+  <data name="_PasswordVerify_" xml:space="preserve">
+    <value>Fields are not equal!</value>
+  </data>
+  <data name="_PasswordConfirmation_" xml:space="preserve">
+    <value>Password Confirmation</value>
+  </data>
+  <data name="_PasswordConfirmationPlaceholder_" xml:space="preserve">
+    <value>password confirmation</value>
+  </data>
+  <data name="_AgreeGTHY_" xml:space="preserve">
+    <value>I Agree to the HomeAway™ </value>
+  </data>
+  <data name="_TermsOfService_" xml:space="preserve">
+    <value>Terms of Service</value>
+  </data>
+  <data name="_TermsOfServiceTitle_" xml:space="preserve">
+    <value>terms of service</value>
+  </data>
+  <data name="_GreatYoureIn_" xml:space="preserve">
+    <value>Great You're In!</value>
+  </data>
+  <data name="_GYINextSteps_" xml:space="preserve">
+    <value>Next Steps</value>
+  </data>
+  <data name="_GYINextSteps1_" xml:space="preserve">
+    <value>1.  Write Down Your Password</value>
+  </data>
+  <data name="_GYINextSteps1Text_" xml:space="preserve">
+    <value>Write it down and keep it safe, it's a crucial part of the 'logging in' experience ;)</value>
+  </data>
+  <data name="_GYINextSteps2_" xml:space="preserve">
+    <value>2.  Check Your Email</value>
+  </data>
+  <data name="_GYINextSteps2TextP1_" xml:space="preserve">
+    <value>We’ve just sent you a verification email to</value>
+  </data>
+  <data name="_GYINextSteps2TextP2_" xml:space="preserve">
+    <value>Just in case you don’t see it, check your spam folder.</value>
+  </data>
+  <data name="_GYINextSteps3P1_" xml:space="preserve">
+    <value>3.  Click</value>
+  </data>
+  <data name="_GYINextSteps3P2_" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="_GYINextSteps3P3_" xml:space="preserve">
+    <value>to Get Started!</value>
+  </data>
+  <data name="_GYINextSteps3Text_" xml:space="preserve">
+    <value>Time to add your first rental... don't worry, we'll guide you through it.</value>
+  </data>
+  <data name="_Continue_" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="_FirstTimeSuggestionText1_" xml:space="preserve">
+    <value>share your favorite items</value>
+  </data>
+  <data name="_FirstTimeSuggestionText2_" xml:space="preserve">
+    <value>Why did you purchase a rental in this area?  Was it the attractions, the beach, the bike trails, the skiiing, the shopping, the night life?</value>
+  </data>
+  <data name="_FirstTimeSuggestionText3_" xml:space="preserve">
+    <value>HomeAway™ will provide suggestions for all of these, but your Guests are counting on you to provide your advice.  Take note of some of our tips, and add yours to the boxes below.</value>
+  </data>
+  <data name="_FirstTimeSuggestionText4_" xml:space="preserve">
+    <value>The Best Burger</value>
+  </data>
+  <data name="_FirstTimeSuggestionText5_" xml:space="preserve">
+    <value>That place that makes this area special</value>
+  </data>
+  <data name="_FirstTimeSuggestionText6_" xml:space="preserve">
+    <value>..or something else that makes your area special</value>
+  </data>
+  <data name="_Success_" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="_SuccessContentSave_" xml:space="preserve">
+    <value>Content was successfully saved</value>
+  </data>
+  <data name="_SuccessContentAutomaticallySaved_" xml:space="preserve">
+    <value>Content was automatically saved</value>
+  </data>
+  <data name="_SuccessPhotoUpdate_" xml:space="preserve">
+    <value>Photo was updated successfully</value>
+  </data>
+  <data name="_SuccessPhotoAdd_" xml:space="preserve">
+    <value>Photo was added successfully!</value>
+  </data>
+  <data name="_ContentBlankMessage_" xml:space="preserve">
+    <value>Please complete at least one set of content for this item.  Not saved.</value>
+  </data>
+  <data name="_SuccessContentDelete_" xml:space="preserve">
+    <value>Content was successfully deleted</value>
+  </data>
+  <data name="_ContactInfo_" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="_MobilePhoneNumber_" xml:space="preserve">
+    <value>Mobile Phone Number</value>
+  </data>
+  <data name="_EmailAddress_" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="_ContactMobilePhoneNumber_" xml:space="preserve">
+    <value>Contact Mobile Phone Number</value>
+  </data>
+  <data name="_ContactEmailAddress_" xml:space="preserve">
+    <value>Contact Email Address</value>
+  </data>
+  <data name="_AllowSMS_" xml:space="preserve">
+    <value>Allow SMS</value>
+  </data>
+  <data name="_ContactWebAddress_" xml:space="preserve">
+    <value>Contact Web Address</value>
+  </data>
+  <data name="_AccountInformation_" xml:space="preserve">
+    <value>Account Information</value>
+  </data>
+  <data name="_YourAccountInformation_" xml:space="preserve">
+    <value>How We Will Contact You</value>
+  </data>
+  <data name="_GuestContactInformation_" xml:space="preserve">
+    <value>Guest Contact Information</value>
+  </data>
+  <data name="_FirstNameComment_" xml:space="preserve">
+    <value>this is required…  even Bono has one.</value>
+  </data>
+  <data name="_LastNameComment_" xml:space="preserve">
+    <value>this is required too..the name that goes on your baseball jersey</value>
+  </data>
+  <data name="_PhoneNumberComment_" xml:space="preserve">
+    <value>needs to be in a valid phone number format</value>
+  </data>
+  <data name="_EmailAddressComment_" xml:space="preserve">
+    <value>your email address, this is read-only - sorry.</value>
+  </data>
+  <data name="_ContactEmailAddressComment_" xml:space="preserve">
+    <value>how your guests will email you, feel free to have multiple and use a semi-colon in between.</value>
+  </data>
+  <data name="_ContactPhoneNumberComment_" xml:space="preserve">
+    <value>the phone number your guests will use to get a hold of you</value>
+  </data>
+  <data name="_AllowSMSComment_" xml:space="preserve">
+    <value>does your phone have an SMS plan?  If so… you may want your guests contacting you that way...</value>
+  </data>
+  <data name="_ContactWebAddressComment_" xml:space="preserve">
+    <value>if you have a website, place the full url here...</value>
+  </data>
+  <data name="_InvalidForm_" xml:space="preserve">
+    <value>Form is invalid.</value>
+  </data>
+  <data name="_InvalidValue_" xml:space="preserve">
+    <value>Invalid value</value>
+  </data>
+  <data name="_InvalidUrlValue_" xml:space="preserve">
+    <value>url must start with http:// or https://</value>
+  </data>
+  <data name="_RequiredField_" xml:space="preserve">
+    <value>Field is required</value>
+  </data>
+  <data name="_TooLengthValue_" xml:space="preserve">
+    <value>Value is too long</value>
+  </data>
+  <data name="_NewReservation_" xml:space="preserve">
+    <value>New Guest Reservation</value>
+  </data>
+  <data name="_NewOwnerReservation_" xml:space="preserve">
+    <value>New Owner Reservation</value>
+  </data>
+  <data name="_NewGuestReservation_" xml:space="preserve">
+    <value>New Guest Reservation</value>
+  </data>
+  <data name="_OwnerReservationHelp_" xml:space="preserve">
+    <value>We have filled-in your name and email address for you.  Just select rental and trip dates!</value>
+  </data>
+  <data name="_NewReservationHelp_" xml:space="preserve">
+    <value>Add a new reservation to any rental in your system.</value>
+  </data>
+  <data name="_OwnerReservationName_" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="_EditReservation_" xml:space="preserve">
+    <value>Edit Reservation</value>
+  </data>
+  <data name="_Rental_" xml:space="preserve">
+    <value>Rental</value>
+  </data>
+  <data name="_ArrivalDate_" xml:space="preserve">
+    <value>Arrival Date</value>
+  </data>
+  <data name="_DepartureDate_" xml:space="preserve">
+    <value>Departure Date</value>
+  </data>
+  <data name="_Passphrase_" xml:space="preserve">
+    <value>Passphrase</value>
+  </data>
+  <data name="_Generate_" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="_Phone_" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="_Statuses_" xml:space="preserve">
+    <value>Statuses</value>
+  </data>
+  <data name="_DoorCode_" xml:space="preserve">
+    <value>Door Code</value>
+  </data>
+  <data name="_CommunicationOptions_" xml:space="preserve">
+    <value>Communication Options</value>
+  </data>
+  <data name="_SourceSystemOptions_" xml:space="preserve">
+    <value>External System Options</value>
+  </data>
+  <data name="_IgnoreSourceSystemChanges_" xml:space="preserve">
+    <value>Ignore Changes From HomeAway if this Was Synched</value>
+  </data>
+  <data name="_NotificationsDisabled_" xml:space="preserve">
+    <value>Notifications Disabled</value>
+  </data>
+  <data name="_EmailGuest_" xml:space="preserve">
+    <value>Email Guest</value>
+  </data>
+  <data name="_SaveChanges_" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="_PaidInFull_" xml:space="preserve">
+    <value>Paid In Full</value>
+  </data>
+  <data name="_NotPaidInFull_" xml:space="preserve">
+    <value>Not Paid In Full</value>
+  </data>
+  <data name="_PaidInFullDescription_" xml:space="preserve">
+    <value>This reservation has been paid in full.</value>
+  </data>
+  <data name="_ContractSigned_" xml:space="preserve">
+    <value>Contract Signed</value>
+  </data>
+  <data name="_NotContractSigned_" xml:space="preserve">
+    <value>Contract Not Signed</value>
+  </data>
+  <data name="_ContractSignedDescription_" xml:space="preserve">
+    <value>The contract for this reservation has been completed and signed.</value>
+  </data>
+  <data name="_CheckInDate_" xml:space="preserve">
+    <value>the date of check-in.</value>
+  </data>
+  <data name="_CheckOutDate_" xml:space="preserve">
+    <value>the date of check-out.</value>
+  </data>
+  <data name="_ReservationsFirstNameComment_" xml:space="preserve">
+    <value>this helps create personalized notifications and invites</value>
+  </data>
+  <data name="_ReservationsLastNameComment_" xml:space="preserve">
+    <value>this helps create personalized notifications and invites</value>
+  </data>
+  <data name="_ReservationsEmailComment_" xml:space="preserve">
+    <value>crucial, this has to be their real email address</value>
+  </data>
+  <data name="_ReservationsPassphraseComment_" xml:space="preserve">
+    <value>the guest will need this to gain access to the system.</value>
+  </data>
+  <data name="_SelectRental_" xml:space="preserve">
+    <value>Select a Rental</value>
+  </data>
+  <data name="_Today_" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="_Calendar_" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="_CalendarHelpText_" xml:space="preserve">
+    <value>View all of your reservations an a searchable calendar</value>
+  </data>
+  <data name="_CalendarPickMonth_" xml:space="preserve">
+    <value>Pick Month</value>
+  </data>
+  <data name="_CalendarResetMonth_" xml:space="preserve">
+    <value>Reset To Current Month</value>
+  </data>
+  <data name="_ListView_" xml:space="preserve">
+    <value>List View</value>
+  </data>
+  <data name="_ListViewHelpText_" xml:space="preserve">
+    <value>View all of your current and upcoming reservations in one list</value>
+  </data>
+  <data name="_MonthNames_" xml:space="preserve">
+    <value>January,February,March,April,May,June,July,August,September,October,November,December</value>
+  </data>
+  <data name="_MonthShortNames_" xml:space="preserve">
+    <value>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</value>
+  </data>
+  <data name="_DayNames_" xml:space="preserve">
+    <value>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</value>
+  </data>
+  <data name="_DayShortNames_" xml:space="preserve">
+    <value>Sun,Mon,Tue,Wed,Thu,Fri,Sat</value>
+  </data>
+  <data name="_FirstDayNumber_" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_YesButton_" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="_NoButton_" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="_DeleteReservationConfirmText_" xml:space="preserve">
+    <value>Are you sure want to delete reservation for</value>
+  </data>
+  <data name="_DeleteConfirmText_" xml:space="preserve">
+    <value>Are you sure want to delete</value>
+  </data>
+  <data name="_DeleteReservation_" xml:space="preserve">
+    <value>Delete Reservation</value>
+  </data>
+  <data name="_FromText_" xml:space="preserve">
+    <value>from</value>
+  </data>
+  <data name="_ToText_" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="_UnknownErrorText_" xml:space="preserve">
+    <value>Something happened on server side</value>
+  </data>
+  <data name="_DeleteSuccessText_" xml:space="preserve">
+    <value>Content was successfully deleted</value>
+  </data>
+  <data name="_RequiredToastrMessage_" xml:space="preserve">
+    <value>Please fill all required fields</value>
+  </data>
+  <data name="_DuplicateEmailMessage_" xml:space="preserve">
+    <value>Email is already registered</value>
+  </data>
+  <data name="_RequiredToastrTitle_" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="_IncorrectLoginData_" xml:space="preserve">
+    <value>The username or password you have entered is incorrect.</value>
+  </data>
+  <data name="_SendEmailMessage_" xml:space="preserve">
+    <value>E-mail was sent</value>
+  </data>
+  <data name="_IncorrectEmailMessage_" xml:space="preserve">
+    <value>Incorrect e-mail</value>
+  </data>
+  <data name="_NeedTermsAgreeError_" xml:space="preserve">
+    <value>You must agree with the terms of service.</value>
+  </data>
+  <data name="_OpenLabel_" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="_MarkPayFull_" xml:space="preserve">
+    <value>Mark Paid In Full</value>
+  </data>
+  <data name="_MarkContractSigned_" xml:space="preserve">
+    <value>Mark Contract Signed</value>
+  </data>
+  <data name="_MarkNotPayFull_" xml:space="preserve">
+    <value>Mark NOT Paid In Full</value>
+  </data>
+  <data name="_MarkContractNotSigned_" xml:space="preserve">
+    <value>Mark Contract NOT Signed</value>
+  </data>
+  <data name="_RemoveLabel_" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="_ContactInformation_" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="_PaymentInformation_" xml:space="preserve">
+    <value>Account Information</value>
+  </data>
+  <data name="_Invoices_" xml:space="preserve">
+    <value>Invoices</value>
+  </data>
+  <data name="_ViewPDF_" xml:space="preserve">
+    <value>View PDF</value>
+  </data>
+  <data name="_BilledFor_" xml:space="preserve">
+    <value>Billed For</value>
+  </data>
+  <data name="_Notifications_" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="_RentalContentSettings_" xml:space="preserve">
+    <value>Rentals</value>
+  </data>
+  <data name="_SettingsRentalContentImport_" xml:space="preserve">
+    <value>Import Content</value>
+  </data>
+  <data name="_AddOnsAddOns_" xml:space="preserve">
+    <value>Store / Add-Ons</value>
+  </data>
+  <data name="_Activities_" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="_Restaurants_" xml:space="preserve">
+    <value>Restaurants</value>
+  </data>
+  <data name="_Directory_" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="_Print_" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="_Purchased_" xml:space="preserve">
+    <value>Purchased</value>
+  </data>
+  <data name="_Marketing_" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="_AutoResponders_" xml:space="preserve">
+    <value>Auto Responders</value>
+  </data>
+  <data name="_WebSites_" xml:space="preserve">
+    <value>Web Sites</value>
+  </data>
+  <data name="_Other_" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="_Housekeeping_" xml:space="preserve">
+    <value>Housekeeping</value>
+  </data>
+  <data name="_Maintenance_" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="_HomeAutomation_" xml:space="preserve">
+    <value>Home Automation</value>
+  </data>
+  <data name="_SecurityMonitoring_" xml:space="preserve">
+    <value>Security and Monitoring</value>
+  </data>
+  <data name="_PhoneNumberTitles_" xml:space="preserve">
+    <value>Home,Cell,Work,Main</value>
+  </data>
+  <data name="_PhoneNumberTitleClear_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Clear&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_PleaseWait_" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="_DeleteSuggestion_" xml:space="preserve">
+    <value>Delete Suggestion</value>
+  </data>
+  <data name="_DeleteItem_" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="_NotifyPreferencesTitle_" xml:space="preserve">
+    <value>Notification Preferences</value>
+  </data>
+  <data name="_NotifyPreferencesText_" xml:space="preserve">
+    <value>Select the notifications that we will send to you when they occur</value>
+  </data>
+  <data name="_Owner_" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="_Actions_" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="_First_" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="_Last_" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="_Impersonate_" xml:space="preserve">
+    <value>Impersonate</value>
+  </data>
+  <data name="_ItemsOnPage_" xml:space="preserve">
+    <value>Items on page:</value>
+  </data>
+  <data name="_ManageOwners_" xml:space="preserve">
+    <value>Manage Owners</value>
+  </data>
+  <data name="_SignOut_" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="_SignUp_" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="_Support_" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="_Website_" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="_InfiniteActivityScrollEnd_" xml:space="preserve">
+    <value>No more activities to show.</value>
+  </data>
+  <data name="_InfiniteReservationScrollEnd_" xml:space="preserve">
+    <value>No more reservations to show.</value>
+  </data>
+  <data name="_InfiniteInvoicesScrollEnd_" xml:space="preserve">
+    <value>No more invoices to show.</value>
+  </data>
+  <data name="_InfiniteGuestsScrollEnd_" xml:space="preserve">
+    <value>No more guests to show.</value>
+  </data>
+  <data name="_TimeJustNow_" xml:space="preserve">
+    <value>Just now</value>
+  </data>
+  <data name="_TimeMinutesAgo_" xml:space="preserve">
+    <value>minutes ago</value>
+  </data>
+  <data name="_TimeHoursAgo_" xml:space="preserve">
+    <value>hours ago</value>
+  </data>
+  <data name="_TimeYesterday_" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="_TimeDaysAgo_" xml:space="preserve">
+    <value>days ago</value>
+  </data>
+  <data name="_TimeMonthsAgo_" xml:space="preserve">
+    <value>months ago</value>
+  </data>
+  <data name="_TimeYearsAgo_" xml:space="preserve">
+    <value>years ago</value>
+  </data>
+  <data name="_GuestPreview_" xml:space="preserve">
+    <value>Guest Preview</value>
+  </data>
+  <data name="_GuestPreviewTooltip_" xml:space="preserve">
+    <value>Guest Preview</value>
+  </data>
+  <data name="_SyncSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Sourced from HomeAway</value>
+  </data>
+  <data name="_SyncSourceVRBOTooltip_" xml:space="preserve">
+    <value>Sourced from VRBO</value>
+  </data>
+  <data name="_ReviewSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Review from HomeAway</value>
+  </data>
+  <data name="_ReviewSourceVRBOTooltip_" xml:space="preserve">
+    <value>Review from VRBO</value>
+  </data>
+  <data name="_GuestPreviewScrollTip_" xml:space="preserve">
+    <value>Use your mouse to scroll this preview window.</value>
+  </data>
+  <data name="_NewGuestPreviewHint_" xml:space="preserve">
+    <value>Click here to see a guest preview for this new reservation!</value>
+  </data>
+  <data name="_ReservationAccordionHeaderTripDetails_" xml:space="preserve">
+    <value>Trip Details</value>
+  </data>
+  <data name="_ReservationAccordionHeaderGuestInformation_" xml:space="preserve">
+    <value>Guest Information</value>
+  </data>
+  <data name="_ReservationAccordionHeaderStatus_" xml:space="preserve">
+    <value>Status &amp; Access Information</value>
+  </data>
+  <data name="_ReservationAccordionHeaderInvitedGuests_" xml:space="preserve">
+    <value>Invited Guests</value>
+  </data>
+  <data name="_ReservationNoInvitedGuestsYet_" xml:space="preserve">
+    <value>This guest hasn't invited anybody yet.  You should encourage them to do so!</value>
+  </data>
+  <data name="_Important_" xml:space="preserve">
+    <value>Important</value>
+  </data>
+  <data name="_RentalInstructionsHeaderEmail_" xml:space="preserve">
+    <value>Contact Emails</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPhone_" xml:space="preserve">
+    <value>Phone Numbers</value>
+  </data>
+  <data name="_RentalInstructionsHeaderWebLinks_" xml:space="preserve">
+    <value>Web Links</value>
+  </data>
+  <data name="_RentalInstructionsHeaderLocation_" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPictures_" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="_RentalInstructionsHeaderDays_" xml:space="preserve">
+    <value>Relevant Days of the Week</value>
+  </data>
+  <data name="_RentalInstructionsHeaderNotes_" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="_Property_" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="_Experience_" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="_Value_" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="_Overall_" xml:space="preserve">
+    <value>Overall</value>
+  </data>
+  <data name="_InstructionsNewItemHeader_" xml:space="preserve">
+    <value>What Is This?</value>
+  </data>
+  <data name="_SuggestionsEmptyHeader_" xml:space="preserve">
+    <value>Please Get Started!</value>
+  </data>
+  <data name="_SuggestionsEmptyHelp_" xml:space="preserve">
+    <value>This category is currently empty!  We have listed some suggestions below.  Click on the green icon to add a suggestion.</value>
+  </data>
+  <data name="_GNSHEmail_" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_GNSHType_" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="_GNSHScheduledFor_" xml:space="preserve">
+    <value>Scheduled for</value>
+  </data>
+  <data name="_GNSHSent_" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="_GuestNotificationShedule_" xml:space="preserve">
+    <value>Guest Notification Shedule</value>
+  </data>
+  <data name="_Latitude_" xml:space="preserve">
+    <value>Latitude:</value>
+  </data>
+  <data name="_Longitude_" xml:space="preserve">
+    <value>Longitude:</value>
+  </data>
+  <data name="_ResetToCurrentAddress_" xml:space="preserve">
+    <value>Reset To Current Address</value>
+  </data>
+  <data name="_SelectImage_" xml:space="preserve">
+    <value>Select image</value>
+  </data>
+  <data name="_SomebodyHasSaid_" xml:space="preserve">
+    <value>has said...</value>
+  </data>
+  <data name="_GPDate_" xml:space="preserve">
+    <value>Preview Date: </value>
+  </data>
+  <data name="_GPPreviewDate_" xml:space="preserve">
+    <value>Preview Date</value>
+  </data>
+  <data name="_GPAlertAdjust_" xml:space="preserve">
+    <value>Adjust the preview date to see how the guest's content will change during the course of their vacation.</value>
+  </data>
+  <data name="_GPAlertExample_" xml:space="preserve">
+    <value>Example:  Change to the arrival date to see content related to checkin.</value>
+  </data>
+  <data name="_GPAlertTripReminder_" xml:space="preserve">
+    <value>Guest Vacation Dates:</value>
+  </data>
+  <data name="_GPAlertTripReminderSeparator_" xml:space="preserve">
+    <value> to </value>
+  </data>
+  <data name="_FileSelectedNextStep_" xml:space="preserve">
+    <value>Below you will see a thumbnail of the image you have selected. If this is the correct image please click 'Start Upload' to continue.  If you need to select a different image click 'Cancel'.</value>
+  </data>
+  <data name="_HelpPopoverHeaderTitle_" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="_AccountTrialModeNotice_" xml:space="preserve">
+    <value>Your Account Is In Trial Mode And Will Expire On </value>
+  </data>
+  <data name="_AccountTrialModeNoticeUpgradeAction_" xml:space="preserve">
+    <value>Upgrade Now!</value>
+  </data>
+  <data name="_AccountTrialExpiredDateNotice_" xml:space="preserve">
+    <value>Your Account Expired On: </value>
+  </data>
+  <data name="_AccountTrialExpiredWarning_" xml:space="preserve">
+    <value>Your Guests Are Currently Unable To Use The App And Email Invitations Are Not Being Delivered!</value>
+  </data>
+  <data name="_SubscribeButtonHelpHeader_" xml:space="preserve">
+    <value>Please Read</value>
+  </data>
+  <data name="_SubscribeButtonHelpBody_" xml:space="preserve">
+    <value>Complete the signup form below and click this button when you are ready to subscribe.</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverTitle_" xml:space="preserve">
+    <value>Card On File</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverHelpText_" xml:space="preserve">
+    <value>We are currently billing your **CARDTYPE** ending in **CARDLASTFOUR** (Exp. Date: **CARDEXP**). If you are making any changes to your billing information you will need to re-enter this credit card number or enter a new one.</value>
+  </data>
+  <data name="_CreditCardOnFileErrorPopoverHelpText_" xml:space="preserve">
+    <value>We were unable to charge your **CARDTYPE** ending in **CARDLASTFOUR** (Exp. Date: **CARDEXP**). Please provide a new card number.</value>
+  </data>
+  <data name="_Confirmationeer_" xml:space="preserve">
+    <value>THANKS FOR CONFIRMING...</value>
+  </data>
+  <data name="_ConfirmationModalSubHeader_" xml:space="preserve">
+    <value>Your Account Is Now Active</value>
+  </data>
+  <data name="_ConfirmationModalInstructions_" xml:space="preserve">
+    <value>Start setting up your rentals. Its easy and fun.</value>
+  </data>
+  <data name="_ConfirmationModalErrorNotice_" xml:space="preserve">
+    <value>Confirmation failed.</value>
+  </data>
+  <data name="_AddressInstructions_" xml:space="preserve">
+    <value>The address for your rental is very important.  We will use this to make sure we serve proper maps to the property as well as make local recommendations.</value>
+  </data>
+  <data name="_ColorPickerInstructions_" xml:space="preserve">
+    <value>This color is used to theme this rental throughout the system.  Each rental can have a different color.</value>
+  </data>
+  <data name="_VRBOInstructions_" xml:space="preserve">
+    <value>If this rental is active on HomeAway or VRBO please provide it now.</value>
+  </data>
+  <data name="_Filters_" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="_NoInvoicesYetNotice_" xml:space="preserve">
+    <value>Since your account isn't active yet there are no invoices to view. Once you are upgraded you will be able to review your invoices here.</value>
+  </data>
+  <data name="_NoInvoices_" xml:space="preserve">
+    <value>No Invoices Yet</value>
+  </data>
+  <data name="_InstructionsHelpTitle_" xml:space="preserve">
+    <value>Help guests enjoy your place</value>
+  </data>
+  <data name="_InstructionsHelpSubtitle_" xml:space="preserve">
+    <value>you can improve your guest's stay.. just tell them how</value>
+  </data>
+  <data name="_InstructionsHelpText1_" xml:space="preserve">
+    <value>Take a moment to think through all the crazy questions guests have asked you...then enter those answers in the boxes below.&lt;br /&gt;&lt;br /&gt;Save both you and your guests’ time with arrival instructions at their fingertips before their stay. Start by making sure the directions are accurate, describe the access process when they arrive and let them know what you provide so they can prepare for their trip.</value>
+  </data>
+  <data name="_InstructionsHelpText2_" xml:space="preserve">
+    <value>Sit back, and take a moment to think back through all of the crazy questions, guest's have asked you....  then place those answers in the boxes below.</value>
+  </data>
+  <data name="_InstructionsHelpInfo1_" xml:space="preserve">
+    <value>Address the Common Ones</value>
+  </data>
+  <data name="_InstructionsHelpInfo2_" xml:space="preserve">
+    <value>Address the Unique Ones</value>
+  </data>
+  <data name="_InstructionsHelpInfo3_" xml:space="preserve">
+    <value>Address the Really Annoying Ones</value>
+  </data>
+  <data name="_ManageNotifications_" xml:space="preserve">
+    <value>Manage My Notifications</value>
+  </data>
+  <data name="_CancelAccountrer_" xml:space="preserve">
+    <value>Cancel Account</value>
+  </data>
+  <data name="_CancelAccountModalPleaseWait_" xml:space="preserve">
+    <value>We'd hate to see you go!  If you are having problems with your account please click on the black support tab! If you still want to cancel please complete the form below and click the 'Cancel My Account' Button Below.</value>
+  </data>
+  <data name="_CancelAccountModalFormReason_" xml:space="preserve">
+    <value>Please tell us why you are cancelling</value>
+  </data>
+  <data name="_CancelAccountModalButton_" xml:space="preserve">
+    <value>Cancel My Account</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmText_" xml:space="preserve">
+    <value>Last Chance! Are You SURE?</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmTitle_" xml:space="preserve">
+    <value>Please Read</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmButton_" xml:space="preserve">
+    <value>Yes -- Cancel</value>
+  </data>
+  <data name="_AccountCancelledConfirmationHeader_" xml:space="preserve">
+    <value>We Miss You Already!</value>
+  </data>
+  <data name="_AccountCancelledConfirmationBody_" xml:space="preserve">
+    <value>We are sorry to see you go!  If you ever change your mind you know where to find us.</value>
+  </data>
+  <data name="_AccountCancelledConfirmationLinkAction_" xml:space="preserve">
+    <value>Click here to return to the login page.</value>
+  </data>
+  <data name="_AccountCancelledNotice_" xml:space="preserve">
+    <value>Your Account Was Cancelled On: </value>
+  </data>
+  <data name="_AccountCancelledWarning_" xml:space="preserve">
+    <value>If You Want To Pick-up Where You Left Off Please </value>
+  </data>
+  <data name="_AccountCancelledUpdateAction_" xml:space="preserve">
+    <value>Reactivate Your Account Now</value>
+  </data>
+  <data name="_AccountProblemNoticePart1_" xml:space="preserve">
+    <value>We Had A Problem Processing Your Credit Card.  You Have Until </value>
+  </data>
+  <data name="_AccountProblemNoticePart2_" xml:space="preserve">
+    <value> To Correct This Problem.</value>
+  </data>
+  <data name="_AccountProblemUpdateAction_" xml:space="preserve">
+    <value>Update Your Card Now</value>
+  </data>
+  <data name="_AccountUpdatedFlash_" xml:space="preserve">
+    <value>Account Updated</value>
+  </data>
+  <data name="_PleaseReadToolTipHeader_" xml:space="preserve">
+    <value>Please Read</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderSingle_" xml:space="preserve">
+    <value>This link will return a list of all current reservations for **PROPERTY-NAME** in .ICS format.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterSingle_" xml:space="preserve">
+    <value>For more information on .ICS please review http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderMultiple_" xml:space="preserve">
+    <value>These links below will return a list of all current reservations for your properties in .ICS format.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterMultiple_" xml:space="preserve">
+    <value>For more information on .ICS please review http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarLinkPropertyTip_" xml:space="preserve">
+    <value>Email Yourself A Calendar Feed For This Property</value>
+  </data>
+  <data name="_ICSCalendarLinkAllPropertiesTip_" xml:space="preserve">
+    <value>Email Yourself Calendar Feeds For All Properties</value>
+  </data>
+  <data name="_ReservationHolder_" xml:space="preserve">
+    <value>Reservation Holder</value>
+  </data>
+  <data name="_InvitedByReservationHolder_" xml:space="preserve">
+    <value>Invited By Reservation Holder</value>
+  </data>
+  <data name="_Lead_" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="_ViewGuestBookFromGuestList_" xml:space="preserve">
+    <value>View Last Review</value>
+  </data>
+  <data name="_ViewMostRecentReservationFromGuestList_" xml:space="preserve">
+    <value>View Last Reservation</value>
+  </data>
+  <data name="_ExportMyGuestsExcel_" xml:space="preserve">
+    <value>Export All Guests</value>
+  </data>
+  <data name="_ExportMyGuestsEmail_" xml:space="preserve">
+    <value>Export Emails Only</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetHeader_" xml:space="preserve">
+    <value>No Guests Yet!</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetBody_" xml:space="preserve">
+    <value>Add Reservations To Start Adding Guests</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchHeader_" xml:space="preserve">
+    <value>No Search Results Found</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchBody_" xml:space="preserve">
+    <value>Please narrow your search term and try again.</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>No Guests For These Properties</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesBody_" xml:space="preserve">
+    <value>You have guests but none for the properties you have selected.  Try selecting different properties.</value>
+  </data>
+  <data name="_Referrals_" xml:space="preserve">
+    <value>Referrals</value>
+  </data>
+  <data name="_InviteOtherOwnerToJoin_" xml:space="preserve">
+    <value>Invite Other Owners To Join</value>
+  </data>
+  <data name="_ReferralsNotAvailableNotice_" xml:space="preserve">
+    <value>Once you have upgraded your account you will be able to refer other owners and get account credits!</value>
+  </data>
+  <data name="_ReferralInvitedOn_" xml:space="preserve">
+    <value>Invited on</value>
+  </data>
+  <data name="_ReferralOriginallyInvitedOn_" xml:space="preserve">
+    <value>Originally invited on</value>
+  </data>
+  <data name="_FollowedUpOn_" xml:space="preserve">
+    <value>Followed up on</value>
+  </data>
+  <data name="_SendInviteAgain_" xml:space="preserve">
+    <value>Send Invite Again</value>
+  </data>
+  <data name="_ShowInvitationLink_" xml:space="preserve">
+    <value>Show Invitation Link</value>
+  </data>
+  <data name="_InvitationSent_" xml:space="preserve">
+    <value>Owner Invited</value>
+  </data>
+  <data name="_InvitationResent_" xml:space="preserve">
+    <value>Owner Invited Again</value>
+  </data>
+  <data name="_InvitationUrl_" xml:space="preserve">
+    <value>Invitation Url</value>
+  </data>
+  <data name="_InvitationUrlInstructions_" xml:space="preserve">
+    <value>If your friend is having trouble receiving our invitation email just copy and paste the link below to them.</value>
+  </data>
+  <data name="_AcceptedOn_" xml:space="preserve">
+    <value>Accepted on</value>
+  </data>
+  <data name="_AcceptedOnReminder_" xml:space="preserve">
+    <value>Please wait until they transition to a full account to receive your credit.</value>
+  </data>
+  <data name="_CreditedOn_" xml:space="preserve">
+    <value>Accepted and credited on </value>
+  </data>
+  <data name="_OwnerInviteHelp_" xml:space="preserve">
+    <value>Complete the form below to invite another owner to use our system.  If they accept and become a paid member your account will be credited!</value>
+  </data>
+  <data name="_InviteFirstNameComment_" xml:space="preserve">
+    <value>The first name of the owner you would like to invite.</value>
+  </data>
+  <data name="_InviteLastNameComment_" xml:space="preserve">
+    <value>The last name of the owner you would like to invite.</value>
+  </data>
+  <data name="_InviteEmailComment_" xml:space="preserve">
+    <value>crucial, this has to be their real email address</value>
+  </data>
+  <data name="_SendInvite_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_Sending_" xml:space="preserve">
+    <value>Sending</value>
+  </data>
+  <data name="_NoReferralsYetHeader_" xml:space="preserve">
+    <value>No Referrals</value>
+  </data>
+  <data name="_NoReferralsYetBody_" xml:space="preserve">
+    <value>You haven't sent any referrals yet.  Click the invite button above to get started!</value>
+  </data>
+  <data name="_ActionsGo_" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="_ActionsViewReservation_" xml:space="preserve">
+    <value>View Reservation</value>
+  </data>
+  <data name="_ActionsGuestPreview_" xml:space="preserve">
+    <value>Guest Preview</value>
+  </data>
+  <data name="_ActionsViewFeedback_" xml:space="preserve">
+    <value>View Feedback</value>
+  </data>
+  <data name="_ActionsViewGuestbookEntry_" xml:space="preserve">
+    <value>View Review</value>
+  </data>
+  <data name="_ActionsResendConfirmation_" xml:space="preserve">
+    <value>Resend Confirmation</value>
+  </data>
+  <data name="_ErrorFailedToLoadImage_" xml:space="preserve">
+    <value>Failed to load image. Please, try to load image again</value>
+  </data>
+  <data name="_ErrorAddingRental_" xml:space="preserve">
+    <value>Error adding rental</value>
+  </data>
+  <data name="_ErrorNotAllRequiredFields_" xml:space="preserve">
+    <value>Not all required fields are filled in</value>
+  </data>
+  <data name="_ErrorInvalidDate_" xml:space="preserve">
+    <value>Invalid date entered. Resetting to current month</value>
+  </data>
+  <data name="_ErrorServerSide_" xml:space="preserve">
+    <value>Whoops we had an error on our side!</value>
+  </data>
+  <data name="_SuggestionsFor_" xml:space="preserve">
+    <value>Suggestions for</value>
+  </data>
+  <data name="_ThankYouFor_" xml:space="preserve">
+    <value>Thank you message for</value>
+  </data>
+  <data name="_WelcomeFor_" xml:space="preserve">
+    <value>Welcome message for</value>
+  </data>
+  <data name="_SingleICS_" xml:space="preserve">
+    <value>.ICS Calendar For: </value>
+  </data>
+  <data name="_MultipleICS_" xml:space="preserve">
+    <value>.ICS Calendars For All Your Properties</value>
+  </data>
+  <data name="_NoRentalActivity_" xml:space="preserve">
+    <value>No Rental Activity Yet</value>
+  </data>
+  <data name="_InfoAbout_" xml:space="preserve">
+    <value>Info about</value>
+  </data>
+  <data name="_SaveToRental_" xml:space="preserve">
+    <value>Save To: </value>
+  </data>
+  <data name="_SaveToAllRentals_" xml:space="preserve">
+    <value>Save To All Rentals</value>
+  </data>
+  <data name="_SaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>This will save this content to ALL your rentals.  Are you sure?  Also note that photos are not saved across all of your rentals after the item is added.</value>
+  </data>
+  <data name="_ConfirmButton_" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="_AddFirstImageInstructions_" xml:space="preserve">
+    <value>You haven't added any images to this item yet.  To get started click the 'Select Image' button.</value>
+  </data>
+  <data name="_ConfirmFileRemove_" xml:space="preserve">
+    <value>Are You Sure You Want To Remove This Image?</value>
+  </data>
+  <data name="_ImageRemoved_" xml:space="preserve">
+    <value>Image Removed</value>
+  </data>
+  <data name="_AddFirstImageButton_" xml:space="preserve">
+    <value>Add First Image</value>
+  </data>
+  <data name="_CategoryHasPurchases_" xml:space="preserve">
+    <value>Items Purchased</value>
+  </data>
+  <data name="_CategoryHasFeaturedItems_" xml:space="preserve">
+    <value>Featured Items</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalHeader_" xml:space="preserve">
+    <value>Please Confirm</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalTemplate_" xml:space="preserve">
+    <value>Please confirm that you want to activate **SERVICE-NAME** for your rental: **RENTAL-NAME**.</value>
+  </data>
+  <data name="_AddOnsItemsPurchasedHeader_" xml:space="preserve">
+    <value>Purchased</value>
+  </data>
+  <data name="_AddOnsItemsAdditionalOptionsHeader_" xml:space="preserve">
+    <value>More Options</value>
+  </data>
+  <data name="_AddOnsItemsSettings_" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="_AddOnsItemsFeaturedHeader_" xml:space="preserve">
+    <value>Featured</value>
+  </data>
+  <data name="_AddOnsItemLabelKABALogin_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_AddOnsItemLabelKABAPassword_" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="_AddOnsItemLabelKABASiteName_" xml:space="preserve">
+    <value>Site Name</value>
+  </data>
+  <data name="_AddOnsItemLabelKABADoorName_" xml:space="preserve">
+    <value>Door Name</value>
+  </data>
+  <data name="_AddOnsItemWarningKABA_" xml:space="preserve">
+    <value>Warning notice about KABA here.  Will change doorcodes, etc..</value>
+  </data>
+  <data name="_AddOnsItemWarningConfirm_" xml:space="preserve">
+    <value>Are you sure you want to remove **SERVICE-NAME**?</value>
+  </data>
+  <data name="_AddOnsItemRemoveConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** removed from **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLogin_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStatePassword_" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLockId_" xml:space="preserve">
+    <value>Lock Id</value>
+  </data>
+  <data name="_AddOnsItemWarningLockState_" xml:space="preserve">
+    <value>Please enter your Lock State login and password here.  You will also need to enter the numeric Lock Id for this property.</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerTimeOfDay_" xml:space="preserve">
+    <value>Time of Day</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerEarlyNotify_" xml:space="preserve">
+    <value>Early Check-In Notify</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerPreferredAreaCode_" xml:space="preserve">
+    <value>Preferred Area Code</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerHouseCleanerCell_" xml:space="preserve">
+    <value>Housecleaner Cell Phone</value>
+  </data>
+  <data name="_AddOnsItemWarningHouseCleaner_" xml:space="preserve">
+    <value>Please note that this service is currently only available for U.S. phone numbers. Also the time of day must be in  24 hour time.  We have provided a tool below to help you pick the proper time.  Click the clock to get started.</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumber_" xml:space="preserve">
+    <value>Let your housekeeper know that they will be receiving SMS notifications and instructions from the following phone number:</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumberLabel_" xml:space="preserve">
+    <value>Service Phone</value>
+  </data>
+  <data name="_AddOnsItemReviewsLeaveAReview_" xml:space="preserve">
+    <value>Leave / Edit Review</value>
+  </data>
+  <data name="_AddOnsItemReviewsNumberOfReviews_" xml:space="preserve">
+    <value>review(s)</value>
+  </data>
+  <data name="_AddOnsItemReviewsHeader_" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="_AddOnsItemReview_" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="_AddOnsItemReviewInstructions_" xml:space="preserve">
+    <value>Please review this part of our service.  Post a title, review and select a star rating from 1 to 5!</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelTitle_" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelReview_" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelRating_" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="_AddOnsItemReviewCharactersLeft_" xml:space="preserve">
+    <value> character(s) remaining.</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeApiKey_" xml:space="preserve">
+    <value>Account Id</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeGatewayId_" xml:space="preserve">
+    <value>Gateway Id</value>
+  </data>
+  <data name="_AddOnsItemWarningBeHome_" xml:space="preserve">
+    <value>Please enter your numeric BeHome247 account and gateway Ids here.</value>
+  </data>
+  <data name="_AddOnsNotAvailableNotice_" xml:space="preserve">
+    <value>Once you have upgraded your account you will be able to add more great features!</value>
+  </data>
+  <data name="_AddOnsNotAvailableFlashWarning_" xml:space="preserve">
+    <value>You will need to upgrade your account before you can add new features!</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludePreArrivalContent_" xml:space="preserve">
+    <value>Include Pre-Arrival Content</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeRentalInstructionsContent_" xml:space="preserve">
+    <value>Include Rental Instructions Content</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeLocalSuggestionsContent_" xml:space="preserve">
+    <value>Include Local Suggestions Content</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeWelcomeMessage_" xml:space="preserve">
+    <value>Include Welcome Message Content</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeThankYouMessage_" xml:space="preserve">
+    <value>Include Thank You Message Content</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookInformation_" xml:space="preserve">
+    <value>You have several content options for this property's cottage book. You may specify your default options below.  You will also be able to change these everytime you print!</value>
+  </data>
+  <data name="_AddOnsItemCostFree_" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="_AddOnsItemAddConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** succesfully activated for **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemUpdateConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** succesfully updated for **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPopupNotice_" xml:space="preserve">
+    <value>Your cottage book content should have now loaded in a new browser window or tab.  Please note that your browser may have blocked this content because of security reasons.  If you are not seeing the cottage book content check your browser's address bar for a security notice and follow the instructions there.</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPrintFor_" xml:space="preserve">
+    <value>Print Cottage Book For</value>
+  </data>
+  <data name="_PrintCottageBook_" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="_PrintCottageBookSelectionError_" xml:space="preserve">
+    <value>Please Select At Least One Option!</value>
+  </data>
+  <data name="_PrintCottageBookLongDescription_" xml:space="preserve">
+    <value>Print Cottage Book</value>
+  </data>
+  <data name="_24HourTimeNotice_" xml:space="preserve">
+    <value>Please note that our system uses 24 hour time.  We have provided a tool below to help you pick the proper time.  Click the clock to get started.</value>
+  </data>
+  <data name="_RentalPictureNotice_" xml:space="preserve">
+    <value>The rental photo will be used in various places like the cottage book store item.  This is not required.</value>
+  </data>
+  <data name="_FullBrowserNoticeHeader_" xml:space="preserve">
+    <value>Please Read</value>
+  </data>
+  <data name="_FullBrowserNoticeMobileDeviceDetected_" xml:space="preserve">
+    <value>Mobile Device Detected</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph1_" xml:space="preserve">
+    <value>We have detected that you are currently using a mobile device. The HomeAway administrative portal is designed to be used on a desktop computer or iPad</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph2_" xml:space="preserve">
+    <value>To continue setting up your guest experience please return later when you can login from Windows, MacOSX or an iPad.</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph3_" xml:space="preserve">
+    <value>Thanks and we'll see you again soon!</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestContact_" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestAddress_" xml:space="preserve">
+    <value>Mailing Address</value>
+  </data>
+  <data name="_GuestInformationContactFirstName_" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="_GuestInformationContactLastName_" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="_GuestInformationContactEmail_" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_GuestInformationContactPhone_" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="_GuestInformationContactAddressLine1_" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="_GuestInformationContactCity_" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="_GuestInformationContactCountry_" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_GuestInformationContactState_" xml:space="preserve">
+    <value>State / Region</value>
+  </data>
+  <data name="_GuestInformationContactPostalCode_" xml:space="preserve">
+    <value>Postal</value>
+  </data>
+  <data name="_GuestInformationUpdated_" xml:space="preserve">
+    <value>Guest Updated</value>
+  </data>
+  <data name="_EditGuestInformation_" xml:space="preserve">
+    <value>Edit Guest Information</value>
+  </data>
+  <data name="_SuggestionModalEditName_" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_SuggestionModalEditPhoneNumber_" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="_SuggestionModalEditEmail_" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_SuggestionModalEditWebsite_" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="_SuggestionModalEditNotes_" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="_SuggestionModalEditAddressLine1_" xml:space="preserve">
+    <value>Street Address</value>
+  </data>
+  <data name="_SuggestionModalEditCity_" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="_SuggestionModalEditStateOrRegion_" xml:space="preserve">
+    <value>State / Region</value>
+  </data>
+  <data name="_SuggestionModalEditPostalCode_" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="_SuggestionModalEditCountry_" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_SuggestionModalEditReturnToList_" xml:space="preserve">
+    <value>Back To List</value>
+  </data>
+  <data name="_SuggestionModalEditCurrent_" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="_SuggestionModalAddCustom_" xml:space="preserve">
+    <value>Add Custom</value>
+  </data>
+  <data name="_SuggestionModalSaveCustom_" xml:space="preserve">
+    <value>Save New</value>
+  </data>
+  <data name="_ReviewWebsiteInstructions_" xml:space="preserve">
+    <value>If you would like to ask your guests to review your property on one of the vacation rental websites below please enter the URL. These links will be sent your guest as part of the thank you email.</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAway_" xml:space="preserve">
+    <value>HomeAway/VRBO</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAwayTooltip_" xml:space="preserve">
+    <value>HomeAway.com Review Url For This Property</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKey_" xml:space="preserve">
+    <value>FlipKey.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKeyTooltip_" xml:space="preserve">
+    <value>FlipKey.com Review Url For This Property</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnB_" xml:space="preserve">
+    <value>AirBnB.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnBTooltip_" xml:space="preserve">
+    <value>AirBnb.com Review Url For This Property</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentals_" xml:space="preserve">
+    <value>VacationRentals.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentalsTooltip_" xml:space="preserve">
+    <value>VacationRentals.com Review Url For This Property</value>
+  </data>
+  <data name="_CountrySelectUSOnly_" xml:space="preserve">
+    <value>Note: HomeAway is currently for US customers only</value>
+  </data>
+  <data name="_FirstTimeHomeAwayUser_" xml:space="preserve">
+    <value>See everything at a glance</value>
+  </data>
+  <data name="_VrboNumberInstructions_" xml:space="preserve">
+    <value>If you are a HomeAway® customer, enter your property's HomeAway/VRBO Property ID#.  This field is optional.</value>
+  </data>
+  <data name="_RequiredVrboNumber_" xml:space="preserve">
+    <value>HomeAway/VRBO Property ID# Is Required</value>
+  </data>
+  <data name="_SuggestionSaveFailed_" xml:space="preserve">
+    <value>There was a problem saving this suggestion.</value>
+  </data>
+  <data name="_SyncListingHeader_" xml:space="preserve">
+    <value>Please Be Patient</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeModalHeader_" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine1_" xml:space="preserve">
+    <value>Welcome to your Hospitality Manager</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine2_" xml:space="preserve">
+    <value>Get started by adding information to help your guests access, get settled into, and enjoy your vacation rental.</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet1_" xml:space="preserve">
+    <value>Add rental information</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet2_" xml:space="preserve">
+    <value>Customize your welcome email</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet3_" xml:space="preserve">
+    <value>Create a heart felt thank you message</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAWait_" xml:space="preserve">
+    <value>Syncing. Please wait...</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAContinue_" xml:space="preserve">
+    <value>Start customizing</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningModalHeader_" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLine1_" xml:space="preserve">
+    <value>There’s a better tool for your growing business</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningContent_" xml:space="preserve">
+    <value>&lt;p&gt;Looks like your business is growing! The Hospitality Manager is designed to support up to 10 listings. As you get more properties, it becomes less ideal.&lt;/p&gt;
+&lt;p&gt;Fortunately, we offer a more robust option, with tools to help you manage your growing business. &lt;a href="http://software.homeaway.com/vacation-rentals/products/HA-Tools/glad-professional" target="_blank"&gt;Learn more &gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;
+With GladPROFESSIONAL you can:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manage dozens of properties easily&lt;/li&gt;
+&lt;li&gt;Seamlessly integrate with property management software&lt;/li&gt;
+&lt;li&gt;Provide guests with a custom-branded mobile app &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLinkCTA_" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAWait_" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAContinue_" xml:space="preserve">
+    <value>Not right now</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugLine1_" xml:space="preserve">
+    <value>Wanting something more robust? The property manager level product, GladPROFESSIONAL might be just what you need.</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet1_" xml:space="preserve">
+    <value>Manage dozens of properties easily</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet2_" xml:space="preserve">
+    <value>Seamlessly integrate with property management software</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet3_" xml:space="preserve">
+    <value>Provide a custom branded app to your guests</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugCTAContinue_" xml:space="preserve">
+    <value>Show me</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedLine1_" xml:space="preserve">
+    <value>There is a better tool for your growing business</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet1_" xml:space="preserve">
+    <value>Integrate with your property management software</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet2_" xml:space="preserve">
+    <value>Customize the app to reflect your brand and so your guests know your business by name</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet3_" xml:space="preserve">
+    <value>Take advantage of full customization in your integration</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedCTAContinue_" xml:space="preserve">
+    <value>Tell me more</value>
+  </data>
+  <data name="_SyncListingHeaderProCandidate_" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="_SyncPleaseScroll_" xml:space="preserve">
+    <value>Please Scroll</value>
+  </data>
+  <data name="_SyncListingReturnToReservationManager_" xml:space="preserve">
+    <value>Head back to Reservation Manager</value>
+  </data>
+  <data name="_SyncErrorNoValidListings_" xml:space="preserve">
+    <value>Your account does not have any active, enabled listings.  Please activate at least one listing and then return to the Hospitality Manager.</value>
+  </data>
+  <data name="_SyncErrorUserAccountDisabled_" xml:space="preserve">
+    <value>Your account has been disabled.</value>
+  </data>
+  <data name="_SyncErrorUserAccountNotEligible_" xml:space="preserve">
+    <value>Your account is not eligible to use this system.</value>
+  </data>
+  <data name="_SyncErrorSiteNotSupported_" xml:space="preserve">
+    <value>The site that you have arrived from is not supported.</value>
+  </data>
+  <data name="_SyncErrorServerError_" xml:space="preserve">
+    <value>Ooops! We had a problem loading your information.   We hope this is a temporary problem!  Please wait a moment and reload your browser to try again!</value>
+  </data>
+  <data name="_SyncListingContent_" xml:space="preserve">
+    <value>We are loading your listings and guest information</value>
+  </data>
+  <data name="_RentalContentExport_" xml:space="preserve">
+    <value>Export Content</value>
+  </data>
+  <data name="_RentalContentExportTip_" xml:space="preserve">
+    <value>Export all content for this rental to JSON</value>
+  </data>
+  <data name="_ExportCurrentContent_" xml:space="preserve">
+    <value>Export Now</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>This feature will let you export all content for this property in a portable JSON file format.  In future versions of this portal you will be able to re-import these files.  Click the 'Export Now' button to get started.</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part1_" xml:space="preserve">
+    <value>This process may take a few minutes to complete.   When the export is ready you will see a notification in the status bar of your browser about downloading a file called </value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part2_" xml:space="preserve">
+    <value>.  Be sure to save this file in a safe location on your computer.</value>
+  </data>
+  <data name="_RentalContentImport_" xml:space="preserve">
+    <value>Import Content</value>
+  </data>
+  <data name="_RentalContentImportTip_" xml:space="preserve">
+    <value>Import all content for this rental from JSON</value>
+  </data>
+  <data name="_ImportContent_" xml:space="preserve">
+    <value>Import Now</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>This feature will let you import content for this property from a JSON file.  To get started please select the appropriate file from your local computer.</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep3_" xml:space="preserve">
+    <value>Rental content has been imported.   Please confirm by reviewing this rental's arrival and instructions content sections.</value>
+  </data>
+  <data name="_ImportContentModalFailed_" xml:space="preserve">
+    <value>Content import failed.  Please make sure that you are uploading a .JSON file that was exported from a previous version of our portal.  Please click the try again button below.</value>
+  </data>
+  <data name="_ImportContentRetry_" xml:space="preserve">
+    <value>Try Again</value>
+  </data>
+  <data name="_ResendGuestInvitation_" xml:space="preserve">
+    <value>Resend Guest Invite</value>
+  </data>
+  <data name="_ResendGuestInvitationSuccess_" xml:space="preserve">
+    <value>Invite Scheduled For Immediate Resend</value>
+  </data>
+  <data name="_ReviewsSortDate_" xml:space="preserve">
+    <value>Sort By Date</value>
+  </data>
+  <data name="_ReviewsSortOverallRating_" xml:space="preserve">
+    <value>Sort By Overall Rating</value>
+  </data>
+  <data name="_ReviewsSortPropertyRating_" xml:space="preserve">
+    <value>Sort By Property Rating</value>
+  </data>
+  <data name="_ReviewsSortValueRating_" xml:space="preserve">
+    <value>Sort By Value Rating</value>
+  </data>
+  <data name="_ReviewsSortExperienceRating_" xml:space="preserve">
+    <value>Sort By Experience Rating</value>
+  </data>
+  <data name="_ReviewsTitle_" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="_ReviewsRatingsTopTitle_" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="_ReviewsRatingsPropertyTitle_" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="_ReviewsRatingsValueTitle_" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="_ReviewsRatingsExperienceTitle_" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="_ReviewsRatingsOverallTitle_" xml:space="preserve">
+    <value>Overall</value>
+  </data>
+  <data name="_ReviewsViewAction_" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>No Entries Found</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesBody_" xml:space="preserve">
+    <value>Sorry but nothing was found for the properties that you have selected.</value>
+  </data>
+  <data name="_ReviewsNoMoreListingsToShow_" xml:space="preserve">
+    <value>No More Listings To Show</value>
+  </data>
+  <data name="_HospitalityCurrentStaysMenuHeader_" xml:space="preserve">
+    <value>Current Stays</value>
+  </data>
+  <data name="_HospitalityFutureStaysMenuHeader_" xml:space="preserve">
+    <value>Next 90 Days</value>
+  </data>
+  <data name="_HospitalityPreArrivalStayViewHeader_" xml:space="preserve">
+    <value>Pre-Arrival</value>
+  </data>
+  <data name="_HospitalityCheckInStayViewHeader_" xml:space="preserve">
+    <value>Check-In</value>
+  </data>
+  <data name="_HospitalityStayViewHeader_" xml:space="preserve">
+    <value>Stay</value>
+  </data>
+  <data name="_HospitalityCheckOutStayViewHeader_" xml:space="preserve">
+    <value>Check-Out</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmHeader_" xml:space="preserve">
+    <value>Reinvite This Guest</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmMessage_" xml:space="preserve">
+    <value>Are You Sure You Want To Reinvite This Guest?</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmHeader_" xml:space="preserve">
+    <value>Please Read And Confirm</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmMessage_" xml:space="preserve">
+    <value>This will set the reservation to Paid In Full and Contract Signed.   If you want this guest to have access to the unit please click 'Confirm'</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmButton_" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmResponse_" xml:space="preserve">
+    <value>Access Allowed</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationLocator_" xml:space="preserve">
+    <value>Reservation Locator</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationId_" xml:space="preserve">
+    <value>Reservation ID</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersTripDates_" xml:space="preserve">
+    <value>Trip Dates</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAdults_" xml:space="preserve">
+    <value>Adults:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersChildren_" xml:space="preserve">
+    <value>Children:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReviews_" xml:space="preserve">
+    <value>Reviews:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAverage_" xml:space="preserve">
+    <value>Average:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersPreview_" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersDateTimeSeparator_" xml:space="preserve">
+    <value> on </value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalHeader_" xml:space="preserve">
+    <value>Access Instructions</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalDetails_" xml:space="preserve">
+    <value>Have additional access instructions for this reservation?  Please enter them below:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEmailGuestButton_" xml:space="preserve">
+    <value>Email Guest</value>
+  </data>
+  <data name="_HospitalityCurrentStayDateTimeNotice_" xml:space="preserve">
+    <value>Please Note:  All dates and times are local to your rental location.</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditReservationButton_" xml:space="preserve">
+    <value>Edit Reservation</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditAccessButton_" xml:space="preserve">
+    <value>Edit Rental Access</value>
+  </data>
+  <data name="_HospitalityEditStayPleaseWaitSwitchingPortals_" xml:space="preserve">
+    <value>Switching To Reservation Edit Screen</value>
+  </data>
+  <data name="_HospitalityEditAccessRentalInstructionsLabel_" xml:space="preserve">
+    <value>Access Instructions</value>
+  </data>
+  <data name="_PreSyncErrorHeader_" xml:space="preserve">
+    <value>Problem With Account -- Please Read</value>
+  </data>
+  <data name="_SettingsNotifications_" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="_SettingsOwnerNotifications_" xml:space="preserve">
+    <value>Owner notifications</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpText_" xml:space="preserve">
+    <value>By default, we will let you know whenever a guest receives a message or interacts with the Hospitality Manager. You can choose which ones you wish to receive in the future below.</value>
+  </data>
+  <data name="_SettingsTravellerNotifications_" xml:space="preserve">
+    <value>Guest Notifications</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpText_" xml:space="preserve">
+    <value>Customize what notifications your guests will receive. If you have another system already in place to send a “Welcome” and “Thank You” message, you can turn these off.</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsListHeader_" xml:space="preserve">
+    <value>How We Contact You</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsListHeader_" xml:space="preserve">
+    <value>How We Contact Your Guests</value>
+  </data>
+  <data name="_SettingsNotificationsButtonEnable_" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="_SettingsNotificationsButtonDisable_" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNotice_" xml:space="preserve">
+    <value>This notification has been disabled</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNoticeConfirm_" xml:space="preserve">
+    <value>Notification Disabled</value>
+  </data>
+  <data name="_SettingsNotificationsEnabledNoticeConfirm_" xml:space="preserve">
+    <value>Notification Enabled</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableOption_" xml:space="preserve">
+    <value>disable this communication?</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisabledNotice_" xml:space="preserve">
+    <value>you have disabled this</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Disable </value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalReasonLabel_" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsLabel_" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsDisableButton_" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Disable </value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalConfirmText_" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsHeader_" xml:space="preserve">
+    <value>No Guests Found</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsMessage_" xml:space="preserve">
+    <value>There are currently no guests for the search you have requested.</value>
+  </data>
+  <data name="_RentalsListCheckAll_" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="_RentalsListUnCheckAll_" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="_RentalsSearchNothingFound_" xml:space="preserve">
+    <value>No Rentals Found Matching That Name</value>
+  </data>
+  <data name="_PlaceHolderFilterByRental_" xml:space="preserve">
+    <value>Filter By Rental</value>
+  </data>
+  <data name="_PlaceHolderFilterByGuestName_" xml:space="preserve">
+    <value>Filter By Guest Name</value>
+  </data>
+  <data name="_MyGuestsFilterNothingFound_" xml:space="preserve">
+    <value>No Guests Found</value>
+  </data>
+  <data name="_ModashFeedbackUserName_" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="_ModashFeedbackUserEmail_" xml:space="preserve">
+    <value>Your Email Address</value>
+  </data>
+  <data name="_ModashFeedbackSupportType_" xml:space="preserve">
+    <value>How Can We Help?</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeBUG_" xml:space="preserve">
+    <value>I Have Found A Bug</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeFEEDBACK_" xml:space="preserve">
+    <value>I Have Some Feedback</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeENHANCEMENT_" xml:space="preserve">
+    <value>I Have An Idea For You</value>
+  </data>
+  <data name="_ModashFeedbackappSectionBug_" xml:space="preserve">
+    <value>Where Are You Having An Issue?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionFeedback_" xml:space="preserve">
+    <value>What Are You Commenting On?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionEnhancement_" xml:space="preserve">
+    <value>What Does This Involve?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionIOSApp_" xml:space="preserve">
+    <value>The iOS App</value>
+  </data>
+  <data name="_ModashFeedbackappSectionAndroidApp_" xml:space="preserve">
+    <value>The Android App</value>
+  </data>
+  <data name="_ModashFeedbackappSectionPortal_" xml:space="preserve">
+    <value>This Management Portal</value>
+  </data>
+  <data name="_ModashFeedbackNotesBug_" xml:space="preserve">
+    <value>Please Give Us As Many Details As Possible</value>
+  </data>
+  <data name="_ModashFeedbackNotesFeedback_" xml:space="preserve">
+    <value>What's On Your Mind?</value>
+  </data>
+  <data name="_ModashFeedbackNotesEnhancement_" xml:space="preserve">
+    <value>Ok great! What's Your Idea?</value>
+  </data>
+  <data name="_ModashFeedbackInstructions_" xml:space="preserve">
+    <value>Need help?  Have an idea for a new feature or simply want to make a comment?</value>
+  </data>
+  <data name="_ModashFeedbackSend_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_ModashFeedbackSendConfirmed_" xml:space="preserve">
+    <value>Your Feedback Has Been Sent</value>
+  </data>
+  <data name="_ForceResync_" xml:space="preserve">
+    <value>Force Resync</value>
+  </data>
+  <data name="_ConfirmResync_" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="_ConfirmResyncPleaseWait_" xml:space="preserve">
+    <value>Syncing -- Please Wait</value>
+  </data>
+  <data name="_ConfirmResyncMessage_" xml:space="preserve">
+    <value>This will check all of your properties and guests for updates. You might do this if you have made changes or additions under the HomeAway dashboard that are not yet reflected here.   This may take up to several minutes to complete.  Are you sure you want to proceed at this time?</value>
+  </data>
+  <data name="_ConfirmResyncMessageComplete_" xml:space="preserve">
+    <value>We have reloaded all of your properties and guests.   After you close this window we will automatically reload your browser.  This is to assure that you will see the latest updates.</value>
+  </data>
+  <data name="_ConfirmResyncCloseAndReload_" xml:space="preserve">
+    <value>Close And Reload Your Browser</value>
+  </data>
+  <data name="_ReviewsHelpContent_" xml:space="preserve">
+    <value>This is the reviews hero unit</value>
+  </data>
+  <data name="_FirstTimeThankText_" xml:space="preserve">
+    <value>After their stay, your guests are sent a “Thank you” email. Personalize the existing message with your own voice. You can encourage them to write a review, ask if they have any feedback or if they want to book next year’s stay in advance. 
+If you prefer to send your email through a different system, you can turn off this email in the “Settings” menu.</value>
+  </data>
+  <data name="_FirstTimeThankTitle_" xml:space="preserve">
+    <value>Show guests you appreciate them</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsText_" xml:space="preserve">
+    <value>No one knows the best spots around your home better than you do! Provide suggestions to help your guests uncover the true gems that make your area unique. From restaurants, museums, and beaches to everyday necessities like the supermarket, the bank, or the post office, your recommendations will make staying at your property even better!</value>
+  </data>
+  <data name="_InstructionsHelpText_" xml:space="preserve">
+    <value>Provide your guests with helpful information to make the most of their stay – every bit helps, from how to operate the DVD player or coffee maker to what day the trash is picked up. Think of questions you’ve heard from multiple guests and answer them in the appropriate category.</value>
+  </data>
+  <data name="_WelcomeHelpText_" xml:space="preserve">
+    <value>Welcome your guest, thank them for choosing you, and make them feel more at home by adding your unique voice to our pre-populated message. Encourage them to take advantage of the content you’ve added to the app and make your message personal. If you prefer to send your email through a different system, you can turn off this email in the “Settings” menu.</value>
+  </data>
+  <data name="_ReviewNotFoundMessage_" xml:space="preserve">
+    <value>The review is pending approval.</value>
+  </data>
+  <data name="_ReviewNotFoundTitle_" xml:space="preserve">
+    <value>Review Not Ready</value>
+  </data>
+  <data name="_ModashFeedbackTitle_" xml:space="preserve">
+    <value>Feedback &amp; Support</value>
+  </data>
+  <data name="_MyGuestsHelpText_" xml:space="preserve">
+    <value>Here, you can easily view the status of each of your guests’ trips. Find a particular guest, see what content you still need to provide, enable access to your property, and re-invite guests to the Hospitality Manager. You can also follow up after their stay to request a review.</value>
+  </data>
+  <data name="_RentalImportContentHelpText_" xml:space="preserve">
+    <value>If you are an existing Glad To Have You customer you can import your existing data here.  </value>
+  </data>
+  <data name="_ReviewsHelpText_" xml:space="preserve">
+    <value>Take a look at the reviews you’ve received below. The newest ones will be visible once they’ve gone through moderation to ensure they meet content guidelines.</value>
+  </data>
+  <data name="_SettingsImportContentListHeader_" xml:space="preserve">
+    <value>Import Content</value>
+  </data>
+  <data name="_MobileNotSupportedContent_" xml:space="preserve">
+    <value>The HomeAway Hospitality Manager owner portal is not optimized for a mobile device. For the best experience, please login from your tablet or desktop browser.</value>
+  </data>
+  <data name="_MobileNotSupportedTitle_" xml:space="preserve">
+    <value>Device Not Supported</value>
+  </data>
+  <data name="_ProceedAnyway_" xml:space="preserve">
+    <value>Proceed anyway.</value>
+  </data>
+  <data name="_ModashFeedbackLeaveAComment_" xml:space="preserve">
+    <value>I want to leave a comment for this web site</value>
+  </data>
+  <data name="_ModashFeedbackParticipateInStudy_" xml:space="preserve">
+    <value>Check here if you would like to participate in a future usability study.</value>
+  </data>
+  <data name="_ModashFeedbackPlaceHolder_" xml:space="preserve">
+    <value>Property reviews or customer service issues should not be submitted here.</value>
+  </data>
+  <data name="_ModashFeedbackPleaseNote_" xml:space="preserve">
+    <value>Please note that while we read this feedback, we cannot&lt;br /&gt;respond to all issues.</value>
+  </data>
+  <data name="_StartFeedbackOptionComment_" xml:space="preserve">
+    <value>I want to leave a comment for this web site</value>
+  </data>
+  <data name="_StartFeedbackOptionQuestion_" xml:space="preserve">
+    <value>I have an issue or question and would like some help</value>
+  </data>
+  <data name="_ModashFeedbackSubmit_" xml:space="preserve">
+    <value>Submit Feedback</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeContent_" xml:space="preserve">
+    <value>&lt;p&gt;Provide your guests with all the information they need…right when they need it!&lt;/p&gt;
+&lt;p&gt;
+With the Hospitality Manager, you can share helpful information – from entry instructions and Wi-Fi codes to local landmarks and activities – all in one place, and in your own unique voice. Your guests can easily access it on the web or through the HomeAway mobile app.  
+Get started by adding information to help your guests access and enjoy your property.&lt;/p&gt;
+&lt;p&gt;
+Add specific information about your property&lt;br/&gt;
+Customize your “welcome” email&lt;br/&gt;
+Create a heartfelt “thank you” message&lt;br/&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsTitle_" xml:space="preserve">
+    <value>Help guests live like a local</value>
+  </data>
+  <data name="_PreArrivalHelpText_" xml:space="preserve">
+    <value>Provide your guests with any information they’ll need to know  for their stay – directions, where to access the keys, any special things they should bring, etc.</value>
+  </data>
+  <data name="_PreArrivalHelpTitle_" xml:space="preserve">
+    <value>Help your guests prepare</value>
+  </data>
+  <data name="_WelcomeHelpTitle_" xml:space="preserve">
+    <value>Make your guests feel welcome</value>
+  </data>
+  <data name="_MyGuestsHelpTitle_" xml:space="preserve">
+    <value>Stay in contact with each guest</value>
+  </data>
+  <data name="_ReviewsHelpTitle_" xml:space="preserve">
+    <value>See how you're doing</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Customize your notifications</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Set which notifications to send to your guests</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedText_" xml:space="preserve">
+    <value>&lt;p&gt;Hooray for your growing business! You now have more than 20 properties. Unfortunately, that’s more than the Hospitality Manager can support.&lt;/p&gt;
+
+&lt;p&gt;We recommend upgrading to GladPROFESSIONAL, which is designed to help you manage a great number of listings much more easily.&lt;/p&gt;
+
+&lt;p&gt;
+With GladPROFESSIONAL, you can
+&lt;ul&gt;
+&lt;li&gt;Integrate with your property management software&lt;/li&gt;
+&lt;li&gt;Customize your mobile app to reflect your company logo and information&lt;/li&gt;
+&lt;li&gt;Take advantage of full customization in your integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsAddGuestButton_" xml:space="preserve">
+    <value>Add Guest</value>
+  </data>
+  <data name="_InviteGuestEmail_" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_InviteGuestFirstName_" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="_InviteGuestLastName_" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="_InviteGuestSend_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_InviteGuestConfirmation_" xml:space="preserve">
+    <value>Guest Has Been Added</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart1_" xml:space="preserve">
+    <value>Your upcoming guests will be invited to the Mobile Hospitality Manager on </value>
+  </data>
+  <data name="_MyGuestsMoreAvailable_" xml:space="preserve">
+    <value>Looking for a guest who is arriving more than 90 days from now?  Use the search box above to find them.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart2_" xml:space="preserve">
+    <value>Update your content to give them the best experience. If you want to go ahead and invite your guests now </value>
+  </data>
+  <data name="_HospitalitySearchedStaysMenuHeader_" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="_GracePeriodDetailsHeader_" xml:space="preserve">
+    <value>Please Read</value>
+  </data>
+  <data name="_AccessDeniedMessage_" xml:space="preserve">
+    <value>There was an issue logging you in.  Please go back to the dashboard and try again.  If the problem persists please contact support.</value>
+  </data>
+  <data name="_GracePeriodParagraph1_" xml:space="preserve">
+    <value>Your list of upcoming guests is not visible because they have not been invited. We will invite your guests on</value>
+  </data>
+  <data name="_AccessDenied_" xml:space="preserve">
+    <value>Access Denied</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipHeader_" xml:space="preserve">
+    <value>Are You Sure?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustom_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Add Custom Title&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipmessage_" xml:space="preserve">
+    <value>Are you sure you are ready for your guests to start getting notifications?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsAddButton_" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsHeader_" xml:space="preserve">
+    <value>Add A Custom Phone Title</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructions_" xml:space="preserve">
+    <value>Want to have a custom title for this phone number?  Examples:  Mary's Phone, After Hours Support.   Enter what you would like in the box below and click the Add button.</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Number_" xml:space="preserve">
+    <value>Phone 1 Number</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Title_" xml:space="preserve">
+    <value>Phone 1 Title</value>
+  </data>
+  <data name="_GracePeriodDateNotice_" xml:space="preserve">
+    <value>Your travelers won't be notified until: </value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Number_" xml:space="preserve">
+    <value>Phone 2 Number</value>
+  </data>
+  <data name="_GracePeriodReadyNowButton_" xml:space="preserve">
+    <value>Invite Guests</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Title_" xml:space="preserve">
+    <value>Phone 2 Title</value>
+  </data>
+  <data name="_GracePeriodReadyNowToolTip_" xml:space="preserve">
+    <value>Invite Guests</value>
+  </data>
+  <data name="_PleaseProvide_" xml:space="preserve">
+    <value>Please Provide</value>
+  </data>
+  <data name="_GracePeriodDisabledConfirmation_" xml:space="preserve">
+    <value>You Are Ready!</value>
+  </data>
+  <data name="_PleaseReviewPhoneNumbers_" xml:space="preserve">
+    <value>Please Review Phone Numbers</value>
+  </data>
+  <data name="_EmailGuestToolTip_" xml:space="preserve">
+    <value>Email Guest</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlocked_" xml:space="preserve">
+    <value>Your guests have now been invited. You will see your guests in the My Guests tab soon and receive email alerts about their activities.
+Customize these alerts in the Settings tab.</value>
+  </data>
+  <data name="_GracePeriodParagraph2_" xml:space="preserve">
+    <value>Update your content to give your guests the best possible experience.</value>
+  </data>
+  <data name="_GracePeriodParagraph3_" xml:space="preserve">
+    <value>If you prefer to invite them now, click the ‘Invite Guests’ button below.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticeCTA_" xml:space="preserve">
+    <value>click here.</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlockedHeader_" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="_Loading_" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="_HospitalitySiteName_" xml:space="preserve">
+    <value>Hospitality:</value>
+  </data>
+  <data name="_InvalidWebsiteValue_" xml:space="preserve">
+    <value>Must start with http:// or https://</value>
+  </data>
+  <data name="_MyGuestsStayNeedsAttention_" xml:space="preserve">
+    <value>Stay needs attention</value>
+  </data>
+  <data name="_ReviewsRatingsNotAvailable_" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedHeader_" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedMessage_" xml:space="preserve">
+    <value>Your grace period has been extended to ##EXTEND_DATE##.   If you have any questions please don't hesitate to contact us.</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendHeader_" xml:space="preserve">
+    <value>Need More Time To Get Ready?</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendMessage_" xml:space="preserve">
+    <value>We understand if you would like more time to get ready.   Click the confirm button below and we will extend your grace period to ##EXTEND_DATE##.</value>
+  </data>
+  <data name="_GracePeriodExtendButton_" xml:space="preserve">
+    <value>Extend</value>
+  </data>
+  <data name="_GracePeriodExtendToolTip_" xml:space="preserve">
+    <value>Extend Your Grace Period Time Period</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendConfirmToast_" xml:space="preserve">
+    <value>Your Grace Period Has Been Extended</value>
+  </data>
+  <data name="_EmailPreview_" xml:space="preserve">
+    <value>Email Preview</value>
+  </data>
+  <data name="_DeleteFromRental_" xml:space="preserve">
+    <value>Delete From:</value>
+  </data>
+  <data name="_DeleteFromAllRentals_" xml:space="preserve">
+    <value>Delete From All Rentals</value>
+  </data>
+  <data name="_PleaseSelectTooltipHeader_" xml:space="preserve">
+    <value>Please Select and Confirm:</value>
+  </data>
+  <data name="_LoadingEmailPreview_" xml:space="preserve">
+    <value>Loading Email Preview...</value>
+  </data>
+  <data name="_AddToRental_" xml:space="preserve">
+    <value>Add To: </value>
+  </data>
+  <data name="_AddToAllRentals_" xml:space="preserve">
+    <value>Add To All Rentals</value>
+  </data>
+  <data name="_SuggestionSaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>This will save this suggestion to ALL your rentals.  Are you sure?</value>
+  </data>
+  <data name="_AddOns_" xml:space="preserve">
+    <value>Add-Ons</value>
+  </data>
+  <data name="_PrintCottageBookMenuItem_" xml:space="preserve">
+    <value>Print Cottage Book</value>
+  </data>
+  <data name="_ChangeLanguageMessage_" xml:space="preserve">
+    <value>Please confirm that you would like to change to a different language. When you change to another language you will be able to enter content in that language for your guests.</value>
+    <comment>Needs Translation</comment>
+  </data>
+  <data name="_ChangeLanguage_" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="_Ok_" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="_PageTitle_Instructions_" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="_PageTitle_Instructions_For_" xml:space="preserve">
+    <value>Instructions for</value>
+  </data>
+  <data name="_PageTitle_PreArrival_For_" xml:space="preserve">
+    <value>Pre-Arrival for</value>
+  </data>
+  <data name="_SuccessContentSavedButDefaultRestored_" xml:space="preserve">
+    <value>This area may not be left blank.  Default content has been restored and saved.</value>
+  </data>
+  <data name="_ContentForLanguageMissing_" xml:space="preserve">
+    <value>There is no content provided for this item in this language.  </value>
+  </data>
+  <data name="_InviteGuestAccessCodes_" xml:space="preserve">
+    <value>View Access codes and content</value>
+  </data>
+  <data name="_InviteGuestAdvantage_" xml:space="preserve">
+    <value>Take advantage of recommendations</value>
+  </data>
+  <data name="_InviteGuestDescription_" xml:space="preserve">
+    <value>You can invite other guests staying with this reservation.  These guests can do everything the reservation holder can do:</value>
+  </data>
+  <data name="_InvalidContentConfirmButton_" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="_InvalidContentNoticePicturesNotSupported_" xml:space="preserve">
+    <value>We detected unsupported content in the following text area. In order to properly support all devices images cannot be imbedded within this text. Please remove any images and upload them below as photo attachments to ensure the best mobile experience for your guests.</value>
+  </data>
+  <data name="_InvalidContentNoticePicturesSupported_" xml:space="preserve">
+    <value>We detected unsupported content in the following text area. In order to properly support all devices images cannot be imbedded within this text. Please remove any images and upload them below as photo attachments to ensure the best mobile experience for your guests.</value>
+  </data>
+  <data name="_InvalidContentWarning_" xml:space="preserve">
+    <value>We detected unsupported content in the following text area. In order to properly support all devices images cannot be imbedded within this text. Please remove any images and upload them below as photo attachments to ensure the best mobile experience for your guests.</value>
+  </data>
+</root>

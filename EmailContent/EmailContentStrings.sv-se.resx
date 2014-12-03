@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Owner_Onboard_Content" xml:space="preserve">
+    <value>Grattis! Du har nu tillgång till HomeAways mobiltjänst Mobile Hospitality Manager.</value>
+  </data>
+  <data name="Owner_Onboard_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;Med Mobile Hospitality Manager kan du dela användbar information om ditt boende med dina gäster genom en mobilanpassad webbplats eller HomeAway-appen.
+                                                                                                        &lt;/p&gt;
+&lt;p&gt;Så här fungerar det: en gäst har bokat ditt boende kommer vi att be dem ladda ner appen eller gå till den mobilanpassade webbplatsen så att de kan ta del av den information du har lämnat, som till exempel hur man hittar dit och checkar in, eller vilka restauranger du rekommenderar. De kommer också att få ett välkomst- och ett tackmeddelande, samt en uppmaning att lämna en recension innan de åker hem.
+                                                                                                    &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section1_Title" xml:space="preserve">
+    <value>Vad är Mobile Hospitality Manager?</value>
+  </data>
+  <data name="Owner_Onboard_PreHeader" xml:space="preserve">
+    <value>Förbättra dina gästers vistelse genom att lägga till mer information</value>
+  </data>
+  <data name="Owner_Onboard_Title" xml:space="preserve">
+    <value>Ge dina gäster den information de behöver... när de behöver det</value>
+  </data>
+  <data name="Shared_AccessYourRental" xml:space="preserve">
+    <value>Tillgång till ditt boende</value>
+  </data>
+  <data name="Shared_CheckInDate" xml:space="preserve">
+    <value>Incheckningsdatum</value>
+  </data>
+  <data name="Shared_CheckOutDate" xml:space="preserve">
+    <value>Utcheckningsdatum</value>
+  </data>
+  <data name="Shared_EmailAddress" xml:space="preserve">
+    <value>E-postadress</value>
+  </data>
+  <data name="Shared_GuestEmail" xml:space="preserve">
+    <value>Gästens e-postadress</value>
+  </data>
+  <data name="Shared_GuestName" xml:space="preserve">
+    <value>Gästens namn</value>
+  </data>
+  <data name="Shared_ManageThisStay" xml:space="preserve">
+    <value>Hantera den här bokningen</value>
+  </data>
+  <data name="Shared_MobileInvitationCode" xml:space="preserve">
+    <value>Inbjudningskod via mobilen</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Content" xml:space="preserve">
+    <value>&lt;p&gt;Grattis till bokningen av ett &lt;b&gt;(Brand.Name)&lt;/b&gt; -boende. För att göra din kommande vistelse ännu enklare, finns all information du behöver om ditt boende på nätet, så att du när som helst kan komma åt den.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_PreHeader" xml:space="preserve">
+    <value>Se information om din kommande vistelse</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Section1_Content" xml:space="preserve">
+    <value>Oavsett om du når oss via en smartphone, surfplatta eller dator kan du klicka nedan för att se allt du behöver veta om vistelse i &lt;b&gt;(Rental.City)&lt;/b&gt; , som till exempel ankomstinformation och vägbeskrivning, samt rekommendationer om vilka restauranger, utflyktsmål och evenemang du inte får missa under din vistelse.</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Title" xml:space="preserve">
+    <value>Välkommen (Guest.FirstName)</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_PreHeader" xml:space="preserve">
+    <value>Uppdatera information om ditt objekt nu för denna och framtida gäster</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Title" xml:space="preserve">
+    <value>Ge dina gäster all den information de behöver</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Content" xml:space="preserve">
+    <value>&lt;p&gt;En av dina gäster, (Guest.FirstName) har försökt att komma åt information om (Content.Description), som du ännu inte har lämnat. Gör det enkelt för dina gäster att få informationen när de behöver det.&lt;/p&gt;
+&lt;p&gt;När du har skrivit in denna information i mobiltjänsten Mobile Hospitality Manager kommer du aldrig att behöva lämna den igen - allt sparas i systemet så att dina gäster kan komma åt den. Detta gör framtida vistelser lättare för dig och ser även till att dina gäster har en underbar vistelse!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Subject" xml:space="preserve">
+    <value>(Guest.FullName) har begärt information om (Content.Title)</value>
+  </data>
+  <data name="Owner_Guest_Feedback_PreHeader" xml:space="preserve">
+    <value>Owner_Guest_Feedback_PreHeader</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Title" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Title</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Content" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Content</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Subject" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Subject</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_PreHeader" xml:space="preserve">
+    <value>Vi kommer snart att publicera informationen på din Mobile Hospitality Manager</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Title" xml:space="preserve">
+    <value>Du har fått en ny recension</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) eller någon i personens sällskap har lämnat en recension på ditt hyresobjekt. Vi går just nu igenom recensionen så att den följer våra riktlinjer innan vi publicerar den.&lt;/p&gt;
+&lt;p&gt;(Guest.FirstName) eller någon i personens sällskap har lämnat en recension på ditt hyresobjekt. Vi går just nu igenom recensionen så att den följer våra riktlinjer innan vi publicerar den.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Subject" xml:space="preserve">
+    <value>(Guest.LastName) har lämnat en recension om sin vistelse.</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_PreHeader" xml:space="preserve">
+    <value>Andra har blivit inbjudna till din Mobile Hospitality Manager</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Title" xml:space="preserve">
+    <value>Din information har delats</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) eller någon i personens sällskap har lämnat en recension på ditt hyresobjekt. Vi går just nu igenom recensionen så att den följer våra riktlinjer innan vi publicerar den.&lt;/p&gt;
+&lt;p&gt;När recensionen har godkänts, kommer den att visas på ditt objekts sida och i mobiltjänsten Mobile Hospitality Manager. Denna process tar vanligtvis ett par dagar.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Subject" xml:space="preserve">
+    <value>(Guest.FullName) har delat din infromation</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_PreHeader" xml:space="preserve">
+    <value>De har inte läst din information ännu</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Title" xml:space="preserve">
+    <value>Vi har påmint (Guest.FirstName) om att läsa din information</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Din gäst har bjudit in en annan person till mobiltjänsten. Eftersom de inte har loggat in ännu, skickade vi en påminnelse. Du hittar (Guest.FirstName)s information här nedan. Ha en bra dag!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Subject" xml:space="preserve">
+    <value>(HostGuest.FullName)s gäster har fått en påminnelse</value>
+  </data>
+  <data name="Owner_System_GuestInvited_PreHeader" xml:space="preserve">
+    <value>Vi har bjudit in (Guest.FullName) till din Mobile Hospitality Manager</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Title" xml:space="preserve">
+    <value>Din information har delats</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Content" xml:space="preserve">
+    <value>&lt;p&gt; Din gäst har bjudit in en annan person till din Mobile Hospitality Manager. Gästerna kan dela information om ditt objekt tillsammans med sin resplan med vänner och familj som reser med dem.&lt;/p&gt;
+&lt;p&gt;Du hittar deras uppgifter nedan. Ha en bra dag!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Subject" xml:space="preserve">
+    <value>(Guest.FullName) har inbjudits att få tillgång till din information</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_PreHeader" xml:space="preserve">
+    <value>(Guest.FirstName) har inte läst din information ännu</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Title" xml:space="preserve">
+    <value>Vi har påmint (Guest.FirstName) om att läsa din information</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Din gäst har bjudit in en annan person till mobiltjänsten. Eftersom de inte har loggat in ännu, skickade vi en påminnelse. Du hittar (Guest.FirstName)s information här nedan. Ha en bra dag!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Subject" xml:space="preserve">
+    <value>Owner_System_GuestInvited_Followup_Subject</value>
+  </data>
+  <data name="Owner_System_Reminded_PreHeader" xml:space="preserve">
+    <value>Vi har skickat din gäst en påminnelse om att du uppdaterat din information</value>
+  </data>
+  <data name="Owner_System_Reminded_Title" xml:space="preserve">
+    <value>Din gäst har påmints om (Content.Title)</value>
+  </data>
+  <data name="Owner_System_Reminded_Content" xml:space="preserve">
+    <value>&lt;p&gt; (Guest.FirstName) blev påmind om (Content.Title). Du hittar deras uppgifter nedan. Ha en bra dag!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_Reminded_Subject" xml:space="preserve">
+    <value>(Guest.FullName) blev påmind om (Content.Title)</value>
+  </data>
+  <data name="Owner_System_Thanked_PreHeader" xml:space="preserve">
+    <value>Vi har skickat ett tackmeddelande via e-post för din räkning</value>
+  </data>
+  <data name="Owner_System_Thanked_Title" xml:space="preserve">
+    <value>Din gäst har tackats för att han eller hon bodde hos dig</value>
+  </data>
+  <data name="Owner_System_Thanked_Content" xml:space="preserve">
+    <value>Eftersom (Guest.FirstName) checkar ut i dag har vi skickat ett tackmeddelande via e-post. Du hittar deras uppgifter nedan. Ha en bra dag!</value>
+  </data>
+  <data name="Owner_System_Thanked_Subject" xml:space="preserve">
+    <value>(Guest.FullName), har blivit tackad</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_PreHeader" xml:space="preserve">
+    <value>Se till att du har angett all information om ditt hyrobjekt</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Title" xml:space="preserve">
+    <value>Ge dina gäster den information de behöver... när de behöver det</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) har laddat ner appen och nyligen loggat in på Mobile Hospitality Manager.
+                                                                  Om du inte redan har gjort det är det dags att skriva in eventuell information de kan behöva. Detta kommer att se till att dina gäster får den bästa vistelsen de kan få. När du har uppdaterat innehållet kommer det att vara tillgängligt för alla dina gäster, så du behöver bara skriva in informationen en gång!
+                                                              &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Subject" xml:space="preserve">
+    <value>(Guest.FullName) har läst dina uppgifter via vår mobilapp</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_PreHeader" xml:space="preserve">
+    <value>Se till att du har angett all information om ditt hyrobjekt</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Title" xml:space="preserve">
+    <value>(Guest.FullName) har tagit del av din mobila information.</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) har laddat ner appen och nyligen loggat in på Mobile Hospitality Manager.
+Om du inte redan har gjort det är det dags att skriva in eventuell information de kan behöva. Detta kommer att se till att dina gäster får den bästa vistelsen de kan få. När du har uppdaterat innehållet kommer det att vara tillgängligt för alla dina gäster, så du behöver bara skriva in informationen en gång!
+&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Subject" xml:space="preserve">
+    <value>(Guest.FullName) hartagit del av din information</value>
+  </data>
+  <data name="Owner_System_Welcomed_PreHeader" xml:space="preserve">
+    <value>Vi har skickat information om deras kommande vistelse</value>
+  </data>
+  <data name="Owner_System_Welcomed_Title" xml:space="preserve">
+    <value>En välkomstmail har skickats för din räkning</value>
+  </data>
+  <data name="Owner_System_Welcomed_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) kommer att bo i din sommarstuga i två dagar. Om du inte redan har gjort det, bör du låsa upp din hyresinformation så att de vet hur man kommer till ditt objekt. Se till att du inkluderar annan användbar information, som till exempel vägbeskrivning och incheckningsinstruktioner.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_Welcomed_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) har fått ett välkomstmeddelande</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_PreHeader" xml:space="preserve">
+    <value>Du har två dagar kvar att uppdatera informationen om ditt objekt</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Title" xml:space="preserve">
+    <value>Ge dina gäster den information de behöver... när de behöver det</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content" xml:space="preserve">
+    <value>Inom några dagar kommer dina gäster att bjudas in till mobiltjänsten Mobile Hospitality Manager. Glöm inte att uppdatera din information innan de loggar in!</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Subject" xml:space="preserve">
+    <value>Uppdatera din information innan gästerna ser den</value>
+  </data>
+  <data name="Owner_System_OnBoard_PreHeader" xml:space="preserve">
+    <value>Förbättra dina gästers vistelse genom att lägga till mer information</value>
+  </data>
+  <data name="Owner_System_OnBoard_Title" xml:space="preserve">
+    <value>Ge dina gäster den information de behöver... när de behöver det</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content" xml:space="preserve">
+    <value>Grattis! Du har nu tillgång till HomeAways mobiltjänst Mobile Hospitality Manager.</value>
+  </data>
+  <data name="Owner_System_OnBoard_Subject" xml:space="preserve">
+    <value>Välkommen till mobiltjänsten Mobile Hospitality Manager</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_PreHeader" xml:space="preserve">
+    <value>Owner_Owner_UpcomingReservation_PreHeader</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Title" xml:space="preserve">
+    <value>Ge dina gäster den information de behöver inför sin vistelse</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                    (Guest.FirstName) anländer snart till ditt boende. Det innebär att vi kommer att skicka ett välkomstmeddelande i morgon med en länk till mobiltjänsten Mobile Hospitality Manager, som innehåller information om ditt boende för att göra deras vistelse så bra som möjligt. Det finns två saker du behöver göra för att se till att du är redo:&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) anländer om tre dagar</value>
+  </data>
+  <data name="Traveler_System_Content_PreHeader" xml:space="preserve">
+    <value>Viktig information om (Rental.Name)</value>
+  </data>
+  <data name="Traveler_System_Content_Title" xml:space="preserve">
+    <value>(Content.Title)</value>
+  </data>
+  <data name="Traveler_System_Content_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_System_Content_Subject" xml:space="preserve">
+    <value>Traveler_System_Content_Subject</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_PreHeader" xml:space="preserve">
+    <value>Skriv en recension om din vistelse</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Title" xml:space="preserve">
+    <value>Hur var din vistelse?</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Content" xml:space="preserve">
+    <value>&lt;p&gt;Varje semester måste ta slut någon gång och din vistelse är nästan över. Men innan du åker tillbaka till vardagen vill vi gärna att du tar ett par minuter till att berätta om hur du har haft det på (Rental.Name).
+                                                                &lt;/p&gt;
+&lt;p&gt;Klicka nedan för att låta ägaren eller fastighetschefen veta hur ni haft det i deras hus. Det tar bara en minut.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Subject" xml:space="preserve">
+    <value>Vänligen skriv en recension.</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_PreHeader" xml:space="preserve">
+    <value>Missa inte viktig hyresinformation</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Title" xml:space="preserve">
+    <value>All information du behöver...  när du behöver den</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;(HostGuest.FullName)&lt;/b&gt; delade nyligen information om ditt (Brand.Name)-objekt. Denna information väntar fortfarande på dig.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) - (HostGuest.FirstName) har delat hyresinformation med dig</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_PreHeader" xml:space="preserve">
+    <value>Snabb tillgång till användbar objektinformation</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Title" xml:space="preserve">
+    <value>All information du behöver...  när du behöver den</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                    &lt;b&gt;(HostGuest.FullName)&lt;/b&gt; har delat information om ditt boende på (Brand.Name), och du kan komma åt information på nätet, när du behöver den.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Subject" xml:space="preserve">
+    <value>(HostGuest.FullName) har delat hyresinformation med dig</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_PreHeader" xml:space="preserve">
+    <value>Snabb och enkel tillgång till viktig information om din kommande vistelse</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Title" xml:space="preserve">
+    <value>All objektsinformation nära till hands.</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Du bokade nyligen ett boende på (Brand.Name). Nu är det dags att börja tänka på de saker du ska hitta på när du är där.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Subject" xml:space="preserve">
+    <value>Sista påminnelsen om ditt hyrda semesterboende i (Rental.City)</value>
+  </data>
+  <data name="Traveler_Guest_Invite_PreHeader" xml:space="preserve">
+    <value>Se information om din kommande vistelse</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Title" xml:space="preserve">
+    <value>All information du behöver...  när du behöver den</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Content" xml:space="preserve">
+    <value>Grattis till din bokning av ett (Brand.Name)-boende. För att göra din kommande vistelse ännu enklare, finns all information du behöver om ditt boende på nätet, så att du när som helst kan komma åt den.</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Subject" xml:space="preserve">
+    <value>Din uppkommande vistelse i (Rental.City), (Rental.Region)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_PreHeader" xml:space="preserve">
+    <value>Vi hoppas att ni hade en trevlig vistelse i (Rental.City)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Title" xml:space="preserve">
+    <value>Det var trevligt att ha dig här</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Subject" xml:space="preserve">
+    <value>Tack så mycket för att du bor hos oss!</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_PreHeader" xml:space="preserve">
+    <value>Kontrollera detaljerna om boendet så att du är förberedd inför din kommande vistelse</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Title" xml:space="preserve">
+    <value>Information om ditt hyrda semesterboende i (Rental.City)...  När du behöver den</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Subject" xml:space="preserve">
+    <value>Välkommen till (Rental.City)</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_SeeReviews" xml:space="preserve">
+    <value>Se recensioner</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section1_Content" xml:space="preserve">
+    <value>Av säkerhetsskäl kan gäster inte se information om hur man får tillgång till din bostad förrän du godkänner det. Klicka på "Tillåt" i "Information innan ankomst" under fliken "Mina gäster".</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section1_Title" xml:space="preserve">
+    <value>1. Lås upp din hyresinformation</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section2_Content" xml:space="preserve">
+    <value>Förutom att ge dem möjlighet att få tillgång till din bostad, kan du lägga till förslag om var de kan äta, handla livsmedel, etc.</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section2_Title" xml:space="preserve">
+    <value>2. Lägg till användbar information om din bostad</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;Med Mobile Hospitality Manager kan du dela användbar information om ditt boende med dina gäster genom en mobilanpassad webbplats eller HomeAway-appen.
+                                                                                                        &lt;/p&gt;
+&lt;p&gt;Så här fungerar det: en gäst har bokat ditt boende kommer vi att be dem ladda ner appen eller gå till den mobilanpassade webbplatsen så att de kan ta del av den information du har lämnat, som till exempel hur man hittar dit och checkar in, eller vilka restauranger du rekommenderar. De kommer också att få ett välkomst- och ett tackmeddelande, samt en uppmaning att lämna en recension innan de åker hem.
+                                                                                                    &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Oavsett om du når oss via en smartphone, surfplatta eller dator kan du klicka nedan för att se allt du behöver veta om vistelse i &lt;b&gt;(Rental.City)&lt;/b&gt; , som till exempel ankomstinformation och vägbeskrivning, samt rekommendationer om vilka restauranger, utflyktsmål och evenemang du inte får missa under din vistelse.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Klicka nedan för att se allt du behöver veta om din vistelse i &lt;b&gt;(Rental.City)&lt;/b&gt; . Oavsett om du använder en dator, smartphone eller surfplatta, har du tillgång till all information när du behöver den - din bokning, ankomstinformation och vägbeskrivning, samt rekommendationer om vilka restauranger, aktiviteter och evenemang du bör besöka under din vistelse
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Oavsett om du når oss via en smartphone, surfplatta eller dator kan du klicka nedan för att se allt du behöver veta om vistelse i &lt;b&gt;(Rental.City)&lt;/b&gt; , som till exempel ankomstinformation och vägbeskrivning, samt rekommendationer om vilka restauranger, utflyktsmål och evenemang du inte får missa under din vistelse.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Klicka nedan för att se allt du behöver veta om din vistelse i (Rental.City). Oavsett om du använder en dator, smartphone eller surfplatta, har du tillgång till all information när du behöver den - din bokning, ankomstinformation och vägbeskrivning, samt rekommendationer om vilka restauranger, aktiviteter och evenemang du bör besöka under din vistelse
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section2_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                            Från och med den &lt;b&gt;(Owner.GracePeriodExpiration)&lt;/b&gt;, kommer dina gäster att bjudas in till att ladda ner appen för att få information om sin kommande vistelse hos dig. De kan också komma åt informationen på nätet.
+                                                                        &lt;/p&gt;
+&lt;p&gt;Uppdatera din Mobile Hospitality Manager så de har tillgång till allt de behöver för att få en så bra vistelse som möjligt. Du behöver bara göra det en gång, och sedan kan varje framtida gäst komma åt den när som helst!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section2_Title" xml:space="preserve">
+    <value>Vad behöver du göra?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section3_Content" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Lägg till användbar information, som till exempel en vägbeskrivning och intressanta utflyktsmål i närheten. &lt;/li&gt;&lt;li&gt;Lämna information som portkoder och Wi-Fi-lösenord (tänk på de saker som du blivit frågad om och om igen)&lt;/li&gt;&lt;li&gt;Anpassa ditt välkomst- och tackmeddelande&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                Från och med den &lt;b&gt;(Owner.GracePeriodExpiration)&lt;/b&gt;, kommer dina gäster att kunna se information om din uppkommande vistelse hos dig. Uppdatera din Mobile Hospitality Manager så de har tillgång till allt de behöver för att få en så bra vistelse som möjligt. Du behöver bara göra det en gång, och sedan kan varje framtida gäst komma åt den när som helst!
+                                                            &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section1_Title" xml:space="preserve">
+    <value>Vad behöver du göra?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section2_Content" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Lägg till användbar information, som till exempel en vägbeskrivning och intressanta utflyktsmål i närheten. &lt;/li&gt;&lt;li&gt;Lämna information som portkoder och Wi-Fi-lösenord (tänk på de saker som du blivit frågad om och om igen)&lt;/li&gt;&lt;li&gt;Anpassa ditt välkomst- och tackmeddelande&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section3_Content" xml:space="preserve">
+    <value>&lt;p&gt;Du kan alltid få tillgång till din Mobile Hospitality Manager via länken "Gästfrihet" i din översikt. &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section4_Content" xml:space="preserve">
+    <value>För att ge dina gäster tillgång till informationen innan (Owner.GracePeriodExpiration), välj "Mina gäster" under "Gästfrihet" och klicka på knappen "Bjud in gäster".</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section4_Title" xml:space="preserve">
+    <value>Vill du aktivera mobiltjänsten tidigare?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section5_Title" xml:space="preserve">
+    <value>Se hur Lianna använder Mobile Hospitality Manager för att ge sina gäster massor med nyttig information</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section6_Title" xml:space="preserve">
+    <value>Läs mer om mobiltjänsten Mobile Hospitality Manager</value>
+  </data>
+  <data name="Shared_AddYourInformation" xml:space="preserve">
+    <value>Lägg till din information nu</value>
+  </data>
+  <data name="Shared_TakeMeThere" xml:space="preserve">
+    <value>Ta mig dit</value>
+  </data>
+  <data name="Shared_RentalName" xml:space="preserve">
+    <value>Rental name</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Content_Engaged" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) has recently logged into the Mobile Hospitality Manager. If you are satisfied with the content you have provided for your guests, no action is required. If you prefer not to receive these notifications moving forward, you can control them in the Settings tab.&lt;/p&gt;</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Shared_GuestPhone" xml:space="preserve">
+    <value>Guest phone</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Traveler_Guest_Invite_Content_Section2" xml:space="preserve">
+    <value>(Brand.Name) is part of the HomeAway family and the HomeAway mobile app will support your stay.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Shared_ReservationDetails" xml:space="preserve">
+    <value>Reservation details</value>
+    <comment>Needs Translation </comment>
+  </data>
+</root>

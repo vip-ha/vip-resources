@@ -1,0 +1,2909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_Dashboard_" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="_DashboardBack_" xml:space="preserve">
+    <value>Terug naar Dashboard</value>
+  </data>
+  <data name="_Activity_" xml:space="preserve">
+    <value>Activiteit</value>
+  </data>
+  <data name="_MyRentals_" xml:space="preserve">
+    <value>Mijn Huurpanden</value>
+  </data>
+  <data name="_Reservations_" xml:space="preserve">
+    <value>Reserveringen</value>
+  </data>
+  <data name="_MyGuests_" xml:space="preserve">
+    <value>Mijn Gasten</value>
+  </data>
+  <data name="_Reviews_" xml:space="preserve">
+    <value>Beoordelingen</value>
+  </data>
+  <data name="_Settings_" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="_ActivityTooltip_" xml:space="preserve">
+    <value>Wat zijn de activiteiten!</value>
+  </data>
+  <data name="_MyRentalsTooltip_" xml:space="preserve">
+    <value>Zoals de klok thuis tikt, tikt ze nergens</value>
+  </data>
+  <data name="_ReservationsTooltip_" xml:space="preserve">
+    <value>Wie, waar en wanneer</value>
+  </data>
+  <data name="_AddOnsTooltip_" xml:space="preserve">
+    <value>We dekken uw winkel hier!</value>
+  </data>
+  <data name="_SettingsTooltip_" xml:space="preserve">
+    <value>Uw profiel en accounts ...</value>
+  </data>
+  <data name="_BtnTop_" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="_Help_" xml:space="preserve">
+    <value>Toon Help</value>
+  </data>
+  <data name="_CloseHelp_" xml:space="preserve">
+    <value>Verberg Help</value>
+  </data>
+  <data name="_Add_" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="_Save_" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="_Saving_" xml:space="preserve">
+    <value>Het opslaan van ...</value>
+  </data>
+  <data name="_UndoChanges_" xml:space="preserve">
+    <value>wijzigingen ongedaan maken</value>
+  </data>
+  <data name="_LetsGo_" xml:space="preserve">
+    <value>Begrepen!</value>
+  </data>
+  <data name="_Start_" xml:space="preserve">
+    <value>Uploaden starten</value>
+  </data>
+  <data name="_Cancel_" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="_Delete_" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="_CompleteAddRental_" xml:space="preserve">
+    <value>Voltooid! Dit huurpand toevoegen</value>
+  </data>
+  <data name="_AddRentalInitialPhotoNotice_" xml:space="preserve">
+    <value>Selecteer uw eerste foto voor dit huurpand.  Zodra uw registratie is voltooid zult u in staat om meerdere foto's toe te voegen.  </value>
+  </data>
+  <data name="_Previous_" xml:space="preserve">
+    <value>Voorgaand</value>
+  </data>
+  <data name="_PreviousTooltip_" xml:space="preserve">
+    <value>Ga terug naar het dashboard en probeer het opnieuw.</value>
+  </data>
+  <data name="_Next_" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="_NextTooltip_" xml:space="preserve">
+    <value>ga naar de volgende stap</value>
+  </data>
+  <data name="_Search_" xml:space="preserve">
+    <value>Zoek</value>
+  </data>
+  <data name="_Clear_" xml:space="preserve">
+    <value>Wis data</value>
+  </data>
+  <data name="_Street_" xml:space="preserve">
+    <value>Straat</value>
+  </data>
+  <data name="_City_" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="_Country_" xml:space="preserve">
+    <value>Land </value>
+  </data>
+  <data name="_State_" xml:space="preserve">
+    <value>Staat</value>
+  </data>
+  <data name="_ZipCode_" xml:space="preserve">
+    <value>de postcode</value>
+  </data>
+  <data name="_PostalCodeValidation_" xml:space="preserve">
+    <value>Postcode is vereist</value>
+  </data>
+  <data name="_RentalFriendlyName_" xml:space="preserve">
+    <value>Huurvriendelijke naam</value>
+  </data>
+  <data name="_RentalCheckInCheckOutTimes_" xml:space="preserve">
+    <value>Reservering check-in / check-out tijden</value>
+  </data>
+  <data name="_RentalCheckInTime_" xml:space="preserve">
+    <value>Check-in tijd</value>
+  </data>
+  <data name="_RentalPhoto_" xml:space="preserve">
+    <value>Foto Huurpand</value>
+  </data>
+  <data name="_RentalCheckOutTime_" xml:space="preserve">
+    <value>Check-out datum</value>
+  </data>
+  <data name="_RentalColor_" xml:space="preserve">
+    <value>Kleur huurpand</value>
+  </data>
+  <data name="_VRBONumber_" xml:space="preserve">
+    <value>Advertentienummer</value>
+  </data>
+  <data name="_HomeAwayICalFeed_" xml:space="preserve">
+    <value>iCal Feed</value>
+  </data>
+  <data name="_HomeAwayICalFeedInstructions_" xml:space="preserve">
+    <value>We kunnen automatisch reserveringen invoeren voor dit pand met uw HomeAway / VRBO kalender. Gelieve te noteren -- dit is enkel richting, we verwijderen uw reservaties van de .ICS feed maar alle nieuwe die u toevoegt aan het systeem worden niet voorzien Voor meer instructies en om aan de slag te gaan, klikt u op de 'Installatie' knop hierboven.</value>
+  </data>
+  <data name="_HomeAwayICalFeedSetupButton_" xml:space="preserve">
+    <value>Installatie</value>
+  </data>
+  <data name="_HomeAwayICalFeedModalInstructions_" xml:space="preserve">
+    <value>In het HomeAway / VRBO dashboard zijn er verschillende soorten koppelingen voor het 'delen van uw agenda .  Zorg ervoor dat u de degene gebruikt voor gebruik met HomeAway zoals in het onderstaande voorbeeld.  Wanneer u de juiste koppeling hebt gevonden, kopieer en plak het in dit formulier</value>
+  </data>
+  <data name="_ICalFeedExample_" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="_PasteICalHeedHere_" xml:space="preserve">
+    <value>Plak Url Hier</value>
+  </data>
+  <data name="_HomeAwayICalFeedLaunchModalInstructions_" xml:space="preserve">
+    <value>Klik hier voor een voorbeeld van deze koppeling in het dashboard.</value>
+  </data>
+  <data name="_ICalExample_" xml:space="preserve">
+    <value>De INSTELLING van uw agenda-gegevens</value>
+  </data>
+  <data name="_ICalFinishSetup_" xml:space="preserve">
+    <value>Beëindig Instelling</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmed_" xml:space="preserve">
+    <value>De installatie is voltooid -- Gelieve op het volgende te letten</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet1_" xml:space="preserve">
+    <value>Dit is een automatische import van reserveringen van HomeAway.  </value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet2_" xml:space="preserve">
+    <value>Alle toegangscodes zullen de gasten enkel tonen of het contract helemaal is betaald, of het contract getekend is en dat alles alleen binnen 14 dagen na de start van de reservering.</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet3_" xml:space="preserve">
+    <value>Blijf nieuwe reserveringen toe voegen in HomeAway / VRBO en zij zullen hier verschijnen. </value>
+  </data>
+  <data name="_ICalFinishSetupDontForget_" xml:space="preserve">
+    <value>Vergeet niet!</value>
+  </data>
+  <data name="_ICalFinishSetupDontForgetInstructions_" xml:space="preserve">
+    <value>Klik hier om uw wijzigingen op te slaan.</value>
+  </data>
+  <data name="_HomeAwayICalFeedTooltip_" xml:space="preserve">
+    <value>Hebt u een HomeAway of VRBP iCal feed voor dit pand. hier invoeren</value>
+  </data>
+  <data name="_ICalLinkClearCurrent_" xml:space="preserve">
+    <value>Verwijder Agenda importering</value>
+  </data>
+  <data name="_ICalClearLinkConfirm_" xml:space="preserve">
+    <value>Bent u zeker dat u deze agenda importering wilt verwijderen?</value>
+  </data>
+  <data name="_WebPage_" xml:space="preserve">
+    <value>Webpagina</value>
+  </data>
+  <data name="_Rentals_" xml:space="preserve">
+    <value>Mijn Huurpanden</value>
+  </data>
+  <data name="_DeleteRental_" xml:space="preserve">
+    <value>Verwijder huurpand</value>
+  </data>
+  <data name="_DeleteRentalTooltip_" xml:space="preserve">
+    <value>Verwijder huurpand</value>
+  </data>
+  <data name="_UndoChangesTooltip_" xml:space="preserve">
+    <value>wijzigingen ongedaan maken</value>
+  </data>
+  <data name="_SaveRentalTooltip_" xml:space="preserve">
+    <value>bewaar huurpand</value>
+  </data>
+  <data name="_GTHYTM_" xml:space="preserve">
+    <value>HomeAway ™</value>
+  </data>
+  <data name="_GuestActivity_" xml:space="preserve">
+    <value>Gast Activiteit</value>
+  </data>
+  <data name="_AddARental_" xml:space="preserve">
+    <value>Een huurpand toevoegen</value>
+  </data>
+  <data name="_VerifyLocation_" xml:space="preserve">
+    <value>Controleert Locatie</value>
+  </data>
+  <data name="_Address_" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="_VerifyLocationDescrLine1_" xml:space="preserve">
+    <value>Controleer of de locatie van uw huurpand correct is op de onderstaande kaart is. Om de locatie aan te passen, kunt u</value>
+  </data>
+  <data name="_VerifyLocationDescrLineContactUs_" xml:space="preserve">
+    <value>contact met ons opnemen</value>
+  </data>
+  <data name="_VerifyLocationDescrLine3_" xml:space="preserve">
+    <value>. Om een routebeschrijving toe te voegen, klikt u op het gedeelte "Voor de de aankomst".</value>
+  </data>
+  <data name="_VerifyLocationError_" xml:space="preserve">
+    <value>Sorry, maar we zijn niet in staat om de locatie van uw pand te bepalen.  Controleer uw adresgegevens en probeer het opnieuw!</value>
+  </data>
+  <data name="_FeatureOptions_" xml:space="preserve">
+    <value>Gastenboek en Beoordelingsopties</value>
+  </data>
+  <data name="_DisableGuestBook_" xml:space="preserve">
+    <value>Uitschakelen gastenboek</value>
+  </data>
+  <data name="_PropertyInformation_" xml:space="preserve">
+    <value>Informatie huurpand</value>
+  </data>
+  <data name="_UploadRentalPhoto_" xml:space="preserve">
+    <value>Selecteer Foto Huurpand</value>
+  </data>
+  <data name="_Error_" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="_RequiredCity_" xml:space="preserve">
+    <value>Stad is vereist</value>
+  </data>
+  <data name="_RentalNameValidation_" xml:space="preserve">
+    <value>Naam is vereist</value>
+  </data>
+  <data name="_RentalListingIdValidation_" xml:space="preserve">
+    <value>Advertentie-ID is vereist</value>
+  </data>
+  <data name="_RentalCheckInOutTimeValidation_" xml:space="preserve">
+    <value>Tijd is vereist</value>
+  </data>
+  <data name="_ColorValidation_" xml:space="preserve">
+    <value>Kleur is vereist</value>
+  </data>
+  <data name="_DepartureValidation_" xml:space="preserve">
+    <value>Vertrek dient later dan aankomst te zijn</value>
+  </data>
+  <data name="_RequiredAddress_" xml:space="preserve">
+    <value>Adres is vereist</value>
+  </data>
+  <data name="_SelectCountry_" xml:space="preserve">
+    <value>Selecteer een land</value>
+  </data>
+  <data name="_SelectState_" xml:space="preserve">
+    <value>Selecteer een Staat</value>
+  </data>
+  <data name="_ContentCurrentlyProvided_" xml:space="preserve">
+    <value>Huidige Inhoud</value>
+  </data>
+  <data name="_AvailableContent_" xml:space="preserve">
+    <value>Beschikbare Inhoud</value>
+  </data>
+  <data name="_CriticalContent_" xml:space="preserve">
+    <value>Kritische Inhoud</value>
+  </data>
+  <data name="_CriticalContentInstructions_" xml:space="preserve">
+    <value>Deze items worden als van cruciaal belang beschouwd voor de kwaliteit van de ervaring van een gast.  Gelieve deze inhoud dringend te voorzien!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountSingle_" xml:space="preserve">
+    <value>Een gast heeft deze informatie gevraagd.  Geef dit door!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountMultiple_" xml:space="preserve">
+    <value>** COUNT ** gasten hebben deze informatie gevraagd.  Geef dit door!</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySetup_" xml:space="preserve">
+    <value>U heeft momenteel geen suggesties voor dit huurpand.  Voeg items toe onder Beschikbare Inhoud die van toepassing is op dit huurpand.</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySuggested_" xml:space="preserve">
+    <value>U heeft momenteel geen lokale suggesties.  Klik / Tik op de items hieronder om producten aan te bevelen in uw omgeving.</value>
+  </data>
+  <data name="_NoSuggestionsFound_" xml:space="preserve">
+    <value>Sorry, maar we konden geen suggestie voor deze categorie vinden.   Gebruik een specifiekere zoekterm en probeer het opnieuw.</value>
+  </data>
+  <data name="_NoPlaceSuggestions_" xml:space="preserve">
+    <value>U heeft momenteel geen suggesties voor deze rubriek.  Wij stellen voor dat u de knop 'Aangepast toevoegen hieronder gebruikt om een aantal eigen suggesties toe te voegen.</value>
+  </data>
+  <data name="_PreviousDescriptionLoaded_" xml:space="preserve">
+    <value>We hebben uw vorige omschrijving voor deze plek gekopieerd.  U mag de beschrijving bewaren in deze vorm of deze aanpassen</value>
+  </data>
+  <data name="_NoOwnerSuggestions_" xml:space="preserve">
+    <value>U heeft momenteel geen suggesties voor deze categorie.  Om te bekijken wat we aanraden klik hieronder op de tab 'Aanbevolen door '.  Als u iets vindt dat u wilt toevoegen klikt u op het groene plusteken ernaast.</value>
+  </data>
+  <data name="_SuggestionsEditFormNameAndContactHeader_" xml:space="preserve">
+    <value>Contact- en Informatienaam</value>
+  </data>
+  <data name="_SuggestionsEditFormAddressHeader_" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="_SuggestionsEditFormNotesHeader_" xml:space="preserve">
+    <value>Mijn Aanbevelingsnota's</value>
+  </data>
+  <data name="_AddingSuggestionPleaseWait_" xml:space="preserve">
+    <value>Suggesties worden toegevoegd! Een moment a.u.b.!</value>
+  </data>
+  <data name="_AssociatedEmail_" xml:space="preserve">
+    <value>Verwante e-mail</value>
+  </data>
+  <data name="_AssociatedPhoneNumberTitle_" xml:space="preserve">
+    <value>Telefoon Titel</value>
+  </data>
+  <data name="_AssociatedPhoneNumber_" xml:space="preserve">
+    <value>Telefoonnummer</value>
+  </data>
+  <data name="_AssociatedWebLinkTitle_" xml:space="preserve">
+    <value>Weblink Titel</value>
+  </data>
+  <data name="_AssociatedWebLink_" xml:space="preserve">
+    <value>http://voorbeeld.website</value>
+  </data>
+  <data name="_AssociatedPlace_" xml:space="preserve">
+    <value>Verwante plaats</value>
+  </data>
+  <data name="_DaysOfWeek_" xml:space="preserve">
+    <value>Dagen van de Week</value>
+  </data>
+  <data name="_RelevantDaysInstructions_" xml:space="preserve">
+    <value>Gebruik de selectievakjes hieronder om aan te duiden welke dagen van de week toepasbaar zijn op deze inhoud.</value>
+  </data>
+  <data name="_Sunday_" xml:space="preserve">
+    <value>Zon</value>
+  </data>
+  <data name="_Monday_" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="_Tuesday_" xml:space="preserve">
+    <value>Di</value>
+  </data>
+  <data name="_Wednesday_" xml:space="preserve">
+    <value>Wo</value>
+  </data>
+  <data name="_Thursday_" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="_Friday_" xml:space="preserve">
+    <value>Vrij</value>
+  </data>
+  <data name="_Saturday_" xml:space="preserve">
+    <value>Za</value>
+  </data>
+  <data name="_Notes_" xml:space="preserve">
+    <value>Nota's:</value>
+  </data>
+  <data name="_StreetTooltip_" xml:space="preserve">
+    <value>het adres van uw huurpand</value>
+  </data>
+  <data name="_CityTooltip_" xml:space="preserve">
+    <value>de stad van uw huurpand</value>
+  </data>
+  <data name="_CountryTooltip_" xml:space="preserve">
+    <value>het land van uw huurpand</value>
+  </data>
+  <data name="_StateTooltip_" xml:space="preserve">
+    <value>de staat van uw huurpand</value>
+  </data>
+  <data name="_ZipcodeTooltip_" xml:space="preserve">
+    <value>de postcode</value>
+  </data>
+  <data name="_RentalNameTooltip_" xml:space="preserve">
+    <value>dit is hoe uw gasten uw huurpand zullen bellen</value>
+  </data>
+  <data name="_RentalNamePlaceholder_" xml:space="preserve">
+    <value>huurpand naam</value>
+  </data>
+  <data name="_VrboNumberTooltip_" xml:space="preserve">
+    <value>hebt u een HomeAway of VRBO nummer? voer het hier in</value>
+  </data>
+  <data name="_WebsiteTooltip_" xml:space="preserve">
+    <value>hebt u een webpagina voor dit huurpand 
+</value>
+  </data>
+  <data name="_StreetValidation_" xml:space="preserve">
+    <value>Adres is vereist</value>
+  </data>
+  <data name="_CityValidation_" xml:space="preserve">
+    <value>Stad is vereist</value>
+  </data>
+  <data name="_CountryValidation_" xml:space="preserve">
+    <value>Land is vereist</value>
+  </data>
+  <data name="_StateValidation_" xml:space="preserve">
+    <value>Staat is vereist</value>
+  </data>
+  <data name="_AddAnotherRental_" xml:space="preserve">
+    <value>Een ander huurpand toevoegen</value>
+  </data>
+  <data name="_AddAnotherRentalTooltip_" xml:space="preserve">
+    <value>Heeft u een ander huurpand toe te voegen? Geweldig!</value>
+  </data>
+  <data name="_RentalInfo_" xml:space="preserve">
+    <value>Huurinfo</value>
+  </data>
+  <data name="_WelcomeMessage_" xml:space="preserve">
+    <value>Welkomstboodschap</value>
+  </data>
+  <data name="_ThankYouMessage_" xml:space="preserve">
+    <value>Bedank-boodschap</value>
+  </data>
+  <data name="_BeforeArrival_" xml:space="preserve">
+    <value>Voor de aankomst</value>
+  </data>
+  <data name="_Instructions_" xml:space="preserve">
+    <value>Huurinstructies</value>
+  </data>
+  <data name="_LocalSuggestions_" xml:space="preserve">
+    <value>Lokale Tips</value>
+  </data>
+  <data name="_Suggestions_" xml:space="preserve">
+    <value>Suggesties</value>
+  </data>
+  <data name="_LocationSuggestions_" xml:space="preserve">
+    <value>Locatie Tips</value>
+  </data>
+  <data name="_ProvideLocalKnowledge_" xml:space="preserve">
+    <value>Verstrek Lokale Kennis</value>
+  </data>
+  <data name="_ProvideLocalKnowledgeText_" xml:space="preserve">
+    <value>&lt;h5&gt;deel uw &lt;b&gt;favoriete&lt;/b&gt; artikelen&lt;/h5&gt;&lt;p&gt;Waarom kocht u een huurpand in deze omgeving?  Zijn het de attracties, het strand, de fietspaden, het skiën, de winkels, het nachtleven?&lt;/p&gt;&lt;p&gt;HomeAway ™ zal suggesties aanbieden voor dit alles maar uw gasten rekenen erop dat u advies geeft.  Neem kennis van enkele suggesties en voeg de uwe toe in de onderstaande vakjes.&lt;/p&gt;</value>
+  </data>
+  <data name="_OwnerRecommended_" xml:space="preserve">
+    <value>Aanraders van de eigenaar</value>
+  </data>
+  <data name="_OwnerRecommendedCurrentlyActive_" xml:space="preserve">
+    <value>Momenteel Actief</value>
+  </data>
+  <data name="_GTHYSuggested_" xml:space="preserve">
+    <value>Aanraders via Google</value>
+  </data>
+  <data name="_GTHYSuggestedAvailable_" xml:space="preserve">
+    <value>Beschikbaar</value>
+  </data>
+  <data name="_Close_" xml:space="preserve">
+    <value>Dicht</value>
+  </data>
+  <data name="_LetsGoTooltip_" xml:space="preserve">
+    <value>Jawel ... U hebt het verstaan!</value>
+  </data>
+  <data name="_FirstTimeUser_" xml:space="preserve">
+    <value>Gebruiker voor de eerste keer?</value>
+  </data>
+  <data name="_FirstTimeUserText1_" xml:space="preserve">
+    <value>Dit is waar u de laatste activiteit kan bekijken in uw Hospitality Manager. Elke keer als een gast iets doet of een e-mail stuurt krijgt u hier een alarm </value>
+  </data>
+  <data name="_FirstTimeUserText2_" xml:space="preserve">
+    <value>HomeAway</value>
+  </data>
+  <data name="_FirstTimeUserText3_" xml:space="preserve">
+    <value>Dit hier is de activiteitenstroom. Simpel gezegd, het vertelt u wat er gaande is met uw huurpand. Alles wat er ook gebeurt wordt er u hier getoond. U kunt zoeken op naam of actie en zelfs filteren op huur of type activiteit. U kan bekijken welke suggesties mensen leuk vonden of zelfs wat de inzendingen van het gastenboek waren</value>
+  </data>
+  <data name="_FirstTimeUserText4_" xml:space="preserve">
+    <value>Maak het persoonlijk</value>
+  </data>
+  <data name="_FirstTimeUserText5_" xml:space="preserve">
+    <value>Zorg voor een reden om terug te keren (vb. Terugkerende Gasten betalen geen schoonmaakkosten)</value>
+  </data>
+  <data name="_FirstTimeUserText6_" xml:space="preserve">
+    <value>Vraag hen om het gastenboek te tekenen</value>
+  </data>
+  <data name="_FirstTimeUserText7_" xml:space="preserve">
+    <value>Vraag hen om volgend jaar te boeken op voorhand.</value>
+  </data>
+  <data name="_FirstTimeUserText8_" xml:space="preserve">
+    <value>Als er iets mis was, vraag dan om feedback.</value>
+  </data>
+  <data name="_SearchByNamePlaceholder_" xml:space="preserve">
+    <value>Filteren op naam</value>
+  </data>
+  <data name="_SearchByNameTooltip_" xml:space="preserve">
+    <value>Ziet u het niet hieronder, proberen dan te zoeken.</value>
+  </data>
+  <data name="_AddSuggestionTooltip_" xml:space="preserve">
+    <value>Voeg dit toe als een suggestie!</value>
+  </data>
+  <data name="_RemoveSuggestionTooltip_" xml:space="preserve">
+    <value>Verwijder deze uit uw suggesties</value>
+  </data>
+  <data name="_DescriptionPlaceholder_" xml:space="preserve">
+    <value>gelieve een beschrijving te maken</value>
+  </data>
+  <data name="_DescriptionTooltip_" xml:space="preserve">
+    <value>vertel de gasten waarom ze hiervan zullen houden</value>
+  </data>
+  <data name="_FirstTime_" xml:space="preserve">
+    <value>Eerste keer, he?</value>
+  </data>
+  <data name="_FirstTimeThankText1_" xml:space="preserve">
+    <value>Prachtig ... Bekijk dit even.</value>
+  </data>
+  <data name="_FirstTimeThankText2_" xml:space="preserve">
+    <value>Bij het kiezen van de check-out of na de check-out datum is verlopen, wordt er uw gasten een Bedankt Bericht getoond. Dit is het, nu is het uw kans om dankbaarheid uit te drukken.  We hebben er een vooraf voorzien van gegevens voor u, maar moedigen u aan om er zelf een te maken.  Hier zijn een aantal handige richtlijnen:</value>
+  </data>
+  <data name="_FirstTimeThankText3_" xml:space="preserve">
+    <value>Maak het persoonlijk</value>
+  </data>
+  <data name="_FirstTimeThankText4_" xml:space="preserve">
+    <value>Zorg voor een reden om terug te keren (vb. Terugkerende Gasten betalen geen schoonmaakkosten)</value>
+  </data>
+  <data name="_FirstTimeThankText5_" xml:space="preserve">
+    <value>Vraag hen om het gastenboek te tekenen</value>
+  </data>
+  <data name="_FirstTimeThankText6_" xml:space="preserve">
+    <value>Vraag hen om volgend jaar te boeken op voorhand.</value>
+  </data>
+  <data name="_FirstTimeThankText7_" xml:space="preserve">
+    <value>Als er iets mis was, vraag dan om feedback.</value>
+  </data>
+  <data name="_ThanksMessage_" xml:space="preserve">
+    <value>Bedank-boodschap</value>
+  </data>
+  <data name="_FirstTimeWelcomeText1_" xml:space="preserve">
+    <value>Prachtig ... Bekijk dit even.</value>
+  </data>
+  <data name="_FirstTimeWelcomeText2_" xml:space="preserve">
+    <value>Dit is een geweldige plek om uw gasten te verwelkomen, bedank hen om u te kiezen en laat hen weten dat u erom geeft en dat hun geluk belangrijk voor u is.  We hebben er een vooraf voorzien van gegevens voor u, maar moedigen u aan om er zelf een te maken.  Hier zijn een aantal handige richtlijnen:</value>
+  </data>
+  <data name="_FirstTimeWelcomeText3_" xml:space="preserve">
+    <value>Maak het persoonlijk</value>
+  </data>
+  <data name="_FirstTimeWelcomeText4_" xml:space="preserve">
+    <value>Toon dat u erom geeft</value>
+  </data>
+  <data name="_FirstTimeWelcomeText5_" xml:space="preserve">
+    <value>Moedig hen aan om te profiteren van al deze leuke dingen</value>
+  </data>
+  <data name="_FirstTimeWelcomeText6_" xml:space="preserve">
+    <value>Verzoek dat ze uw digitale gastenboek ondertekenen</value>
+  </data>
+  <data name="_NeedHelpTitle_" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_NeedHelpContent_" xml:space="preserve">
+    <value>Beweeg over de sectie van deze pagina waarmee u hulp nodig hebt.  Als u nog vragen hebt klik dan op het zwarte tabblad aan de linkerkant.</value>
+  </data>
+  <data name="_AddContent_" xml:space="preserve">
+    <value>Als u okay bent met de wijzigingen die u hebt gemaakt, klik dan op dit ding</value>
+  </data>
+  <data name="_ThatsYou_" xml:space="preserve">
+    <value>Dat bent u</value>
+  </data>
+  <data name="_Login_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_Welcome_" xml:space="preserve">
+    <value>Welkomstboodschap</value>
+  </data>
+  <data name="_Email_" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="_EmailPlaceholder_" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="_EmailTooltip_" xml:space="preserve">
+    <value>dit kan later niet worden gewijzigd</value>
+  </data>
+  <data name="_EmailRequired_" xml:space="preserve">
+    <value>E-mail is vereist</value>
+  </data>
+  <data name="_EmailPattern_" xml:space="preserve">
+    <value>E-mail is ongeldig</value>
+  </data>
+  <data name="_EmailVerify_" xml:space="preserve">
+    <value>Velden zijn niet gelijk!</value>
+  </data>
+  <data name="_EmailConfirmation_" xml:space="preserve">
+    <value>E-mail Bevestiging</value>
+  </data>
+  <data name="_EmailConfirmationPlaceholder_" xml:space="preserve">
+    <value>e-mail bevestiging</value>
+  </data>
+  <data name="_EmailConfirmationTooltip_" xml:space="preserve">
+    <value>sorry, dit ding is echt belangrijk</value>
+  </data>
+  <data name="_Password_" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="_PasswordPlaceholder_" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="_RememberMe_" xml:space="preserve">
+    <value>Vertel me meer</value>
+  </data>
+  <data name="_ForgotPassword_" xml:space="preserve">
+    <value>Wachtwoord vergeten</value>
+  </data>
+  <data name="_ChangePassword_" xml:space="preserve">
+    <value>Wachtwoord wijzigen</value>
+  </data>
+  <data name="_ChangingPassword_" xml:space="preserve">
+    <value>Veranderen van wachtwoord</value>
+  </data>
+  <data name="_CurrentPassword_" xml:space="preserve">
+    <value>Huidig wachtwoord</value>
+  </data>
+  <data name="_CurrentPasswordPlaceholder_" xml:space="preserve">
+    <value>Huidig wachtwoord</value>
+  </data>
+  <data name="_PasswordsDoNotMatch_" xml:space="preserve">
+    <value>Zorg ervoor dat uw nieuwe wachtwoord overeenkomt met de bevestigingswachtwoord.</value>
+  </data>
+  <data name="_PasswordNotLongEnough_" xml:space="preserve">
+    <value>Zorg ervoor dat uw nieuwe wachtwoord minimaal 6 tekens lang is</value>
+  </data>
+  <data name="_CurrentPasswordMissing_" xml:space="preserve">
+    <value>Vul uw huidige wachtwoord in</value>
+  </data>
+  <data name="_ChangePasswordInstructions_" xml:space="preserve">
+    <value>Voer uw huidige wachtwoord in en selecteer een nieuw wachtwoord.</value>
+  </data>
+  <data name="_PasswordChanged_" xml:space="preserve">
+    <value>Uw wachtwoord is gewijzigd!</value>
+  </data>
+  <data name="_PasswordNotChanged_" xml:space="preserve">
+    <value>Wachtwoord niet veranderd!  Bevestig uw huidige wachtwoord!</value>
+  </data>
+  <data name="_SignIn_" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="_SigninIn_" xml:space="preserve">
+    <value>Aanmelden ...</value>
+  </data>
+  <data name="_Register_" xml:space="preserve">
+    <value>Registreer</value>
+  </data>
+  <data name="_CurrentUserPleaseLogin_" xml:space="preserve">
+    <value>Bent u hier al eerder geweest? Gelieve in te loggen</value>
+  </data>
+  <data name="_NewUserPleaseRegister_" xml:space="preserve">
+    <value>Als dit uw eerste keer is, registreer dan alstublieft</value>
+  </data>
+  <data name="_RegisterIn_" xml:space="preserve">
+    <value>Registreren ...</value>
+  </data>
+  <data name="_LoginDLT_" xml:space="preserve">
+    <value>Bezig met inloggen</value>
+  </data>
+  <data name="_DontWorry_" xml:space="preserve">
+    <value>Maak u geen zorgen...</value>
+  </data>
+  <data name="_RequestPassword_" xml:space="preserve">
+    <value>Vraag wachtwoord aan</value>
+  </data>
+  <data name="_RequestPasswordDLT_" xml:space="preserve">
+    <value>Hier gaan we dan...</value>
+  </data>
+  <data name="_CreateAnAccount_" xml:space="preserve">
+    <value>Maak een account aan...</value>
+  </data>
+  <data name="_FirstName_" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="_FirstNamePlaceholder_" xml:space="preserve">
+    <value>voornaam</value>
+  </data>
+  <data name="_FirstNameRequired_" xml:space="preserve">
+    <value>Voornaam is vereist</value>
+  </data>
+  <data name="_LastName_" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="_LastNamePlaceholder_" xml:space="preserve">
+    <value>achternaam</value>
+  </data>
+  <data name="_LastNameRequired_" xml:space="preserve">
+    <value>Achternaam is vereist</value>
+  </data>
+  <data name="_PasswordRequired_" xml:space="preserve">
+    <value>Wachtwoord is vereist</value>
+  </data>
+  <data name="_PasswordMinlength_" xml:space="preserve">
+    <value>Wachtwoord moet bestaan uit minimaal 6 tekens</value>
+  </data>
+  <data name="_PasswordVerify_" xml:space="preserve">
+    <value>Velden zijn niet gelijk!</value>
+  </data>
+  <data name="_PasswordConfirmation_" xml:space="preserve">
+    <value>Wachtwoord Bevestiging</value>
+  </data>
+  <data name="_PasswordConfirmationPlaceholder_" xml:space="preserve">
+    <value>Wachtwoord bevestiging</value>
+  </data>
+  <data name="_AgreeGTHY_" xml:space="preserve">
+    <value>Ik ga akkoord met de HomeAway ™ </value>
+  </data>
+  <data name="_TermsOfService_" xml:space="preserve">
+    <value>Servicevoorwaarden</value>
+  </data>
+  <data name="_TermsOfServiceTitle_" xml:space="preserve">
+    <value>servicevoorwaarden</value>
+  </data>
+  <data name="_GreatYoureIn_" xml:space="preserve">
+    <value>Geweldig, u bent nu binnen!</value>
+  </data>
+  <data name="_GYINextSteps_" xml:space="preserve">
+    <value>Volgende stappen</value>
+  </data>
+  <data name="_GYINextSteps1_" xml:space="preserve">
+    <value>1 Schrijf het wachtwoord op</value>
+  </data>
+  <data name="_GYINextSteps1Text_" xml:space="preserve">
+    <value>Schrijf het op en houdt het veilig, het is een cruciaal onderdeel van de 'logging in' ervaring;)</value>
+  </data>
+  <data name="_GYINextSteps2_" xml:space="preserve">
+    <value>2 Controleer uw E-mail</value>
+  </data>
+  <data name="_GYINextSteps2TextP1_" xml:space="preserve">
+    <value>We hebben zojuist een verificatie e-mail verstuurd naar</value>
+  </data>
+  <data name="_GYINextSteps2TextP2_" xml:space="preserve">
+    <value>Gewoon voor het geval dat u deze niet ziet, controleer uw spam-map.</value>
+  </data>
+  <data name="_GYINextSteps3P1_" xml:space="preserve">
+    <value>3. Klik op</value>
+  </data>
+  <data name="_GYINextSteps3P2_" xml:space="preserve">
+    <value>Ga verder</value>
+  </data>
+  <data name="_GYINextSteps3P3_" xml:space="preserve">
+    <value>aan de slag!</value>
+  </data>
+  <data name="_GYINextSteps3Text_" xml:space="preserve">
+    <value>Tijd om uw eerste huurpand toe te voegen  ... maak u geen zorgen, we zullen u er doorheen begeleiden.</value>
+  </data>
+  <data name="_Continue_" xml:space="preserve">
+    <value>Ga verder</value>
+  </data>
+  <data name="_FirstTimeSuggestionText1_" xml:space="preserve">
+    <value>deel uw favoriete artikelen</value>
+  </data>
+  <data name="_FirstTimeSuggestionText2_" xml:space="preserve">
+    <value>Waarom kocht u een huurpand in deze omgeving?  Zijn het de attracties, het strand, de fietspaden, het skiën, de winkels, het nachtleven?</value>
+  </data>
+  <data name="_FirstTimeSuggestionText3_" xml:space="preserve">
+    <value>HomeAway ™ zal suggesties aanbieden voor dit alles maar uw gasten rekenen erop dat u advies geeft.  Neem kennis van enkele suggesties en voeg de uwe toe in de onderstaande vakjes.</value>
+  </data>
+  <data name="_FirstTimeSuggestionText4_" xml:space="preserve">
+    <value>The Best Burger</value>
+  </data>
+  <data name="_FirstTimeSuggestionText5_" xml:space="preserve">
+    <value>Die plek die dit gebied bijzonder maakt</value>
+  </data>
+  <data name="_FirstTimeSuggestionText6_" xml:space="preserve">
+    <value>..of iets anders dat uw omgeving bijzonder maakt</value>
+  </data>
+  <data name="_Success_" xml:space="preserve">
+    <value>Succes</value>
+  </data>
+  <data name="_SuccessContentSave_" xml:space="preserve">
+    <value>Inhoud werd succesvol verwijderd</value>
+  </data>
+  <data name="_SuccessContentAutomaticallySaved_" xml:space="preserve">
+    <value>Inhoud is succesvol opgeslagen</value>
+  </data>
+  <data name="_SuccessPhotoUpdate_" xml:space="preserve">
+    <value>Foto werd met succes bijgewerkt!</value>
+  </data>
+  <data name="_SuccessPhotoAdd_" xml:space="preserve">
+    <value>Foto werd met succes toegevoegd!</value>
+  </data>
+  <data name="_ContentBlankMessage_" xml:space="preserve">
+    <value>Vul ten minste één set van inhoud in voor dit item.  Niet opgeslagen.</value>
+  </data>
+  <data name="_SuccessContentDelete_" xml:space="preserve">
+    <value>Inhoud werd succesvol verwijderd</value>
+  </data>
+  <data name="_ContactInfo_" xml:space="preserve">
+    <value>Contact Informatie</value>
+  </data>
+  <data name="_MobilePhoneNumber_" xml:space="preserve">
+    <value>Mobiel telefoonnummer</value>
+  </data>
+  <data name="_EmailAddress_" xml:space="preserve">
+    <value>E-mail Adres</value>
+  </data>
+  <data name="_ContactMobilePhoneNumber_" xml:space="preserve">
+    <value>Contact Mobiel telefoonnummer</value>
+  </data>
+  <data name="_ContactEmailAddress_" xml:space="preserve">
+    <value>e-mailadres</value>
+  </data>
+  <data name="_AllowSMS_" xml:space="preserve">
+    <value>SMS toestaan</value>
+  </data>
+  <data name="_ContactWebAddress_" xml:space="preserve">
+    <value>Contact Web Adres</value>
+  </data>
+  <data name="_AccountInformation_" xml:space="preserve">
+    <value>Account Informatie</value>
+  </data>
+  <data name="_YourAccountInformation_" xml:space="preserve">
+    <value>Hoe wij u zullen contacteren</value>
+  </data>
+  <data name="_GuestContactInformation_" xml:space="preserve">
+    <value>Gast Contact Informatie</value>
+  </data>
+  <data name="_FirstNameComment_" xml:space="preserve">
+    <value>dit is nodig ... zelfs Bono heeft er een.</value>
+  </data>
+  <data name="_LastNameComment_" xml:space="preserve">
+    <value>Dit is ook nodig..de naam die op uw  T-shirt staat</value>
+  </data>
+  <data name="_PhoneNumberComment_" xml:space="preserve">
+    <value>dient in een geldig telefoonnummer formaat te zijn</value>
+  </data>
+  <data name="_EmailAddressComment_" xml:space="preserve">
+    <value>uw e-mailadres, dit is alleen-lezen - sorry.</value>
+  </data>
+  <data name="_ContactEmailAddressComment_" xml:space="preserve">
+    <value>hoe uw gasten u zullen mailen, gebruik er gerust verschillende en gebruik een puntkomma ertussen.</value>
+  </data>
+  <data name="_ContactPhoneNumberComment_" xml:space="preserve">
+    <value>het telefoonnummer dat uw gasten zullen gebruiken om u te pakken te krijgen</value>
+  </data>
+  <data name="_AllowSMSComment_" xml:space="preserve">
+    <value>heeft uw telefoon een sms-plan?  Als dat zo is ... wilt u misschien wel dat uw klanten u op die manier contacteren ...</value>
+  </data>
+  <data name="_ContactWebAddressComment_" xml:space="preserve">
+    <value>Als u een website hebt, plaats dan hier de volledige url ...</value>
+  </data>
+  <data name="_InvalidForm_" xml:space="preserve">
+    <value>Formaat ongeldig</value>
+  </data>
+  <data name="_InvalidValue_" xml:space="preserve">
+    <value>Ongeldige waarde</value>
+  </data>
+  <data name="_InvalidUrlValue_" xml:space="preserve">
+    <value>Url moet starten met http:// of https://</value>
+  </data>
+  <data name="_RequiredField_" xml:space="preserve">
+    <value>Veld is vereist</value>
+  </data>
+  <data name="_TooLengthValue_" xml:space="preserve">
+    <value>Waarde is te lang</value>
+  </data>
+  <data name="_NewReservation_" xml:space="preserve">
+    <value>Nieuwe Gast Reservering</value>
+  </data>
+  <data name="_NewOwnerReservation_" xml:space="preserve">
+    <value>Nieuwe eigenaar Reservering</value>
+  </data>
+  <data name="_NewGuestReservation_" xml:space="preserve">
+    <value>Nieuwe Gast Reservering</value>
+  </data>
+  <data name="_OwnerReservationHelp_" xml:space="preserve">
+    <value>Wij hebben uw naam en e-mailadres voor u ingevuld.  Selecteer gewoon verhuur en reisdata!</value>
+  </data>
+  <data name="_NewReservationHelp_" xml:space="preserve">
+    <value>Voeg een nieuwe reservering aan elk verhuurpand toe in uw systeem.</value>
+  </data>
+  <data name="_OwnerReservationName_" xml:space="preserve">
+    <value>Eigenaar</value>
+  </data>
+  <data name="_EditReservation_" xml:space="preserve">
+    <value>Reservering bewerken...</value>
+  </data>
+  <data name="_Rental_" xml:space="preserve">
+    <value>Huur</value>
+  </data>
+  <data name="_ArrivalDate_" xml:space="preserve">
+    <value>Aankomst datum</value>
+  </data>
+  <data name="_DepartureDate_" xml:space="preserve">
+    <value>Check-in datum</value>
+  </data>
+  <data name="_Passphrase_" xml:space="preserve">
+    <value>Wachtwoordzin</value>
+  </data>
+  <data name="_Generate_" xml:space="preserve">
+    <value>Genereer</value>
+  </data>
+  <data name="_Phone_" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="_Statuses_" xml:space="preserve">
+    <value>Statussen</value>
+  </data>
+  <data name="_DoorCode_" xml:space="preserve">
+    <value>Deurcode</value>
+  </data>
+  <data name="_CommunicationOptions_" xml:space="preserve">
+    <value>Communicatie opties</value>
+  </data>
+  <data name="_SourceSystemOptions_" xml:space="preserve">
+    <value>Externe Systeem Opties</value>
+  </data>
+  <data name="_IgnoreSourceSystemChanges_" xml:space="preserve">
+    <value>Negeer veranderingen van Homeaway als dit werd gesynchroniseerd</value>
+  </data>
+  <data name="_NotificationsDisabled_" xml:space="preserve">
+    <value>Bekendmakingen Uitgeschakeld</value>
+  </data>
+  <data name="_EmailGuest_" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="_SaveChanges_" xml:space="preserve">
+    <value>wijzigingen bewaren</value>
+  </data>
+  <data name="_PaidInFull_" xml:space="preserve">
+    <value>Volledig betaald</value>
+  </data>
+  <data name="_NotPaidInFull_" xml:space="preserve">
+    <value>Niet volledig betaald</value>
+  </data>
+  <data name="_PaidInFullDescription_" xml:space="preserve">
+    <value>De reservering is helemaal betaald</value>
+  </data>
+  <data name="_ContractSigned_" xml:space="preserve">
+    <value>Contract getekend</value>
+  </data>
+  <data name="_NotContractSigned_" xml:space="preserve">
+    <value>Contract NIET getekend</value>
+  </data>
+  <data name="_ContractSignedDescription_" xml:space="preserve">
+    <value>Het contract voor deze reservering is ingevuld en ondertekend.</value>
+  </data>
+  <data name="_CheckInDate_" xml:space="preserve">
+    <value>de datum van de check-in.</value>
+  </data>
+  <data name="_CheckOutDate_" xml:space="preserve">
+    <value>de datum van de check-out.</value>
+  </data>
+  <data name="_ReservationsFirstNameComment_" xml:space="preserve">
+    <value>Dit helpt bij het creëren gepersonaliseerde meldingen en uitnodigingen</value>
+  </data>
+  <data name="_ReservationsLastNameComment_" xml:space="preserve">
+    <value>Dit helpt bij het creëren gepersonaliseerde meldingen en uitnodigingen</value>
+  </data>
+  <data name="_ReservationsEmailComment_" xml:space="preserve">
+    <value>dit is belangrijk, het moet hun echte e-mailadres zijn</value>
+  </data>
+  <data name="_ReservationsPassphraseComment_" xml:space="preserve">
+    <value>de gast zal dit nodig hebben om toegang te krijgen tot het systeem.</value>
+  </data>
+  <data name="_SelectRental_" xml:space="preserve">
+    <value>Selecteer een accommodatie</value>
+  </data>
+  <data name="_Today_" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="_Calendar_" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="_CalendarHelpText_" xml:space="preserve">
+    <value>Bekijk al uw reserveringen in één doorzoekbare agenda</value>
+  </data>
+  <data name="_CalendarPickMonth_" xml:space="preserve">
+    <value>Kies de Maand</value>
+  </data>
+  <data name="_CalendarResetMonth_" xml:space="preserve">
+    <value>De huidige maand opnieuw instellen</value>
+  </data>
+  <data name="_ListView_" xml:space="preserve">
+    <value>Lijst</value>
+  </data>
+  <data name="_ListViewHelpText_" xml:space="preserve">
+    <value>Bekijk al uw huidige en toekomstige reservering in één lijst</value>
+  </data>
+  <data name="_MonthNames_" xml:space="preserve">
+    <value>Januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december</value>
+  </data>
+  <data name="_MonthShortNames_" xml:space="preserve">
+    <value>Jan, feb, mrt, apr, mei, juni, juli, aug, sept, okt, nov, dec</value>
+  </data>
+  <data name="_DayNames_" xml:space="preserve">
+    <value>Zondag, maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag</value>
+  </data>
+  <data name="_DayShortNames_" xml:space="preserve">
+    <value>Zon, ma, di, wo, do, vr, za</value>
+  </data>
+  <data name="_FirstDayNumber_" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_YesButton_" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="_NoButton_" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="_DeleteReservationConfirmText_" xml:space="preserve">
+    <value>Weet u zeker dat u deze reservering wilt verwijderen</value>
+  </data>
+  <data name="_DeleteConfirmText_" xml:space="preserve">
+    <value>Bent u zeker dat u  wilt verwijderen?</value>
+  </data>
+  <data name="_DeleteReservation_" xml:space="preserve">
+    <value>Verwijder reservering</value>
+  </data>
+  <data name="_FromText_" xml:space="preserve">
+    <value>van</value>
+  </data>
+  <data name="_ToText_" xml:space="preserve">
+    <value>aan</value>
+  </data>
+  <data name="_UnknownErrorText_" xml:space="preserve">
+    <value>Er is iets gebeurd met de server</value>
+  </data>
+  <data name="_DeleteSuccessText_" xml:space="preserve">
+    <value>Inhoud werd succesvol verwijderd</value>
+  </data>
+  <data name="_RequiredToastrMessage_" xml:space="preserve">
+    <value>Vul alle verplichte velden in</value>
+  </data>
+  <data name="_DuplicateEmailMessage_" xml:space="preserve">
+    <value>E-mail is al geregistreerd</value>
+  </data>
+  <data name="_RequiredToastrTitle_" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="_IncorrectLoginData_" xml:space="preserve">
+    <value>De gebruikersnaam of het wachtwoord dat u hebt ingevuld is onjuist</value>
+  </data>
+  <data name="_SendEmailMessage_" xml:space="preserve">
+    <value>E-mail is verstuurd</value>
+  </data>
+  <data name="_IncorrectEmailMessage_" xml:space="preserve">
+    <value>Onjuiste e-mail</value>
+  </data>
+  <data name="_NeedTermsAgreeError_" xml:space="preserve">
+    <value>U moet akkoord gaan met de voorwaarden van de dienstverlening.</value>
+  </data>
+  <data name="_OpenLabel_" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="_MarkPayFull_" xml:space="preserve">
+    <value>Markeer als volledig betaald</value>
+  </data>
+  <data name="_MarkContractSigned_" xml:space="preserve">
+    <value>Markeer contract als NIET getekend</value>
+  </data>
+  <data name="_MarkNotPayFull_" xml:space="preserve">
+    <value>Markeer als NIET volledig betaald</value>
+  </data>
+  <data name="_MarkContractNotSigned_" xml:space="preserve">
+    <value>Markeer contract als NIET ondertekend</value>
+  </data>
+  <data name="_RemoveLabel_" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="_ContactInformation_" xml:space="preserve">
+    <value>Contact Informatie</value>
+  </data>
+  <data name="_PaymentInformation_" xml:space="preserve">
+    <value>Account Informatie</value>
+  </data>
+  <data name="_Invoices_" xml:space="preserve">
+    <value>Facturen </value>
+  </data>
+  <data name="_ViewPDF_" xml:space="preserve">
+    <value>Bekijk PDF</value>
+  </data>
+  <data name="_BilledFor_" xml:space="preserve">
+    <value>Gefactureerd voor</value>
+  </data>
+  <data name="_Notifications_" xml:space="preserve">
+    <value>Bekendmakingen Uitgeschakeld</value>
+  </data>
+  <data name="_RentalContentSettings_" xml:space="preserve">
+    <value>Accommodaties</value>
+  </data>
+  <data name="_SettingsRentalContentImport_" xml:space="preserve">
+    <value>Importeer Inhoud</value>
+  </data>
+  <data name="_AddOnsAddOns_" xml:space="preserve">
+    <value>Winkel / Add-Ons</value>
+  </data>
+  <data name="_Activities_" xml:space="preserve">
+    <value>Activiteiten</value>
+  </data>
+  <data name="_Restaurants_" xml:space="preserve">
+    <value>Restaurants</value>
+  </data>
+  <data name="_Directory_" xml:space="preserve">
+    <value>Gids</value>
+  </data>
+  <data name="_Print_" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="_Purchased_" xml:space="preserve">
+    <value>Gekocht</value>
+  </data>
+  <data name="_Marketing_" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="_AutoResponders_" xml:space="preserve">
+    <value>Auto Beantwoorders</value>
+  </data>
+  <data name="_WebSites_" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="_Other_" xml:space="preserve">
+    <value>Ander</value>
+  </data>
+  <data name="_Housekeeping_" xml:space="preserve">
+    <value>Huishouding</value>
+  </data>
+  <data name="_Maintenance_" xml:space="preserve">
+    <value>Onderhoudsproblemen</value>
+  </data>
+  <data name="_HomeAutomation_" xml:space="preserve">
+    <value>Thuisautomatisering</value>
+  </data>
+  <data name="_SecurityMonitoring_" xml:space="preserve">
+    <value>Beveiliging en Bewaking</value>
+  </data>
+  <data name="_PhoneNumberTitles_" xml:space="preserve">
+    <value>Thuis, Mobiel, Werk, Hoofd</value>
+  </data>
+  <data name="_PhoneNumberTitleClear_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Clear&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_PleaseWait_" xml:space="preserve">
+    <value>Gelieve te wachten</value>
+  </data>
+  <data name="_DeleteSuggestion_" xml:space="preserve">
+    <value>Verwijderingssuggestie</value>
+  </data>
+  <data name="_DeleteItem_" xml:space="preserve">
+    <value>Item verwijderen</value>
+  </data>
+  <data name="_NotifyPreferencesTitle_" xml:space="preserve">
+    <value>Meldingsvoorkeuren</value>
+  </data>
+  <data name="_NotifyPreferencesText_" xml:space="preserve">
+    <value>Selecteer de meldingen die we u sturen wanneer ze zich voordoen</value>
+  </data>
+  <data name="_Owner_" xml:space="preserve">
+    <value>Eigenaar</value>
+  </data>
+  <data name="_Actions_" xml:space="preserve">
+    <value>Acties</value>
+  </data>
+  <data name="_First_" xml:space="preserve">
+    <value>Eerst</value>
+  </data>
+  <data name="_Last_" xml:space="preserve">
+    <value>Laatst</value>
+  </data>
+  <data name="_Impersonate_" xml:space="preserve">
+    <value>Imiteren</value>
+  </data>
+  <data name="_ItemsOnPage_" xml:space="preserve">
+    <value>Items op pagina:</value>
+  </data>
+  <data name="_ManageOwners_" xml:space="preserve">
+    <value>Regel Eigenaars</value>
+  </data>
+  <data name="_SignOut_" xml:space="preserve">
+    <value>Log uit</value>
+  </data>
+  <data name="_SignUp_" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="_Support_" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="_Website_" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="_InfiniteActivityScrollEnd_" xml:space="preserve">
+    <value>Geen activiteiten meer te tonen</value>
+  </data>
+  <data name="_InfiniteReservationScrollEnd_" xml:space="preserve">
+    <value>Geen reserveringen meer te tonen</value>
+  </data>
+  <data name="_InfiniteInvoicesScrollEnd_" xml:space="preserve">
+    <value>Geen facturen meer te tonen</value>
+  </data>
+  <data name="_InfiniteGuestsScrollEnd_" xml:space="preserve">
+    <value>Geen resultaten meer te tonen</value>
+  </data>
+  <data name="_TimeJustNow_" xml:space="preserve">
+    <value>Daarnet</value>
+  </data>
+  <data name="_TimeMinutesAgo_" xml:space="preserve">
+    <value>minuten geleden</value>
+  </data>
+  <data name="_TimeHoursAgo_" xml:space="preserve">
+    <value>uren geleden</value>
+  </data>
+  <data name="_TimeYesterday_" xml:space="preserve">
+    <value>Gisteren</value>
+  </data>
+  <data name="_TimeDaysAgo_" xml:space="preserve">
+    <value>dagen geleden</value>
+  </data>
+  <data name="_TimeMonthsAgo_" xml:space="preserve">
+    <value>maanden geleden</value>
+  </data>
+  <data name="_TimeYearsAgo_" xml:space="preserve">
+    <value>jaren geleden</value>
+  </data>
+  <data name="_GuestPreview_" xml:space="preserve">
+    <value>Gast preview</value>
+  </data>
+  <data name="_GuestPreviewTooltip_" xml:space="preserve">
+    <value>Gast preview</value>
+  </data>
+  <data name="_SyncSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Toegevoegd van  HomeAway</value>
+  </data>
+  <data name="_SyncSourceVRBOTooltip_" xml:space="preserve">
+    <value>Toegevoegd van VRBO</value>
+  </data>
+  <data name="_ReviewSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Beoordeling van HomeAway</value>
+  </data>
+  <data name="_ReviewSourceVRBOTooltip_" xml:space="preserve">
+    <value>Beoordeling van VRBO</value>
+  </data>
+  <data name="_GuestPreviewScrollTip_" xml:space="preserve">
+    <value>Gebruik uw muis om door dit preview-venster te scrollen.</value>
+  </data>
+  <data name="_NewGuestPreviewHint_" xml:space="preserve">
+    <value>Klik hier om een ​​gastvoorbeeld te bekijken voor deze nieuwe reservering!</value>
+  </data>
+  <data name="_ReservationAccordionHeaderTripDetails_" xml:space="preserve">
+    <value>Reisdetails</value>
+  </data>
+  <data name="_ReservationAccordionHeaderGuestInformation_" xml:space="preserve">
+    <value>Gast Informatie</value>
+  </data>
+  <data name="_ReservationAccordionHeaderStatus_" xml:space="preserve">
+    <value>Status &amp; Toegangsinformatie</value>
+  </data>
+  <data name="_ReservationAccordionHeaderInvitedGuests_" xml:space="preserve">
+    <value>Genodigden</value>
+  </data>
+  <data name="_ReservationNoInvitedGuestsYet_" xml:space="preserve">
+    <value>Deze gast heeft nog niemand uitgenodigd.  U moet hen aanmoedigen om dit te doen!</value>
+  </data>
+  <data name="_Important_" xml:space="preserve">
+    <value>Belangrijk</value>
+  </data>
+  <data name="_RentalInstructionsHeaderEmail_" xml:space="preserve">
+    <value>Contact E-mails</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPhone_" xml:space="preserve">
+    <value>Telefoonnummers</value>
+  </data>
+  <data name="_RentalInstructionsHeaderWebLinks_" xml:space="preserve">
+    <value>Web Links</value>
+  </data>
+  <data name="_RentalInstructionsHeaderLocation_" xml:space="preserve">
+    <value>Locatie</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPictures_" xml:space="preserve">
+    <value>Foto 's</value>
+  </data>
+  <data name="_RentalInstructionsHeaderDays_" xml:space="preserve">
+    <value>Relevante Dagen van de Week</value>
+  </data>
+  <data name="_RentalInstructionsHeaderNotes_" xml:space="preserve">
+    <value>Nota's:</value>
+  </data>
+  <data name="_Property_" xml:space="preserve">
+    <value>Pand</value>
+  </data>
+  <data name="_Experience_" xml:space="preserve">
+    <value>Ervaring</value>
+  </data>
+  <data name="_Value_" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="_Overall_" xml:space="preserve">
+    <value>Algeheel</value>
+  </data>
+  <data name="_InstructionsNewItemHeader_" xml:space="preserve">
+    <value>Wat is dit?</value>
+  </data>
+  <data name="_SuggestionsEmptyHeader_" xml:space="preserve">
+    <value>Ga aan de slag!</value>
+  </data>
+  <data name="_SuggestionsEmptyHelp_" xml:space="preserve">
+    <value>Deze categorie is momenteel leeg!  We hebben hieronder een aantal suggesties voorzien.  Klik op het groene symbool om een suggestie toe te voegen.</value>
+  </data>
+  <data name="_GNSHEmail_" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="_GNSHType_" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="_GNSHScheduledFor_" xml:space="preserve">
+    <value>Gepland voor</value>
+  </data>
+  <data name="_GNSHSent_" xml:space="preserve">
+    <value>Verzonden</value>
+  </data>
+  <data name="_GuestNotificationShedule_" xml:space="preserve">
+    <value>Gast Meldingschema</value>
+  </data>
+  <data name="_Latitude_" xml:space="preserve">
+    <value>Breedtegraad:</value>
+  </data>
+  <data name="_Longitude_" xml:space="preserve">
+    <value>Lengtegraad:</value>
+  </data>
+  <data name="_ResetToCurrentAddress_" xml:space="preserve">
+    <value>Instellen naar het huidige adres</value>
+  </data>
+  <data name="_SelectImage_" xml:space="preserve">
+    <value>Kies een afbeelding</value>
+  </data>
+  <data name="_SomebodyHasSaid_" xml:space="preserve">
+    <value>heeft gezegd ...</value>
+  </data>
+  <data name="_GPDate_" xml:space="preserve">
+    <value>Preview Datum: </value>
+  </data>
+  <data name="_GPPreviewDate_" xml:space="preserve">
+    <value>Preview Datum:</value>
+  </data>
+  <data name="_GPAlertAdjust_" xml:space="preserve">
+    <value>Stel de preview datum in om te zien hoe de inhoud van de gast zal veranderen in de loop van hun vakantie</value>
+  </data>
+  <data name="_GPAlertExample_" xml:space="preserve">
+    <value>Voorbeeld: Verander de dag van aankomst om inhoud met betrekking tot check-in te bekijken.</value>
+  </data>
+  <data name="_GPAlertTripReminder_" xml:space="preserve">
+    <value>Gast Vakantie Data:</value>
+  </data>
+  <data name="_GPAlertTripReminderSeparator_" xml:space="preserve">
+    <value> aan </value>
+  </data>
+  <data name="_FileSelectedNextStep_" xml:space="preserve">
+    <value>Hieronder vindt u een miniatuur van de afbeelding die u heeft geselecteerd. Als dit de juiste afbeelding is klikt u op 'Start Upload' om verder te gaan.  Als u een andere afbeelding wilt selecteren klikt u op "Annuleren".</value>
+  </data>
+  <data name="_HelpPopoverHeaderTitle_" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="_AccountTrialModeNotice_" xml:space="preserve">
+    <value>Uw account is in Proefmodus en vervalt op </value>
+  </data>
+  <data name="_AccountTrialModeNoticeUpgradeAction_" xml:space="preserve">
+    <value>Upgrade nu!</value>
+  </data>
+  <data name="_AccountTrialExpiredDateNotice_" xml:space="preserve">
+    <value>Uw account verstreek op: </value>
+  </data>
+  <data name="_AccountTrialExpiredWarning_" xml:space="preserve">
+    <value>Uw gasten kunnen momenteel de app niet gebruiken en Email Uitnodigingen worden niet afgeleverd!</value>
+  </data>
+  <data name="_SubscribeButtonHelpHeader_" xml:space="preserve">
+    <value>Gelieve te lezen</value>
+  </data>
+  <data name="_SubscribeButtonHelpBody_" xml:space="preserve">
+    <value>Vul het aanmeldingsformulier in en klik op deze knop als u klaar bent om in te schrijven.</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverTitle_" xml:space="preserve">
+    <value>Opgeslagen kaart</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverHelpText_" xml:space="preserve">
+    <value>We factureren momenteel uw **CARDTYPE** eindigend op **CARDLASTFOUR** (verv. Datum: **CARDEXP**). Als u wijzigingen aanbrengt in uw aanrekeningsinformatie moet u dit creditcardnummer opnieuw ingeven of een nieuw nummer ingeven</value>
+  </data>
+  <data name="_CreditCardOnFileErrorPopoverHelpText_" xml:space="preserve">
+    <value>We waren niet in staat om uw kaart **CARDTYPE** eindigend op **CARDLASTFOUR** (Verv. Datum: **CARDEXP**). Geef een nieuw kaartnummer op</value>
+  </data>
+  <data name="_Confirmationeer_" xml:space="preserve">
+    <value>BEDANKT voor het bevestigen ...</value>
+  </data>
+  <data name="_ConfirmationModalSubHeader_" xml:space="preserve">
+    <value>Uw account is nu actief</value>
+  </data>
+  <data name="_ConfirmationModalInstructions_" xml:space="preserve">
+    <value>Beginnen met het opzetten van uw accommodaties Het is makkelijk en leuk.</value>
+  </data>
+  <data name="_ConfirmationModalErrorNotice_" xml:space="preserve">
+    <value>Bevestiging is mislukt</value>
+  </data>
+  <data name="_AddressInstructions_" xml:space="preserve">
+    <value>Het adres voor uw accommodatie is erg belangrijk.  We zullen dit gebruiken om ervoor te zorgen dat wij de juiste kaarten voor het pand ondersteunen en dat we lokale aanbevelingen maken.</value>
+  </data>
+  <data name="_ColorPickerInstructions_" xml:space="preserve">
+    <value>Deze kleur wordt gebruikt voor het thema van dit huurpand in het hele systeem.  Elk huurpand kan een andere kleur hebben.</value>
+  </data>
+  <data name="_VRBOInstructions_" xml:space="preserve">
+    <value>Als deze accommodatie actief is op HomeAway of VRBO geef het dan nu in.</value>
+  </data>
+  <data name="_Filters_" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="_NoInvoicesYetNotice_" xml:space="preserve">
+    <value>Aangezien uw account nog niet actief is, zijn er geen facturen te bekijken. Zodra u een upgrade uit hebt gevoerd kunt u uw facturen hier bekijken.</value>
+  </data>
+  <data name="_NoInvoices_" xml:space="preserve">
+    <value>Nog geen facturen</value>
+  </data>
+  <data name="_InstructionsHelpTitle_" xml:space="preserve">
+    <value>Help de gasten te genieten van uw accommdatie</value>
+  </data>
+  <data name="_InstructionsHelpSubtitle_" xml:space="preserve">
+    <value>U kunt het verblijf van uw gasten verbeteren .. vertel hen gewoon hoe dat te doen</value>
+  </data>
+  <data name="_InstructionsHelpText1_" xml:space="preserve">
+    <value>Neem een moment om na te denken over alle gekke vragen die gasten u al hebben gesteld ... voer die antwoorden in de vakjes hieronder in.  /&gt; Bespaar zowel u als uw gasten de tijd met aankomst-instructies voor hun verblijf. Begin met de zorg dat de aanwijzingen kloppen, beschrijf het toegangsproces bij aankomst en laat weten wat u te bieden hebt zodat ze zich kunnen voorbereiden op hun reis.</value>
+  </data>
+  <data name="_InstructionsHelpText2_" xml:space="preserve">
+    <value>Relax en denk even na over al die gekke vragen, die gasten je stelden .... plaats dan die antwoorden in de vakjes hieronder.</value>
+  </data>
+  <data name="_InstructionsHelpInfo1_" xml:space="preserve">
+    <value>Behandel de echt gewone</value>
+  </data>
+  <data name="_InstructionsHelpInfo2_" xml:space="preserve">
+    <value>Behandel de unieke</value>
+  </data>
+  <data name="_InstructionsHelpInfo3_" xml:space="preserve">
+    <value>Behandel de echt vervelende</value>
+  </data>
+  <data name="_ManageNotifications_" xml:space="preserve">
+    <value>Beheer mijn notities</value>
+  </data>
+  <data name="_CancelAccountrer_" xml:space="preserve">
+    <value>Verwijder account</value>
+  </data>
+  <data name="_CancelAccountModalPleaseWait_" xml:space="preserve">
+    <value>We vinden het jammer om u te zien vertrekken!  Als u problemen hebt met uw account klik dan op het zwarte tabblad! Als u nog altijd wilt annuleren kunt u het onderstaande formulier gebruiken en klikken op de 'Mijn account annuleren' knop.</value>
+  </data>
+  <data name="_CancelAccountModalFormReason_" xml:space="preserve">
+    <value>Laat ons weten waarom u annuleert</value>
+  </data>
+  <data name="_CancelAccountModalButton_" xml:space="preserve">
+    <value>Mijn account annuleren</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmText_" xml:space="preserve">
+    <value>Laatste kans Weet  u het zeker?</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmTitle_" xml:space="preserve">
+    <value>Gelieve te lezen</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmButton_" xml:space="preserve">
+    <value>Ja - Annuleren</value>
+  </data>
+  <data name="_AccountCancelledConfirmationHeader_" xml:space="preserve">
+    <value>We missen u al!</value>
+  </data>
+  <data name="_AccountCancelledConfirmationBody_" xml:space="preserve">
+    <value>We vinden het jammer om u te zien vertrekken!  Als u ooit van gedachten verandert, laat het ons dan weten.</value>
+  </data>
+  <data name="_AccountCancelledConfirmationLinkAction_" xml:space="preserve">
+    <value>Klik hier om terug te gaan naar de login pagina.</value>
+  </data>
+  <data name="_AccountCancelledNotice_" xml:space="preserve">
+    <value>Uw account werd geannuleerd Op: </value>
+  </data>
+  <data name="_AccountCancelledWarning_" xml:space="preserve">
+    <value>Als u wilt verder gaan met waar u was, </value>
+  </data>
+  <data name="_AccountCancelledUpdateAction_" xml:space="preserve">
+    <value>Reactiveer uw account dan nu</value>
+  </data>
+  <data name="_AccountProblemNoticePart1_" xml:space="preserve">
+    <value>We hadden een probleem het verwerken van uw Credit Card.  U hebt tot</value>
+  </data>
+  <data name="_AccountProblemNoticePart2_" xml:space="preserve">
+    <value> Om dit probleem op te lossen.</value>
+  </data>
+  <data name="_AccountProblemUpdateAction_" xml:space="preserve">
+    <value>Update uw kaart nu</value>
+  </data>
+  <data name="_AccountUpdatedFlash_" xml:space="preserve">
+    <value>Verwijder account</value>
+  </data>
+  <data name="_PleaseReadToolTipHeader_" xml:space="preserve">
+    <value>Gelieve te lezen</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderSingle_" xml:space="preserve">
+    <value>Deze links zullen u een lijst van alle huidige reserveringen tonen voor **PROPERTY-NAME** in .ICS formaat.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterSingle_" xml:space="preserve">
+    <value>Voor meer informatie over .ICS Raadpleeg http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderMultiple_" xml:space="preserve">
+    <value>Deze links zullen u een lijst van alle huidige reserveringen tonen voor uw panden in .ICS formaat.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterMultiple_" xml:space="preserve">
+    <value>Voor meer informatie over .ICS Raadpleeg http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarLinkPropertyTip_" xml:space="preserve">
+    <value>E-mail uzelf een agenda Feed voor deze accommodatie</value>
+  </data>
+  <data name="_ICSCalendarLinkAllPropertiesTip_" xml:space="preserve">
+    <value>E-mail uzelf agenda feeds voor alle accommodaties</value>
+  </data>
+  <data name="_ReservationHolder_" xml:space="preserve">
+    <value>Reserveringshouders</value>
+  </data>
+  <data name="_InvitedByReservationHolder_" xml:space="preserve">
+    <value>Uitgenodigd door reservatiehouder</value>
+  </data>
+  <data name="_Lead_" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="_ViewGuestBookFromGuestList_" xml:space="preserve">
+    <value>Bekijk laatste beoordeling</value>
+  </data>
+  <data name="_ViewMostRecentReservationFromGuestList_" xml:space="preserve">
+    <value>Bekijk Laatste reservering</value>
+  </data>
+  <data name="_ExportMyGuestsExcel_" xml:space="preserve">
+    <value>Exporteer alle gasten</value>
+  </data>
+  <data name="_ExportMyGuestsEmail_" xml:space="preserve">
+    <value>Alleen export E-mails</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetHeader_" xml:space="preserve">
+    <value>Nog geen gasten</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetBody_" xml:space="preserve">
+    <value>Voeg Reserveringen Toe voor het toevoegen van gasten</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchHeader_" xml:space="preserve">
+    <value>Geen zoekresultaten gevonden</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchBody_" xml:space="preserve">
+    <value>Gebruik een specifiekere zoekterm en probeer het opnieuw.</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>Geen gasten voor deze accommodaties</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesBody_" xml:space="preserve">
+    <value>Sorry maar er werd niets gevonden voor de accommodaties die u hebt geselecteerd.  Probeer het selecteren van verschillende accommodaties</value>
+  </data>
+  <data name="_Referrals_" xml:space="preserve">
+    <value>Verwijzingen</value>
+  </data>
+  <data name="_InviteOtherOwnerToJoin_" xml:space="preserve">
+    <value>Nodig andere eigenaren uit om mee te doen</value>
+  </data>
+  <data name="_ReferralsNotAvailableNotice_" xml:space="preserve">
+    <value>Nadat u uw account hebt bijgewerkt zult u in staat zijn om andere eigenaren te verwijzen en account credits te ontvangen!</value>
+  </data>
+  <data name="_ReferralInvitedOn_" xml:space="preserve">
+    <value>Uitgenodigd op</value>
+  </data>
+  <data name="_ReferralOriginallyInvitedOn_" xml:space="preserve">
+    <value>Oorspronkelijk uitgenodigd op</value>
+  </data>
+  <data name="_FollowedUpOn_" xml:space="preserve">
+    <value>Opgevolgd</value>
+  </data>
+  <data name="_SendInviteAgain_" xml:space="preserve">
+    <value>Uitnodiging opnieuw verzenden</value>
+  </data>
+  <data name="_ShowInvitationLink_" xml:space="preserve">
+    <value>Toon Uitnodigingslink</value>
+  </data>
+  <data name="_InvitationSent_" xml:space="preserve">
+    <value>Eigenaar uitgenodigd</value>
+  </data>
+  <data name="_InvitationResent_" xml:space="preserve">
+    <value>Eigenaar Opnieuw Uitgenodigd</value>
+  </data>
+  <data name="_InvitationUrl_" xml:space="preserve">
+    <value>Uitnodiging Url</value>
+  </data>
+  <data name="_InvitationUrlInstructions_" xml:space="preserve">
+    <value>Als uw vriend moeite heeft met het ontvangen van onze e-mail uitnodiging kopieer dan gewoon de link en plak deze hieronder.</value>
+  </data>
+  <data name="_AcceptedOn_" xml:space="preserve">
+    <value>Aanvaard op</value>
+  </data>
+  <data name="_AcceptedOnReminder_" xml:space="preserve">
+    <value>Gelieve te wachten tot ze de overgang maken naar een volledige account voor het ontvangen van uw tegoed.</value>
+  </data>
+  <data name="_CreditedOn_" xml:space="preserve">
+    <value>Geaccepteerd en gecrediteerd op </value>
+  </data>
+  <data name="_OwnerInviteHelp_" xml:space="preserve">
+    <value>Vul het onderstaande formulier in om een ​​andere eigenaar uit te nodigen om ons systeem te gebruiken.  Als ze dat accepteren en betalend lid worden zal uw rekening worden bijgeschreven!</value>
+  </data>
+  <data name="_InviteFirstNameComment_" xml:space="preserve">
+    <value>De voornaam van de eigenaar die u wilt uitnodigen.</value>
+  </data>
+  <data name="_InviteLastNameComment_" xml:space="preserve">
+    <value>De achternaam van de eigenaar die u wilt uitnodigen.</value>
+  </data>
+  <data name="_InviteEmailComment_" xml:space="preserve">
+    <value>dit is belangrijk, het moet hun echte e-mailadres zijn</value>
+  </data>
+  <data name="_SendInvite_" xml:space="preserve">
+    <value>verzend</value>
+  </data>
+  <data name="_Sending_" xml:space="preserve">
+    <value>Verzenden...</value>
+  </data>
+  <data name="_NoReferralsYetHeader_" xml:space="preserve">
+    <value>Nog geen verwijzingen</value>
+  </data>
+  <data name="_NoReferralsYetBody_" xml:space="preserve">
+    <value>U heeft nog geen verwijzingen  Klik op de uitnodigingknop hierboven om aan de slag te gaan</value>
+  </data>
+  <data name="_ActionsGo_" xml:space="preserve">
+    <value>Vooruit</value>
+  </data>
+  <data name="_ActionsViewReservation_" xml:space="preserve">
+    <value>Bekijk lReservering</value>
+  </data>
+  <data name="_ActionsGuestPreview_" xml:space="preserve">
+    <value>Gast Preview </value>
+  </data>
+  <data name="_ActionsViewFeedback_" xml:space="preserve">
+    <value>Bekijk lbeoordeling</value>
+  </data>
+  <data name="_ActionsViewGuestbookEntry_" xml:space="preserve">
+    <value>Bekijk Beoordeling</value>
+  </data>
+  <data name="_ActionsResendConfirmation_" xml:space="preserve">
+    <value>Stuur bevestiging opnieuw</value>
+  </data>
+  <data name="_ErrorFailedToLoadImage_" xml:space="preserve">
+    <value>Laden van afbeelding is mislukt Gelieve de afbeelding opnieuw te laden</value>
+  </data>
+  <data name="_ErrorAddingRental_" xml:space="preserve">
+    <value>Fout bij toevoegen van accommodatie</value>
+  </data>
+  <data name="_ErrorNotAllRequiredFields_" xml:space="preserve">
+    <value>Niet alle verplichte velden zijn ingevuld</value>
+  </data>
+  <data name="_ErrorInvalidDate_" xml:space="preserve">
+    <value>Ongeldige datum ingevoerd. De huidige maand opnieuw instellen</value>
+  </data>
+  <data name="_ErrorServerSide_" xml:space="preserve">
+    <value>Wacht even, er trad een fout op!</value>
+  </data>
+  <data name="_SuggestionsFor_" xml:space="preserve">
+    <value>Suggesties voor</value>
+  </data>
+  <data name="_ThankYouFor_" xml:space="preserve">
+    <value>Bedankt-boodschap</value>
+  </data>
+  <data name="_WelcomeFor_" xml:space="preserve">
+    <value>Welkomstboodschap voor</value>
+  </data>
+  <data name="_SingleICS_" xml:space="preserve">
+    <value>.ICS agenda Voor: </value>
+  </data>
+  <data name="_MultipleICS_" xml:space="preserve">
+    <value>.ICS agenda's voor al uw panden.</value>
+  </data>
+  <data name="_NoRentalActivity_" xml:space="preserve">
+    <value>Nog geen verhuuractiviteit</value>
+  </data>
+  <data name="_InfoAbout_" xml:space="preserve">
+    <value>Info over</value>
+  </data>
+  <data name="_SaveToRental_" xml:space="preserve">
+    <value>Opslaan naar: </value>
+  </data>
+  <data name="_SaveToAllRentals_" xml:space="preserve">
+    <value>Opslaan voor alle Accommodaties</value>
+  </data>
+  <data name="_SaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>Dit zal deze inhoud opslagen voor al uw accommodaties.  Weet  u het zeker?  Wees er ook van bewust dat foto's niet worden niet worden opgeslagen in al uw accommodaties nadat het item is toegevoegd.</value>
+  </data>
+  <data name="_ConfirmButton_" xml:space="preserve">
+    <value>Bevestig</value>
+  </data>
+  <data name="_AddFirstImageInstructions_" xml:space="preserve">
+    <value>U heeft nog geen foto 's van dit item toegevoegd.  Om aan de slag te gaan, klik op de kies de knop      "kies afbeelding" om aan de slag te gaan</value>
+  </data>
+  <data name="_ConfirmFileRemove_" xml:space="preserve">
+    <value>Bent u zeker dat u deze afbeelding wilt verwijderen?</value>
+  </data>
+  <data name="_ImageRemoved_" xml:space="preserve">
+    <value>Afbeelding verwijderd</value>
+  </data>
+  <data name="_AddFirstImageButton_" xml:space="preserve">
+    <value>Voeg Afbeelding Toe</value>
+  </data>
+  <data name="_CategoryHasPurchases_" xml:space="preserve">
+    <value>Items Gekocht</value>
+  </data>
+  <data name="_CategoryHasFeaturedItems_" xml:space="preserve">
+    <value>Aangeprezen artikelen</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalHeader_" xml:space="preserve">
+    <value>Gelieve te bevestigen</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalTemplate_" xml:space="preserve">
+    <value>Gelieve te bevestigen dat u  **SERVICE-NAME** wenst te activeren voor uw accommodatie: **RENTAL-NAME**.</value>
+  </data>
+  <data name="_AddOnsItemsPurchasedHeader_" xml:space="preserve">
+    <value>Gekocht </value>
+  </data>
+  <data name="_AddOnsItemsAdditionalOptionsHeader_" xml:space="preserve">
+    <value>Meer Opties</value>
+  </data>
+  <data name="_AddOnsItemsSettings_" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="_AddOnsItemsFeaturedHeader_" xml:space="preserve">
+    <value>Aangeraden</value>
+  </data>
+  <data name="_AddOnsItemLabelKABALogin_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_AddOnsItemLabelKABAPassword_" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="_AddOnsItemLabelKABASiteName_" xml:space="preserve">
+    <value>Site Naam</value>
+  </data>
+  <data name="_AddOnsItemLabelKABADoorName_" xml:space="preserve">
+    <value>Deurnaam</value>
+  </data>
+  <data name="_AddOnsItemWarningKABA_" xml:space="preserve">
+    <value>Waarschuwingsconcept over KABA hier.  Zal deurcodes veranderen, enz ..</value>
+  </data>
+  <data name="_AddOnsItemWarningConfirm_" xml:space="preserve">
+    <value>Bent u zeker dat u **SERVICE-NAME** wilt verwijderen?</value>
+  </data>
+  <data name="_AddOnsItemRemoveConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** verwijderd **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLogin_" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStatePassword_" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLockId_" xml:space="preserve">
+    <value>Lock Id</value>
+  </data>
+  <data name="_AddOnsItemWarningLockState_" xml:space="preserve">
+    <value>Vul uw Slot Staat login en wachtwoord hier in  U moet ook de numerieke Slot-Id voor deze accommodatie invoeren.</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerTimeOfDay_" xml:space="preserve">
+    <value>Tijd van de dag</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerEarlyNotify_" xml:space="preserve">
+    <value>Op de hoogte brengen van vroege check-out</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerPreferredAreaCode_" xml:space="preserve">
+    <value>Verkozen netnummer</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerHouseCleanerCell_" xml:space="preserve">
+    <value>Schoonmaker Mobiele Nummer</value>
+  </data>
+  <data name="_AddOnsItemWarningHouseCleaner_" xml:space="preserve">
+    <value>Let op: deze service is momenteel alleen beschikbaar voor Amerikaanse telefoonnummers. Ook moet het tijdstip uitgedrukt worden in  24 uur tijd.  We hebben een tool hieronder om u te helpen bij het kiezen van de juiste tijd.  klik op de klok om aan de slag te gaan.</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumber_" xml:space="preserve">
+    <value>Laat uw huishoudster weten dat ze SMS-meldingen en instructies van het volgende nummer zal ontvangen:</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumberLabel_" xml:space="preserve">
+    <value>service telefoon</value>
+  </data>
+  <data name="_AddOnsItemReviewsLeaveAReview_" xml:space="preserve">
+    <value>Beoordeel / Bewerk beoordeling</value>
+  </data>
+  <data name="_AddOnsItemReviewsNumberOfReviews_" xml:space="preserve">
+    <value>Beoordeling(en)</value>
+  </data>
+  <data name="_AddOnsItemReviewsHeader_" xml:space="preserve">
+    <value>Beoordelingen</value>
+  </data>
+  <data name="_AddOnsItemReview_" xml:space="preserve">
+    <value>Beoordeling</value>
+  </data>
+  <data name="_AddOnsItemReviewInstructions_" xml:space="preserve">
+    <value>Beoordeel dit deel van onze dienstverlening.  Plaats een titel, beoordeel en selecteer een aantal sterren van 1 tot 5!</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelTitle_" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelReview_" xml:space="preserve">
+    <value>Beoordeling</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelRating_" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="_AddOnsItemReviewCharactersLeft_" xml:space="preserve">
+    <value> overblijvende teken(s)</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeApiKey_" xml:space="preserve">
+    <value>Account Id</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeGatewayId_" xml:space="preserve">
+    <value>Poort Id</value>
+  </data>
+  <data name="_AddOnsItemWarningBeHome_" xml:space="preserve">
+    <value>Vul uw numerieke BeHome247 account en poort Id's hier in.</value>
+  </data>
+  <data name="_AddOnsNotAvailableNotice_" xml:space="preserve">
+    <value>Nadat u uw account hebt bijgewerkt zult u in staat zijn om meer leuke functies toe te voegen!</value>
+  </data>
+  <data name="_AddOnsNotAvailableFlashWarning_" xml:space="preserve">
+    <value>U moet uw account te upgraden voordat u de nieuwe functies kunt toevoegen!</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludePreArrivalContent_" xml:space="preserve">
+    <value>Onder andere Pre-Aankomst Inhoud</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeRentalInstructionsContent_" xml:space="preserve">
+    <value>Inclusief Inhoud voor Verhuursinstructies</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeLocalSuggestionsContent_" xml:space="preserve">
+    <value>Inclusief  Inhoud voor Lokale Tips</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeWelcomeMessage_" xml:space="preserve">
+    <value>Inclusief Inhoud voor Bedankt-bericht </value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeThankYouMessage_" xml:space="preserve">
+    <value>Inclusief Inhoud voor Bedankt-bericht </value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookInformation_" xml:space="preserve">
+    <value>U hebt verschillende opties voor de inhoud van het cottage boek van deze accommodatie. U kunt uw standaard opties hieronder opgeven.  U zult ook in staat zijn om dit te veranderen elke keer als u afdrukt!</value>
+  </data>
+  <data name="_AddOnsItemCostFree_" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="_AddOnsItemAddConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** succesvol geactiveerd voor **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemUpdateConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** succesvol bijgewerkt voor **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPopupNotice_" xml:space="preserve">
+    <value>De inhoud van uw cottageboek moet nu geladen zijn in een nieuw browservenster of windowtab  Let op: uw browser kan geblokkeerd zijn wegens veiligheidsredenen.  Als u de inhoud van het cottageboek niet kan bekijken, controleert u best de adresbalk van uw browser voor een veiligheidsadvies en volg de instructies daar.</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPrintFor_" xml:space="preserve">
+    <value>Print Cottageboek voor</value>
+  </data>
+  <data name="_PrintCottageBook_" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="_PrintCottageBookSelectionError_" xml:space="preserve">
+    <value>Gelieve ten minste één optie te kiezen!</value>
+  </data>
+  <data name="_PrintCottageBookLongDescription_" xml:space="preserve">
+    <value>Print Cottageboek</value>
+  </data>
+  <data name="_24HourTimeNotice_" xml:space="preserve">
+    <value>Houd er rekening mee dat ons systeem gebruik maakt van een 24 uur tijdsnotering.  We hebben een tool hieronder voorzien om u te helpen bij het kiezen van de juiste tijd.  klik op de klok om aan de slag te gaan.</value>
+  </data>
+  <data name="_RentalPictureNotice_" xml:space="preserve">
+    <value>De huurfoto wordt gebruikt in verschillende plaatsen zoals in de cottage boekenwinkel.  Dit is niet vereist.</value>
+  </data>
+  <data name="_FullBrowserNoticeHeader_" xml:space="preserve">
+    <value>Gelieve te lezen</value>
+  </data>
+  <data name="_FullBrowserNoticeMobileDeviceDetected_" xml:space="preserve">
+    <value>Mobiel toestel gevonden</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph1_" xml:space="preserve">
+    <value>We hebben gedetecteerd dat u op dit moment gebruik maakt van een mobiel apparaat. De HomeAway administratieve portal is ontworpen om gebruikt te worden op een desktop computer of iPad</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph2_" xml:space="preserve">
+    <value>Om verder te gaan met de organisatie van uw gastenervaring gelieve later terug te keren wanneer u kunt inloggen via Windows, Mac OS X of een iPad.</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph3_" xml:space="preserve">
+    <value>Bedankt en we zien u graag snel weer!</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestContact_" xml:space="preserve">
+    <value>Contact Informatie</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestAddress_" xml:space="preserve">
+    <value>Postadres</value>
+  </data>
+  <data name="_GuestInformationContactFirstName_" xml:space="preserve">
+    <value>voornaam</value>
+  </data>
+  <data name="_GuestInformationContactLastName_" xml:space="preserve">
+    <value>achternaam</value>
+  </data>
+  <data name="_GuestInformationContactEmail_" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="_GuestInformationContactPhone_" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="_GuestInformationContactAddressLine1_" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="_GuestInformationContactCity_" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="_GuestInformationContactCountry_" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="_GuestInformationContactState_" xml:space="preserve">
+    <value>Staat / Regio</value>
+  </data>
+  <data name="_GuestInformationContactPostalCode_" xml:space="preserve">
+    <value>de postcode</value>
+  </data>
+  <data name="_GuestInformationUpdated_" xml:space="preserve">
+    <value>Gast bijgewerkt</value>
+  </data>
+  <data name="_EditGuestInformation_" xml:space="preserve">
+    <value>Bewerk Gast Informatie</value>
+  </data>
+  <data name="_SuggestionModalEditName_" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="_SuggestionModalEditPhoneNumber_" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="_SuggestionModalEditEmail_" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="_SuggestionModalEditWebsite_" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="_SuggestionModalEditNotes_" xml:space="preserve">
+    <value>Nota's:</value>
+  </data>
+  <data name="_SuggestionModalEditAddressLine1_" xml:space="preserve">
+    <value>Straat en huisnummer</value>
+  </data>
+  <data name="_SuggestionModalEditCity_" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="_SuggestionModalEditStateOrRegion_" xml:space="preserve">
+    <value> Staat / Regio</value>
+  </data>
+  <data name="_SuggestionModalEditPostalCode_" xml:space="preserve">
+    <value>de postcode</value>
+  </data>
+  <data name="_SuggestionModalEditCountry_" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="_SuggestionModalEditReturnToList_" xml:space="preserve">
+    <value>Terug naar lijst</value>
+  </data>
+  <data name="_SuggestionModalEditCurrent_" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="_SuggestionModalAddCustom_" xml:space="preserve">
+    <value>Voeg Standaard</value>
+  </data>
+  <data name="_SuggestionModalSaveCustom_" xml:space="preserve">
+    <value>Nieuwe Opslaan </value>
+  </data>
+  <data name="_ReviewWebsiteInstructions_" xml:space="preserve">
+    <value>Als u uw gasten wilt vragen uw woning te beoordelen op een van de vakantiewoning websites hieronder vul dan de URL in. Deze links zullen uw gasten worden verzonden als onderdeel van de bedank e-mail.</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAway_" xml:space="preserve">
+    <value>HomeAway / VRBO</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAwayTooltip_" xml:space="preserve">
+    <value>HomeAway.com Controleer URL voor deze accommodatie</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKey_" xml:space="preserve">
+    <value>FlipKey.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKeyTooltip_" xml:space="preserve">
+    <value>FlipKeycom Controle van de Url Voor deze accommodatie</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnB_" xml:space="preserve">
+    <value>AirBnB.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnBTooltip_" xml:space="preserve">
+    <value>AirBnB.com controle van de Url Voor deze accommodatie</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentals_" xml:space="preserve">
+    <value>VacationRentals.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentalsTooltip_" xml:space="preserve">
+    <value>VacationRentals.com controle van de Url Voor deze accommodatie</value>
+  </data>
+  <data name="_CountrySelectUSOnly_" xml:space="preserve">
+    <value>Opmerking: HomeAway is momenteel slechts bedoeld voor Amerikaanse klanten</value>
+  </data>
+  <data name="_FirstTimeHomeAwayUser_" xml:space="preserve">
+    <value>Zie alles in een oogopslag</value>
+  </data>
+  <data name="_VrboNumberInstructions_" xml:space="preserve">
+    <value>Als u een HomeAway® klant bent, voer dan uw accommodatie HomeAway / VRBO Woning ID # in.  Dit veld is optioneel.</value>
+  </data>
+  <data name="_RequiredVrboNumber_" xml:space="preserve">
+    <value>HomeAway / VRBO Accommodatie ID # Is Verplicht</value>
+  </data>
+  <data name="_SuggestionSaveFailed_" xml:space="preserve">
+    <value>Er was een probleem met het opslaan van deze suggestie.</value>
+  </data>
+  <data name="_SyncListingHeader_" xml:space="preserve">
+    <value>Een momentje a.u.b.</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeModalHeader_" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine1_" xml:space="preserve">
+    <value>Welkom bij de Mobiele Hospitality Manager</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine2_" xml:space="preserve">
+    <value>Ga aan de slag door het toevoegen van informatie voor hulp aan uw gasten met toegang, laat ze zich thuis voelen en genieten van uw vakantiewoning.</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet1_" xml:space="preserve">
+    <value>Voeg verhuur informatie toe</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet2_" xml:space="preserve">
+    <value>Pas uw "welkomst" e-mail aan</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet3_" xml:space="preserve">
+    <value>Maak een welgemeend "bedankt" bericht</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAWait_" xml:space="preserve">
+    <value>Synchronisatie. Gelieve te wachten</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAContinue_" xml:space="preserve">
+    <value>Beginnen met het aanpassen</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningModalHeader_" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLine1_" xml:space="preserve">
+    <value>Er is een beter instrument voor uw groeiende bedrijf</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningContent_" xml:space="preserve">
+    <value>&lt;p&gt;Het ziet er naar uit dat uw bedrijf groeit De Hospitality Manager is ontworpen voor ondersteuning van maximaal 10 vermeldingen. Naarmate u meer accommodaties verwerft, wordt het mnder ideaal.&lt;/p&gt;
+&lt;p&gt;Gelukkig bieden wij een meer robuuste optie, met tools om u te helpen bij het beheer van uw groeiend bedrijf. &lt;a href="http://software.homeaway.com/vacation-rentals/products/HA-Tools/glad-professional" shape="rect" target="_blank"&gt;Learn more &amp;gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;
+Met GladPROFESSIONAL, kunt u
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gemakkelijk tientallen accommodaties beheren &lt;/li&gt;&lt;li&gt;Uw accommodatie naadloos integreren met managementsoftware&lt;/li&gt;&lt;li&gt;Verstrek gasten een standaard mobiele app voorzien van een merk &lt;/li&gt;&lt;/ul&gt;
+</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLinkCTA_" xml:space="preserve">
+    <value>Verneem meer</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAWait_" xml:space="preserve">
+    <value>Gelieve te wachten</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAContinue_" xml:space="preserve">
+    <value>Nu even niet</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugLine1_" xml:space="preserve">
+    <value>Wilt u iets robuuster? De accommodatie manager niveau product, GladPROFESSIONAL is misschien wel net wat u nodig hebt.</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet1_" xml:space="preserve">
+    <value>Gemakkelijk tientallen accommodaties beheren </value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet2_" xml:space="preserve">
+    <value>Uw accommodatie naadloos integreren met managementsoftware</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet3_" xml:space="preserve">
+    <value>Zorg voor een aangepaste, van een merk voorziene app, voor uw gasten.</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugCTAContinue_" xml:space="preserve">
+    <value>Toon me</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedLine1_" xml:space="preserve">
+    <value>Er is een beter instrument voor uw groeiende bedrijf</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet1_" xml:space="preserve">
+    <value>Integreren met uw accommodatie management software</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet2_" xml:space="preserve">
+    <value>Pas de app aan om uw merk weer te geven en zo uw gasten uw bedrijfsnaam kenbaar te maken</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet3_" xml:space="preserve">
+    <value>Geniet van een volledige aanpassing in uw integratie</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedCTAContinue_" xml:space="preserve">
+    <value>Vertel me meer</value>
+  </data>
+  <data name="_SyncListingHeaderProCandidate_" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="_SyncPleaseScroll_" xml:space="preserve">
+    <value>Gelieve  te scrollen</value>
+  </data>
+  <data name="_SyncListingReturnToReservationManager_" xml:space="preserve">
+    <value>Ga terug naar de Reservatie Manager</value>
+  </data>
+  <data name="_SyncErrorNoValidListings_" xml:space="preserve">
+    <value>Uw account heeft geen actieve, ingeschakelde aanbiedingen.  Gelieve ten minste één lijst te activeren en vervolgens terug te keren naar de Hospitality Manager.</value>
+  </data>
+  <data name="_SyncErrorUserAccountDisabled_" xml:space="preserve">
+    <value>Uw account is uitgeschakeld.</value>
+  </data>
+  <data name="_SyncErrorUserAccountNotEligible_" xml:space="preserve">
+    <value>Uw account komt niet in aanmerking om gebruikt te worden in dit systeem.</value>
+  </data>
+  <data name="_SyncErrorSiteNotSupported_" xml:space="preserve">
+    <value>De site waarop u net arriveerde is niet ondersteund.</value>
+  </data>
+  <data name="_SyncErrorServerError_" xml:space="preserve">
+    <value>Ooops! We hadden een probleem met het laden van uw gegevens.   We hopen dat dit een tijdelijk probleem is!  Wacht even en herlaad uw browser om het opnieuw te proberen!</value>
+  </data>
+  <data name="_SyncListingContent_" xml:space="preserve">
+    <value>Wij laden uw lijsten en informatie over gasten</value>
+  </data>
+  <data name="_RentalContentExport_" xml:space="preserve">
+    <value>Export Inhoud</value>
+  </data>
+  <data name="_RentalContentExportTip_" xml:space="preserve">
+    <value>Exporteer alle inhoud voor deze accommodatie naar JSON</value>
+  </data>
+  <data name="_ExportCurrentContent_" xml:space="preserve">
+    <value>Exporteer nu</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>Deze optie laat u alle inhoud voor deze woning in een draagbaar JSON bestandsformaat exporteren.  In toekomstige versies van dit portaal zal u in staat zijn om deze bestanden opnieuw te importeren.  Om aan de slag te gaan, klik op de kies de knop      "exporteer nu" om aan de slag te gaan</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part1_" xml:space="preserve">
+    <value>Dit proces kan enkele minuten duren.   Als het exporteren klaar is krijgt u een melding in de statusbalk van de browser te zien over het downloaden van een bestand met de naam</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part2_" xml:space="preserve">
+    <value> Zorg ervoor dat u dit bestand opslaat op een veilige locatie op uw computer.</value>
+  </data>
+  <data name="_RentalContentImport_" xml:space="preserve">
+    <value>Importeer Inhoud</value>
+  </data>
+  <data name="_RentalContentImportTip_" xml:space="preserve">
+    <value>Importeer alle inhoud voor deze accommodatie van JSON</value>
+  </data>
+  <data name="_ImportContent_" xml:space="preserve">
+    <value>Nu importeren</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>Deze functie laat u inhoud importeren voor deze accommodatie uit een JSON-bestand.  Om te beginnen, selecteert u het juiste bestand op uw lokale computer.</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep3_" xml:space="preserve">
+    <value>Huurinhoud is geïmporteerd.   Bevestig door de herziening van de verhuuraankomst en instructies de inhoud-secties.</value>
+  </data>
+  <data name="_ImportContentModalFailed_" xml:space="preserve">
+    <value>Inhoud invoer mislukt.  Zorg ervoor dat u een .json bestand upload dat uitgevoerd is vanuit een vorige versie van ons portaal.  Klik nogmaals op de "opnieuw proberen" knop hieronder.</value>
+  </data>
+  <data name="_ImportContentRetry_" xml:space="preserve">
+    <value>Probeer opnieuw</value>
+  </data>
+  <data name="_ResendGuestInvitation_" xml:space="preserve">
+    <value>Gast-uitnodiging opnieuw versturen</value>
+  </data>
+  <data name="_ResendGuestInvitationSuccess_" xml:space="preserve">
+    <value>Nodig  Geplande uit Om Onmiddellijke Opnieuw te Versturen</value>
+  </data>
+  <data name="_ReviewsSortDate_" xml:space="preserve">
+    <value>Sorteren op datum</value>
+  </data>
+  <data name="_ReviewsSortOverallRating_" xml:space="preserve">
+    <value>Sorteren op Algemene beoordeling</value>
+  </data>
+  <data name="_ReviewsSortPropertyRating_" xml:space="preserve">
+    <value>Sorteren op Accommodatiebeoordeling</value>
+  </data>
+  <data name="_ReviewsSortValueRating_" xml:space="preserve">
+    <value>Sorteren op Waardebeoordeling</value>
+  </data>
+  <data name="_ReviewsSortExperienceRating_" xml:space="preserve">
+    <value>Sorteren op Ervaringsbeoordeling</value>
+  </data>
+  <data name="_ReviewsTitle_" xml:space="preserve">
+    <value>Beoordelingen</value>
+  </data>
+  <data name="_ReviewsRatingsTopTitle_" xml:space="preserve">
+    <value>Beoordelingen</value>
+  </data>
+  <data name="_ReviewsRatingsPropertyTitle_" xml:space="preserve">
+    <value>Pand</value>
+  </data>
+  <data name="_ReviewsRatingsValueTitle_" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="_ReviewsRatingsExperienceTitle_" xml:space="preserve">
+    <value>Ervaring</value>
+  </data>
+  <data name="_ReviewsRatingsOverallTitle_" xml:space="preserve">
+    <value>Algeheel</value>
+  </data>
+  <data name="_ReviewsViewAction_" xml:space="preserve">
+    <value>Uitzicht</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>Geen data gevonden</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesBody_" xml:space="preserve">
+    <value>Sorry maar er werd niets gevonden voor de accommodaties die u hebt geselecteerd.</value>
+  </data>
+  <data name="_ReviewsNoMoreListingsToShow_" xml:space="preserve">
+    <value>Geen advertenties meer te tonen</value>
+  </data>
+  <data name="_HospitalityCurrentStaysMenuHeader_" xml:space="preserve">
+    <value>Huidige Verblijven</value>
+  </data>
+  <data name="_HospitalityFutureStaysMenuHeader_" xml:space="preserve">
+    <value>Komende 90 dagen</value>
+  </data>
+  <data name="_HospitalityPreArrivalStayViewHeader_" xml:space="preserve">
+    <value>Voor de aankomst</value>
+  </data>
+  <data name="_HospitalityCheckInStayViewHeader_" xml:space="preserve">
+    <value>Check-in</value>
+  </data>
+  <data name="_HospitalityStayViewHeader_" xml:space="preserve">
+    <value>Blijven</value>
+  </data>
+  <data name="_HospitalityCheckOutStayViewHeader_" xml:space="preserve">
+    <value>Check-out</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmHeader_" xml:space="preserve">
+    <value>Deze gast opnieuw uitnodigen</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmMessage_" xml:space="preserve">
+    <value>Bent u zeker dat u deze gast opnieuw wilt uitnodigen?</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmHeader_" xml:space="preserve">
+    <value>Lees en bevestig</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmMessage_" xml:space="preserve">
+    <value>Dit zal de reservering instellen naar volledig betaald en contract getekend.   Als u deze gast toegang wenst te geven tot deze accommodatie klikt u op 'Bevestigen'</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmButton_" xml:space="preserve">
+    <value>Bevestig</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmResponse_" xml:space="preserve">
+    <value>Toegang toegestaan</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationLocator_" xml:space="preserve">
+    <value>Reserveringslocator</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationId_" xml:space="preserve">
+    <value>Reservering Id</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersTripDates_" xml:space="preserve">
+    <value>Reisdata</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAdults_" xml:space="preserve">
+    <value>Volwassenen</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersChildren_" xml:space="preserve">
+    <value>Kinderen</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReviews_" xml:space="preserve">
+    <value>Beoordelingen:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAverage_" xml:space="preserve">
+    <value>Gemiddeld:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersPreview_" xml:space="preserve">
+    <value>Preview </value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersDateTimeSeparator_" xml:space="preserve">
+    <value> op </value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalHeader_" xml:space="preserve">
+    <value>Toegangsinstructies</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalDetails_" xml:space="preserve">
+    <value>Heeft u extra toegangsinstructies voor deze reservering?  Vul ze hieronder in.</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEmailGuestButton_" xml:space="preserve">
+    <value>E-mailadres gast</value>
+  </data>
+  <data name="_HospitalityCurrentStayDateTimeNotice_" xml:space="preserve">
+    <value>Let op: Alle data en tijden zijn plaatselijke tijden voor uw accommodatie.</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditReservationButton_" xml:space="preserve">
+    <value>Bewerk reservering</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditAccessButton_" xml:space="preserve">
+    <value>Toegang tot accommodatie</value>
+  </data>
+  <data name="_HospitalityEditStayPleaseWaitSwitchingPortals_" xml:space="preserve">
+    <value>Overschakelen op het scherm voor bewerking van de reservering</value>
+  </data>
+  <data name="_HospitalityEditAccessRentalInstructionsLabel_" xml:space="preserve">
+    <value>Toegangsinstructies</value>
+  </data>
+  <data name="_PreSyncErrorHeader_" xml:space="preserve">
+    <value>Probleem met account - - Gelieve te lezen</value>
+  </data>
+  <data name="_SettingsNotifications_" xml:space="preserve">
+    <value>Meldingen</value>
+  </data>
+  <data name="_SettingsOwnerNotifications_" xml:space="preserve">
+    <value>Meldingen Eigenaar</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpText_" xml:space="preserve">
+    <value>Standaard zullen we u laten weten wanneer een gast een bericht of een interactie ontvangt met de Hospitality Manager. Onderstaand kunt u kiezen welke te ontvangen in de toekomst.</value>
+  </data>
+  <data name="_SettingsTravellerNotifications_" xml:space="preserve">
+    <value>Gastmelding</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpText_" xml:space="preserve">
+    <value>Aanpassen welke meldingen uw gasten ontvangen Als u al een ander systeem gebruikt om een ​​"Welkom" en "dank u" bericht te sturen, kunt u dit uitschakelen.</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsListHeader_" xml:space="preserve">
+    <value>Hoe wij u zullen contacteren</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsListHeader_" xml:space="preserve">
+    <value>Hoe wij uw gasten contacteren</value>
+  </data>
+  <data name="_SettingsNotificationsButtonEnable_" xml:space="preserve">
+    <value>Inschakelen</value>
+  </data>
+  <data name="_SettingsNotificationsButtonDisable_" xml:space="preserve">
+    <value>Uitschakelen</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNotice_" xml:space="preserve">
+    <value>Deze melding is uitgeschakeld</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNoticeConfirm_" xml:space="preserve">
+    <value>Melding uitgeschakeld</value>
+  </data>
+  <data name="_SettingsNotificationsEnabledNoticeConfirm_" xml:space="preserve">
+    <value>Melding ingeschakeld</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableOption_" xml:space="preserve">
+    <value>deze communicatie uitschakelen?</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisabledNotice_" xml:space="preserve">
+    <value>u hebt dit uitgeschakeld</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Uitschakelen </value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalReasonLabel_" xml:space="preserve">
+    <value>Reden</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsLabel_" xml:space="preserve">
+    <value>Reacties</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsDisableButton_" xml:space="preserve">
+    <value>Uitschakelen</value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Uitschakelen </value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalConfirmText_" xml:space="preserve">
+    <value>Weet  u het zeker?</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsHeader_" xml:space="preserve">
+    <value>Nog geen gasten gevonden</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsMessage_" xml:space="preserve">
+    <value>Er zijn geen gasten voor de zoekopdracht die u hebt aangevraagd.</value>
+  </data>
+  <data name="_RentalsListCheckAll_" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="_RentalsListUnCheckAll_" xml:space="preserve">
+    <value>Selectie ongedaan maken</value>
+  </data>
+  <data name="_RentalsSearchNothingFound_" xml:space="preserve">
+    <value>Geen reservering gevonden die overeenstemt met die naam</value>
+  </data>
+  <data name="_PlaceHolderFilterByRental_" xml:space="preserve">
+    <value>Filter Per Accommodatie</value>
+  </data>
+  <data name="_PlaceHolderFilterByGuestName_" xml:space="preserve">
+    <value>Filteren op gastennaam</value>
+  </data>
+  <data name="_MyGuestsFilterNothingFound_" xml:space="preserve">
+    <value>Nog geen gasten gevonden</value>
+  </data>
+  <data name="_ModashFeedbackUserName_" xml:space="preserve">
+    <value>Contactnaam</value>
+  </data>
+  <data name="_ModashFeedbackUserEmail_" xml:space="preserve">
+    <value>Uw e-mailadres</value>
+  </data>
+  <data name="_ModashFeedbackSupportType_" xml:space="preserve">
+    <value>Hoe kunnen we u helpen?</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeBUG_" xml:space="preserve">
+    <value>Ik vond een technisch probleem</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeFEEDBACK_" xml:space="preserve">
+    <value>Ik heb wat feedback</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeENHANCEMENT_" xml:space="preserve">
+    <value>Ik heb een idee voor u</value>
+  </data>
+  <data name="_ModashFeedbackappSectionBug_" xml:space="preserve">
+    <value>Waar hebt u een probleem?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionFeedback_" xml:space="preserve">
+    <value>Waar reageert u op?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionEnhancement_" xml:space="preserve">
+    <value>Wat houdt dit in?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionIOSApp_" xml:space="preserve">
+    <value>De iOS-app</value>
+  </data>
+  <data name="_ModashFeedbackappSectionAndroidApp_" xml:space="preserve">
+    <value>De Android-app</value>
+  </data>
+  <data name="_ModashFeedbackappSectionPortal_" xml:space="preserve">
+    <value>Dit Management Portaal</value>
+  </data>
+  <data name="_ModashFeedbackNotesBug_" xml:space="preserve">
+    <value>Gelieve geef ons zoveel mogelijk details te geven</value>
+  </data>
+  <data name="_ModashFeedbackNotesFeedback_" xml:space="preserve">
+    <value>Waar denkt u aan?</value>
+  </data>
+  <data name="_ModashFeedbackNotesEnhancement_" xml:space="preserve">
+    <value>Ok geweldig! Wat is uw idee?</value>
+  </data>
+  <data name="_ModashFeedbackInstructions_" xml:space="preserve">
+    <value>Is er hulp nodig?  Hebt u een idee voor een nieuwe functie of wil u gewoon een reactie achterlaten</value>
+  </data>
+  <data name="_ModashFeedbackSend_" xml:space="preserve">
+    <value>verzend</value>
+  </data>
+  <data name="_ModashFeedbackSendConfirmed_" xml:space="preserve">
+    <value>Uw feedback is verstuurd</value>
+  </data>
+  <data name="_ForceResync_" xml:space="preserve">
+    <value>Dwing Resync af</value>
+  </data>
+  <data name="_ConfirmResync_" xml:space="preserve">
+    <value>Bevestig</value>
+  </data>
+  <data name="_ConfirmResyncPleaseWait_" xml:space="preserve">
+    <value>Bezig met Synchroniseren - - Gelieve te wachten</value>
+  </data>
+  <data name="_ConfirmResyncMessage_" xml:space="preserve">
+    <value>Dit zal al uw accommodaties en gasten controleren op updates. U zou dit doen kunnen doen als u veranderingen of aanvullingen onder het HomeAway dashboard hebt aangebracht die hier nog niet weergegeven zijn.   Dit kan enkele minuten duren.  Bent u zeker dat u verder wilt gaan op dit moment?</value>
+  </data>
+  <data name="_ConfirmResyncMessageComplete_" xml:space="preserve">
+    <value>We hebben al uw accommodaties en gasten herladen.   Nadat u dit venster sluit zullen we automatisch uw browser herladen.  Dit is om te verzekeren dat u de laatste updates zal zien.</value>
+  </data>
+  <data name="_ConfirmResyncCloseAndReload_" xml:space="preserve">
+    <value>Sluiten en vernieuw Uw Browser</value>
+  </data>
+  <data name="_ReviewsHelpContent_" xml:space="preserve">
+    <value>Dit is de hero beoordelingsunit</value>
+  </data>
+  <data name="_FirstTimeThankText_" xml:space="preserve">
+    <value>Na hun verblijf, word er uw gasten een een "Dank u" e-mail verzonden Personaliseer het bestaande bericht met uw eigen stem. U kunt hen aanmoedigen om een beoordeling te schrijven, vraag hen naar feedback of ze misschien wel op voorhand willen reserveren voor volgend jaar. 
+Als u liever uw e-mail stuurt door middel van een ander systeem, dan kunt u deze e-mail uitschakelen in het menu "Instellingen".</value>
+  </data>
+  <data name="_FirstTimeThankTitle_" xml:space="preserve">
+    <value>Toon uw gasten dat u ze waardeert</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsText_" xml:space="preserve">
+    <value>Niemand kent de beste plekjes rondom uw huis beter dan u! Suggesties om u gasten te helpen bij het ontdekken van de ware juweeltjes die uw omgeving uniek maken. Van restaurants, musea en stranden tot de dagelijkse benodigdheden, zoals de supermarkt, de bank of het postkantoor, uw aanbevelingen zullen het verblijf in uw woning nog beter maken!</value>
+  </data>
+  <data name="_InstructionsHelpText_" xml:space="preserve">
+    <value>Verstrek uw gasten handige informatie om het meeste uit hun verblijf te halen - elk beetje helpt, van hoe u de dvd-speler of koffiezetapparaat werkt tot op welke dag het afval wordt opgehaald. Denk aan vragen die u van meerdere gasten hoorde en beantwoord ze in de juiste categorie.</value>
+  </data>
+  <data name="_WelcomeHelpText_" xml:space="preserve">
+    <value>Verwelkom uw gasten, dank hen voor de keuze en doe ze zich thuis voelen door uw unieke stem aan onze vooraf gemaakt bericht toe te voegen. Moedig hen aan om te genieten van de inhoud die u hebt toegevoegd aan de app en maak uw boodschap persoonlijk. Als u liever uw e-mail stuurt door middel van een ander systeem, dan kunt u deze e-mail uitschakelen in het menu "Instellingen".</value>
+  </data>
+  <data name="_ReviewNotFoundMessage_" xml:space="preserve">
+    <value>De beoordeling is in afwachting van goedkeuring.</value>
+  </data>
+  <data name="_ReviewNotFoundTitle_" xml:space="preserve">
+    <value>Beoordeling is niet gereed</value>
+  </data>
+  <data name="_ModashFeedbackTitle_" xml:space="preserve">
+    <value>Feedback &amp; Ondersteuning</value>
+  </data>
+  <data name="_MyGuestsHelpText_" xml:space="preserve">
+    <value>Hier kunt u eenvoudig de status van elk van de reizen van uw gasten bekijken. Zoek een bepaalde gast, bekijk welke inhoud u nog moet aanbieden, sta toegang tot uw accommodatie en nodig opnieuw gasten uit naar de Hospitality Manager. U kunt ook opvolgen na hun verblijf met het aanvragen van een beoordeling</value>
+  </data>
+  <data name="_RentalImportContentHelpText_" xml:space="preserve">
+    <value>Als u een bestaande Glad to Have You  klant bent, kunt u bestaande gegevens hier invoeren.  </value>
+  </data>
+  <data name="_ReviewsHelpText_" xml:space="preserve">
+    <value>Neem een kijkje hieronder naar de beoordelingen naar de beoordelingen die u ontvangen hebt. De nieuwste beoordelingen zullen zichtbaar zijn als ze door ons beoordeeld zijn om er zeker van te zijn dat de inhoud voldoet aan de richtlijnen.</value>
+  </data>
+  <data name="_SettingsImportContentListHeader_" xml:space="preserve">
+    <value>Importeer Inhoud</value>
+  </data>
+  <data name="_MobileNotSupportedContent_" xml:space="preserve">
+    <value>Het HomeAway Hospitality Manager Eigenaarsportaal is niet geoptimaliseerd voor een mobiel apparaat. Voor de beste ervaring, gelieve in te loogen via uw tablet of desktopbrowser</value>
+  </data>
+  <data name="_MobileNotSupportedTitle_" xml:space="preserve">
+    <value>Apparaat niet ondersteund</value>
+  </data>
+  <data name="_ProceedAnyway_" xml:space="preserve">
+    <value>Toch doorgaan.</value>
+  </data>
+  <data name="_ModashFeedbackLeaveAComment_" xml:space="preserve">
+    <value>Ik wil een opmerking over deze website achterlaten</value>
+  </data>
+  <data name="_ModashFeedbackParticipateInStudy_" xml:space="preserve">
+    <value>Klik hier als u wilt deelnemen aan een toekomstig onderzoek voor gebruiksgemak.</value>
+  </data>
+  <data name="_ModashFeedbackPlaceHolder_" xml:space="preserve">
+    <value>Beoordelingen van accommodaties en klantproblemen moeten hier ingediend worden</value>
+  </data>
+  <data name="_ModashFeedbackPleaseNote_" xml:space="preserve">
+    <value>Houd er rekening mee dat hoewel we deze feedback lezen, we niet kunnen inspelen op alle problemen.</value>
+  </data>
+  <data name="_StartFeedbackOptionComment_" xml:space="preserve">
+    <value>Ik wil een opmerking over deze website achterlaten</value>
+  </data>
+  <data name="_StartFeedbackOptionQuestion_" xml:space="preserve">
+    <value>Ik heb een probleem of een vraag en zou graag wat hulp ontvangen</value>
+  </data>
+  <data name="_ModashFeedbackSubmit_" xml:space="preserve">
+    <value>Dien Feedback in</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeContent_" xml:space="preserve">
+    <value>&lt;p&gt;Voorzie uw gasten van alle informatie die ze nodig hebben ... onmiddellijk wanneer ze het nodig hebben!&lt;/p&gt;
+&lt;p&gt;
+Met de Hospitality Manager kunt u handige informatie delen - van deelname-instructies en Wi-Fi-codes tot de lokale bezienswaardigheden en activiteiten - allemaal op één plek en via uw eigen unieke stem. Uw gast heeft er makkelijk toegang toe via het web of via de HomeAway mobiele app  
+Ga aan de slag door het toevoegen van informatie om uw gasten toegang te verschaffen en te genieten van uw accommodatie.&lt;/p&gt;
+&lt;p&gt;
+2. Voeg nuttige informatie toe over uw woning&lt;br clear="none"/&gt;
+Pas uw "welkomst" e-mail aan&lt;br clear="none"/&gt;
+Maak een welgemeend "bedankt" bericht&lt;br clear="none"/&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsTitle_" xml:space="preserve">
+    <value>Help gasten zich thuis te voelen</value>
+  </data>
+  <data name="_PreArrivalHelpText_" xml:space="preserve">
+    <value>Voorzie uw gasten van alle informatie die ze nodig hebben voor hun verblijf - wegwijzers, waar sleutels te vinden, alle speciale dingen die ze moeten meebrengen, enz..</value>
+  </data>
+  <data name="_PreArrivalHelpTitle_" xml:space="preserve">
+    <value>Help uw gasten met voorbereiding</value>
+  </data>
+  <data name="_WelcomeHelpTitle_" xml:space="preserve">
+    <value>Doe uw gasten zich welkom voelen</value>
+  </data>
+  <data name="_MyGuestsHelpTitle_" xml:space="preserve">
+    <value>Blijf in contact met elke gast</value>
+  </data>
+  <data name="_ReviewsHelpTitle_" xml:space="preserve">
+    <value>Bekijk hoe u het er vanaf brengt</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Pas uw meldingen aan</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Stel in welke meldingen er naar uw gasten worden verzonden</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedText_" xml:space="preserve">
+    <value>&lt;p&gt;Hoera voor uw groeiend bedrijf U hebt nu meer dan 20 accommodaties. Helaas, dat is meer dan de Hospitality Manager kan ondersteunen.&lt;/p&gt;
+
+&lt;p&gt;We adviseren u aan upgrade aan naar GladPROFESSIONAL, het is ontworpen om u te helpen bij het eenvoudig beheer van een groot aantal lijsten.&lt;/p&gt;
+
+&lt;p&gt;
+Met GladPROFESSIONAL, kunt u
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Uw accommodatie naadloos integreren met managementsoftware&lt;/li&gt;&lt;li&gt;Pas uw mobiele app om uw bedrijfslogo en informatie weer te geven&lt;/li&gt;&lt;li&gt;Geniet van een volledige aanpassing in uw integratie&lt;/li&gt;&lt;/ul&gt;
+</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsAddGuestButton_" xml:space="preserve">
+    <value>Voeg gast toe</value>
+  </data>
+  <data name="_InviteGuestEmail_" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="_InviteGuestFirstName_" xml:space="preserve">
+    <value>voornaam</value>
+  </data>
+  <data name="_InviteGuestLastName_" xml:space="preserve">
+    <value>achternaam</value>
+  </data>
+  <data name="_InviteGuestSend_" xml:space="preserve">
+    <value>verzend</value>
+  </data>
+  <data name="_InviteGuestConfirmation_" xml:space="preserve">
+    <value>Gast is toegevoegd</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart1_" xml:space="preserve">
+    <value>Uw aanstaande gasten worden uitgenodigd naar de Mobile Hospitality Manager op </value>
+  </data>
+  <data name="_MyGuestsMoreAvailable_" xml:space="preserve">
+    <value>Op zoek naar een gast die aankomt meer dan 90 dagen vanaf nu? Gebruik het zoekvak hierboven om ze te vinden.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart2_" xml:space="preserve">
+    <value>Update uw inhoud om uw gasten de best mogelijke ervaring te schenken. Als u wil verder gaan en uw gasten wil uitnodigen</value>
+  </data>
+  <data name="_HospitalitySearchedStaysMenuHeader_" xml:space="preserve">
+    <value>Zoekresultaten</value>
+  </data>
+  <data name="_GracePeriodDetailsHeader_" xml:space="preserve">
+    <value>Gelieve te lezen</value>
+  </data>
+  <data name="_AccessDeniedMessage_" xml:space="preserve">
+    <value>Er was een probleem met uw login.  Ga terug naar het dashboard en probeer het opnieuw.  Als het probleem zich blijft voordoen, neem dan contact op met ondersteuning.</value>
+  </data>
+  <data name="_GracePeriodParagraph1_" xml:space="preserve">
+    <value>Uw lijst van aankomende gasten is niet zichtbaar omdat ze niet zijn uitgenodigd. Wij zullen uw gasten uitnodigen op</value>
+  </data>
+  <data name="_AccessDenied_" xml:space="preserve">
+    <value>Toegang afgewezen</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipHeader_" xml:space="preserve">
+    <value>Weet  u het zeker?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustom_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Add Custom Title&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipmessage_" xml:space="preserve">
+    <value>Weet u zeker dat u klaar bent om uw gasten meldingen te sturen?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsAddButton_" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsHeader_" xml:space="preserve">
+    <value>Voeg een aangepast Telefoontitel toe</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructions_" xml:space="preserve">
+    <value>Wilt u een aangepaste titel voor dit nummer?  Voorbeelden: Telefoon van Maria, Ondersteuning na kantooruren.   Voer in wat u wil in het onderstaande vak en klik op de knop Toevoegen.</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Number_" xml:space="preserve">
+    <value>Telefoonnummer 1</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Title_" xml:space="preserve">
+    <value>Telefoontitel 1</value>
+  </data>
+  <data name="_GracePeriodDateNotice_" xml:space="preserve">
+    <value>Uw reizigers zullen niet worden op de hoogte gebracht tot: </value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Number_" xml:space="preserve">
+    <value>Telefoonnummer  2</value>
+  </data>
+  <data name="_GracePeriodReadyNowButton_" xml:space="preserve">
+    <value>Nodig gasten uit</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Title_" xml:space="preserve">
+    <value>Telefoonnummer  2</value>
+  </data>
+  <data name="_GracePeriodReadyNowToolTip_" xml:space="preserve">
+    <value>Nodig gasten uit</value>
+  </data>
+  <data name="_PleaseProvide_" xml:space="preserve">
+    <value>Gelieve te verstrekken</value>
+  </data>
+  <data name="_GracePeriodDisabledConfirmation_" xml:space="preserve">
+    <value>U bent klaar!</value>
+  </data>
+  <data name="_PleaseReviewPhoneNumbers_" xml:space="preserve">
+    <value>Kijk Telefoonnummers Na</value>
+  </data>
+  <data name="_EmailGuestToolTip_" xml:space="preserve">
+    <value>E-mail gast</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlocked_" xml:space="preserve">
+    <value>Uw gasten zijn inmiddels uitgenodigd. U zult uw gasten zien in het tabblad Mijn gasten en e-mail alerts ontvangen over hun activiteiten.
+Pas deze signaleringen aan in het tabblad Instellingen.</value>
+  </data>
+  <data name="_GracePeriodParagraph2_" xml:space="preserve">
+    <value>Update uw inhoud om uw gasten de best mogelijke ervaring te schenken.</value>
+  </data>
+  <data name="_GracePeriodParagraph3_" xml:space="preserve">
+    <value>Als u er de voorkeur aangeeft om ze nu uit te nodigen, klik da  op de knop 'Gasten Uitnodigen'.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticeCTA_" xml:space="preserve">
+    <value>Klik hier.</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlockedHeader_" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="_Loading_" xml:space="preserve">
+    <value>Bezig met laden</value>
+  </data>
+  <data name="_HospitalitySiteName_" xml:space="preserve">
+    <value>Gastvrijheid:</value>
+  </data>
+  <data name="_InvalidWebsiteValue_" xml:space="preserve">
+    <value>Moet beginnen met http:// or https://</value>
+  </data>
+  <data name="_MyGuestsStayNeedsAttention_" xml:space="preserve">
+    <value>Verhuuraccomodatie heeft aandacht nodig</value>
+  </data>
+  <data name="_ReviewsRatingsNotAvailable_" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedHeader_" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedMessage_" xml:space="preserve">
+    <value>Uw gratieperiode is verlengd tot ## EXTEND_DATE ##.   Als u nog vragen hebt, aarzel dan niet om ons te contacteren.</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendHeader_" xml:space="preserve">
+    <value>Heeft u meer tijd nodig om u klaar te maken?</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendMessage_" xml:space="preserve">
+    <value>Wij begrijpen het als u meer tijd nodig hebt om u klaar te maken.   Klik hieronder op de bevestigingstoets en wij zullen uw gratieperiode uitbreiden tot EXTEND_DATE ## ##.</value>
+  </data>
+  <data name="_GracePeriodExtendButton_" xml:space="preserve">
+    <value>Verlengen</value>
+  </data>
+  <data name="_GracePeriodExtendToolTip_" xml:space="preserve">
+    <value>Breid uw Gratieperiode uit</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendConfirmToast_" xml:space="preserve">
+    <value>Uw gratieperiode is verlengd</value>
+  </data>
+  <data name="_EmailPreview_" xml:space="preserve">
+    <value>E-mail preview</value>
+  </data>
+  <data name="_DeleteFromRental_" xml:space="preserve">
+    <value>Verwijder van:</value>
+  </data>
+  <data name="_DeleteFromAllRentals_" xml:space="preserve">
+    <value>Wis Van alle verhuur</value>
+  </data>
+  <data name="_PleaseSelectTooltipHeader_" xml:space="preserve">
+    <value>Maak uw keuze en bevestig:</value>
+  </data>
+  <data name="_LoadingEmailPreview_" xml:space="preserve">
+    <value>Email preview wordt geladen...</value>
+  </data>
+  <data name="_AddToRental_" xml:space="preserve">
+    <value>Voeg toe aan: </value>
+  </data>
+  <data name="_AddToAllRentals_" xml:space="preserve">
+    <value>Voeg toe aan alle Accommodaties</value>
+  </data>
+  <data name="_SuggestionSaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>Dit zal deze suggestie opslagen voor al uw accommodaties.  Weet  u het zeker?</value>
+  </data>
+  <data name="_AddOns_" xml:space="preserve">
+    <value>Add-ons</value>
+  </data>
+  <data name="_PrintCottageBookMenuItem_" xml:space="preserve">
+    <value>Print Cottageboek</value>
+  </data>
+  <data name="_ChangeLanguageMessage_" xml:space="preserve">
+    <value>Gelieve te bevestigen dat u de taal wilt wijzigen.  Dit zal u toelaten om meertalige content voor uw gasten in te voeren.</value>
+  </data>
+  <data name="_ChangeLanguage_" xml:space="preserve">
+    <value>Verander Taal</value>
+  </data>
+  <data name="_Ok_" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="_PageTitle_Instructions_" xml:space="preserve">
+    <value>Instructies</value>
+  </data>
+  <data name="_PageTitle_Instructions_For_" xml:space="preserve">
+    <value>Instructies voor</value>
+  </data>
+  <data name="_PageTitle_PreArrival_For_" xml:space="preserve">
+    <value>Voor-aankomst voor</value>
+  </data>
+  <data name="_SuccessContentSavedButDefaultRestored_" xml:space="preserve">
+    <value>Dit gebied mag niet leeg zijn.  Standaard inhoud is hesteld en en opgeslagen.</value>
+  </data>
+  <data name="_ContentForLanguageMissing_" xml:space="preserve">
+    <value>Er is geen inhoud voor dit onderdeel in deze taal.  </value>
+  </data>
+  <data name="_InviteGuestAccessCodes_" xml:space="preserve">
+    <value>View Access codes and content</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InviteGuestAdvantage_" xml:space="preserve">
+    <value>Take advantage of recommendations</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InviteGuestDescription_" xml:space="preserve">
+    <value>You can invite other guests staying with this reservation.  These guests can do everything the reservation holder can do:</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentConfirmButton_" xml:space="preserve">
+    <value>Ok</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentNoticePicturesNotSupported_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. We have removed these pictures from your content.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentNoticePicturesSupported_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. We have removed pictures from this content.  We have removed these pictures from your content.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentWarning_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. Please remove these images and upload them as photo attachments to ensure the best mobile experience for your guests.</value>
+    <comment>Needs Translation </comment>
+  </data>
+</root>

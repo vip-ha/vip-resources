@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="content_contactinfo_title" xml:space="preserve">
+    <value>Informazioni di contatto</value>
+  </data>
+  <data name="content_contactinfo_helptext" xml:space="preserve">
+    <value>Fornite all'ospite il vostro telefono di contatto, e-mail, ecc. in modo che possa contattarvi prima, durante e dopo il soggiorno.</value>
+  </data>
+  <data name="content_contactinfo_keywords" xml:space="preserve">
+    <value>contatto, proprietario, telefono</value>
+  </data>
+  <data name="content_drivingdirections_title" xml:space="preserve">
+    <value>Indicazioni stradali</value>
+  </data>
+  <data name="content_drivingdirections_helptext" xml:space="preserve">
+    <value>Vi verrà fornita automaticamente una mappa GPS per raggiungere la vostra casa vacanze, eppure a volte aiuta avere scritto le indicazioni.</value>
+  </data>
+  <data name="content_drivingdirections_keywords" xml:space="preserve">
+    <value>guida, indicazioni</value>
+  </data>
+  <data name="content_whattopack_title" xml:space="preserve">
+    <value>Che cosa mettere in valigia</value>
+  </data>
+  <data name="content_whattopack_helptext" xml:space="preserve">
+    <value>Aiutate i vostri ospiti a preparare le valigie per assicurarsi che portino da casa gli elementi necessari che miglioreranno il loro soggiorno.</value>
+  </data>
+  <data name="content_whattopack_keywords" xml:space="preserve">
+    <value>preparare, portare, incluso</value>
+  </data>
+  <data name="content_checkin_title" xml:space="preserve">
+    <value>Check in</value>
+  </data>
+  <data name="content_checkin_helptext" xml:space="preserve">
+    <value>Fornite agli ospiti i dettagli su ciò che è necessario per effettuare il check-in nella vostra casa vacanze.  Fornite, inoltre, i dettagli in caso di arrivo in anticipo o in ritardo.</value>
+  </data>
+  <data name="content_checkin_keywords" xml:space="preserve">
+    <value>check-in, arrivare, arrivo</value>
+  </data>
+  <data name="content_parking_title" xml:space="preserve">
+    <value>Parcheggio</value>
+  </data>
+  <data name="content_parking_helptext" xml:space="preserve">
+    <value>Se ci sono specifiche sul parcheggio presso la vostra casa vacanze, fornitele al cliente qui.  Ciò può includere codici di parcheggio, ecc</value>
+  </data>
+  <data name="content_parking_keywords" xml:space="preserve">
+    <value>parcheggio, auto, regole, garage</value>
+  </data>
+  <data name="content_whatsprovided_title" xml:space="preserve">
+    <value>Che cosa c'è in dotazione</value>
+  </data>
+  <data name="content_whatsprovided_helptext" xml:space="preserve">
+    <value>Indicare un elenco di oggetti, quali asciugamani, ecc, che vengono forniti nella casa vacanze in modo che il vostro ospite si prepari prima del suo arrivo.</value>
+  </data>
+  <data name="content_whatsprovided_keywords" xml:space="preserve">
+    <value>preparare, portare, fornito</value>
+  </data>
+  <data name="content_smoking_title" xml:space="preserve">
+    <value>Fumo</value>
+  </data>
+  <data name="content_smoking_helptext" xml:space="preserve">
+    <value>Se avete delle regole o note sul comportamento che l'ospite fumatore deve adottare, riportarle qui.</value>
+  </data>
+  <data name="content_smoking_keywords" xml:space="preserve">
+    <value>fumatori, fumo, sigarette, regole</value>
+  </data>
+  <data name="content_pets_title" xml:space="preserve">
+    <value>Animali</value>
+  </data>
+  <data name="content_pets_helptext" xml:space="preserve">
+    <value>Se accettate animali domestici o avete norme specifiche per gli animali domestici, riportatele qui.</value>
+  </data>
+  <data name="content_pets_keywords" xml:space="preserve">
+    <value>cane, gatto, animale domestico</value>
+  </data>
+  <data name="content_grilling_title" xml:space="preserve">
+    <value>Griglia</value>
+  </data>
+  <data name="content_grilling_helptext" xml:space="preserve">
+    <value>Se avete delle regole o note sul comportamento che l'ospite fumatore deve adottare, riportarle qui.</value>
+  </data>
+  <data name="content_grilling_keywords" xml:space="preserve">
+    <value>grigliare, cuoco, fuoco</value>
+  </data>
+  <data name="content_trash_title" xml:space="preserve">
+    <value>Spazzatura</value>
+  </data>
+  <data name="content_trash_helptext" xml:space="preserve">
+    <value>Informate i vostri ospiti circa il momento di raccolta dei rifiuti.  Selezionate i giorni di seguito e verrà impostato un promemoria la sera prima per ricordarglielo.</value>
+  </data>
+  <data name="content_trash_keywords" xml:space="preserve">
+    <value>immondizia, rifiuti, smaltimento</value>
+  </data>
+  <data name="content_elevator_title" xml:space="preserve">
+    <value>Ascensore</value>
+  </data>
+  <data name="content_elevator_helptext" xml:space="preserve">
+    <value>Se la vostra casa vacanze richiede un ascensore per accedervi e servono codici o istruzioni speciali, riportarli qui.</value>
+  </data>
+  <data name="content_elevator_keywords" xml:space="preserve">
+    <value>ascensore, regole</value>
+  </data>
+  <data name="content_checkout_title" xml:space="preserve">
+    <value>Check-out</value>
+  </data>
+  <data name="content_checkout_helptext" xml:space="preserve">
+    <value>Informate i vostri ospiti sulle operazioni da effettuare un regolare check-out.  L'ospite riceverà una notifica il giorno prima della sua partenza.</value>
+  </data>
+  <data name="content_checkout_keywords" xml:space="preserve">
+    <value>congedo, partenza, checkout</value>
+  </data>
+  <data name="content_wifi_title" xml:space="preserve">
+    <value>Wifi</value>
+  </data>
+  <data name="content_wifi_helptext" xml:space="preserve">
+    <value>Fornire tutte le informazioni necessarie ai vostri ospiti per l'accesso a Internet.  Fornire nome del router e password.</value>
+  </data>
+  <data name="content_wifi_keywords" xml:space="preserve">
+    <value>internet, wifi, router a banda larga</value>
+  </data>
+  <data name="content_noisepolicy_title" xml:space="preserve">
+    <value>Norme sul rumore</value>
+  </data>
+  <data name="content_noisepolicy_helptext" xml:space="preserve">
+    <value>Se esistono specifiche ordinanze sul rumore nella vostra zona dopo un certo orario, riportatele ai vostri ospiti qui.</value>
+  </data>
+  <data name="content_noisepolicy_keywords" xml:space="preserve">
+    <value>rumore, musica, stereo</value>
+  </data>
+  <data name="content_pool_title" xml:space="preserve">
+    <value>Piscina/e</value>
+  </data>
+  <data name="content_pool_helptext" xml:space="preserve">
+    <value>Fornire specifiche circa la piscina collegata alla vostra casa vacanze, laddove esistente.  Inoltre, se si dispone di una vasca idromassaggio, permettete ai vostri ospiti anche di capirne il funzionamento.</value>
+  </data>
+  <data name="content_pool_keywords" xml:space="preserve">
+    <value>nuoto, piscina, acqua</value>
+  </data>
+  <data name="content_coffeemaker_title" xml:space="preserve">
+    <value>Caffettiera</value>
+  </data>
+  <data name="content_coffeemaker_helptext" xml:space="preserve">
+    <value>Fornire specifiche sulla caffettiera per i vostri ospiti, ad esempio se portare o meno i filtri, e riportare istruzioni speciali.</value>
+  </data>
+  <data name="content_coffeemaker_keywords" xml:space="preserve">
+    <value>cucina, caffè, espresso</value>
+  </data>
+  <data name="content_kitchen_title" xml:space="preserve">
+    <value>Cucina</value>
+  </data>
+  <data name="content_kitchen_helptext" xml:space="preserve">
+    <value>Fornire informazioni specifiche sulla vostra cucina per i vostri ospiti, nel caso in cui ci siano ulteriori informazioni che dovrebbero sapere.</value>
+  </data>
+  <data name="content_kitchen_keywords" xml:space="preserve">
+    <value>cucina, forno, piano cottura, forno a microonde, lavastoviglie, congelatore, frigorifero, ghiaccio</value>
+  </data>
+  <data name="content_beachaccess_title" xml:space="preserve">
+    <value>Spiaggia</value>
+  </data>
+  <data name="content_beachaccess_helptext" xml:space="preserve">
+    <value>Se la vostra casa vacanze è vicina ad una spiaggia, permettete ai vostri ospiti di conoscere l'accesso più diretto e piacevole per raggiungere la spiaggia.</value>
+  </data>
+  <data name="content_beachaccess_keywords" xml:space="preserve">
+    <value>spiaggia, oceano, acqua, codice</value>
+  </data>
+  <data name="content_tv_title" xml:space="preserve">
+    <value>TV / via cavo</value>
+  </data>
+  <data name="content_tv_helptext" xml:space="preserve">
+    <value>Fornire ai vostri ospiti le istruzioni sull'utilizzo dei televisori, oltre ai collegamenti per le postazioni via cavo nella vostra zona.</value>
+  </data>
+  <data name="content_tv_keywords" xml:space="preserve">
+    <value>tv, via cavo, HD, ESPN, HBO, via satellite</value>
+  </data>
+  <data name="content_golfcart_title" xml:space="preserve">
+    <value>Golf</value>
+  </data>
+  <data name="content_golfcart_helptext" xml:space="preserve">
+    <value>Se si fornisce un golf cart nella vostra casa vacanze, o altrove nella vostra zona, informate i vostri ospiti.</value>
+  </data>
+  <data name="content_golfcart_keywords" xml:space="preserve">
+    <value>golf</value>
+  </data>
+  <data name="content_boating_title" xml:space="preserve">
+    <value>Barca</value>
+  </data>
+  <data name="content_boating_helptext" xml:space="preserve">
+    <value>Se si fornisce una barca insieme alla casa vacanze, oppure esistono specifiche per andare in barca nella vostra zona, informate i vostri ospiti</value>
+  </data>
+  <data name="content_boating_keywords" xml:space="preserve">
+    <value>barca, pesce, bacino</value>
+  </data>
+  <data name="content_biking_title" xml:space="preserve">
+    <value>Bicicletta</value>
+  </data>
+  <data name="content_biking_helptext" xml:space="preserve">
+    <value>Se si forniscono biciclette insieme alla casa vacanze, oppure esistono specifiche sulla bicicletta nella vostra zona, informate i vostri ospiti.  Potreste indicare il miglior posto in cui noleggiare biciclette, ecc</value>
+  </data>
+  <data name="content_biking_keywords" xml:space="preserve">
+    <value>biciclette, noleggio, montagna</value>
+  </data>
+  <data name="content_skiing_title" xml:space="preserve">
+    <value>Sci</value>
+  </data>
+  <data name="content_skiing_helptext" xml:space="preserve">
+    <value>Fornite ai vostri ospiti informazioni sulle opportunità di sciare, ecc</value>
+  </data>
+  <data name="content_skiing_keywords" xml:space="preserve">
+    <value>sci, ascensore, noleggio, biglietti, montagna</value>
+  </data>
+  <data name="content_fireplace_title" xml:space="preserve">
+    <value>Camino / Focolare</value>
+  </data>
+  <data name="content_fireplace_helptext" xml:space="preserve">
+    <value>Informate i vostri ospiti sull'utilizzo del camino o focolare presso la vostra casa vacanze</value>
+  </data>
+  <data name="content_fireplace_keywords" xml:space="preserve">
+    <value>camino, focolare, legno, fuoco</value>
+  </data>
+  <data name="content_maintenance_title" xml:space="preserve">
+    <value>Problemi di manutenzione</value>
+  </data>
+  <data name="content_maintenance_helptext" xml:space="preserve">
+    <value>Se qualcosa va storto durante il soggiorno dei vostri ospiti, informarli circa la procedura per risolvere il problema.  Ciò potrebbe includere un numero di telefono alternativo, e-mail, ecc</value>
+  </data>
+  <data name="content_maintenance_keywords" xml:space="preserve">
+    <value>riparare, rotto, manutenzione</value>
+  </data>
+  <data name="content_fitness_title" xml:space="preserve">
+    <value>Fitness / Centro Fitness</value>
+  </data>
+  <data name="content_fitness_helptext" xml:space="preserve">
+    <value>Se esiste un centro fitness o delle attività di fitness in zona, informate i vostri ospiti sulle modalità di accesso, ecc</value>
+  </data>
+  <data name="content_fitness_keywords" xml:space="preserve">
+    <value>fitness, esercizio, bicicletta, correre, camminare</value>
+  </data>
+  <data name="content_electronics_title" xml:space="preserve">
+    <value>Elettronica</value>
+  </data>
+  <data name="content_electronics_helptext" xml:space="preserve">
+    <value>Se la vostra casa vacanze include dispositivi elettronici quali consolle da gioco, dvd, ecc che potrebbero aver bisogno di istruzioni speciali, riportarle qui.</value>
+  </data>
+  <data name="content_electronics_keywords" xml:space="preserve">
+    <value>dvd, xbox, nintendo, wii, ps3, sony, video, impianto stereo</value>
+  </data>
+  <data name="content_homephone_title" xml:space="preserve">
+    <value>Telefono Abitazione</value>
+  </data>
+  <data name="content_homephone_helptext" xml:space="preserve">
+    <value>Se la vostra casa vacanze dispone di un allacciamento della linea telefonica, riportare il numero di telefono qui in modo che gli ospiti possano utilizzarlo durante il soggiorno.</value>
+  </data>
+  <data name="content_homephone_keywords" xml:space="preserve">
+    <value>casa, telefono, telefono</value>
+  </data>
+  <data name="content_transportation_title" xml:space="preserve">
+    <value>Trasporti</value>
+  </data>
+  <data name="content_transportation_helptext" xml:space="preserve">
+    <value>Ci sono autobus o altri mezzi di trasporto a disposizione per i vostri ospiti?  Riportatelo qui.</value>
+  </data>
+  <data name="content_transportation_keywords" xml:space="preserve">
+    <value>mezzi di trasporto, bus, van, autobus</value>
+  </data>
+  <data name="content_helpfultips_title" xml:space="preserve">
+    <value>Suggerimenti utili</value>
+  </data>
+  <data name="content_helpfultips_helptext" xml:space="preserve">
+    <value>Questa è la sede migliore per elencare altri eventuali consigli di utilità per i vostri clienti.</value>
+  </data>
+  <data name="content_helpfultips_keywords" xml:space="preserve">
+    <value>consiglio, zona, istruzioni</value>
+  </data>
+  <data name="content_emergency_title" xml:space="preserve">
+    <value>Emergenza</value>
+  </data>
+  <data name="content_emergency_helptext" xml:space="preserve">
+    <value>In caso di emergenza, fornire ai vostri ospiti tutto quanto potrebbe essere utile per la loro sicurezza.</value>
+  </data>
+  <data name="content_emergency_keywords" xml:space="preserve">
+    <value>polizia, emergenza, evacuazione</value>
+  </data>
+  <data name="content_delivery_title" xml:space="preserve">
+    <value>Consegna Alimentari</value>
+  </data>
+  <data name="content_delivery_helptext" xml:space="preserve">
+    <value>La vostra area offre un servizio di consegna di generi alimentari che potrebbe risultare gradita ai vostri ospiti?  In tal caso, riportatelo qui.</value>
+  </data>
+  <data name="content_delivery_keywords" xml:space="preserve">
+    <value>generi alimentari, cibo, mercato</value>
+  </data>
+  <data name="content_laundry_title" xml:space="preserve">
+    <value>Lavanderia</value>
+  </data>
+  <data name="content_laundry_helptext" xml:space="preserve">
+    <value>Fornire ai vostri ospiti tutti i dettagli per la lavanderia, ad esempio come avviare lavatrici e asciugatrici, ecc.</value>
+  </data>
+  <data name="content_laundry_keywords" xml:space="preserve">
+    <value>lavatrice, asciugatrice, lavaggio a secco</value>
+  </data>
+  <data name="content_safety_title" xml:space="preserve">
+    <value>Sicurezza</value>
+  </data>
+  <data name="content_safety_helptext" xml:space="preserve">
+    <value>Fornire ai vostri ospiti tutte le informazioni di sicurezza per spiagge, montagne, ecc</value>
+  </data>
+  <data name="content_safety_keywords" xml:space="preserve">
+    <value>sicurezza, emergenza</value>
+  </data>
+  <data name="content_fishing_title" xml:space="preserve">
+    <value>Pesca</value>
+  </data>
+  <data name="content_fishing_helptext" xml:space="preserve">
+    <value>Fornire le informazioni ai vostri ospiti in merito alle licenze di pesca, ai luoghi migliori per pescare ecc.</value>
+  </data>
+  <data name="content_fishing_keywords" xml:space="preserve">
+    <value>pesce, barca</value>
+  </data>
+  <data name="content_heatac_title" xml:space="preserve">
+    <value>Riscaldamento e aria condizionata</value>
+  </data>
+  <data name="content_heatac_helptext" xml:space="preserve">
+    <value>Fornire ai vostri ospiti tutte le specifiche di riscaldamento e aria condizionata.</value>
+  </data>
+  <data name="content_heatac_keywords" xml:space="preserve">
+    <value>riscaldamento, aria condizionata, condizionatore d'aria</value>
+  </data>
+  <data name="content_houserules_title" xml:space="preserve">
+    <value>Regole della Casa</value>
+  </data>
+  <data name="content_houserules_helptext" xml:space="preserve">
+    <value>Fornire ai vostri ospiti eventuali regole specifiche da far rispettare nella vostra casa vacanze.</value>
+  </data>
+  <data name="content_houserules_keywords" xml:space="preserve">
+    <value>regole, istruzioni</value>
+  </data>
+  <data name="content_aboutowner_title" xml:space="preserve">
+    <value>Informazioni sul Proprietario</value>
+  </data>
+  <data name="content_aboutowner_helptext" xml:space="preserve">
+    <value>Racconta ai tuoi ospiti la storia della tua casa vacanze.</value>
+  </data>
+  <data name="content_aboutowner_keywords" xml:space="preserve">
+    <value>storia, informazioni su</value>
+  </data>
+  <data name="content_accessrental_title" xml:space="preserve">
+    <value>Accedi alla mia Casa Vacanza</value>
+  </data>
+  <data name="content_accessrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_accessrental_keywords" xml:space="preserve">
+    <value>accesso, codice, porta, indicazioni</value>
+  </data>
+  <data name="content_thankyou_title" xml:space="preserve">
+    <value>Grazie</value>
+  </data>
+  <data name="content_thankyou_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_thankyou_keywords" xml:space="preserve">
+    <value>grazie, </value>
+  </data>
+  <data name="content_welcome_title" xml:space="preserve">
+    <value>Benvenuto/a!</value>
+  </data>
+  <data name="content_welcome_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_welcome_keywords" xml:space="preserve">
+    <value>benvenuto, introduzione, informazioni su, proprietario</value>
+  </data>
+  <data name="content_viewguestbook_title" xml:space="preserve">
+    <value>Visualizza Libro dei Visitatori</value>
+  </data>
+  <data name="content_viewguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_viewguestbook_keywords" xml:space="preserve">
+    <value>Libro dei Visitatori</value>
+  </data>
+  <data name="content_signguestbook_title" xml:space="preserve">
+    <value>Firma il Libro dei Visitatori</value>
+  </data>
+  <data name="content_signguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_signguestbook_keywords" xml:space="preserve">
+    <value>firmare, libro dei visitatori</value>
+  </data>
+  <data name="content_inviteother_title" xml:space="preserve">
+    <value>Invita Altri</value>
+  </data>
+  <data name="content_inviteother_helptext" xml:space="preserve">
+    <value>Invita altri che soggiornano con voi ad ottenere l'accesso a queste informazioni, ecc</value>
+  </data>
+  <data name="content_inviteother_keywords" xml:space="preserve">
+    <value>invitare, condividere, accesso, codice</value>
+  </data>
+  <data name="content_findmyrental_title" xml:space="preserve">
+    <value>Trova la mia Casa Vacanza</value>
+  </data>
+  <data name="content_findmyrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_findmyrental_keywords" xml:space="preserve">
+    <value>mappa, indicazioni, ubicazione, strada, autostrada, trovare</value>
+  </data>
+  <data name="content_misc_title" xml:space="preserve">
+    <value>Varie ed eventuali</value>
+  </data>
+  <data name="content_misc_helptext" xml:space="preserve">
+    <value>Questo è un ottimo posto per inserire qualsiasi altra informazione che potrebbe risultare gradita ai vostri ospiti</value>
+  </data>
+  <data name="content_misc_keywords" xml:space="preserve">
+    <value>varie</value>
+  </data>
+  <data name="content_tennis_title" xml:space="preserve">
+    <value>Tennis</value>
+  </data>
+  <data name="content_tennis_helptext" xml:space="preserve">
+    <value>Questo è un ottimo posto per informare i vostri ospiti sulle opzioni di tennis offerte nella zona</value>
+  </data>
+  <data name="content_tennis_keywords" xml:space="preserve">
+    <value>tennis, sport</value>
+  </data>
+  <data name="content_rainy_title" xml:space="preserve">
+    <value>Quando piove</value>
+  </data>
+  <data name="content_rainy_helptext" xml:space="preserve">
+    <value>Racconta ai tuoi ospiti che cosa fare quando piove.</value>
+  </data>
+  <data name="content_rainy_keywords" xml:space="preserve">
+    <value>pioggia, meteo</value>
+  </data>
+  <data name="content_tides_title" xml:space="preserve">
+    <value>Maree Oceaniche</value>
+  </data>
+  <data name="content_tides_helptext" xml:space="preserve">
+    <value>Se la vostra casa vacanza si trova in aree dove alle maree piace cambiare, indicare link e informazioni in modo tale che i vostri ospiti possano visualizzare i grafici delle maree.</value>
+  </data>
+  <data name="content_tides_keywords" xml:space="preserve">
+    <value>oceano, acqua, maree, sicurezza, luna</value>
+  </data>
+  <data name="content_finalpayment_title" xml:space="preserve">
+    <value>Pagamento Finale</value>
+  </data>
+  <data name="content_finalpayment_helptext" xml:space="preserve">
+    <value>Se ci sono caratteristiche o dettagli che i vostri ospiti devono conoscere per effettuare il pagamento finale, riportateli qui</value>
+  </data>
+  <data name="content_finalpayment_keywords" xml:space="preserve">
+    <value>pagamento, soldi, finale</value>
+  </data>
+  <data name="content_housekeeping_title" xml:space="preserve">
+    <value>Servizio di Pulizia</value>
+  </data>
+  <data name="content_housekeeping_helptext" xml:space="preserve">
+    <value>Se i vostri ospiti possono richiedere il servizio di pulizia o devono sapere qualcos'altro, riportare tali informazioni qui</value>
+  </data>
+  <data name="content_housekeeping_keywords" xml:space="preserve">
+    <value>pulito, casa, scopa, bacinella</value>
+  </data>
+  <data name="content_hiking_title" xml:space="preserve">
+    <value>Escursioni</value>
+  </data>
+  <data name="content_hiking_helptext" xml:space="preserve">
+    <value>Informate i vostri ospiti circa le escursioni a piedi o i sentieri nella zona qui</value>
+  </data>
+  <data name="content_hiking_keywords" xml:space="preserve">
+    <value>passeggiata, esercizio, all'aperto, trekking, montagna</value>
+  </data>
+  <data name="content_beforeyouleave_title" xml:space="preserve">
+    <value>Prima della Visita</value>
+  </data>
+  <data name="content_beforeyouleave_helptext" xml:space="preserve">
+    <value>In caso di dettagli su come effettuare prenotazioni presso i ristoranti, ecc. informare i vostri ospiti qui, prima del loro arrivo alla vostra casa vacanze</value>
+  </data>
+  <data name="content_beforeyouleave_keywords" xml:space="preserve">
+    <value>guidare, arrivo</value>
+  </data>
+</root>

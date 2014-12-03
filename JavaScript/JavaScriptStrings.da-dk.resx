@@ -1,0 +1,2908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_Dashboard_" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="_DashboardBack_" xml:space="preserve">
+    <value>Tilbage til Konto</value>
+  </data>
+  <data name="_Activity_" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="_MyRentals_" xml:space="preserve">
+    <value>Mine ferieboliger</value>
+  </data>
+  <data name="_Reservations_" xml:space="preserve">
+    <value>Reservationer</value>
+  </data>
+  <data name="_MyGuests_" xml:space="preserve">
+    <value>Mine gæster</value>
+  </data>
+  <data name="_Reviews_" xml:space="preserve">
+    <value>Anmeldelser</value>
+  </data>
+  <data name="_Settings_" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="_ActivityTooltip_" xml:space="preserve">
+    <value>Forlystelser og aktiviteter</value>
+  </data>
+  <data name="_MyRentalsTooltip_" xml:space="preserve">
+    <value>Hjem, kære hjem...</value>
+  </data>
+  <data name="_ReservationsTooltip_" xml:space="preserve">
+    <value>Hvem, hvornår og hvor</value>
+  </data>
+  <data name="_AddOnsTooltip_" xml:space="preserve">
+    <value>Vi har din forretning her!</value>
+  </data>
+  <data name="_SettingsTooltip_" xml:space="preserve">
+    <value>Din profil og konti...</value>
+  </data>
+  <data name="_BtnTop_" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="_Help_" xml:space="preserve">
+    <value>Vis Hjælp</value>
+  </data>
+  <data name="_CloseHelp_" xml:space="preserve">
+    <value>Skjul Hjælp</value>
+  </data>
+  <data name="_Add_" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="_Save_" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="_Saving_" xml:space="preserve">
+    <value>Gemmer...</value>
+  </data>
+  <data name="_UndoChanges_" xml:space="preserve">
+    <value>Fortryd ændringer</value>
+  </data>
+  <data name="_LetsGo_" xml:space="preserve">
+    <value>Forstået</value>
+  </data>
+  <data name="_Start_" xml:space="preserve">
+    <value>Start upload</value>
+  </data>
+  <data name="_Cancel_" xml:space="preserve">
+    <value>Annullér</value>
+  </data>
+  <data name="_Delete_" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="_CompleteAddRental_" xml:space="preserve">
+    <value>Udført! Tilføj denne feriebolig</value>
+  </data>
+  <data name="_AddRentalInitialPhotoNotice_" xml:space="preserve">
+    <value>Vælg dit første fotografi for denne feriebolig.  Når din tilmelding er udført, vil du være i stand til at tilføje flere fotos.  </value>
+  </data>
+  <data name="_Previous_" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="_PreviousTooltip_" xml:space="preserve">
+    <value>gå tilbage til det forrige trin</value>
+  </data>
+  <data name="_Next_" xml:space="preserve">
+    <value>Næste</value>
+  </data>
+  <data name="_NextTooltip_" xml:space="preserve">
+    <value>gå til næste trin</value>
+  </data>
+  <data name="_Search_" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="_Clear_" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="_Street_" xml:space="preserve">
+    <value>Gade</value>
+  </data>
+  <data name="_City_" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="_Country_" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="_State_" xml:space="preserve">
+    <value>Stat/område</value>
+  </data>
+  <data name="_ZipCode_" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="_PostalCodeValidation_" xml:space="preserve">
+    <value>Postnummer er påkrævet</value>
+  </data>
+  <data name="_RentalFriendlyName_" xml:space="preserve">
+    <value>Brugervenligt navn for feriebolig</value>
+  </data>
+  <data name="_RentalCheckInCheckOutTimes_" xml:space="preserve">
+    <value>Reservation tjek-ind/tjek-ud</value>
+  </data>
+  <data name="_RentalCheckInTime_" xml:space="preserve">
+    <value>Tjek-ind tidspunkt</value>
+  </data>
+  <data name="_RentalPhoto_" xml:space="preserve">
+    <value>Foto af feriebolig</value>
+  </data>
+  <data name="_RentalCheckOutTime_" xml:space="preserve">
+    <value>Tjek-ud tidspunkt</value>
+  </data>
+  <data name="_RentalColor_" xml:space="preserve">
+    <value>Farve af feriebolig</value>
+  </data>
+  <data name="_VRBONumber_" xml:space="preserve">
+    <value>Annoncenummer</value>
+  </data>
+  <data name="_HomeAwayICalFeed_" xml:space="preserve">
+    <value>iCal-oversigt</value>
+  </data>
+  <data name="_HomeAwayICalFeedInstructions_" xml:space="preserve">
+    <value>Vi kan automatisk importere reservationer for denne feriebolig med din HomeAway/VRBO-kalender. Bemærk, at dette er en måde, som vi bruger til at hente dine reservationer fra .ics, men eventuelle nye, som du tilføjer i vores system, vil ikke blive ført tilbage. Klik på knappen 'Opsætning' ovenfor for flere instruktioner og for at komme i gang.</value>
+  </data>
+  <data name="_HomeAwayICalFeedSetupButton_" xml:space="preserve">
+    <value>Opsætning</value>
+  </data>
+  <data name="_HomeAwayICalFeedModalInstructions_" xml:space="preserve">
+    <value>På HomeAway/VRBO-kontoen er der forskellige typer af 'Del din kalender'-links.  Sørg for, at du bruger den, der skal bruges med HomeAway, som vist i nedenstående eksempel.  Når du har fundet det korrekte link, skal du kopiere og indsætte det i denne formular.</value>
+  </data>
+  <data name="_ICalFeedExample_" xml:space="preserve">
+    <value>Eksempel</value>
+  </data>
+  <data name="_PasteICalHeedHere_" xml:space="preserve">
+    <value>Indsæt webadresse her</value>
+  </data>
+  <data name="_HomeAwayICalFeedLaunchModalInstructions_" xml:space="preserve">
+    <value>Klik her for et eksempel på dette link i kontoen.</value>
+  </data>
+  <data name="_ICalExample_" xml:space="preserve">
+    <value>OPSÆTNING AF DIN KALENDERDATA</value>
+  </data>
+  <data name="_ICalFinishSetup_" xml:space="preserve">
+    <value>Afslut opsætning</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmed_" xml:space="preserve">
+    <value>Opsætning afsluttet - Vær opmærksom på følgende</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet1_" xml:space="preserve">
+    <value>Dette er en automatisk import af reservationer fra HomeAway.  </value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet2_" xml:space="preserve">
+    <value>Alle døradgangskoder vises først for gæsten, når kontrakten er betalt fuldt ud, er underskrevet, og først 14 dage før reservationens start.</value>
+  </data>
+  <data name="_ICalFinishSetupConfirmedBullet3_" xml:space="preserve">
+    <value>Fortsæt med at tilføje nye reservationer i HomeAway/VRBO, så vil de blive vist her. </value>
+  </data>
+  <data name="_ICalFinishSetupDontForget_" xml:space="preserve">
+    <value>Husk på!</value>
+  </data>
+  <data name="_ICalFinishSetupDontForgetInstructions_" xml:space="preserve">
+    <value>Klik her for at gemme dine ændringer.</value>
+  </data>
+  <data name="_HomeAwayICalFeedTooltip_" xml:space="preserve">
+    <value>har en HomeAway eller VRBO iCal-oversigt for denne ejendom? indtaste den her</value>
+  </data>
+  <data name="_ICalLinkClearCurrent_" xml:space="preserve">
+    <value>Fjern kalenderimport</value>
+  </data>
+  <data name="_ICalClearLinkConfirm_" xml:space="preserve">
+    <value>Er du sikker på, at du vil fjerne denne kalenderimport?</value>
+  </data>
+  <data name="_WebPage_" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+  <data name="_Rentals_" xml:space="preserve">
+    <value>Ferieboliger</value>
+  </data>
+  <data name="_DeleteRental_" xml:space="preserve">
+    <value>Slet feriebolig</value>
+  </data>
+  <data name="_DeleteRentalTooltip_" xml:space="preserve">
+    <value>slet feriebolig</value>
+  </data>
+  <data name="_UndoChangesTooltip_" xml:space="preserve">
+    <value>fortryd ændringer</value>
+  </data>
+  <data name="_SaveRentalTooltip_" xml:space="preserve">
+    <value>gem feriebolig</value>
+  </data>
+  <data name="_GTHYTM_" xml:space="preserve">
+    <value>HomeAway ™</value>
+  </data>
+  <data name="_GuestActivity_" xml:space="preserve">
+    <value>Gæsteaktivitet</value>
+  </data>
+  <data name="_AddARental_" xml:space="preserve">
+    <value>Tilføj en feriebolig</value>
+  </data>
+  <data name="_VerifyLocation_" xml:space="preserve">
+    <value>Bekræft beliggenhed</value>
+  </data>
+  <data name="_Address_" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="_VerifyLocationDescrLine1_" xml:space="preserve">
+    <value>Kontrollér, at din ferieboligs beliggenhed er korrekt på kortet nedenfor. Hvis du ønsker at justere beliggenheden, skal du</value>
+  </data>
+  <data name="_VerifyLocationDescrLineContactUs_" xml:space="preserve">
+    <value>kontakte os</value>
+  </data>
+  <data name="_VerifyLocationDescrLine3_" xml:space="preserve">
+    <value>. Hvis du vil tilføje kørselsanvisninger, skal du klikke på sektionen "Før ankomst".</value>
+  </data>
+  <data name="_VerifyLocationError_" xml:space="preserve">
+    <value>Vi er desværre ude af stand til at bestemme din ferieboligs beliggenhed.  Kontrollér venligst dine adresseoplysninger, og prøv igen!</value>
+  </data>
+  <data name="_FeatureOptions_" xml:space="preserve">
+    <value>Gæstebog og gennemsynsindstillinger</value>
+  </data>
+  <data name="_DisableGuestBook_" xml:space="preserve">
+    <value>Deaktiver gæstebog</value>
+  </data>
+  <data name="_PropertyInformation_" xml:space="preserve">
+    <value>Lejeoplysninger</value>
+  </data>
+  <data name="_UploadRentalPhoto_" xml:space="preserve">
+    <value>Vælg foto af feriebolig</value>
+  </data>
+  <data name="_Error_" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="_RequiredCity_" xml:space="preserve">
+    <value>By er påkrævet.</value>
+  </data>
+  <data name="_RentalNameValidation_" xml:space="preserve">
+    <value>Navn er påkrævet.</value>
+  </data>
+  <data name="_RentalListingIdValidation_" xml:space="preserve">
+    <value>Annonce-ID er påkrævet.</value>
+  </data>
+  <data name="_RentalCheckInOutTimeValidation_" xml:space="preserve">
+    <value>Tid er påkrævet.</value>
+  </data>
+  <data name="_ColorValidation_" xml:space="preserve">
+    <value>Farve er påkrævet.</value>
+  </data>
+  <data name="_DepartureValidation_" xml:space="preserve">
+    <value>Afgang skal være senere end ankomst</value>
+  </data>
+  <data name="_RequiredAddress_" xml:space="preserve">
+    <value>Adresse er påkrævet.</value>
+  </data>
+  <data name="_SelectCountry_" xml:space="preserve">
+    <value>Vælg et land</value>
+  </data>
+  <data name="_SelectState_" xml:space="preserve">
+    <value>Vælg en stat/område</value>
+  </data>
+  <data name="_ContentCurrentlyProvided_" xml:space="preserve">
+    <value>Nuværende indhold</value>
+  </data>
+  <data name="_AvailableContent_" xml:space="preserve">
+    <value>TILGÆNGELIGT INDHOLD</value>
+  </data>
+  <data name="_CriticalContent_" xml:space="preserve">
+    <value>VIGTIGT INDHOLD</value>
+  </data>
+  <data name="_CriticalContentInstructions_" xml:space="preserve">
+    <value>Disse oplysninger anses for at være vigtige for kvaliteten af ​​en gæsts oplevelse.  Udfyld venligst dette indhold snarest!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountSingle_" xml:space="preserve">
+    <value>En gæst har anmodet om disse oplysninger.  Angiv venligst disse oplysninger!</value>
+  </data>
+  <data name="_TotalGuestItemRequestsCountMultiple_" xml:space="preserve">
+    <value>** COUNT ** gæster har bedt om disse oplysninger.  Angiv venligst disse oplysninger!</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySetup_" xml:space="preserve">
+    <value>Du har i øjeblikket ikke noget indhold om denne feriebolig.  Tilføj oplysninger under tilgængeligt indhold, der gælder for denne feriebolig.</value>
+  </data>
+  <data name="_InstructionsNothingCurrentlySuggested_" xml:space="preserve">
+    <value>Du har i øjeblikket ikke har nogen lokale forslag.  Klik/tryk på elementerne nedenfor for at anbefale aktiviteter i dit område.</value>
+  </data>
+  <data name="_NoSuggestionsFound_" xml:space="preserve">
+    <value>Beklager, men vi kunne ikke finde nogen forslag for denne kategori.   Prøv at ændre dit søgeord.</value>
+  </data>
+  <data name="_NoPlaceSuggestions_" xml:space="preserve">
+    <value>Vi har ikke nogen forslag for denne kategori.  Vi foreslår, at du bruger knappen 'Tilføj brugerdefineret' nedenfor for at tilføje dine egne forslag.</value>
+  </data>
+  <data name="_PreviousDescriptionLoaded_" xml:space="preserve">
+    <value>Vi har kopieret din tidligere beskrivelse af dette sted.  Du kan gemme denne beskrivelse, som den er eller ændre den.</value>
+  </data>
+  <data name="_NoOwnerSuggestions_" xml:space="preserve">
+    <value>Du har i øjeblikket ikke har nogen forslag for denne kategori.  Klik på fanen 'HomeAway foreslår' nedenfor for at se, hvad vi anbefaler.  Hvis du finder noget, som du gerne vil tilføje, skal du klikke på det grønne plus-symbol ved siden af.</value>
+  </data>
+  <data name="_SuggestionsEditFormNameAndContactHeader_" xml:space="preserve">
+    <value>Navn og kontaktoplysninger</value>
+  </data>
+  <data name="_SuggestionsEditFormAddressHeader_" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="_SuggestionsEditFormNotesHeader_" xml:space="preserve">
+    <value>Mine anbefalingsoplysninger</value>
+  </data>
+  <data name="_AddingSuggestionPleaseWait_" xml:space="preserve">
+    <value>Tilføjer forslag! Vent venligst!</value>
+  </data>
+  <data name="_AssociatedEmail_" xml:space="preserve">
+    <value>Tilknyttet e-mail-adresse</value>
+  </data>
+  <data name="_AssociatedPhoneNumberTitle_" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="_AssociatedPhoneNumber_" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="_AssociatedWebLinkTitle_" xml:space="preserve">
+    <value>Weblink</value>
+  </data>
+  <data name="_AssociatedWebLink_" xml:space="preserve">
+    <value>http://eksempel.webside</value>
+  </data>
+  <data name="_AssociatedPlace_" xml:space="preserve">
+    <value>Associeret sted</value>
+  </data>
+  <data name="_DaysOfWeek_" xml:space="preserve">
+    <value>Dage i ugen</value>
+  </data>
+  <data name="_RelevantDaysInstructions_" xml:space="preserve">
+    <value>Brug afkrydsningsfelterne nedenfor for specifikt at vælge, hvilke dage i ugen dette indhold gælder for.</value>
+  </data>
+  <data name="_Sunday_" xml:space="preserve">
+    <value>Søn</value>
+  </data>
+  <data name="_Monday_" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="_Tuesday_" xml:space="preserve">
+    <value>Tirs</value>
+  </data>
+  <data name="_Wednesday_" xml:space="preserve">
+    <value>Ons</value>
+  </data>
+  <data name="_Thursday_" xml:space="preserve">
+    <value>Tor</value>
+  </data>
+  <data name="_Friday_" xml:space="preserve">
+    <value>Fre</value>
+  </data>
+  <data name="_Saturday_" xml:space="preserve">
+    <value>Lør</value>
+  </data>
+  <data name="_Notes_" xml:space="preserve">
+    <value>Bemærkninger</value>
+  </data>
+  <data name="_StreetTooltip_" xml:space="preserve">
+    <value>ferieboligens adresse</value>
+  </data>
+  <data name="_CityTooltip_" xml:space="preserve">
+    <value>byen, hvor ferieboligen er beliggende</value>
+  </data>
+  <data name="_CountryTooltip_" xml:space="preserve">
+    <value>landet, hvor ferieboligen er beliggende</value>
+  </data>
+  <data name="_StateTooltip_" xml:space="preserve">
+    <value>staten/området, hvor ferieboligen er beliggende</value>
+  </data>
+  <data name="_ZipcodeTooltip_" xml:space="preserve">
+    <value>postnummeret</value>
+  </data>
+  <data name="_RentalNameTooltip_" xml:space="preserve">
+    <value>dette er, hvad gæsterne vil kalde din feriebolig</value>
+  </data>
+  <data name="_RentalNamePlaceholder_" xml:space="preserve">
+    <value>ferieboligens navn</value>
+  </data>
+  <data name="_VrboNumberTooltip_" xml:space="preserve">
+    <value>har du et HomeAway- eller VRBO-nummer? indtast det her</value>
+  </data>
+  <data name="_WebsiteTooltip_" xml:space="preserve">
+    <value>har du en hjemmeside for denne feriebolig?</value>
+  </data>
+  <data name="_StreetValidation_" xml:space="preserve">
+    <value>Adresse er påkrævet.</value>
+  </data>
+  <data name="_CityValidation_" xml:space="preserve">
+    <value>By er påkrævet.</value>
+  </data>
+  <data name="_CountryValidation_" xml:space="preserve">
+    <value>Land er påkrævet.</value>
+  </data>
+  <data name="_StateValidation_" xml:space="preserve">
+    <value>Stat/område er påkrævet.</value>
+  </data>
+  <data name="_AddAnotherRental_" xml:space="preserve">
+    <value>Tilføj en anden feriebolig</value>
+  </data>
+  <data name="_AddAnotherRentalTooltip_" xml:space="preserve">
+    <value>Ønsker du at tilføje en anden feriebolig? Fantastisk!</value>
+  </data>
+  <data name="_RentalInfo_" xml:space="preserve">
+    <value>Lejeoplysninger</value>
+  </data>
+  <data name="_WelcomeMessage_" xml:space="preserve">
+    <value>Velkomstmeddelelse</value>
+  </data>
+  <data name="_ThankYouMessage_" xml:space="preserve">
+    <value>Takkehilsen</value>
+  </data>
+  <data name="_BeforeArrival_" xml:space="preserve">
+    <value>Før ankomst</value>
+  </data>
+  <data name="_Instructions_" xml:space="preserve">
+    <value>Lejeinstruktioner</value>
+  </data>
+  <data name="_LocalSuggestions_" xml:space="preserve">
+    <value>Lokale forslag</value>
+  </data>
+  <data name="_Suggestions_" xml:space="preserve">
+    <value>Forslag</value>
+  </data>
+  <data name="_LocationSuggestions_" xml:space="preserve">
+    <value>Beliggenhedsforslag</value>
+  </data>
+  <data name="_ProvideLocalKnowledge_" xml:space="preserve">
+    <value>Giv lokalt kendskab</value>
+  </data>
+  <data name="_ProvideLocalKnowledgeText_" xml:space="preserve">
+    <value>&lt;h5&gt;del din &lt;b&gt;favorit&lt;/b&gt; aktiviteter&lt;/h5&gt;&lt;p&gt;Hvorfor købte du en feriebolig i dette område?  Var det på grund af seværdighederne, stranden, cykelstierne eller mulighederne for skiløb, shopping eller nattelivet?&lt;/p&gt;&lt;p&gt;HomeAway™ vil give forslag for alle disse, men dine gæster vil også gerne høre dine personlige anbefalinger.  Se nogle af vores tips og tilføj dine egne i felterne nedenfor.&lt;/p&gt;</value>
+  </data>
+  <data name="_OwnerRecommended_" xml:space="preserve">
+    <value>Anbefalinger fra ejeren</value>
+  </data>
+  <data name="_OwnerRecommendedCurrentlyActive_" xml:space="preserve">
+    <value>Er i øjeblikket aktiv</value>
+  </data>
+  <data name="_GTHYSuggested_" xml:space="preserve">
+    <value>Forslag sendt af Google</value>
+  </data>
+  <data name="_GTHYSuggestedAvailable_" xml:space="preserve">
+    <value>Tilgængelig</value>
+  </data>
+  <data name="_Close_" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="_LetsGoTooltip_" xml:space="preserve">
+    <value>Ja Du fik denne!</value>
+  </data>
+  <data name="_FirstTimeUser_" xml:space="preserve">
+    <value>Førstegangsbruger?</value>
+  </data>
+  <data name="_FirstTimeUserText1_" xml:space="preserve">
+    <value>Her kan se den nyeste aktivitet i din Hospitality Manager. Hver gang en gæst gør noget eller der sendes en e-mail, bliver du underrettet her. </value>
+  </data>
+  <data name="_FirstTimeUserText2_" xml:space="preserve">
+    <value>HomeAway</value>
+  </data>
+  <data name="_FirstTimeUserText3_" xml:space="preserve">
+    <value>Dette er aktivitetsoversigten. Kort sagt fortæller den dig alt, hvad der foregår med dine ferieboligudlejninger. Her vil du kunne se alt, hvad der foregår. Du kan søge efter navn eller handling eller endda filtrere efter feriebolig eller aktivitetstype. Du kan se, hvilke forslag folk kunne lide, hvordan gæstebogsindlæg ser ud og endda</value>
+  </data>
+  <data name="_FirstTimeUserText4_" xml:space="preserve">
+    <value>Gøre det personligt</value>
+  </data>
+  <data name="_FirstTimeUserText5_" xml:space="preserve">
+    <value>Giv en fordel for tilbagevendende gæster (f.eks. tilbagevendende gæster behøver ikke at betale et rengøringsgebyr)</value>
+  </data>
+  <data name="_FirstTimeUserText6_" xml:space="preserve">
+    <value>Bed dem om at skrive i gæstebogen</value>
+  </data>
+  <data name="_FirstTimeUserText7_" xml:space="preserve">
+    <value>Bed dem om at reservere næste års ophold på forhånd.</value>
+  </data>
+  <data name="_FirstTimeUserText8_" xml:space="preserve">
+    <value>Bed om forslag, hvis noget kunne gøres bedre.</value>
+  </data>
+  <data name="_SearchByNamePlaceholder_" xml:space="preserve">
+    <value>søg efter navn</value>
+  </data>
+  <data name="_SearchByNameTooltip_" xml:space="preserve">
+    <value>Hvis du ikke kan finde det nedenfor, skal du prøve at søge efter det.</value>
+  </data>
+  <data name="_AddSuggestionTooltip_" xml:space="preserve">
+    <value>Tilføj dette som et forslag!</value>
+  </data>
+  <data name="_RemoveSuggestionTooltip_" xml:space="preserve">
+    <value>Fjern dette fra dine forslag</value>
+  </data>
+  <data name="_DescriptionPlaceholder_" xml:space="preserve">
+    <value>giv en beskrivelse...</value>
+  </data>
+  <data name="_DescriptionTooltip_" xml:space="preserve">
+    <value>fortæl gæsterne, hvorfor de vil kunne lide dette</value>
+  </data>
+  <data name="_FirstTime_" xml:space="preserve">
+    <value>Er dette din første gang?</value>
+  </data>
+  <data name="_FirstTimeThankText1_" xml:space="preserve">
+    <value>Fantastisk...</value>
+  </data>
+  <data name="_FirstTimeThankText2_" xml:space="preserve">
+    <value>Når dine gæster vælger Tjek-ud eller efter deres tjek-ud dato er udløbet, vil de få vist en takkemeddelelse. Her er din mulighed for at sige tak.  Vi har allerede lavet en for dig, men vi opfordrer dig til at lave din egen.  Her er nogle nyttige retningslinjer:</value>
+  </data>
+  <data name="_FirstTimeThankText3_" xml:space="preserve">
+    <value>Gør det personligt</value>
+  </data>
+  <data name="_FirstTimeThankText4_" xml:space="preserve">
+    <value>Giv en fordel for tilbagevendende gæster (f.eks. tilbagevendende gæster behøver ikke at betale et rengøringsgebyr)</value>
+  </data>
+  <data name="_FirstTimeThankText5_" xml:space="preserve">
+    <value>Bed dem om at skrive i gæstebogen</value>
+  </data>
+  <data name="_FirstTimeThankText6_" xml:space="preserve">
+    <value>Bed dem om at reservere næste års ophold på forhånd.</value>
+  </data>
+  <data name="_FirstTimeThankText7_" xml:space="preserve">
+    <value>Bed om forslag, hvis noget kunne gøres bedre.</value>
+  </data>
+  <data name="_ThanksMessage_" xml:space="preserve">
+    <value>Takkehilsen</value>
+  </data>
+  <data name="_FirstTimeWelcomeText1_" xml:space="preserve">
+    <value>Fantastisk...</value>
+  </data>
+  <data name="_FirstTimeWelcomeText2_" xml:space="preserve">
+    <value>Dette er et godt sted at byde din gæst velkommen og takke dem for, at de har valgt dig. Lad dem vide, at du er glad for, at de vil bruge din feriebolig, og at du håber, at de får en god oplevelse.  Vi har allerede lavet en for dig, men vi opfordrer dig til at lave din egen.  Her er nogle nyttige retningslinjer:</value>
+  </data>
+  <data name="_FirstTimeWelcomeText3_" xml:space="preserve">
+    <value>Gør det personligt</value>
+  </data>
+  <data name="_FirstTimeWelcomeText4_" xml:space="preserve">
+    <value>Vis, at du er interesseret</value>
+  </data>
+  <data name="_FirstTimeWelcomeText5_" xml:space="preserve">
+    <value>Tilskynd dem til at drage fordel af alle disse goder</value>
+  </data>
+  <data name="_FirstTimeWelcomeText6_" xml:space="preserve">
+    <value>Bed dem om at signere din digitale gæstebog</value>
+  </data>
+  <data name="_NeedHelpTitle_" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_NeedHelpContent_" xml:space="preserve">
+    <value>Hold markøren over det afsnit eller den side, som du har brug for hjælp med.  Hvis du stadig har spørgsmål, skal du klikke på den sorte supportfane til venstre.</value>
+  </data>
+  <data name="_AddContent_" xml:space="preserve">
+    <value>Hvis du er tilfreds med de ændringer, du har foretaget, skal du klikke her</value>
+  </data>
+  <data name="_ThatsYou_" xml:space="preserve">
+    <value>Det er dig</value>
+  </data>
+  <data name="_Login_" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="_Welcome_" xml:space="preserve">
+    <value>Velkommen...</value>
+  </data>
+  <data name="_Email_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_EmailPlaceholder_" xml:space="preserve">
+    <value>e-mail-adresse</value>
+  </data>
+  <data name="_EmailTooltip_" xml:space="preserve">
+    <value>kan ikke ændres senere</value>
+  </data>
+  <data name="_EmailRequired_" xml:space="preserve">
+    <value>E-mail-adresse er påkrævet</value>
+  </data>
+  <data name="_EmailPattern_" xml:space="preserve">
+    <value>E-mail-adresse er ugyldig.</value>
+  </data>
+  <data name="_EmailVerify_" xml:space="preserve">
+    <value>Felter stemmer ikke overens!</value>
+  </data>
+  <data name="_EmailConfirmation_" xml:space="preserve">
+    <value>E-mail bekræftelse</value>
+  </data>
+  <data name="_EmailConfirmationPlaceholder_" xml:space="preserve">
+    <value>E-mail-bekræftelse</value>
+  </data>
+  <data name="_EmailConfirmationTooltip_" xml:space="preserve">
+    <value>beklager, men dette er meget vigtigt</value>
+  </data>
+  <data name="_Password_" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="_PasswordPlaceholder_" xml:space="preserve">
+    <value>adgangskode</value>
+  </data>
+  <data name="_RememberMe_" xml:space="preserve">
+    <value>Husk mig</value>
+  </data>
+  <data name="_ForgotPassword_" xml:space="preserve">
+    <value>Glemt adgangskode</value>
+  </data>
+  <data name="_ChangePassword_" xml:space="preserve">
+    <value>Skift adgangskode</value>
+  </data>
+  <data name="_ChangingPassword_" xml:space="preserve">
+    <value>Ændring af adgangskode</value>
+  </data>
+  <data name="_CurrentPassword_" xml:space="preserve">
+    <value>Nuværende adgangskode</value>
+  </data>
+  <data name="_CurrentPasswordPlaceholder_" xml:space="preserve">
+    <value>nuværende adgangskode</value>
+  </data>
+  <data name="_PasswordsDoNotMatch_" xml:space="preserve">
+    <value>Sørg for, at din nye adgangskode svarer til adgangskodebekræftelsen.</value>
+  </data>
+  <data name="_PasswordNotLongEnough_" xml:space="preserve">
+    <value>Sørg for, at din nye adgangskode indeholder mindst 6 tegn.</value>
+  </data>
+  <data name="_CurrentPasswordMissing_" xml:space="preserve">
+    <value>Indtast din nuværende adgangskode.</value>
+  </data>
+  <data name="_ChangePasswordInstructions_" xml:space="preserve">
+    <value>Indtast din nuværende adgangskode og vælg en ny.</value>
+  </data>
+  <data name="_PasswordChanged_" xml:space="preserve">
+    <value>Din adgangskode er blevet ændret!</value>
+  </data>
+  <data name="_PasswordNotChanged_" xml:space="preserve">
+    <value>Adgangskode blev ikke ændret!  Bekræft venligst din nuværende adgangskode!</value>
+  </data>
+  <data name="_SignIn_" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="_SigninIn_" xml:space="preserve">
+    <value>Logger ind...</value>
+  </data>
+  <data name="_Register_" xml:space="preserve">
+    <value>Tilmelding</value>
+  </data>
+  <data name="_CurrentUserPleaseLogin_" xml:space="preserve">
+    <value>Har du været her før? Log venligst ind....</value>
+  </data>
+  <data name="_NewUserPleaseRegister_" xml:space="preserve">
+    <value>Hvis dette er første gang, skal du tilmelde dig nu</value>
+  </data>
+  <data name="_RegisterIn_" xml:space="preserve">
+    <value>Tilmelding...</value>
+  </data>
+  <data name="_LoginDLT_" xml:space="preserve">
+    <value>Logger ind...</value>
+  </data>
+  <data name="_DontWorry_" xml:space="preserve">
+    <value>Bare rolig...</value>
+  </data>
+  <data name="_RequestPassword_" xml:space="preserve">
+    <value>Anmodning om ny adgangskode</value>
+  </data>
+  <data name="_RequestPasswordDLT_" xml:space="preserve">
+    <value>Sådan...</value>
+  </data>
+  <data name="_CreateAnAccount_" xml:space="preserve">
+    <value>Opret en konto...</value>
+  </data>
+  <data name="_FirstName_" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="_FirstNamePlaceholder_" xml:space="preserve">
+    <value>fornavn</value>
+  </data>
+  <data name="_FirstNameRequired_" xml:space="preserve">
+    <value>Fornavn er påkrævet</value>
+  </data>
+  <data name="_LastName_" xml:space="preserve">
+    <value>Efternavn</value>
+  </data>
+  <data name="_LastNamePlaceholder_" xml:space="preserve">
+    <value>efternavn</value>
+  </data>
+  <data name="_LastNameRequired_" xml:space="preserve">
+    <value>Efternavn er påkrævet</value>
+  </data>
+  <data name="_PasswordRequired_" xml:space="preserve">
+    <value>Adgangskode er påkrævet</value>
+  </data>
+  <data name="_PasswordMinlength_" xml:space="preserve">
+    <value>Adgangskoden skal indeholde mindst 6 tegn</value>
+  </data>
+  <data name="_PasswordVerify_" xml:space="preserve">
+    <value>Felter stemmer ikke overens!</value>
+  </data>
+  <data name="_PasswordConfirmation_" xml:space="preserve">
+    <value>Bekræftelse af adgangskode</value>
+  </data>
+  <data name="_PasswordConfirmationPlaceholder_" xml:space="preserve">
+    <value>bekræftelse af adgangskode</value>
+  </data>
+  <data name="_AgreeGTHY_" xml:space="preserve">
+    <value>Jeg accepterer HomeAway™ </value>
+  </data>
+  <data name="_TermsOfService_" xml:space="preserve">
+    <value>Servicevilkår</value>
+  </data>
+  <data name="_TermsOfServiceTitle_" xml:space="preserve">
+    <value>servicevilkår</value>
+  </data>
+  <data name="_GreatYoureIn_" xml:space="preserve">
+    <value>Udført!</value>
+  </data>
+  <data name="_GYINextSteps_" xml:space="preserve">
+    <value>Næste trin</value>
+  </data>
+  <data name="_GYINextSteps1_" xml:space="preserve">
+    <value>1. Skriv din adgangskode ned</value>
+  </data>
+  <data name="_GYINextSteps1Text_" xml:space="preserve">
+    <value>Skriv din adgangskode ned og opbevar den på et sikkert sted. Den er vigtig for at kunne logge på ;)</value>
+  </data>
+  <data name="_GYINextSteps2_" xml:space="preserve">
+    <value>2. Tjek din e-mail</value>
+  </data>
+  <data name="_GYINextSteps2TextP1_" xml:space="preserve">
+    <value>Vi har lige sendt dig en bekræftelses-e-mail til</value>
+  </data>
+  <data name="_GYINextSteps2TextP2_" xml:space="preserve">
+    <value>Hvis du ikke kan se den, skal du tjekke din spam-mappe.</value>
+  </data>
+  <data name="_GYINextSteps3P1_" xml:space="preserve">
+    <value>3. Klik på</value>
+  </data>
+  <data name="_GYINextSteps3P2_" xml:space="preserve">
+    <value>Fortsæt</value>
+  </data>
+  <data name="_GYINextSteps3P3_" xml:space="preserve">
+    <value>for at komme i gang!</value>
+  </data>
+  <data name="_GYINextSteps3Text_" xml:space="preserve">
+    <value>Nu skal du tilføje din første udlejningsbolig... bare rolig, vi vil navigere dig igennem alle trin.</value>
+  </data>
+  <data name="_Continue_" xml:space="preserve">
+    <value>Fortsæt</value>
+  </data>
+  <data name="_FirstTimeSuggestionText1_" xml:space="preserve">
+    <value>med at dele oplysninger om dine favoritter</value>
+  </data>
+  <data name="_FirstTimeSuggestionText2_" xml:space="preserve">
+    <value>Hvorfor købte du en feriebolig i dette område?  Var det på grund af seværdighederne, stranden, cykelstierne eller mulighederne for skiløb, shopping eller nattelivet?</value>
+  </data>
+  <data name="_FirstTimeSuggestionText3_" xml:space="preserve">
+    <value>HomeAway™ vil give forslag for alle disse, men dine gæster vil også gerne høre dine personlige anbefalinger.  Se nogle af vores tips og tilføj dine egne i felterne nedenfor.</value>
+  </data>
+  <data name="_FirstTimeSuggestionText4_" xml:space="preserve">
+    <value>Den bedste burger</value>
+  </data>
+  <data name="_FirstTimeSuggestionText5_" xml:space="preserve">
+    <value>Det sted, der gør dette område så specielt</value>
+  </data>
+  <data name="_FirstTimeSuggestionText6_" xml:space="preserve">
+    <value>..eller noget andet, der gør dit område unikt</value>
+  </data>
+  <data name="_Success_" xml:space="preserve">
+    <value>Lykkedes</value>
+  </data>
+  <data name="_SuccessContentSave_" xml:space="preserve">
+    <value>Indhold blev gemt</value>
+  </data>
+  <data name="_SuccessContentAutomaticallySaved_" xml:space="preserve">
+    <value>Indhold blev automatisk gemt</value>
+  </data>
+  <data name="_SuccessPhotoUpdate_" xml:space="preserve">
+    <value>Foto blev opdateret</value>
+  </data>
+  <data name="_SuccessPhotoAdd_" xml:space="preserve">
+    <value>Foto blev tilføjet!</value>
+  </data>
+  <data name="_ContentBlankMessage_" xml:space="preserve">
+    <value>Udfyld venligst mindst et indholdssæt for dette punkt.  Ikke gemt.</value>
+  </data>
+  <data name="_SuccessContentDelete_" xml:space="preserve">
+    <value>Indholdet blev slettet</value>
+  </data>
+  <data name="_ContactInfo_" xml:space="preserve">
+    <value>Kontaktoplysninger</value>
+  </data>
+  <data name="_MobilePhoneNumber_" xml:space="preserve">
+    <value>Mobilnummer</value>
+  </data>
+  <data name="_EmailAddress_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_ContactMobilePhoneNumber_" xml:space="preserve">
+    <value>Kontakt mobilnummer</value>
+  </data>
+  <data name="_ContactEmailAddress_" xml:space="preserve">
+    <value>Kontakt e-mail-adresse</value>
+  </data>
+  <data name="_AllowSMS_" xml:space="preserve">
+    <value>Tillad sms</value>
+  </data>
+  <data name="_ContactWebAddress_" xml:space="preserve">
+    <value>Kontakt-webadresse</value>
+  </data>
+  <data name="_AccountInformation_" xml:space="preserve">
+    <value>Kontooplysninger</value>
+  </data>
+  <data name="_YourAccountInformation_" xml:space="preserve">
+    <value>Hvordan vi vil kontakte dig</value>
+  </data>
+  <data name="_GuestContactInformation_" xml:space="preserve">
+    <value>Gæstens kontaktoplysninger</value>
+  </data>
+  <data name="_FirstNameComment_" xml:space="preserve">
+    <value>dette er påkrævet.</value>
+  </data>
+  <data name="_LastNameComment_" xml:space="preserve">
+    <value>dette er også påkrævet</value>
+  </data>
+  <data name="_PhoneNumberComment_" xml:space="preserve">
+    <value>skal være i et gyldigt telefonnummerformat</value>
+  </data>
+  <data name="_EmailAddressComment_" xml:space="preserve">
+    <value>din e-mail-adresse, dette er desværre skrivebeskyttet.</value>
+  </data>
+  <data name="_ContactEmailAddressComment_" xml:space="preserve">
+    <value>hvordan dine gæster vil e-maile dig; du er velkommen til at have flere og bruge et semikolon til at holde dem adskilt.</value>
+  </data>
+  <data name="_ContactPhoneNumberComment_" xml:space="preserve">
+    <value>det telefonnummer, som dine gæster vil bruge til at komme i kontakt med dig</value>
+  </data>
+  <data name="_AllowSMSComment_" xml:space="preserve">
+    <value>har din telefon en sms-plan?  Så ønsker du måske, at dine gæster kontakter dig på den måde...</value>
+  </data>
+  <data name="_ContactWebAddressComment_" xml:space="preserve">
+    <value>hvis du har en hjemmeside, skal du oplyse den fulde webadresse her...</value>
+  </data>
+  <data name="_InvalidForm_" xml:space="preserve">
+    <value>Formatet er ugyldigt.</value>
+  </data>
+  <data name="_InvalidValue_" xml:space="preserve">
+    <value>Ugyldig værdi</value>
+  </data>
+  <data name="_InvalidUrlValue_" xml:space="preserve">
+    <value>Webadressen skal starte med http: // eller https: //</value>
+  </data>
+  <data name="_RequiredField_" xml:space="preserve">
+    <value>Felt er påkrævet</value>
+  </data>
+  <data name="_TooLengthValue_" xml:space="preserve">
+    <value>Værdien er for lang</value>
+  </data>
+  <data name="_NewReservation_" xml:space="preserve">
+    <value>Ny gæstereservation</value>
+  </data>
+  <data name="_NewOwnerReservation_" xml:space="preserve">
+    <value>Ny ejerreservation</value>
+  </data>
+  <data name="_NewGuestReservation_" xml:space="preserve">
+    <value>Ny gæstereservation</value>
+  </data>
+  <data name="_OwnerReservationHelp_" xml:space="preserve">
+    <value>Vi har udfyldt dit navn og e-mail-adresse for dig.  Du skal bare vælge feriebolig og rejsedatoer!</value>
+  </data>
+  <data name="_NewReservationHelp_" xml:space="preserve">
+    <value>Tilføj en ny reservation for en feriebolig i dit system.</value>
+  </data>
+  <data name="_OwnerReservationName_" xml:space="preserve">
+    <value>Ejer</value>
+  </data>
+  <data name="_EditReservation_" xml:space="preserve">
+    <value>Rediger reservation</value>
+  </data>
+  <data name="_Rental_" xml:space="preserve">
+    <value>Feriebolig</value>
+  </data>
+  <data name="_ArrivalDate_" xml:space="preserve">
+    <value>Ankomstdato</value>
+  </data>
+  <data name="_DepartureDate_" xml:space="preserve">
+    <value>Afrejsedato</value>
+  </data>
+  <data name="_Passphrase_" xml:space="preserve">
+    <value>Adgangssætning</value>
+  </data>
+  <data name="_Generate_" xml:space="preserve">
+    <value>Generér</value>
+  </data>
+  <data name="_Phone_" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="_Statuses_" xml:space="preserve">
+    <value>Statusser</value>
+  </data>
+  <data name="_DoorCode_" xml:space="preserve">
+    <value>Dørkode</value>
+  </data>
+  <data name="_CommunicationOptions_" xml:space="preserve">
+    <value>Indstillinger for kommunikation</value>
+  </data>
+  <data name="_SourceSystemOptions_" xml:space="preserve">
+    <value>Indstillinger for eksternt system</value>
+  </data>
+  <data name="_IgnoreSourceSystemChanges_" xml:space="preserve">
+    <value>Ignorér ændringer fra HomeAway, hvis dette var synkroniseret</value>
+  </data>
+  <data name="_NotificationsDisabled_" xml:space="preserve">
+    <value>Meddelelser deaktiveret</value>
+  </data>
+  <data name="_EmailGuest_" xml:space="preserve">
+    <value>Send e-mail til gæsten</value>
+  </data>
+  <data name="_SaveChanges_" xml:space="preserve">
+    <value>Gem ændringer</value>
+  </data>
+  <data name="_PaidInFull_" xml:space="preserve">
+    <value>Betalt fuldt ud</value>
+  </data>
+  <data name="_NotPaidInFull_" xml:space="preserve">
+    <value>Ikke betalt fuldt ud</value>
+  </data>
+  <data name="_PaidInFullDescription_" xml:space="preserve">
+    <value>Denne reservation er betalt fuldt ud.</value>
+  </data>
+  <data name="_ContractSigned_" xml:space="preserve">
+    <value>Kontrakt er underskrevet</value>
+  </data>
+  <data name="_NotContractSigned_" xml:space="preserve">
+    <value>Kontrakten er ikke signeret</value>
+  </data>
+  <data name="_ContractSignedDescription_" xml:space="preserve">
+    <value>Kontrakten for denne reservation er blevet udfyldt og underskrevet.</value>
+  </data>
+  <data name="_CheckInDate_" xml:space="preserve">
+    <value>datoen for indtjekning.</value>
+  </data>
+  <data name="_CheckOutDate_" xml:space="preserve">
+    <value>datoen for tjek-ud.</value>
+  </data>
+  <data name="_ReservationsFirstNameComment_" xml:space="preserve">
+    <value>dette hjælper med at oprette personlige meddelelser og invitationer</value>
+  </data>
+  <data name="_ReservationsLastNameComment_" xml:space="preserve">
+    <value>dette hjælper med at oprette personlige meddelelser og invitationer</value>
+  </data>
+  <data name="_ReservationsEmailComment_" xml:space="preserve">
+    <value>vigtigt, at dette er deres rigtige e-mail-adresse</value>
+  </data>
+  <data name="_ReservationsPassphraseComment_" xml:space="preserve">
+    <value>gæsten får brug for dette for at få adgang til systemet.</value>
+  </data>
+  <data name="_SelectRental_" xml:space="preserve">
+    <value>Vælg en feriebolig</value>
+  </data>
+  <data name="_Today_" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="_Calendar_" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="_CalendarHelpText_" xml:space="preserve">
+    <value>Se alle dine reservationer og en søgbar kalender</value>
+  </data>
+  <data name="_CalendarPickMonth_" xml:space="preserve">
+    <value>Vælg en måned</value>
+  </data>
+  <data name="_CalendarResetMonth_" xml:space="preserve">
+    <value>Nulstil til aktuel måned</value>
+  </data>
+  <data name="_ListView_" xml:space="preserve">
+    <value>Listevisning</value>
+  </data>
+  <data name="_ListViewHelpText_" xml:space="preserve">
+    <value>Se alle dine nuværende og kommende reservationer i én liste</value>
+  </data>
+  <data name="_MonthNames_" xml:space="preserve">
+    <value>Januar, februar, marts, april, maj, juni, juli, august, september, oktober, november, december</value>
+  </data>
+  <data name="_MonthShortNames_" xml:space="preserve">
+    <value>Jan, feb, mar, apr, maj, jun, jul, aug, sep, okt, nov, dec</value>
+  </data>
+  <data name="_DayNames_" xml:space="preserve">
+    <value>Søndag, mandag, tirsdag, onsdag, torsdag, fredag, lørdag</value>
+  </data>
+  <data name="_DayShortNames_" xml:space="preserve">
+    <value>Søn, man, tirs, ons, tors, fre, lør</value>
+  </data>
+  <data name="_FirstDayNumber_" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_YesButton_" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="_NoButton_" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="_DeleteReservationConfirmText_" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette reservationen for</value>
+  </data>
+  <data name="_DeleteConfirmText_" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette</value>
+  </data>
+  <data name="_DeleteReservation_" xml:space="preserve">
+    <value>Slet reservation</value>
+  </data>
+  <data name="_FromText_" xml:space="preserve">
+    <value>fra</value>
+  </data>
+  <data name="_ToText_" xml:space="preserve">
+    <value>til</value>
+  </data>
+  <data name="_UnknownErrorText_" xml:space="preserve">
+    <value>Der opstod en fejl på serveren</value>
+  </data>
+  <data name="_DeleteSuccessText_" xml:space="preserve">
+    <value>Indholdet blev slettet</value>
+  </data>
+  <data name="_RequiredToastrMessage_" xml:space="preserve">
+    <value>Udfyld venligst alle de påkrævede felter</value>
+  </data>
+  <data name="_DuplicateEmailMessage_" xml:space="preserve">
+    <value>E-mail-adresse er allerede registreret</value>
+  </data>
+  <data name="_RequiredToastrTitle_" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="_IncorrectLoginData_" xml:space="preserve">
+    <value>Det brugernavn eller den adgangskode, som du har indtastet, er forkert.</value>
+  </data>
+  <data name="_SendEmailMessage_" xml:space="preserve">
+    <value>E-mailen blev sendt</value>
+  </data>
+  <data name="_IncorrectEmailMessage_" xml:space="preserve">
+    <value>Forkert e-mail-adresse</value>
+  </data>
+  <data name="_NeedTermsAgreeError_" xml:space="preserve">
+    <value>Du skal acceptere servicevilkår.</value>
+  </data>
+  <data name="_OpenLabel_" xml:space="preserve">
+    <value>Åbn</value>
+  </data>
+  <data name="_MarkPayFull_" xml:space="preserve">
+    <value>Markér som Betalt fuldt ud</value>
+  </data>
+  <data name="_MarkContractSigned_" xml:space="preserve">
+    <value>Markér Kontrakt underskrevet</value>
+  </data>
+  <data name="_MarkNotPayFull_" xml:space="preserve">
+    <value>Markér som IKKE betalt fuldt ud</value>
+  </data>
+  <data name="_MarkContractNotSigned_" xml:space="preserve">
+    <value>Markér som Kontrakt IKKE underskrevet</value>
+  </data>
+  <data name="_RemoveLabel_" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="_ContactInformation_" xml:space="preserve">
+    <value>Kontaktoplysninger</value>
+  </data>
+  <data name="_PaymentInformation_" xml:space="preserve">
+    <value>Kontooplysninger</value>
+  </data>
+  <data name="_Invoices_" xml:space="preserve">
+    <value>Fakturaer</value>
+  </data>
+  <data name="_ViewPDF_" xml:space="preserve">
+    <value>Vis PDF</value>
+  </data>
+  <data name="_BilledFor_" xml:space="preserve">
+    <value>Faktureret for</value>
+  </data>
+  <data name="_Notifications_" xml:space="preserve">
+    <value>Meddelelser</value>
+  </data>
+  <data name="_RentalContentSettings_" xml:space="preserve">
+    <value>Ferieboliger</value>
+  </data>
+  <data name="_SettingsRentalContentImport_" xml:space="preserve">
+    <value>Importér indhold</value>
+  </data>
+  <data name="_AddOnsAddOns_" xml:space="preserve">
+    <value>Butik/tilføjelser</value>
+  </data>
+  <data name="_Activities_" xml:space="preserve">
+    <value>Aktiviteter</value>
+  </data>
+  <data name="_Restaurants_" xml:space="preserve">
+    <value>Restauranter</value>
+  </data>
+  <data name="_Directory_" xml:space="preserve">
+    <value>Vejviser</value>
+  </data>
+  <data name="_Print_" xml:space="preserve">
+    <value>Udskriv</value>
+  </data>
+  <data name="_Purchased_" xml:space="preserve">
+    <value>Købt</value>
+  </data>
+  <data name="_Marketing_" xml:space="preserve">
+    <value>Markedsføring</value>
+  </data>
+  <data name="_AutoResponders_" xml:space="preserve">
+    <value>Auto respondenter</value>
+  </data>
+  <data name="_WebSites_" xml:space="preserve">
+    <value>Websteder</value>
+  </data>
+  <data name="_Other_" xml:space="preserve">
+    <value>Andet</value>
+  </data>
+  <data name="_Housekeeping_" xml:space="preserve">
+    <value>Rengøring</value>
+  </data>
+  <data name="_Maintenance_" xml:space="preserve">
+    <value>Vedligeholdelse</value>
+  </data>
+  <data name="_HomeAutomation_" xml:space="preserve">
+    <value>Hjemmeautomatisering</value>
+  </data>
+  <data name="_SecurityMonitoring_" xml:space="preserve">
+    <value>Sikkerhed og overvågning</value>
+  </data>
+  <data name="_PhoneNumberTitles_" xml:space="preserve">
+    <value>Hjem, mobil, arbejde, fastnet</value>
+  </data>
+  <data name="_PhoneNumberTitleClear_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Clear&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_PleaseWait_" xml:space="preserve">
+    <value>Vent venligst ...</value>
+  </data>
+  <data name="_DeleteSuggestion_" xml:space="preserve">
+    <value>Slet forslag</value>
+  </data>
+  <data name="_DeleteItem_" xml:space="preserve">
+    <value>Slet oplysning</value>
+  </data>
+  <data name="_NotifyPreferencesTitle_" xml:space="preserve">
+    <value>Indstillinger for meddelelser</value>
+  </data>
+  <data name="_NotifyPreferencesText_" xml:space="preserve">
+    <value>Vælg de meddelelser, som vi vil sende til dig, når de kommer</value>
+  </data>
+  <data name="_Owner_" xml:space="preserve">
+    <value>Ejer</value>
+  </data>
+  <data name="_Actions_" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="_First_" xml:space="preserve">
+    <value>Første</value>
+  </data>
+  <data name="_Last_" xml:space="preserve">
+    <value>Sidste</value>
+  </data>
+  <data name="_Impersonate_" xml:space="preserve">
+    <value>Udgiv</value>
+  </data>
+  <data name="_ItemsOnPage_" xml:space="preserve">
+    <value>Oplysninger på siden:</value>
+  </data>
+  <data name="_ManageOwners_" xml:space="preserve">
+    <value>Administrér ejere</value>
+  </data>
+  <data name="_SignOut_" xml:space="preserve">
+    <value>Log ud</value>
+  </data>
+  <data name="_SignUp_" xml:space="preserve">
+    <value>Tilmeld dig</value>
+  </data>
+  <data name="_Support_" xml:space="preserve">
+    <value>Indsend feedback</value>
+  </data>
+  <data name="_Website_" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+  <data name="_InfiniteActivityScrollEnd_" xml:space="preserve">
+    <value>Ikke flere aktiviteter at vise.</value>
+  </data>
+  <data name="_InfiniteReservationScrollEnd_" xml:space="preserve">
+    <value>Ikke flere reservationer at vise.</value>
+  </data>
+  <data name="_InfiniteInvoicesScrollEnd_" xml:space="preserve">
+    <value>Ikke flere fakturaer at vise.</value>
+  </data>
+  <data name="_InfiniteGuestsScrollEnd_" xml:space="preserve">
+    <value>Ikke flere gæster til at vise.</value>
+  </data>
+  <data name="_TimeJustNow_" xml:space="preserve">
+    <value>Lige nu</value>
+  </data>
+  <data name="_TimeMinutesAgo_" xml:space="preserve">
+    <value>minutter siden</value>
+  </data>
+  <data name="_TimeHoursAgo_" xml:space="preserve">
+    <value>timer siden</value>
+  </data>
+  <data name="_TimeYesterday_" xml:space="preserve">
+    <value>I går</value>
+  </data>
+  <data name="_TimeDaysAgo_" xml:space="preserve">
+    <value>dage siden</value>
+  </data>
+  <data name="_TimeMonthsAgo_" xml:space="preserve">
+    <value>måneder siden</value>
+  </data>
+  <data name="_TimeYearsAgo_" xml:space="preserve">
+    <value>år siden</value>
+  </data>
+  <data name="_GuestPreview_" xml:space="preserve">
+    <value>Gæsteforhåndvisning</value>
+  </data>
+  <data name="_GuestPreviewTooltip_" xml:space="preserve">
+    <value>Gæsteforhåndvisning</value>
+  </data>
+  <data name="_SyncSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Stammer fra HomeAway</value>
+  </data>
+  <data name="_SyncSourceVRBOTooltip_" xml:space="preserve">
+    <value>Stammer fra VRBO</value>
+  </data>
+  <data name="_ReviewSourceHomeAwayTooltip_" xml:space="preserve">
+    <value>Anmeldelse fra HomeAway</value>
+  </data>
+  <data name="_ReviewSourceVRBOTooltip_" xml:space="preserve">
+    <value>Anmeldelse fra VRBO</value>
+  </data>
+  <data name="_GuestPreviewScrollTip_" xml:space="preserve">
+    <value>Brug musen til at rulle i dette forhåndsvisningsvindue.</value>
+  </data>
+  <data name="_NewGuestPreviewHint_" xml:space="preserve">
+    <value>Klik her for at se en gæsteforhåndsvisning for denne nye reservation!</value>
+  </data>
+  <data name="_ReservationAccordionHeaderTripDetails_" xml:space="preserve">
+    <value>Rejseoplysninger</value>
+  </data>
+  <data name="_ReservationAccordionHeaderGuestInformation_" xml:space="preserve">
+    <value>Gæsteoplysninger</value>
+  </data>
+  <data name="_ReservationAccordionHeaderStatus_" xml:space="preserve">
+    <value>Status og adgangsinformation</value>
+  </data>
+  <data name="_ReservationAccordionHeaderInvitedGuests_" xml:space="preserve">
+    <value>Inviterede gæster</value>
+  </data>
+  <data name="_ReservationNoInvitedGuestsYet_" xml:space="preserve">
+    <value>Denne gæst har ikke inviteret nogen endnu.  Du bør opfordre dem til at gøre det!</value>
+  </data>
+  <data name="_Important_" xml:space="preserve">
+    <value>Vigtigt</value>
+  </data>
+  <data name="_RentalInstructionsHeaderEmail_" xml:space="preserve">
+    <value>Kontakt e-mail-adresser</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPhone_" xml:space="preserve">
+    <value>Telefonnumre</value>
+  </data>
+  <data name="_RentalInstructionsHeaderWebLinks_" xml:space="preserve">
+    <value>Weblink</value>
+  </data>
+  <data name="_RentalInstructionsHeaderLocation_" xml:space="preserve">
+    <value>Beliggenhed</value>
+  </data>
+  <data name="_RentalInstructionsHeaderPictures_" xml:space="preserve">
+    <value>Billeder</value>
+  </data>
+  <data name="_RentalInstructionsHeaderDays_" xml:space="preserve">
+    <value>Relevante dage i ugen</value>
+  </data>
+  <data name="_RentalInstructionsHeaderNotes_" xml:space="preserve">
+    <value>Bemærkninger</value>
+  </data>
+  <data name="_Property_" xml:space="preserve">
+    <value>Bolig</value>
+  </data>
+  <data name="_Experience_" xml:space="preserve">
+    <value>Indtryk</value>
+  </data>
+  <data name="_Value_" xml:space="preserve">
+    <value>Vurdering</value>
+  </data>
+  <data name="_Overall_" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="_InstructionsNewItemHeader_" xml:space="preserve">
+    <value>Hvad er dette?</value>
+  </data>
+  <data name="_SuggestionsEmptyHeader_" xml:space="preserve">
+    <value>Så kan du gå i gang!</value>
+  </data>
+  <data name="_SuggestionsEmptyHelp_" xml:space="preserve">
+    <value>Denne kategori er i øjeblikket tom!  Vi har givet nogle forslag nedenfor.  Klik på det grønne ikon for at tilføje et forslag.</value>
+  </data>
+  <data name="_GNSHEmail_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_GNSHType_" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="_GNSHScheduledFor_" xml:space="preserve">
+    <value>Planlagt til</value>
+  </data>
+  <data name="_GNSHSent_" xml:space="preserve">
+    <value>Sendt</value>
+  </data>
+  <data name="_GuestNotificationShedule_" xml:space="preserve">
+    <value>Planlægning for gæstemeddelelse</value>
+  </data>
+  <data name="_Latitude_" xml:space="preserve">
+    <value>Breddegrad:</value>
+  </data>
+  <data name="_Longitude_" xml:space="preserve">
+    <value>Længdegrad:</value>
+  </data>
+  <data name="_ResetToCurrentAddress_" xml:space="preserve">
+    <value>Nulstil til nuværende adresse</value>
+  </data>
+  <data name="_SelectImage_" xml:space="preserve">
+    <value>Vælg billede</value>
+  </data>
+  <data name="_SomebodyHasSaid_" xml:space="preserve">
+    <value>har sagt ...</value>
+  </data>
+  <data name="_GPDate_" xml:space="preserve">
+    <value>Forhåndsvisningsdato: </value>
+  </data>
+  <data name="_GPPreviewDate_" xml:space="preserve">
+    <value>Forhåndsvisningsdato</value>
+  </data>
+  <data name="_GPAlertAdjust_" xml:space="preserve">
+    <value>Justér forhåndsvisningsdatoen for at se, hvordan gæsteindholdet vil ændre sig i løbet af deres ferie.</value>
+  </data>
+  <data name="_GPAlertExample_" xml:space="preserve">
+    <value>Eksempel: Skift til ankomstdato for at se indhold relateret til indtjekning.</value>
+  </data>
+  <data name="_GPAlertTripReminder_" xml:space="preserve">
+    <value>Gæsteferiedatoer:</value>
+  </data>
+  <data name="_GPAlertTripReminderSeparator_" xml:space="preserve">
+    <value> til </value>
+  </data>
+  <data name="_FileSelectedNextStep_" xml:space="preserve">
+    <value>Nedenfor kan du se en miniature af det billede, som du har valgt. Hvis dette er det rigtige billede, skal du klikke på 'Start upload' for at fortsætte.  Hvis du har brug for at vælge et andet billede, skal du klikke på 'Annuller'.</value>
+  </data>
+  <data name="_HelpPopoverHeaderTitle_" xml:space="preserve">
+    <value>Hjælp</value>
+  </data>
+  <data name="_AccountTrialModeNotice_" xml:space="preserve">
+    <value>Din konto er i prøvetilstand og udløber den </value>
+  </data>
+  <data name="_AccountTrialModeNoticeUpgradeAction_" xml:space="preserve">
+    <value>Opgrader nu!</value>
+  </data>
+  <data name="_AccountTrialExpiredDateNotice_" xml:space="preserve">
+    <value>Din konto udløb den: </value>
+  </data>
+  <data name="_AccountTrialExpiredWarning_" xml:space="preserve">
+    <value>Dine gæster kan i øjeblikket ikke bruge app'en og e-mail-invitationer bliver ikke leveret!</value>
+  </data>
+  <data name="_SubscribeButtonHelpHeader_" xml:space="preserve">
+    <value>Læs venligst</value>
+  </data>
+  <data name="_SubscribeButtonHelpBody_" xml:space="preserve">
+    <value>Udfyld tilmeldingsformularen nedenfor og klik på denne knap, når du er klar til at abonnere.</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverTitle_" xml:space="preserve">
+    <value>Registreret kort</value>
+  </data>
+  <data name="_CreditCardOnFileUpdatePopoverHelpText_" xml:space="preserve">
+    <value>Vi fakturerer i øjeblikket din **CARDTYPE** som slutter med **CARDLASTFOUR** ( Udløbsdato: **CARDEXP**). Hvis du foretager ændringer i dine faktureringsoplysninger, skal du genindtaste dette kreditkortnummer eller indtaste et nyt.</value>
+  </data>
+  <data name="_CreditCardOnFileErrorPopoverHelpText_" xml:space="preserve">
+    <value>Vi kunne ikke trække beløbet på din **CARDTYPE** som slutter med **CARDLASTFOUR**  Udløbsdato: **CARDEXP**). Oplys venligst et nyt kortnummer.</value>
+  </data>
+  <data name="_Confirmationeer_" xml:space="preserve">
+    <value>TAK FOR BEKRÆFTELSE...</value>
+  </data>
+  <data name="_ConfirmationModalSubHeader_" xml:space="preserve">
+    <value>Din konto er nu aktiv</value>
+  </data>
+  <data name="_ConfirmationModalInstructions_" xml:space="preserve">
+    <value>Start opsætning af dine ferieboliger. Det er let og sjovt.</value>
+  </data>
+  <data name="_ConfirmationModalErrorNotice_" xml:space="preserve">
+    <value>Bekræftelse mislykkedes.</value>
+  </data>
+  <data name="_AddressInstructions_" xml:space="preserve">
+    <value>Adressen til din feriebolig er meget vigtig.  Vi bruger den til at sikre, at vi giver et korrekt kort til ejendommen samt lokale anbefalinger.</value>
+  </data>
+  <data name="_ColorPickerInstructions_" xml:space="preserve">
+    <value>Denne farve bruges som tema for denne feriebolig i hele systemet.  Hver feriebolig kan have en anden farve.</value>
+  </data>
+  <data name="_VRBOInstructions_" xml:space="preserve">
+    <value>Hvis denne feriebolig er aktiv på HomeAway eller VRBO, bedes du oplyse det nu.</value>
+  </data>
+  <data name="_Filters_" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="_NoInvoicesYetNotice_" xml:space="preserve">
+    <value>Da din konto endnu ikke er aktiv, er der ingen fakturaer at vise. Når du er blevet opgraderet, vil du kunne gennemse dine fakturaer her.</value>
+  </data>
+  <data name="_NoInvoices_" xml:space="preserve">
+    <value>Ingen fakturaer endnu</value>
+  </data>
+  <data name="_InstructionsHelpTitle_" xml:space="preserve">
+    <value>Hjælp gæsterne til at nyde dit sted</value>
+  </data>
+  <data name="_InstructionsHelpSubtitle_" xml:space="preserve">
+    <value>du kan forbedre din gæsts ophold ved at fortælle dem hvordan</value>
+  </data>
+  <data name="_InstructionsHelpText1_" xml:space="preserve">
+    <value>Brug et øjeblik på at tænke på alle de spørgsmål, som dine gæster har spurgt dig, og indtast derefter svarene i felterne nedenfor. /&gt; Spar både dig selv og dine gæster tid ved at give dem korrekte ankomstinstruktioner lige ved hånden, før deres ophold. Start med at kontrollere, at alle anvisninger er præcise, beskriv adgangsprocessen, når de ankommer, og fortæl dem, hvad der er inkluderet sammen med ferieboligen, så de kan forberede sig til deres rejse.</value>
+  </data>
+  <data name="_InstructionsHelpText2_" xml:space="preserve">
+    <value>Brug lidt tid på at tænke på alle de spørgsmål, som dine gæster har spurgt dig, og indtast derefter svarene i felterne nedenfor.</value>
+  </data>
+  <data name="_InstructionsHelpInfo1_" xml:space="preserve">
+    <value>Besvar spørgsmål, som du er blevet spurgt tit</value>
+  </data>
+  <data name="_InstructionsHelpInfo2_" xml:space="preserve">
+    <value>Besvar mere specielle spørgsmål</value>
+  </data>
+  <data name="_InstructionsHelpInfo3_" xml:space="preserve">
+    <value>Besvar de virkelig irriterende spørgsmål</value>
+  </data>
+  <data name="_ManageNotifications_" xml:space="preserve">
+    <value>Administrér mine meddelelser</value>
+  </data>
+  <data name="_CancelAccountrer_" xml:space="preserve">
+    <value>Annullér konto</value>
+  </data>
+  <data name="_CancelAccountModalPleaseWait_" xml:space="preserve">
+    <value>Vi er kede af, at du forlader os!  Hvis du har problemer med din konto, skal du klikke på den sorte fane! Hvis du stadig ønsker at annullere, skal du udfylde formularen nedenfor og klikke på knappen 'Annullér min konto' nedenfor.</value>
+  </data>
+  <data name="_CancelAccountModalFormReason_" xml:space="preserve">
+    <value>Fortæl os, hvorfor du annullerer</value>
+  </data>
+  <data name="_CancelAccountModalButton_" xml:space="preserve">
+    <value>Annullér min konto</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmText_" xml:space="preserve">
+    <value>Sidste chance! Er du sikker?</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmTitle_" xml:space="preserve">
+    <value>Læs venligst</value>
+  </data>
+  <data name="_CancelAccountModalFinalConfirmButton_" xml:space="preserve">
+    <value>Ja - Annullér</value>
+  </data>
+  <data name="_AccountCancelledConfirmationHeader_" xml:space="preserve">
+    <value>Vi savner dig allerede!</value>
+  </data>
+  <data name="_AccountCancelledConfirmationBody_" xml:space="preserve">
+    <value>Vi er kede af, at du forlader os!  Hvis du skifter mening, ved du, hvor du kan finde os.</value>
+  </data>
+  <data name="_AccountCancelledConfirmationLinkAction_" xml:space="preserve">
+    <value>Klik her for at gå tilbage til login-siden.</value>
+  </data>
+  <data name="_AccountCancelledNotice_" xml:space="preserve">
+    <value>Din konto blev annulleret den: </value>
+  </data>
+  <data name="_AccountCancelledWarning_" xml:space="preserve">
+    <value>Hvis du ønsker at fortsætte, hvor du slap, skal du </value>
+  </data>
+  <data name="_AccountCancelledUpdateAction_" xml:space="preserve">
+    <value>Genaktivere din konto nu</value>
+  </data>
+  <data name="_AccountProblemNoticePart1_" xml:space="preserve">
+    <value>Der opstod et problem ved behandling af dit kreditkort.  Du har indtil</value>
+  </data>
+  <data name="_AccountProblemNoticePart2_" xml:space="preserve">
+    <value> til at løse problemet.</value>
+  </data>
+  <data name="_AccountProblemUpdateAction_" xml:space="preserve">
+    <value>Opdatér dit kort nu</value>
+  </data>
+  <data name="_AccountUpdatedFlash_" xml:space="preserve">
+    <value>Opdatér dit kort nu</value>
+  </data>
+  <data name="_PleaseReadToolTipHeader_" xml:space="preserve">
+    <value>Læs venligst</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderSingle_" xml:space="preserve">
+    <value>Dette link viser en liste over alle nuværende reservationer for **PROPERTY-NAME** i et .ICS-format.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterSingle_" xml:space="preserve">
+    <value>For mere information om .ICS skal du gå til http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarInstructionsHeaderMultiple_" xml:space="preserve">
+    <value>Linkene nedenfor viser en liste over alle nuværende reservationer for din feriebolig i .ICS-format.</value>
+  </data>
+  <data name="_ICSCalendarInstructionsFooterMultiple_" xml:space="preserve">
+    <value>For mere information om .ICS skal du gå til http://en.wikipedia.org/wiki/ICalendar</value>
+  </data>
+  <data name="_ICSCalendarLinkPropertyTip_" xml:space="preserve">
+    <value>E-mail dig selv en kalenderoversigt for denne feriebolig</value>
+  </data>
+  <data name="_ICSCalendarLinkAllPropertiesTip_" xml:space="preserve">
+    <value>E-mail dig selv en kalenderoversigt for alle ferieboliger</value>
+  </data>
+  <data name="_ReservationHolder_" xml:space="preserve">
+    <value>Reservationsholder</value>
+  </data>
+  <data name="_InvitedByReservationHolder_" xml:space="preserve">
+    <value>Inviteret af Reservationsholder</value>
+  </data>
+  <data name="_Lead_" xml:space="preserve">
+    <value>Førende</value>
+  </data>
+  <data name="_ViewGuestBookFromGuestList_" xml:space="preserve">
+    <value>Vis seneste anmeldelse</value>
+  </data>
+  <data name="_ViewMostRecentReservationFromGuestList_" xml:space="preserve">
+    <value>Vis seneste reservation</value>
+  </data>
+  <data name="_ExportMyGuestsExcel_" xml:space="preserve">
+    <value>Eksportér alle gæster</value>
+  </data>
+  <data name="_ExportMyGuestsEmail_" xml:space="preserve">
+    <value>Eksportér kun e-mails</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetHeader_" xml:space="preserve">
+    <value>Ingen gæster endnu!</value>
+  </data>
+  <data name="_MyGuestsNoGuestsYetBody_" xml:space="preserve">
+    <value>Tilføj reservationer for at begynde at tilføje gæster</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchHeader_" xml:space="preserve">
+    <value>Fandt ingen søgeresultater</value>
+  </data>
+  <data name="_MyGuestsNoGuestsBadSearchBody_" xml:space="preserve">
+    <value>Gør dit søgeord mere unikt og prøv igen.</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>Ingen gæster for disse ferieboliger</value>
+  </data>
+  <data name="_MyGuestsNoGuestsForSelectedPropertiesBody_" xml:space="preserve">
+    <value>Du har gæster, men ingen for de ferieboliger, som du har valgt.  Prøv at vælge andre ferieboliger.</value>
+  </data>
+  <data name="_Referrals_" xml:space="preserve">
+    <value>Henvisninger</value>
+  </data>
+  <data name="_InviteOtherOwnerToJoin_" xml:space="preserve">
+    <value>Invitér andre ejere til at tilmelde sig</value>
+  </data>
+  <data name="_ReferralsNotAvailableNotice_" xml:space="preserve">
+    <value>Når du har opgraderet din konto, vil du være i stand til at henvise andre ejere og få kontobonusser!</value>
+  </data>
+  <data name="_ReferralInvitedOn_" xml:space="preserve">
+    <value>Inviteret den</value>
+  </data>
+  <data name="_ReferralOriginallyInvitedOn_" xml:space="preserve">
+    <value>Oprindeligt inviteret den</value>
+  </data>
+  <data name="_FollowedUpOn_" xml:space="preserve">
+    <value>Opfølgning den</value>
+  </data>
+  <data name="_SendInviteAgain_" xml:space="preserve">
+    <value>Send invitation igen</value>
+  </data>
+  <data name="_ShowInvitationLink_" xml:space="preserve">
+    <value>Vis invitationslink</value>
+  </data>
+  <data name="_InvitationSent_" xml:space="preserve">
+    <value>Ejer er inviteret</value>
+  </data>
+  <data name="_InvitationResent_" xml:space="preserve">
+    <value>Ejer inviteret igen</value>
+  </data>
+  <data name="_InvitationUrl_" xml:space="preserve">
+    <value>Invitations webadresse</value>
+  </data>
+  <data name="_InvitationUrlInstructions_" xml:space="preserve">
+    <value>Hvis din ven har problemer med at modtage vores invitations-e-mail, kan du blot kopiere og indsætte nedenstående link til dem.</value>
+  </data>
+  <data name="_AcceptedOn_" xml:space="preserve">
+    <value>Accepteret den</value>
+  </data>
+  <data name="_AcceptedOnReminder_" xml:space="preserve">
+    <value>Vent venligst, indtil de overgår til en fuld konto for at modtage din bonus.</value>
+  </data>
+  <data name="_CreditedOn_" xml:space="preserve">
+    <value>Accepteret og krediteret den </value>
+  </data>
+  <data name="_OwnerInviteHelp_" xml:space="preserve">
+    <value>Udfyld formularen nedenfor for at invitere en anden ejer til at bruge vores system.  Hvis de accepterer og bliver et betalt medlem vil din konto blive krediteret!</value>
+  </data>
+  <data name="_InviteFirstNameComment_" xml:space="preserve">
+    <value>Rornavnet på den ejer, som du gerne vil invitere.</value>
+  </data>
+  <data name="_InviteLastNameComment_" xml:space="preserve">
+    <value>Efternavnet på den ejer, som du gerne vil invitere.</value>
+  </data>
+  <data name="_InviteEmailComment_" xml:space="preserve">
+    <value>vigtigt, at dette er deres rigtige e-mail-adresse</value>
+  </data>
+  <data name="_SendInvite_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_Sending_" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="_NoReferralsYetHeader_" xml:space="preserve">
+    <value>Ingen henvisninger</value>
+  </data>
+  <data name="_NoReferralsYetBody_" xml:space="preserve">
+    <value>Du har ikke sendt henvisninger endnu.  Klik på Invitér-knappen ovenfor for at komme i gang!</value>
+  </data>
+  <data name="_ActionsGo_" xml:space="preserve">
+    <value>Gå</value>
+  </data>
+  <data name="_ActionsViewReservation_" xml:space="preserve">
+    <value>Vis reservation</value>
+  </data>
+  <data name="_ActionsGuestPreview_" xml:space="preserve">
+    <value>Gæsteforhåndvisning</value>
+  </data>
+  <data name="_ActionsViewFeedback_" xml:space="preserve">
+    <value>Vis feedback</value>
+  </data>
+  <data name="_ActionsViewGuestbookEntry_" xml:space="preserve">
+    <value>Vis anmeldelse</value>
+  </data>
+  <data name="_ActionsResendConfirmation_" xml:space="preserve">
+    <value>Gensend bekræftelse</value>
+  </data>
+  <data name="_ErrorFailedToLoadImage_" xml:space="preserve">
+    <value>Kunne ikke indlæse billede. Prøv at indlæse billedet igen</value>
+  </data>
+  <data name="_ErrorAddingRental_" xml:space="preserve">
+    <value>Fejl ved tilføjelse af feriebolig</value>
+  </data>
+  <data name="_ErrorNotAllRequiredFields_" xml:space="preserve">
+    <value>Ikke alle de påkrævede felter er udfyldt</value>
+  </data>
+  <data name="_ErrorInvalidDate_" xml:space="preserve">
+    <value>Der er indtastet en ugyldig dato. Nulstiller til indeværende måned</value>
+  </data>
+  <data name="_ErrorServerSide_" xml:space="preserve">
+    <value>Der opstod desværre en fejl på vores side!</value>
+  </data>
+  <data name="_SuggestionsFor_" xml:space="preserve">
+    <value>Forslag til</value>
+  </data>
+  <data name="_ThankYouFor_" xml:space="preserve">
+    <value>Takkehilsen for</value>
+  </data>
+  <data name="_WelcomeFor_" xml:space="preserve">
+    <value>Velkomsthilsen for</value>
+  </data>
+  <data name="_SingleICS_" xml:space="preserve">
+    <value>.ICS-kalender for: </value>
+  </data>
+  <data name="_MultipleICS_" xml:space="preserve">
+    <value>.ICS-kalendere for alle dine ferieboliger</value>
+  </data>
+  <data name="_NoRentalActivity_" xml:space="preserve">
+    <value>Ingen udlejningsaktivitet endnu</value>
+  </data>
+  <data name="_InfoAbout_" xml:space="preserve">
+    <value>Info om</value>
+  </data>
+  <data name="_SaveToRental_" xml:space="preserve">
+    <value>Gem for: </value>
+  </data>
+  <data name="_SaveToAllRentals_" xml:space="preserve">
+    <value>Gem for alle ferieboliger</value>
+  </data>
+  <data name="_SaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>Dette vil gemme dette indhold for ALLE dine ferieboliger.  Er du sikker?  Bemærk også, at billeder ikke gemmes på tværs af alle dine ferieboliger, efter at oplysningen er tilføjet.</value>
+  </data>
+  <data name="_ConfirmButton_" xml:space="preserve">
+    <value>Bekræft</value>
+  </data>
+  <data name="_AddFirstImageInstructions_" xml:space="preserve">
+    <value>Du har ikke tilføjet billeder for denne oplysning endnu.  Klik på knappen 'Vælg billede' for at komme i gang.</value>
+  </data>
+  <data name="_ConfirmFileRemove_" xml:space="preserve">
+    <value>Er du sikker på, at du vil fjerne dette billede?</value>
+  </data>
+  <data name="_ImageRemoved_" xml:space="preserve">
+    <value>Billede fjernet</value>
+  </data>
+  <data name="_AddFirstImageButton_" xml:space="preserve">
+    <value>Tilføj første billede</value>
+  </data>
+  <data name="_CategoryHasPurchases_" xml:space="preserve">
+    <value>Købte varer</value>
+  </data>
+  <data name="_CategoryHasFeaturedItems_" xml:space="preserve">
+    <value>Udvalgte varer</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalHeader_" xml:space="preserve">
+    <value>Bekræft venligst</value>
+  </data>
+  <data name="_PleaseConfirmAddOnsSetupModalTemplate_" xml:space="preserve">
+    <value>Bekræft venligst, at du ønsker at aktivere **SERVICE-NAME** for din feriebolig: **RENTAL-NAME**.</value>
+  </data>
+  <data name="_AddOnsItemsPurchasedHeader_" xml:space="preserve">
+    <value>Købt</value>
+  </data>
+  <data name="_AddOnsItemsAdditionalOptionsHeader_" xml:space="preserve">
+    <value>Flere muligheder</value>
+  </data>
+  <data name="_AddOnsItemsSettings_" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="_AddOnsItemsFeaturedHeader_" xml:space="preserve">
+    <value>Udvalgte</value>
+  </data>
+  <data name="_AddOnsItemLabelKABALogin_" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="_AddOnsItemLabelKABAPassword_" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="_AddOnsItemLabelKABASiteName_" xml:space="preserve">
+    <value>Stednavn</value>
+  </data>
+  <data name="_AddOnsItemLabelKABADoorName_" xml:space="preserve">
+    <value>Dørnavn</value>
+  </data>
+  <data name="_AddOnsItemWarningKABA_" xml:space="preserve">
+    <value>Advarselsmeddelelse om KABA her.  Vil ændre dørkoder, osv.</value>
+  </data>
+  <data name="_AddOnsItemWarningConfirm_" xml:space="preserve">
+    <value>Er du sikker på, at du vil fjerne **SERVICE-NAME**?</value>
+  </data>
+  <data name="_AddOnsItemRemoveConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** fjernet fra **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLogin_" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStatePassword_" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="_AddOnsItemLabelLockStateLockId_" xml:space="preserve">
+    <value>Lås-id</value>
+  </data>
+  <data name="_AddOnsItemWarningLockState_" xml:space="preserve">
+    <value>Indtast venligst din lås-login og adgangskode her.  Du skal også indtaste det numeriske lås-id til denne feriebolig.</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerTimeOfDay_" xml:space="preserve">
+    <value>Klokkeslæt</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerEarlyNotify_" xml:space="preserve">
+    <value>Tidlig indtjekningsmeddelelse</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerPreferredAreaCode_" xml:space="preserve">
+    <value>Foretrukket områdekode</value>
+  </data>
+  <data name="_AddOnsItemLabelHouseCleanerHouseCleanerCell_" xml:space="preserve">
+    <value>Mobiltelefon til husholderske</value>
+  </data>
+  <data name="_AddOnsItemWarningHouseCleaner_" xml:space="preserve">
+    <value>Bemærk, at denne service i øjeblikket kun er tilgængelig for amerikanske telefonnumre. Klokkeslættet skal være i 24-timers format.  Vi har givet et værktøj nedenfor for at hjælpe dig med at vælge det rigtige klokkeslæt.  Klik på uret for at komme i gang.</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumber_" xml:space="preserve">
+    <value>Lad din husholderske vide, at de vil modtage sms-beskeder og instruktioner fra følgende telefonnummer:</value>
+  </data>
+  <data name="_AddOnsItemNoticeInBoundPhoneNumberLabel_" xml:space="preserve">
+    <value>Servicetelefon</value>
+  </data>
+  <data name="_AddOnsItemReviewsLeaveAReview_" xml:space="preserve">
+    <value>Gem/redigér anmeldelse</value>
+  </data>
+  <data name="_AddOnsItemReviewsNumberOfReviews_" xml:space="preserve">
+    <value>anmeldelse(r)</value>
+  </data>
+  <data name="_AddOnsItemReviewsHeader_" xml:space="preserve">
+    <value>Anmeldelser</value>
+  </data>
+  <data name="_AddOnsItemReview_" xml:space="preserve">
+    <value>Anmeldelse</value>
+  </data>
+  <data name="_AddOnsItemReviewInstructions_" xml:space="preserve">
+    <value>Læs venligst denne del af vores service.  Skriv en overskrift, anmeldelse og vælg en stjernevurdering fra 1 til 5!</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelTitle_" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelReview_" xml:space="preserve">
+    <value>Anmeldelse</value>
+  </data>
+  <data name="_AddOnsItemReviewLabelRating_" xml:space="preserve">
+    <value>Vurdering</value>
+  </data>
+  <data name="_AddOnsItemReviewCharactersLeft_" xml:space="preserve">
+    <value> tegn tilbage.</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeApiKey_" xml:space="preserve">
+    <value>Konto-id</value>
+  </data>
+  <data name="_AddOnsItemLabelBeHomeGatewayId_" xml:space="preserve">
+    <value>Gateway-id</value>
+  </data>
+  <data name="_AddOnsItemWarningBeHome_" xml:space="preserve">
+    <value>Indtast venligst dit numeriske BeHome247-konto og Gateway-id her.</value>
+  </data>
+  <data name="_AddOnsNotAvailableNotice_" xml:space="preserve">
+    <value>Når du har opgraderet din konto, vil du være i stand til at tilføje flere fantastiske funktioner!</value>
+  </data>
+  <data name="_AddOnsNotAvailableFlashWarning_" xml:space="preserve">
+    <value>Du bliver nødt til at opgradere din konto, før du kan tilføje nye funktioner!</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludePreArrivalContent_" xml:space="preserve">
+    <value>Inkluder indhold om Før ankomst</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeRentalInstructionsContent_" xml:space="preserve">
+    <value>Inkludér indhold om Lejeinstruktioner</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeLocalSuggestionsContent_" xml:space="preserve">
+    <value>Indkludér indhold om Lokale forslag</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeWelcomeMessage_" xml:space="preserve">
+    <value>Inkludér indhold om Velkomsthilsen</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookIncludeThankYouMessage_" xml:space="preserve">
+    <value>Inkludér indhold for Takkehilsen</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookInformation_" xml:space="preserve">
+    <value>Du har flere indholdsmuligheder for denne ejendoms gæstebog. Du kan angive dine standardindstillinger nedenfor.  Du vil også være i stand til at ændre disse, hver gang du udskriver!</value>
+  </data>
+  <data name="_AddOnsItemCostFree_" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="_AddOnsItemAddConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** er aktiveret for **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemUpdateConfirmed_" xml:space="preserve">
+    <value>**SERVICE-NAME** blev opdateret for **RENTAL-NAME**</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPopupNotice_" xml:space="preserve">
+    <value>Dit gæstebogsindhold bør nu være indlæst i et nyt browservindue eller faneblad.  Bemærk, at din browser kan have blokeret dette indhold af sikkerhedsmæssige årsager.  Hvis du ikke kan se gæstebogens indhold, skal du tjekke din browsers adresselinje for en sikkerhedsmeddelelse og følge instruktionerne.</value>
+  </data>
+  <data name="_AddOnsItemLabelCottageBookPrintFor_" xml:space="preserve">
+    <value>Udskriv gæstebog for</value>
+  </data>
+  <data name="_PrintCottageBook_" xml:space="preserve">
+    <value>Udskriv</value>
+  </data>
+  <data name="_PrintCottageBookSelectionError_" xml:space="preserve">
+    <value>Vælg mindst én valgmulighed!</value>
+  </data>
+  <data name="_PrintCottageBookLongDescription_" xml:space="preserve">
+    <value>Udskriv gæstebog</value>
+  </data>
+  <data name="_24HourTimeNotice_" xml:space="preserve">
+    <value>Bemærk, at vores system bruger 24-timers format.  Vi har givet et værktøj nedenfor for at hjælpe dig med at vælge det rigtige klokkeslæt.  Klik på uret for at komme i gang.</value>
+  </data>
+  <data name="_RentalPictureNotice_" xml:space="preserve">
+    <value>Fotoet af ferieboligen vil blive brugt på forskellige steder, som f.eks. i gæstebogen.  Dette er ikke påkrævet.</value>
+  </data>
+  <data name="_FullBrowserNoticeHeader_" xml:space="preserve">
+    <value>Læs venligst</value>
+  </data>
+  <data name="_FullBrowserNoticeMobileDeviceDetected_" xml:space="preserve">
+    <value>Der er registreret en mobilenhed</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph1_" xml:space="preserve">
+    <value>Vi har registreret, at du i øjeblikket bruger en mobilenhed. HomeAways administrative portal er designet til at blive brugt på en stationær computer eller iPad</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph2_" xml:space="preserve">
+    <value>For at fortsætte opsætningen af din gæsteoplevelse bør du vende tilbage senere, når du kan logge ind fra Windows, MacOSX eller en iPad.</value>
+  </data>
+  <data name="_FullBrowserNoticeBodyParagraph3_" xml:space="preserve">
+    <value>Mange tak og på gensyn!</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestContact_" xml:space="preserve">
+    <value>Kontaktoplysninger</value>
+  </data>
+  <data name="_GuestInformationAccordionHeaderGuestAddress_" xml:space="preserve">
+    <value>Postadresse</value>
+  </data>
+  <data name="_GuestInformationContactFirstName_" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="_GuestInformationContactLastName_" xml:space="preserve">
+    <value>Efternavn</value>
+  </data>
+  <data name="_GuestInformationContactEmail_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_GuestInformationContactPhone_" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="_GuestInformationContactAddressLine1_" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="_GuestInformationContactCity_" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="_GuestInformationContactCountry_" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="_GuestInformationContactState_" xml:space="preserve">
+    <value>Stat/område</value>
+  </data>
+  <data name="_GuestInformationContactPostalCode_" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="_GuestInformationUpdated_" xml:space="preserve">
+    <value>Gæst er opdateret</value>
+  </data>
+  <data name="_EditGuestInformation_" xml:space="preserve">
+    <value>Redigér gæsteinformation</value>
+  </data>
+  <data name="_SuggestionModalEditName_" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="_SuggestionModalEditPhoneNumber_" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="_SuggestionModalEditEmail_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_SuggestionModalEditWebsite_" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+  <data name="_SuggestionModalEditNotes_" xml:space="preserve">
+    <value>Bemærkninger</value>
+  </data>
+  <data name="_SuggestionModalEditAddressLine1_" xml:space="preserve">
+    <value>Gade</value>
+  </data>
+  <data name="_SuggestionModalEditCity_" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="_SuggestionModalEditStateOrRegion_" xml:space="preserve">
+    <value>Stat/område</value>
+  </data>
+  <data name="_SuggestionModalEditPostalCode_" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="_SuggestionModalEditCountry_" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="_SuggestionModalEditReturnToList_" xml:space="preserve">
+    <value>Tilbage til listen</value>
+  </data>
+  <data name="_SuggestionModalEditCurrent_" xml:space="preserve">
+    <value>Redigér</value>
+  </data>
+  <data name="_SuggestionModalAddCustom_" xml:space="preserve">
+    <value>Tilføj brugerdefineret</value>
+  </data>
+  <data name="_SuggestionModalSaveCustom_" xml:space="preserve">
+    <value>Gem ny</value>
+  </data>
+  <data name="_ReviewWebsiteInstructions_" xml:space="preserve">
+    <value>Hvis du ønsker at bede dine gæster om at anmelde din feriebolig på en af ​​udlejningshjemmesiderme nedenfor, skal du oplyse webadressen. Disse links vil blive sendt til din gæst som en del af takkemeddelelsen.</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAway_" xml:space="preserve">
+    <value>HomeAway/VRBO</value>
+  </data>
+  <data name="_ReviewWebsiteURL_HomeAwayTooltip_" xml:space="preserve">
+    <value>HomeAway.com Anmeldelseswebadresse for denne feriebolig</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKey_" xml:space="preserve">
+    <value>FlipKey.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_FlipKeyTooltip_" xml:space="preserve">
+    <value>FlipKey.com anmeldelseswebadresse for denne feriebolig</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnB_" xml:space="preserve">
+    <value>AirBnB.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_AirBnBTooltip_" xml:space="preserve">
+    <value>VacationRentals.com anmeldelse Url for denne ejendom</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentals_" xml:space="preserve">
+    <value>VacationRentals.com</value>
+  </data>
+  <data name="_ReviewWebsiteURL_VacationRentalsTooltip_" xml:space="preserve">
+    <value>VacationRentals.com anmeldelseswebadresse for denne ejendom</value>
+  </data>
+  <data name="_CountrySelectUSOnly_" xml:space="preserve">
+    <value>Bemærk: HomeAway er kun for amerikanske kunder i øjeblikket</value>
+  </data>
+  <data name="_FirstTimeHomeAwayUser_" xml:space="preserve">
+    <value>Se alt på et øjeblik</value>
+  </data>
+  <data name="_VrboNumberInstructions_" xml:space="preserve">
+    <value>Hvis du er en HomeAway® kunde, skal du indtaste din ferieboligs HomeAway/VRBO ejendoms-id-nummer.  Dette felt er valgfrit.</value>
+  </data>
+  <data name="_RequiredVrboNumber_" xml:space="preserve">
+    <value>HomeAway/VRBO ejendoms-id-nummer er påkrævet</value>
+  </data>
+  <data name="_SuggestionSaveFailed_" xml:space="preserve">
+    <value>Der var problemer med at gemme dette forslag.</value>
+  </data>
+  <data name="_SyncListingHeader_" xml:space="preserve">
+    <value>Vent et øjeblik</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeModalHeader_" xml:space="preserve">
+    <value>Velkommen</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine1_" xml:space="preserve">
+    <value>Velkommen til din Hospitality Manager</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeHeaderLine2_" xml:space="preserve">
+    <value>Kom i gang ved at tilføje oplysninger, som kan hjælpe dine gæster med at få adgang til og nyde din feriebolig.</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet1_" xml:space="preserve">
+    <value>Tilføj lejeoplysninger</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet2_" xml:space="preserve">
+    <value>Tilpas din velkomsthilsen</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeBullet3_" xml:space="preserve">
+    <value>Lav en venlig takkehilsen</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAWait_" xml:space="preserve">
+    <value>Synkroniserer/ Vent venligst...</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeCTAContinue_" xml:space="preserve">
+    <value>Begynde at tilpasse</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningModalHeader_" xml:space="preserve">
+    <value>Velkommen</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLine1_" xml:space="preserve">
+    <value>Der findes et bedre redskab for din voksende virksomhed</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningContent_" xml:space="preserve">
+    <value>&lt;p&gt;Ser ud til, at din virksomhed trives! Hospitality Manager er designet til at understøtte op til 10 annoncer. Efterhånden som du får flere boliger, er det ikke tilstrækkeligt.&lt;/p&gt;
+&lt;p&gt;Heldigvis kan vi tilbyde en bedre løsning med værktøjer, der kan hjælpe dig med at administrere din voksende virksomhed. &lt;a href="http://software.homeaway.com/vacation-rentals/products/HA-Tools/glad-professional" shape="rect" target="_blank"&gt;Learn more &amp;gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;
+Med GladPROFESSIONAL kan du
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Nemt administrere flere ejendomme&lt;/li&gt;&lt;li&gt;Problemfrit integrere med administrationssoftware&lt;/li&gt;&lt;li&gt;Give gæsterne en brugerdefineret mobil app &lt;/li&gt;&lt;/ul&gt;
+</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningHeaderLinkCTA_" xml:space="preserve">
+    <value>Få flere oplysninger</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAWait_" xml:space="preserve">
+    <value>Vent venligst</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningCTAContinue_" xml:space="preserve">
+    <value>Ikke lige nu</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugLine1_" xml:space="preserve">
+    <value>Ønsker du noget bedre? GladPROFESSIONAL, som er et administrationsprodukt til ejendomsudlejning, kan være lige det, du har brug for.</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet1_" xml:space="preserve">
+    <value>Administrér nemt flere ejendomme</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet2_" xml:space="preserve">
+    <value>Problemfri integration med administrationssoftwaren til ejendomsudlejning</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugBullet3_" xml:space="preserve">
+    <value>Giv en brugerdefineret mærkevarer app til dine gæster</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROPlugCTAContinue_" xml:space="preserve">
+    <value>Læs mere</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedLine1_" xml:space="preserve">
+    <value>Der findes et bedre redskab til din voksende virksomhed</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet1_" xml:space="preserve">
+    <value>Integrér med din administrationssoftware til ejendomsudlejning</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet2_" xml:space="preserve">
+    <value>Tilpas app til at afspejle dit mærke, så dine gæster kender din virksomhed ved navn</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedBullet3_" xml:space="preserve">
+    <value>Udnyt fuld tilpasning i din integration</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedCTAContinue_" xml:space="preserve">
+    <value>Fortæl mig mere</value>
+  </data>
+  <data name="_SyncListingHeaderProCandidate_" xml:space="preserve">
+    <value>Velkommen</value>
+  </data>
+  <data name="_SyncPleaseScroll_" xml:space="preserve">
+    <value>Rul</value>
+  </data>
+  <data name="_SyncListingReturnToReservationManager_" xml:space="preserve">
+    <value>Gå tilbage til Reservation Manager</value>
+  </data>
+  <data name="_SyncErrorNoValidListings_" xml:space="preserve">
+    <value>Din konto har ingen aktive, aktiverede annoncer.  Aktiver venligst mindst én annonce og vend derefter tilbage til Hospitality Manager.</value>
+  </data>
+  <data name="_SyncErrorUserAccountDisabled_" xml:space="preserve">
+    <value>Din konto er blevet deaktiveret.</value>
+  </data>
+  <data name="_SyncErrorUserAccountNotEligible_" xml:space="preserve">
+    <value>Din konto er ikke berettiget til at bruge dette system.</value>
+  </data>
+  <data name="_SyncErrorSiteNotSupported_" xml:space="preserve">
+    <value>Det websted, som du er kommet fra, understøttes ikke.</value>
+  </data>
+  <data name="_SyncErrorServerError_" xml:space="preserve">
+    <value>Åh nej! Der opstod problemer med at indlæse dine oplysninger.   Vi håber, at det er et midlertidigt problem!  Vent et øjeblik, og genindlæs din browser for at prøve igen!</value>
+  </data>
+  <data name="_SyncListingContent_" xml:space="preserve">
+    <value>Vi indlæser dine annoncer og gæsteoplysninger</value>
+  </data>
+  <data name="_RentalContentExport_" xml:space="preserve">
+    <value>Eksportér indhold</value>
+  </data>
+  <data name="_RentalContentExportTip_" xml:space="preserve">
+    <value>Eksportér alt indhold for denne feriebolig til JSON</value>
+  </data>
+  <data name="_ExportCurrentContent_" xml:space="preserve">
+    <value>Eksportér nu</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>Denne funktion lader dig eksportere alt indhold for denne feriebolig i et bærbart JSON-filformat.  I fremtidige versioner af denne portal vil du være i stand til at genimportere disse filer.  Klik på knappen "Eksportér nu" for at komme i gang.</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part1_" xml:space="preserve">
+    <value>Denne proces kan tage et par minutter at fuldføre.   Når eksporten er klar, vil du se en meddelelse i statuslinjen i din browser om downloading af en fil kaldet</value>
+  </data>
+  <data name="_ExportContentModalInstructionsStep2Part2_" xml:space="preserve">
+    <value>. Sørg for at gemme denne fil på et sikkert sted på din computer.</value>
+  </data>
+  <data name="_RentalContentImport_" xml:space="preserve">
+    <value>Importér indhold</value>
+  </data>
+  <data name="_RentalContentImportTip_" xml:space="preserve">
+    <value>Importér alt indhold for denne feriebolig fra JSON</value>
+  </data>
+  <data name="_ImportContent_" xml:space="preserve">
+    <value>Importér nu</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep1_" xml:space="preserve">
+    <value>Denne funktion lader dig importere indhold for denne feriebolig fra en JSON-fil.  For at komme i gang skal du vælge den relevante fil på din lokale computer.</value>
+  </data>
+  <data name="_ImportContentModalInstructionsStep3_" xml:space="preserve">
+    <value>Lejeindhold er blevet importeret.   Bekræft ved at gennemgå sektionerne for denne ferieboligs ankomst- og instruktionsindhold.</value>
+  </data>
+  <data name="_ImportContentModalFailed_" xml:space="preserve">
+    <value>Import af indhold mislykkedes.  Sørg for, at du uploader en .JSON-fil, der blev eksporteret fra en tidligere version af vores portal.  Klik på knappen Prøv igen nedenfor.</value>
+  </data>
+  <data name="_ImportContentRetry_" xml:space="preserve">
+    <value>Prøv igen</value>
+  </data>
+  <data name="_ResendGuestInvitation_" xml:space="preserve">
+    <value>Send gæsteinvitation igen</value>
+  </data>
+  <data name="_ResendGuestInvitationSuccess_" xml:space="preserve">
+    <value>Invitation planlagt til øjeblikkelig gensendelse</value>
+  </data>
+  <data name="_ReviewsSortDate_" xml:space="preserve">
+    <value>Sortér efter dato</value>
+  </data>
+  <data name="_ReviewsSortOverallRating_" xml:space="preserve">
+    <value>Sortér efter samlet vurdering</value>
+  </data>
+  <data name="_ReviewsSortPropertyRating_" xml:space="preserve">
+    <value>Sortér efter ferieboligvurdering</value>
+  </data>
+  <data name="_ReviewsSortValueRating_" xml:space="preserve">
+    <value>Sortér efter værdivurdering</value>
+  </data>
+  <data name="_ReviewsSortExperienceRating_" xml:space="preserve">
+    <value>Sortér efter indtryksvurdering</value>
+  </data>
+  <data name="_ReviewsTitle_" xml:space="preserve">
+    <value>Anmeldelser</value>
+  </data>
+  <data name="_ReviewsRatingsTopTitle_" xml:space="preserve">
+    <value>Anmeldelser</value>
+  </data>
+  <data name="_ReviewsRatingsPropertyTitle_" xml:space="preserve">
+    <value>Bolig</value>
+  </data>
+  <data name="_ReviewsRatingsValueTitle_" xml:space="preserve">
+    <value>Vurdering</value>
+  </data>
+  <data name="_ReviewsRatingsExperienceTitle_" xml:space="preserve">
+    <value>Indtryk</value>
+  </data>
+  <data name="_ReviewsRatingsOverallTitle_" xml:space="preserve">
+    <value>Generelt</value>
+  </data>
+  <data name="_ReviewsViewAction_" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesHeader_" xml:space="preserve">
+    <value>Der fandtes ingen oplysninger</value>
+  </data>
+  <data name="_ReviewsNoEntriesForSelectedPropertiesBody_" xml:space="preserve">
+    <value>Der blev desværre ikke fundet noget for de ferieboliger, som du har valgt.</value>
+  </data>
+  <data name="_ReviewsNoMoreListingsToShow_" xml:space="preserve">
+    <value>Ikke flere annoncer at vise</value>
+  </data>
+  <data name="_HospitalityCurrentStaysMenuHeader_" xml:space="preserve">
+    <value>Aktuelle ophold</value>
+  </data>
+  <data name="_HospitalityFutureStaysMenuHeader_" xml:space="preserve">
+    <value>Næste 90 dage</value>
+  </data>
+  <data name="_HospitalityPreArrivalStayViewHeader_" xml:space="preserve">
+    <value>Før ankomst</value>
+  </data>
+  <data name="_HospitalityCheckInStayViewHeader_" xml:space="preserve">
+    <value>Tjek ind</value>
+  </data>
+  <data name="_HospitalityStayViewHeader_" xml:space="preserve">
+    <value>Ophold</value>
+  </data>
+  <data name="_HospitalityCheckOutStayViewHeader_" xml:space="preserve">
+    <value>Tjek ud</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmHeader_" xml:space="preserve">
+    <value>Invitér denne gæst igen</value>
+  </data>
+  <data name="_HospitalityReinviteConfirmMessage_" xml:space="preserve">
+    <value>Er du sikker på, at du vil invitere denne gæst igen?</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmHeader_" xml:space="preserve">
+    <value>Læs venligst og bekræft</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmMessage_" xml:space="preserve">
+    <value>Dette vil gemme reservationen som betalt fuldt ud og kontrakten underskrevet.   Hvis du ønsker at give denne gæst adgang til boligen, skal du klikke på 'Bekræft'</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmButton_" xml:space="preserve">
+    <value>Bekræft</value>
+  </data>
+  <data name="_HospitalityAllowAccessConfirmResponse_" xml:space="preserve">
+    <value>Adgang tilladt</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationLocator_" xml:space="preserve">
+    <value>Reservations-finder</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReservationId_" xml:space="preserve">
+    <value>Reservations-id</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersTripDates_" xml:space="preserve">
+    <value>Rejsedatoer</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAdults_" xml:space="preserve">
+    <value>Voksne:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersChildren_" xml:space="preserve">
+    <value>Børn:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersReviews_" xml:space="preserve">
+    <value>Anmeldelser:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersAverage_" xml:space="preserve">
+    <value>Gennemsnit:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersPreview_" xml:space="preserve">
+    <value>Forhåndsvisning</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsHeadersDateTimeSeparator_" xml:space="preserve">
+    <value> den </value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalHeader_" xml:space="preserve">
+    <value>Adgangsinstruktioner</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditOtherAccessInstructionsModalDetails_" xml:space="preserve">
+    <value>Har du yderligere adgangsinstruktioner for denne reservation?  Indtast dem nedenfor:</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEmailGuestButton_" xml:space="preserve">
+    <value>Send e-mail til gæsten</value>
+  </data>
+  <data name="_HospitalityCurrentStayDateTimeNotice_" xml:space="preserve">
+    <value>Bemærk venligst: Alle datoer og klokkeslæt er lokale for din ferieboligs beliggenhed.</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditReservationButton_" xml:space="preserve">
+    <value>Redigér reservation</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsEditAccessButton_" xml:space="preserve">
+    <value>Rediger adgang til ferieboligen</value>
+  </data>
+  <data name="_HospitalityEditStayPleaseWaitSwitchingPortals_" xml:space="preserve">
+    <value>Skift til redigeringsskærmbillede for reservation</value>
+  </data>
+  <data name="_HospitalityEditAccessRentalInstructionsLabel_" xml:space="preserve">
+    <value>Adgangsinstruktioner</value>
+  </data>
+  <data name="_PreSyncErrorHeader_" xml:space="preserve">
+    <value>Problem med konto - Læs venligst</value>
+  </data>
+  <data name="_SettingsNotifications_" xml:space="preserve">
+    <value>Meddelelser</value>
+  </data>
+  <data name="_SettingsOwnerNotifications_" xml:space="preserve">
+    <value>Ejermeddelelser</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpText_" xml:space="preserve">
+    <value>Som standard vil vi lade dig vide, når en gæst modtager en meddelelse eller interagerer med Hospitality Manager. Du kan vælge, hvilke af dem du ønsker at modtage i fremtiden nedenfor.</value>
+  </data>
+  <data name="_SettingsTravellerNotifications_" xml:space="preserve">
+    <value>Gæstemeddelelser</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpText_" xml:space="preserve">
+    <value>Vælg, hvilke meddelelser dine gæster vil modtage. Hvis du allerede bruger andre systemer til at sende en velkomst- og takkehilsen, kan du slå disse fra.</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsListHeader_" xml:space="preserve">
+    <value>Hvordan kontakter vi dig</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsListHeader_" xml:space="preserve">
+    <value>Hvordan kontakter vi dine gæster</value>
+  </data>
+  <data name="_SettingsNotificationsButtonEnable_" xml:space="preserve">
+    <value>Aktivér</value>
+  </data>
+  <data name="_SettingsNotificationsButtonDisable_" xml:space="preserve">
+    <value>Deaktivér</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNotice_" xml:space="preserve">
+    <value>Denne meddelelse er blevet deaktiveret</value>
+  </data>
+  <data name="_SettingsNotificationsDisabledNoticeConfirm_" xml:space="preserve">
+    <value>du har deaktiveret denne</value>
+  </data>
+  <data name="_SettingsNotificationsEnabledNoticeConfirm_" xml:space="preserve">
+    <value>Meddelelse aktiveret</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableOption_" xml:space="preserve">
+    <value>deaktivere denne meddelelse?</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisabledNotice_" xml:space="preserve">
+    <value>du har deaktiveret denne</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Deaktivér </value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalReasonLabel_" xml:space="preserve">
+    <value>Årsag</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsLabel_" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="_SettingsTravellerCommunicationDisableModalCommentsDisableButton_" xml:space="preserve">
+    <value>Deaktivér</value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalHeader_" xml:space="preserve">
+    <value>Deaktivér </value>
+  </data>
+  <data name="_SettingsOwnerCommunicationDisableModalConfirmText_" xml:space="preserve">
+    <value>Er du sikker?</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsHeader_" xml:space="preserve">
+    <value>Der fandtes ingen gæster</value>
+  </data>
+  <data name="_ReviewsNoEntriesForMyGuestsMessage_" xml:space="preserve">
+    <value>Der er i øjeblikket ingen gæster for den søgning, du har anmodet om.</value>
+  </data>
+  <data name="_RentalsListCheckAll_" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="_RentalsListUnCheckAll_" xml:space="preserve">
+    <value>Fravælg alle</value>
+  </data>
+  <data name="_RentalsSearchNothingFound_" xml:space="preserve">
+    <value>Der fandtes ingen ferieboliger, der svarede til dette navn</value>
+  </data>
+  <data name="_PlaceHolderFilterByRental_" xml:space="preserve">
+    <value>Filtrér efter feriebolig</value>
+  </data>
+  <data name="_PlaceHolderFilterByGuestName_" xml:space="preserve">
+    <value>Filtrér efter gæstens navn</value>
+  </data>
+  <data name="_MyGuestsFilterNothingFound_" xml:space="preserve">
+    <value>Der fandtes ingen gæster</value>
+  </data>
+  <data name="_ModashFeedbackUserName_" xml:space="preserve">
+    <value>Navn på kontaktperson</value>
+  </data>
+  <data name="_ModashFeedbackUserEmail_" xml:space="preserve">
+    <value>Din e-mail-adresse</value>
+  </data>
+  <data name="_ModashFeedbackSupportType_" xml:space="preserve">
+    <value>Hvordan kan vi hjælpe?</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeBUG_" xml:space="preserve">
+    <value>Jeg har fundet en fejl</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeFEEDBACK_" xml:space="preserve">
+    <value>Jeg har feedback</value>
+  </data>
+  <data name="_ModashFeedbackSupportTypeENHANCEMENT_" xml:space="preserve">
+    <value>Jeg har en ide for dig</value>
+  </data>
+  <data name="_ModashFeedbackappSectionBug_" xml:space="preserve">
+    <value>Hvor er problemet opstået?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionFeedback_" xml:space="preserve">
+    <value>Hvad forsøger du at kommentere?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionEnhancement_" xml:space="preserve">
+    <value>Hvad indebærer dette?</value>
+  </data>
+  <data name="_ModashFeedbackappSectionIOSApp_" xml:space="preserve">
+    <value>iOS app'en</value>
+  </data>
+  <data name="_ModashFeedbackappSectionAndroidApp_" xml:space="preserve">
+    <value>Android app'en</value>
+  </data>
+  <data name="_ModashFeedbackappSectionPortal_" xml:space="preserve">
+    <value>Denne administrationsportal</value>
+  </data>
+  <data name="_ModashFeedbackNotesBug_" xml:space="preserve">
+    <value>Giv os venligst så mange detaljer som muligt</value>
+  </data>
+  <data name="_ModashFeedbackNotesFeedback_" xml:space="preserve">
+    <value>Hvad kan vi gøre for dig?</value>
+  </data>
+  <data name="_ModashFeedbackNotesEnhancement_" xml:space="preserve">
+    <value>Okay, fantastisk! Hvad er dit forslag?</value>
+  </data>
+  <data name="_ModashFeedbackInstructions_" xml:space="preserve">
+    <value>Har du brug for hjælp?  Har du et forslag til en ny funktion eller ønsker du at give en kommentar?</value>
+  </data>
+  <data name="_ModashFeedbackSend_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_ModashFeedbackSendConfirmed_" xml:space="preserve">
+    <value>Din feedback er sendt</value>
+  </data>
+  <data name="_ForceResync_" xml:space="preserve">
+    <value>Tving gensynkronisering</value>
+  </data>
+  <data name="_ConfirmResync_" xml:space="preserve">
+    <value>Bekræft</value>
+  </data>
+  <data name="_ConfirmResyncPleaseWait_" xml:space="preserve">
+    <value>Synkroniserer - Vent venligst</value>
+  </data>
+  <data name="_ConfirmResyncMessage_" xml:space="preserve">
+    <value>Dette vil kontrollere alle dine ferieboliger og gæster for opdateringer. Du kan gøre dette, hvis du har lavet ændringer eller tilføjelser i HomeAway-kontoen, der endnu ikke er afspejlet her.   Dette kan tage et par minutter at fuldføre.  Er du sikker på, at du vil fortsætte nu?</value>
+  </data>
+  <data name="_ConfirmResyncMessageComplete_" xml:space="preserve">
+    <value>Vi har genindlæst alle dine ferieboliger og gæster.   Når du lukker dette vindue, vil vi automatisk genindlæse din browser.  Dette gøres for at sikre, at du vil se de seneste opdateringer.</value>
+  </data>
+  <data name="_ConfirmResyncCloseAndReload_" xml:space="preserve">
+    <value>Luk og genindlæs din browser</value>
+  </data>
+  <data name="_ReviewsHelpContent_" xml:space="preserve">
+    <value>Dette er anmeldelsesenheden</value>
+  </data>
+  <data name="_FirstTimeThankText_" xml:space="preserve">
+    <value>Efter deres ophold vil dine gæster modtage en takkemeddelelse. Gør den eksisterende meddelelse så personlig og venlig som mulig. Du kan opfordre dem til at skrive en anmeldelse og spørge, om de har feedback eller om de ønsker at reservere næste års ophold på forhånd. 
+Hvis du foretrækker at sende din e-mail via et andet system, kan du slå denne e-mail-meddelelse fra i menuen "Indstillinger".</value>
+  </data>
+  <data name="_FirstTimeThankTitle_" xml:space="preserve">
+    <value>Vis dine gæster, at du sætter pris på dem</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsText_" xml:space="preserve">
+    <value>Ingen kender de bedste steder omkring din feriebolig bedre end dig! Giv forslag, som hjælper dine gæster med at finde de sande perler, der gør dit område unikt. Lige fra restauranter, museer og strande til dagligdags fornødenheder som supermarkedet, banken eller posthuset vil dine anbefalinger være med til at gøre opholdet i din feriebolig endnu bedre!</value>
+  </data>
+  <data name="_InstructionsHelpText_" xml:space="preserve">
+    <value>Fortæl dine gæster alle nyttige oplysninger, som hjælper dem med at få mest muligt ud af deres ophold - hver lille detalje hjælper, lige fra hvordan du bruger dvd-afspilleren eller kaffemaskinen til hvilken dag affaldet bliver afhentet. Tænk på spørgsmål, som du har hørt fra flere gæster og besvar dem i den relevante kategori.</value>
+  </data>
+  <data name="_WelcomeHelpText_" xml:space="preserve">
+    <value>Byd din gæst velkommen, og tak dem, fordi de har valgt dig, og få dem til at føle sig mere hjemme ved at tilføje din personlige stil til vores forprogrammerede meddelelse. Tilskynd dem til at drage fordel af det indhold, som du har tilføjet til app'en og gør dit budskab personligt. Hvis du foretrækker at sende din e-mail via et andet system, kan du slå denne e-mail-meddelelse fra i menuen "Indstillinger".</value>
+  </data>
+  <data name="_ReviewNotFoundMessage_" xml:space="preserve">
+    <value>Anmeldelsen afventer godkendelse.</value>
+  </data>
+  <data name="_ReviewNotFoundTitle_" xml:space="preserve">
+    <value>Anmeldelse ikke klar</value>
+  </data>
+  <data name="_ModashFeedbackTitle_" xml:space="preserve">
+    <value>Feedback og support</value>
+  </data>
+  <data name="_MyGuestsHelpText_" xml:space="preserve">
+    <value>Her kan du nemt se status for alle dine gæsters ophold. Find en bestemt gæst, se hvilket indhold, du stadig er nødt til at give, aktivér adgang til din ejendom, og geninvitér gæster til Hospitality Manager. Du kan også følge op efter deres ophold for at anmode om en anmeldelse.</value>
+  </data>
+  <data name="_RentalImportContentHelpText_" xml:space="preserve">
+    <value>Hvis du er en eksisterende kunde, kan du importere dine eksisterende data her.  </value>
+  </data>
+  <data name="_ReviewsHelpText_" xml:space="preserve">
+    <value>Se de anmeldelser, du har modtaget nedenfor. De nyeste vil være synlige, når de er blevet tjekket for at sikre, at de opfylder retningslinjerne for indhold.</value>
+  </data>
+  <data name="_SettingsImportContentListHeader_" xml:space="preserve">
+    <value>Importér indhold</value>
+  </data>
+  <data name="_MobileNotSupportedContent_" xml:space="preserve">
+    <value>HomeAway Hospitality Manager ejerportalen er ikke optimeret til en mobilenhed. For den bedste oplevelse skal du logge ind fra din tablet eller skrivebordsbrowser.</value>
+  </data>
+  <data name="_MobileNotSupportedTitle_" xml:space="preserve">
+    <value>Enhed er ikke understøttet</value>
+  </data>
+  <data name="_ProceedAnyway_" xml:space="preserve">
+    <value>Fortsæt alligevel.</value>
+  </data>
+  <data name="_ModashFeedbackLeaveAComment_" xml:space="preserve">
+    <value>Jeg ønsker at gemme en kommentar for denne hjemmeside</value>
+  </data>
+  <data name="_ModashFeedbackParticipateInStudy_" xml:space="preserve">
+    <value>Afkryds her, hvis du ønsker at deltage i en fremtidig undersøgelse.</value>
+  </data>
+  <data name="_ModashFeedbackPlaceHolder_" xml:space="preserve">
+    <value>Ejendomsanmeldelser eller kundeservicespørgsmål skal ikke indsendes her.</value>
+  </data>
+  <data name="_ModashFeedbackPleaseNote_" xml:space="preserve">
+    <value>Bemærk, at selvom vi læser denne feedback, kan vi ikke svare på alle spørgsmål.</value>
+  </data>
+  <data name="_StartFeedbackOptionComment_" xml:space="preserve">
+    <value>Jeg ønsker at gemme en kommentar for denne hjemmeside</value>
+  </data>
+  <data name="_StartFeedbackOptionQuestion_" xml:space="preserve">
+    <value>Jeg har et problem eller spørgsmål, og vil gerne have hjælp</value>
+  </data>
+  <data name="_ModashFeedbackSubmit_" xml:space="preserve">
+    <value>Indsend feedback</value>
+  </data>
+  <data name="_SyncListingHeaderFirstTimeWelcomeContent_" xml:space="preserve">
+    <value>&lt;p&gt;Giv dine gæster alle de oplysninger, de har brug for, når de har brug for dem!&lt;/p&gt;
+&lt;p&gt;
+Med Hospitality Manager kan du dele nyttige oplysninger - lige fra adgangsinstruktioner og Wi-Fi-koder til lokale seværdigheder og aktiviteter - alt på ét sted og i din personlige stil. Dine gæster kan nemt få adgang til den på internettet eller via HomeAway mobil app'en.  
+Kom i gang ved at tilføje oplysninger, som vil hjælpe dine gæster med at få adgang til og nyde din ejendom.&lt;/p&gt;
+&lt;p&gt;
+Tilføj specifikke oplysninger om din ejendom&lt;br clear="none"/&gt;
+Tilpas din velkomsthilsen&lt;br clear="none"/&gt;
+Lav en personlig og venlig takkehilsen&lt;br clear="none"/&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="_FirstTimeLocalSuggestionsTitle_" xml:space="preserve">
+    <value>Hjælp din gæster med at leve som en af de lokale</value>
+  </data>
+  <data name="_PreArrivalHelpText_" xml:space="preserve">
+    <value>Giv dine gæster alle de oplysninger, de har brug for under deres ophold - anvisninger, hvor man kan få adgang til nøgler, eventuelle specielle ting de skal medbringe, etc.</value>
+  </data>
+  <data name="_PreArrivalHelpTitle_" xml:space="preserve">
+    <value>Hjælp dine gæster med at forberede sig til ferien</value>
+  </data>
+  <data name="_WelcomeHelpTitle_" xml:space="preserve">
+    <value>Få dine gæster til at føle sig velkomne</value>
+  </data>
+  <data name="_MyGuestsHelpTitle_" xml:space="preserve">
+    <value>Forbliv i kontakt med hver gæst</value>
+  </data>
+  <data name="_ReviewsHelpTitle_" xml:space="preserve">
+    <value>Se, hvor godt det går</value>
+  </data>
+  <data name="_SettingsOwnerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Tilpas dine meddelelser</value>
+  </data>
+  <data name="_SettingsTravellerNotificationsHelpTitle_" xml:space="preserve">
+    <value>Vælg, hvilke meddelelser du vil sende til dine gæster</value>
+  </data>
+  <data name="_SyncListingHeaderWelcomeLimitWarningPROForcedText_" xml:space="preserve">
+    <value>&lt;p&gt;Tillykke med din voksende virksomhed! Du har nu mere end 20 ejendomme. Desværre er det flere end Hospitality Manager kan klare.&lt;/p&gt;
+
+&lt;p&gt;Vi anbefaler, at du opgraderer til GladPROFESSIONAL, som er designet til at hjælpe dig med at administrere et stort antal annoncer meget lettere.&lt;/p&gt;
+
+&lt;p&gt;
+Med GladPROFESSIONAL kan du
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Integrere med din administrationssoftware til ejendomsudlejning&lt;/li&gt;&lt;li&gt;Tilpasse din mobil app til at vise din virksomheds logo og information&lt;/li&gt;&lt;li&gt;Udnyt fuld tilpasning i din integration&lt;/li&gt;&lt;/ul&gt;
+</value>
+  </data>
+  <data name="_HospitalityCurrentStayDetailsAddGuestButton_" xml:space="preserve">
+    <value>Tilføj gæst</value>
+  </data>
+  <data name="_InviteGuestEmail_" xml:space="preserve">
+    <value>E-mail-adresse</value>
+  </data>
+  <data name="_InviteGuestFirstName_" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="_InviteGuestLastName_" xml:space="preserve">
+    <value>Efternavn</value>
+  </data>
+  <data name="_InviteGuestSend_" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_InviteGuestConfirmation_" xml:space="preserve">
+    <value>Gæsten er tilføjet</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart1_" xml:space="preserve">
+    <value>Dine kommende gæster vil blive inviteret til Mobile Hospitality Manager den </value>
+  </data>
+  <data name="_MyGuestsMoreAvailable_" xml:space="preserve">
+    <value>Leder du efter en gæst, der ankommer mere end 90 dage fra nu? Brug søgefeltet ovenfor for at finde dem.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticePart2_" xml:space="preserve">
+    <value>Opdatér dit indhold for at give dem den bedste oplevelse. Hvis du ønsker at fortsætte og invitere dine gæster nu</value>
+  </data>
+  <data name="_HospitalitySearchedStaysMenuHeader_" xml:space="preserve">
+    <value>Søgeresultater</value>
+  </data>
+  <data name="_GracePeriodDetailsHeader_" xml:space="preserve">
+    <value>Læs venligst</value>
+  </data>
+  <data name="_AccessDeniedMessage_" xml:space="preserve">
+    <value>Der opstod et problem med at logge dig ind.  Gå tilbage til kontoen, og prøv igen.  Hvis problemet fortsætter, kan du kontakte support.</value>
+  </data>
+  <data name="_GracePeriodParagraph1_" xml:space="preserve">
+    <value>Din liste over kommende gæster er ikke synlig, fordi de ikke er blevet inviteret. Vi vil invitere dine gæster den</value>
+  </data>
+  <data name="_AccessDenied_" xml:space="preserve">
+    <value>Adgang nægtet</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipHeader_" xml:space="preserve">
+    <value>Er du sikker?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustom_" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;Add Custom Title&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="_GracePeriodConfirmSkipmessage_" xml:space="preserve">
+    <value>Er du sikker på, at du er klar til, at dine gæster begynder at modtage meddelelser?</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsAddButton_" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructionsHeader_" xml:space="preserve">
+    <value>Tilføj en brugerdefineret telefonoverskrift</value>
+  </data>
+  <data name="_PhoneNumberTitlesAddCustomInstructions_" xml:space="preserve">
+    <value>Ønsker du en brugerdefineret overskrift for dette telefonnummer?  Eksempler: Marias telefon, Support efter åbningstid.   Indtast, hvad du ønsker i feltet nedenfor og klik på knappen Tilføj.</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Number_" xml:space="preserve">
+    <value>Telefon 1 nummer</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone1Title_" xml:space="preserve">
+    <value>Telefon 1 overskrift</value>
+  </data>
+  <data name="_GracePeriodDateNotice_" xml:space="preserve">
+    <value>Dine gæster vil ikke blive underrettet indtil: </value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Number_" xml:space="preserve">
+    <value>Telefon 2 nummer</value>
+  </data>
+  <data name="_GracePeriodReadyNowButton_" xml:space="preserve">
+    <value>Invitér gæster</value>
+  </data>
+  <data name="_PhoneNumberTitlesPhone2Title_" xml:space="preserve">
+    <value>Telefon 2 overskrift</value>
+  </data>
+  <data name="_GracePeriodReadyNowToolTip_" xml:space="preserve">
+    <value>Invitér gæster</value>
+  </data>
+  <data name="_PleaseProvide_" xml:space="preserve">
+    <value>Oplys venligst</value>
+  </data>
+  <data name="_GracePeriodDisabledConfirmation_" xml:space="preserve">
+    <value>Du er klar!</value>
+  </data>
+  <data name="_PleaseReviewPhoneNumbers_" xml:space="preserve">
+    <value>Kontrollér venligst telefonnumre</value>
+  </data>
+  <data name="_EmailGuestToolTip_" xml:space="preserve">
+    <value>Send e-mail til gæsten</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlocked_" xml:space="preserve">
+    <value>Dine gæster er nu blevet inviteret. Du vil snart se dine gæster på fanen Mine gæster og modtage e-mail-meddelelser om deres aktiviteter.
+Tilpas disse meddelelser på fanen Indstillinger.</value>
+  </data>
+  <data name="_GracePeriodParagraph2_" xml:space="preserve">
+    <value>Opdatér dit indhold for at give dine gæster den bedst mulige oplevelse.</value>
+  </data>
+  <data name="_GracePeriodParagraph3_" xml:space="preserve">
+    <value>Hvis du foretrækker at invitere dem nu, skal du klikke på knappen 'Invitér gæster' nedenfor.</value>
+  </data>
+  <data name="_GracePeriodTopNagNoticeCTA_" xml:space="preserve">
+    <value>klik her.</value>
+  </data>
+  <data name="_GracePeriodConfirmUnlockedHeader_" xml:space="preserve">
+    <value>Udført</value>
+  </data>
+  <data name="_Loading_" xml:space="preserve">
+    <value>Indlæser</value>
+  </data>
+  <data name="_HospitalitySiteName_" xml:space="preserve">
+    <value>Gæstfrihed:</value>
+  </data>
+  <data name="_InvalidWebsiteValue_" xml:space="preserve">
+    <value>Skal starte med http: // eller https: //</value>
+  </data>
+  <data name="_MyGuestsStayNeedsAttention_" xml:space="preserve">
+    <value>Ophold kræver opmærksomhed</value>
+  </data>
+  <data name="_ReviewsRatingsNotAvailable_" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedHeader_" xml:space="preserve">
+    <value>Udført!</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendedMessage_" xml:space="preserve">
+    <value>Din prøveperiode er blevet udvidet til ##EXTEND_DATE##.   Hvis du har nogle spørgsmål, så tøv ikke med at kontakte os.</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendHeader_" xml:space="preserve">
+    <value>Har du brug for mere tid til at blive klar?</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendMessage_" xml:space="preserve">
+    <value>Vi forstår, hvis du ønsker mere tid til at blive klar.   Klik på knappen Bekræft nedenfor og vi vil udvide din prøveperiode til ##EXTEND_DATE##.</value>
+  </data>
+  <data name="_GracePeriodExtendButton_" xml:space="preserve">
+    <value>Forlæng</value>
+  </data>
+  <data name="_GracePeriodExtendToolTip_" xml:space="preserve">
+    <value>Udvid din prøveperiode</value>
+  </data>
+  <data name="_GracePeriodConfirmExtendConfirmToast_" xml:space="preserve">
+    <value>Din prøveperiode er blevet forlænget</value>
+  </data>
+  <data name="_EmailPreview_" xml:space="preserve">
+    <value>Forhåndsvisning af e-mail</value>
+  </data>
+  <data name="_DeleteFromRental_" xml:space="preserve">
+    <value>Slet fra:</value>
+  </data>
+  <data name="_DeleteFromAllRentals_" xml:space="preserve">
+    <value>Slet fra alle ferieboliger</value>
+  </data>
+  <data name="_PleaseSelectTooltipHeader_" xml:space="preserve">
+    <value>Vælg venligst og bekræft:</value>
+  </data>
+  <data name="_LoadingEmailPreview_" xml:space="preserve">
+    <value>Henter forhåndsvisning af e-mail...</value>
+  </data>
+  <data name="_AddToRental_" xml:space="preserve">
+    <value>Tilføj til: </value>
+  </data>
+  <data name="_AddToAllRentals_" xml:space="preserve">
+    <value>Tilføj til alle ferieboliger</value>
+  </data>
+  <data name="_SuggestionSaveToAllRentalsConfirm_" xml:space="preserve">
+    <value>Dette vil gemme dette forslag for ALLE dine ferieboliger.  Er du sikker?</value>
+  </data>
+  <data name="_AddOns_" xml:space="preserve">
+    <value>Tilføjelser</value>
+  </data>
+  <data name="_PrintCottageBookMenuItem_" xml:space="preserve">
+    <value>Udskriv gæstebog</value>
+  </data>
+  <data name="_ChangeLanguageMessage_" xml:space="preserve">
+    <value>Bekræft venligst, at du ønsker at ændre sproget.  Det giver dig mulighed for at indtaste flersproget indhold for dine gæster.</value>
+  </data>
+  <data name="_ChangeLanguage_" xml:space="preserve">
+    <value>Skift sprog</value>
+  </data>
+  <data name="_Ok_" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="_PageTitle_Instructions_" xml:space="preserve">
+    <value>Instruktioner</value>
+  </data>
+  <data name="_PageTitle_Instructions_For_" xml:space="preserve">
+    <value>Instruktioner for</value>
+  </data>
+  <data name="_PageTitle_PreArrival_For_" xml:space="preserve">
+    <value>Før ankomst for</value>
+  </data>
+  <data name="_SuccessContentSavedButDefaultRestored_" xml:space="preserve">
+    <value>Dette område kan ikke være tomt.  Standardindhold er blevet gendannet og gemt.</value>
+  </data>
+  <data name="_ContentForLanguageMissing_" xml:space="preserve">
+    <value>Der er intet indhold for denne oplysning på dette sprog.  </value>
+  </data>
+  <data name="_InviteGuestAccessCodes_" xml:space="preserve">
+    <value>View Access codes and content</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InviteGuestAdvantage_" xml:space="preserve">
+    <value>Take advantage of recommendations</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InviteGuestDescription_" xml:space="preserve">
+    <value>You can invite other guests staying with this reservation.  These guests can do everything the reservation holder can do:</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentConfirmButton_" xml:space="preserve">
+    <value>Ok</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentNoticePicturesNotSupported_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. We have removed these pictures from your content.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentNoticePicturesSupported_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. We have removed pictures from this content.  We have removed these pictures from your content.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="_InvalidContentWarning_" xml:space="preserve">
+    <value>We have detected unsupported content.  In order to support all devices and off-line access - inline images are not supported. Please remove these images and upload them as photo attachments to ensure the best mobile experience for your guests.</value>
+    <comment>Needs Translation </comment>
+  </data>
+</root>

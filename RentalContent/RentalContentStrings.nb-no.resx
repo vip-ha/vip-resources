@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="content_contactinfo_title" xml:space="preserve">
+    <value>Kontaktinformasjon</value>
+  </data>
+  <data name="content_contactinfo_helptext" xml:space="preserve">
+    <value>Gi gjesten telefonnummeret, e-postadressen, osv. de kan nå deg på før, under og etter oppholdet.</value>
+  </data>
+  <data name="content_contactinfo_keywords" xml:space="preserve">
+    <value>kontakt, eier, telefon</value>
+  </data>
+  <data name="content_drivingdirections_title" xml:space="preserve">
+    <value>Veibeskrivelse</value>
+  </data>
+  <data name="content_drivingdirections_helptext" xml:space="preserve">
+    <value>En GPS-kart til eiendommen blir gitt automatisk, men noen ganger hjelper det å ha skrevet ned veibeskrivelsen i tillegg.</value>
+  </data>
+  <data name="content_drivingdirections_keywords" xml:space="preserve">
+    <value>kjøring, veibeskrivelse</value>
+  </data>
+  <data name="content_whattopack_title" xml:space="preserve">
+    <value>Hva bør du pakke</value>
+  </data>
+  <data name="content_whattopack_helptext" xml:space="preserve">
+    <value>Hjelp gjestene under pakking for å sørge for at de tar med seg nødvendige ting hjemmefra som vil forbedre oppholdet.</value>
+  </data>
+  <data name="content_whattopack_keywords" xml:space="preserve">
+    <value>pakk, ta med, inkludert</value>
+  </data>
+  <data name="content_checkin_title" xml:space="preserve">
+    <value>Innsjekking</value>
+  </data>
+  <data name="content_checkin_helptext" xml:space="preserve">
+    <value>Gi gjesten informasjon om hva som kreves for å sjekke inn til eiendommen din.  Gi også informasjon om tidlig eller sen ankomst.</value>
+  </data>
+  <data name="content_checkin_keywords" xml:space="preserve">
+    <value>innsjekking, ankomme, ankomst</value>
+  </data>
+  <data name="content_parking_title" xml:space="preserve">
+    <value>Parkering</value>
+  </data>
+  <data name="content_parking_helptext" xml:space="preserve">
+    <value>Her kan du oppgi eventuell informasjon om parkering ved eiendommen til gjesten.  Dette kan inkludere parkeringskoder, osv.</value>
+  </data>
+  <data name="content_parking_keywords" xml:space="preserve">
+    <value>parkering, bil, regler, garasje</value>
+  </data>
+  <data name="content_whatsprovided_title" xml:space="preserve">
+    <value>Hva som er inkludert</value>
+  </data>
+  <data name="content_whatsprovided_helptext" xml:space="preserve">
+    <value>Gi en liste over gjenstander som håndklær, etc. som er inkludert med ferieboligen for å la gjestene vite det før de kommer.</value>
+  </data>
+  <data name="content_whatsprovided_keywords" xml:space="preserve">
+    <value>pakk, ta med, inkludert</value>
+  </data>
+  <data name="content_smoking_title" xml:space="preserve">
+    <value>Røyking</value>
+  </data>
+  <data name="content_smoking_helptext" xml:space="preserve">
+    <value>Hvis du har regler eller notater om hva en gjest skal gjøre hvis de røyker, kan du inkludere dem her.</value>
+  </data>
+  <data name="content_smoking_keywords" xml:space="preserve">
+    <value>røyking, røyk, sigaretter, regler</value>
+  </data>
+  <data name="content_pets_title" xml:space="preserve">
+    <value>Kjæledyr</value>
+  </data>
+  <data name="content_pets_helptext" xml:space="preserve">
+    <value>Hvis du tillater husdyr eller har noen spesifikke regler for kjæledyr, kan du inkludere dem her.</value>
+  </data>
+  <data name="content_pets_keywords" xml:space="preserve">
+    <value>hund, katt, kjæledyr</value>
+  </data>
+  <data name="content_grilling_title" xml:space="preserve">
+    <value>Grilling</value>
+  </data>
+  <data name="content_grilling_helptext" xml:space="preserve">
+    <value>Gjestene dine vil være interessert i grilling, så la dem få vite om det er noe de trenger å vite for å starte grillen, eller noe de ikke skal gjøre.</value>
+  </data>
+  <data name="content_grilling_keywords" xml:space="preserve">
+    <value>grill, kokk, brann</value>
+  </data>
+  <data name="content_trash_title" xml:space="preserve">
+    <value>Søppel</value>
+  </data>
+  <data name="content_trash_helptext" xml:space="preserve">
+    <value>La gjestene få vite når søppel vil bli hentet.  Velg dagene nedenfor, og en påminnelse blir innstilt til kvelden før for minne dem på det.</value>
+  </data>
+  <data name="content_trash_keywords" xml:space="preserve">
+    <value>søppel, avfall, deponering</value>
+  </data>
+  <data name="content_elevator_title" xml:space="preserve">
+    <value>Heis</value>
+  </data>
+  <data name="content_elevator_helptext" xml:space="preserve">
+    <value>Hvis ferieboligen krever en heis for å få tilgang, og det er spesielle koder eller instruksjoner for dette, kan du angi det her.</value>
+  </data>
+  <data name="content_elevator_keywords" xml:space="preserve">
+    <value>heis, regler</value>
+  </data>
+  <data name="content_checkout_title" xml:space="preserve">
+    <value>Utsjekking</value>
+  </data>
+  <data name="content_checkout_helptext" xml:space="preserve">
+    <value>Fortell gjestene hva de må gjøre for å forenkle utsjekkingsprosessen.  Gjesten får en påminnelse dagen før de reiser.</value>
+  </data>
+  <data name="content_checkout_keywords" xml:space="preserve">
+    <value>forlate, avreise, utsjekking</value>
+  </data>
+  <data name="content_wifi_title" xml:space="preserve">
+    <value>WIFI</value>
+  </data>
+  <data name="content_wifi_helptext" xml:space="preserve">
+    <value>Gi gjestene all nødvendig informasjon om Internett-tilgang..  Oppgi ruternavn og passord.</value>
+  </data>
+  <data name="content_wifi_keywords" xml:space="preserve">
+    <value>Internett, wifi, ruter, bredbånd</value>
+  </data>
+  <data name="content_noisepolicy_title" xml:space="preserve">
+    <value>Støyforordninger</value>
+  </data>
+  <data name="content_noisepolicy_helptext" xml:space="preserve">
+    <value>Hvis det er spesielle støyforordninger etter visse tidspunkt i området ditt, kan du informere gjesten om det her.</value>
+  </data>
+  <data name="content_noisepolicy_keywords" xml:space="preserve">
+    <value>støy, musikk, stereo</value>
+  </data>
+  <data name="content_pool_title" xml:space="preserve">
+    <value>Svømmebasseng</value>
+  </data>
+  <data name="content_pool_helptext" xml:space="preserve">
+    <value>Gi mer detaljer om eventuelt svømmebasseng som følger med ferieboligen.  Hvis du har et boblebad, bør du i tillegg informere gjestene om hvordan det brukes.</value>
+  </data>
+  <data name="content_pool_keywords" xml:space="preserve">
+    <value>svømming, basseng, vann</value>
+  </data>
+  <data name="content_coffeemaker_title" xml:space="preserve">
+    <value>Kaffetrakter</value>
+  </data>
+  <data name="content_coffeemaker_helptext" xml:space="preserve">
+    <value>Gi gjestene informasjon om kaffetrakteren, f.eks. om de må ta med filtre eller spesielle instruksjoner.</value>
+  </data>
+  <data name="content_coffeemaker_keywords" xml:space="preserve">
+    <value>kjøkken, kaffe, espresso</value>
+  </data>
+  <data name="content_kitchen_title" xml:space="preserve">
+    <value>Kjøkken</value>
+  </data>
+  <data name="content_kitchen_helptext" xml:space="preserve">
+    <value>Gi gjestene informasjon om kjøkkenet i tilfelle det er noe spesielt de bør vite.</value>
+  </data>
+  <data name="content_kitchen_keywords" xml:space="preserve">
+    <value>kjøkken, stekeovn, komfyr, mikrobølgeovn, oppvaskmaskin, fryser, kjøleskap, is</value>
+  </data>
+  <data name="content_beachaccess_title" xml:space="preserve">
+    <value>Strand</value>
+  </data>
+  <data name="content_beachaccess_helptext" xml:space="preserve">
+    <value>Hvis ferieboligen er i nærheten av en strand, bør du informere gjestene om de enkleste og beste måtene de kan komme seg dit.</value>
+  </data>
+  <data name="content_beachaccess_keywords" xml:space="preserve">
+    <value>strand, hav, vann, kode</value>
+  </data>
+  <data name="content_tv_title" xml:space="preserve">
+    <value>TV/kabel</value>
+  </data>
+  <data name="content_tv_helptext" xml:space="preserve">
+    <value>Gi gjestene dine instruksjoner om hvordan de bruker TV-er og gi lenker til kabelstasjonoppføringer i området.</value>
+  </data>
+  <data name="content_tv_keywords" xml:space="preserve">
+    <value>tv, kabel, hd, espn, hbo, satellitt</value>
+  </data>
+  <data name="content_golfcart_title" xml:space="preserve">
+    <value>Golf</value>
+  </data>
+  <data name="content_golfcart_helptext" xml:space="preserve">
+    <value>Informer gjestene om det hvis du tilbyr en golfvogn med ferieboligen eller det er leiemuligheter osv. i området.</value>
+  </data>
+  <data name="content_golfcart_keywords" xml:space="preserve">
+    <value>golf</value>
+  </data>
+  <data name="content_boating_title" xml:space="preserve">
+    <value>Båtliv</value>
+  </data>
+  <data name="content_boating_helptext" xml:space="preserve">
+    <value>Informer gjestene om det hvis du tilbyr en båt med ferieboligen eller det er informasjon om båtliv i området.</value>
+  </data>
+  <data name="content_boating_keywords" xml:space="preserve">
+    <value>båt, fisk, brygge</value>
+  </data>
+  <data name="content_biking_title" xml:space="preserve">
+    <value>Sykling</value>
+  </data>
+  <data name="content_biking_helptext" xml:space="preserve">
+    <value>Informer gjester om det hvis du tilbyr sykler med ferieboligen din eller det er informasjon om sykling i området.  Du kan oppgi det beste stedet å leie sykler, osv.</value>
+  </data>
+  <data name="content_biking_keywords" xml:space="preserve">
+    <value>sykkel, utleie, fjell</value>
+  </data>
+  <data name="content_skiing_title" xml:space="preserve">
+    <value>Ski</value>
+  </data>
+  <data name="content_skiing_helptext" xml:space="preserve">
+    <value>Gi gjesten detaljer på skimuligheter osv.</value>
+  </data>
+  <data name="content_skiing_keywords" xml:space="preserve">
+    <value>ski, heis, utleie, billetter, fjell</value>
+  </data>
+  <data name="content_fireplace_title" xml:space="preserve">
+    <value>Peis/ildsted</value>
+  </data>
+  <data name="content_fireplace_helptext" xml:space="preserve">
+    <value>La gjesten din vite hvordan de bruker eventuell peis eller ildsted i ferieboligen</value>
+  </data>
+  <data name="content_fireplace_keywords" xml:space="preserve">
+    <value>brann, ildsted, ved, bål</value>
+  </data>
+  <data name="content_maintenance_title" xml:space="preserve">
+    <value>Vedlikeholdsinformasjon</value>
+  </data>
+  <data name="content_maintenance_helptext" xml:space="preserve">
+    <value>Informer gjestene om prosedyren for å håndtere ting som eventuelt går galt under oppholdet.  Dette kan inkludere alternativt telefonnummer, e-postadresse, osv.</value>
+  </data>
+  <data name="content_maintenance_keywords" xml:space="preserve">
+    <value>fikse, ødelagt, vedlikehold</value>
+  </data>
+  <data name="content_fitness_title" xml:space="preserve">
+    <value>Fitness/Treningssenter</value>
+  </data>
+  <data name="content_fitness_helptext" xml:space="preserve">
+    <value>Informer gjestene om eventuelle treningssenter eller treningsaktiviteter i området og om hvordan de får tilgang til det, osv.</value>
+  </data>
+  <data name="content_fitness_keywords" xml:space="preserve">
+    <value>fitness, trening, sykkel, løpe, gå</value>
+  </data>
+  <data name="content_electronics_title" xml:space="preserve">
+    <value>Elektronikk</value>
+  </data>
+  <data name="content_electronics_helptext" xml:space="preserve">
+    <value>Hvis ferieboligen inkluderer elektroniske enheter som spillkonsoller, dvd-spillere, etc. som kan trenge spesielle instruksjoner, kan du informere dem om det her.</value>
+  </data>
+  <data name="content_electronics_keywords" xml:space="preserve">
+    <value>dvd, xbox, nintendo, wii, ps3, sony, video, stereo</value>
+  </data>
+  <data name="content_homephone_title" xml:space="preserve">
+    <value>Fasttelefon</value>
+  </data>
+  <data name="content_homephone_helptext" xml:space="preserve">
+    <value>Hvis feriebolien har en tilkoblet fasttelefon, kan du oppgi telefonnummeret her slik at gjestene kan bruke den under oppholdet.</value>
+  </data>
+  <data name="content_homephone_keywords" xml:space="preserve">
+    <value>hjem, tlf, telefon</value>
+  </data>
+  <data name="content_transportation_title" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+  <data name="content_transportation_helptext" xml:space="preserve">
+    <value>Er det trikk eller andre former for transport tilgjengelig for gjestene?  Fortell dem om det her.</value>
+  </data>
+  <data name="content_transportation_keywords" xml:space="preserve">
+    <value>transport, buss, varebil, trikk</value>
+  </data>
+  <data name="content_helpfultips_title" xml:space="preserve">
+    <value>Nyttige tips</value>
+  </data>
+  <data name="content_helpfultips_helptext" xml:space="preserve">
+    <value>Dette er et bra sted å liste opp eventuelle andre tips gjesten kan dra nytte av i området, osv.</value>
+  </data>
+  <data name="content_helpfultips_keywords" xml:space="preserve">
+    <value>tips, område, instrukser</value>
+  </data>
+  <data name="content_emergency_title" xml:space="preserve">
+    <value>Nødsituasjon</value>
+  </data>
+  <data name="content_emergency_helptext" xml:space="preserve">
+    <value>Gi gjesten all informasjon som kan være nyttig i tilfelle det oppstår en nødsituasjon.</value>
+  </data>
+  <data name="content_emergency_keywords" xml:space="preserve">
+    <value>politiet, beredskap, evakuering</value>
+  </data>
+  <data name="content_delivery_title" xml:space="preserve">
+    <value>Dagligvarelevering</value>
+  </data>
+  <data name="content_delivery_helptext" xml:space="preserve">
+    <value>Har området ditt en tjeneste for levering av dagligvarer som gjesten din kan ønske å dra nytte av?  I så fall kan du informere om det her.</value>
+  </data>
+  <data name="content_delivery_keywords" xml:space="preserve">
+    <value>dagligvarer, mat, marked</value>
+  </data>
+  <data name="content_laundry_title" xml:space="preserve">
+    <value>Klesvask</value>
+  </data>
+  <data name="content_laundry_helptext" xml:space="preserve">
+    <value>Gi gjesten eventuell vaskeinformasjon, som hvordan de brukee vaskemaskiner og tørketromler, osv.</value>
+  </data>
+  <data name="content_laundry_keywords" xml:space="preserve">
+    <value>vaskemaskin, tørketrommel, renseri</value>
+  </data>
+  <data name="content_safety_title" xml:space="preserve">
+    <value>Sikkerhet</value>
+  </data>
+  <data name="content_safety_helptext" xml:space="preserve">
+    <value>Gi gjestene eventuell sikkerhetsinformasjon om strender, fjell, osv.</value>
+  </data>
+  <data name="content_safety_keywords" xml:space="preserve">
+    <value>sikkerhet, nødstilfeller</value>
+  </data>
+  <data name="content_fishing_title" xml:space="preserve">
+    <value>Fiske</value>
+  </data>
+  <data name="content_fishing_helptext" xml:space="preserve">
+    <value>Gi gjesten informasjon om fiskekort, de beste stedene å fiske fra osv.</value>
+  </data>
+  <data name="content_fishing_keywords" xml:space="preserve">
+    <value>fisk, båt</value>
+  </data>
+  <data name="content_heatac_title" xml:space="preserve">
+    <value>Varme og klimaanlegg</value>
+  </data>
+  <data name="content_heatac_helptext" xml:space="preserve">
+    <value>Gi gjesten informasjon om varme- og klimaanlegget.</value>
+  </data>
+  <data name="content_heatac_keywords" xml:space="preserve">
+    <value>varme, a/c, klimaanlegg</value>
+  </data>
+  <data name="content_houserules_title" xml:space="preserve">
+    <value>Husregler</value>
+  </data>
+  <data name="content_houserules_helptext" xml:space="preserve">
+    <value>Gi gjesten informasjon om eventuelle husrelger du vil at de skal følge med hensyn til ferieboligen.</value>
+  </data>
+  <data name="content_houserules_keywords" xml:space="preserve">
+    <value>regel, instrukser</value>
+  </data>
+  <data name="content_aboutowner_title" xml:space="preserve">
+    <value>Om eieren</value>
+  </data>
+  <data name="content_aboutowner_helptext" xml:space="preserve">
+    <value>Fortell gjestene dine om ferieboligens historie.</value>
+  </data>
+  <data name="content_aboutowner_keywords" xml:space="preserve">
+    <value>historie, om</value>
+  </data>
+  <data name="content_accessrental_title" xml:space="preserve">
+    <value>Få tilgang til ferieboligen min</value>
+  </data>
+  <data name="content_accessrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_accessrental_keywords" xml:space="preserve">
+    <value>tilgang, kode, dør, veibeskrivelse</value>
+  </data>
+  <data name="content_thankyou_title" xml:space="preserve">
+    <value>Takk</value>
+  </data>
+  <data name="content_thankyou_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_thankyou_keywords" xml:space="preserve">
+    <value>takk, </value>
+  </data>
+  <data name="content_welcome_title" xml:space="preserve">
+    <value>Velkommen</value>
+  </data>
+  <data name="content_welcome_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_welcome_keywords" xml:space="preserve">
+    <value>Velkommen, intro, om, eier</value>
+  </data>
+  <data name="content_viewguestbook_title" xml:space="preserve">
+    <value>Vis gjestebok</value>
+  </data>
+  <data name="content_viewguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_viewguestbook_keywords" xml:space="preserve">
+    <value>gjestebok</value>
+  </data>
+  <data name="content_signguestbook_title" xml:space="preserve">
+    <value>Signer gjestebok</value>
+  </data>
+  <data name="content_signguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_signguestbook_keywords" xml:space="preserve">
+    <value>signer, gjestebok</value>
+  </data>
+  <data name="content_inviteother_title" xml:space="preserve">
+    <value>Inviter andre</value>
+  </data>
+  <data name="content_inviteother_helptext" xml:space="preserve">
+    <value>Inviter andre som skal bo sammen med deg slik at de også kan få tilgang til denne informasjonen osv.</value>
+  </data>
+  <data name="content_inviteother_keywords" xml:space="preserve">
+    <value>inviter, del, tilgang, kode</value>
+  </data>
+  <data name="content_findmyrental_title" xml:space="preserve">
+    <value>Finn ferieboligen min</value>
+  </data>
+  <data name="content_findmyrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_findmyrental_keywords" xml:space="preserve">
+    <value>kart, veibeskrivelse, beliggenhet ,vei, motorvei, finn</value>
+  </data>
+  <data name="content_misc_title" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="content_misc_helptext" xml:space="preserve">
+    <value>Dette er et flott sted å legge til annen informasjon gjesten muligens setter pris på</value>
+  </data>
+  <data name="content_misc_keywords" xml:space="preserve">
+    <value>forskjellig</value>
+  </data>
+  <data name="content_tennis_title" xml:space="preserve">
+    <value>Tennis</value>
+  </data>
+  <data name="content_tennis_helptext" xml:space="preserve">
+    <value>Dette er et flott sted å fortelle gjestene dine om tennisalternativene som tilbys i området</value>
+  </data>
+  <data name="content_tennis_keywords" xml:space="preserve">
+    <value>tennis, sport</value>
+  </data>
+  <data name="content_rainy_title" xml:space="preserve">
+    <value>Regndager</value>
+  </data>
+  <data name="content_rainy_helptext" xml:space="preserve">
+    <value>Fortell gjestene dine hva de kan gjøre på regnværsdager.</value>
+  </data>
+  <data name="content_rainy_keywords" xml:space="preserve">
+    <value>regn, vær</value>
+  </data>
+  <data name="content_tides_title" xml:space="preserve">
+    <value>Tidevann</value>
+  </data>
+  <data name="content_tides_helptext" xml:space="preserve">
+    <value>Hvis ferieboligene dine er i områder der tidevannet skifter ganske mye, kan du gi lenker og informasjon slik at gjestene kan se tidevannsdiagrammer.</value>
+  </data>
+  <data name="content_tides_keywords" xml:space="preserve">
+    <value>hav, vann, tidevann, sikkerhet, måne</value>
+  </data>
+  <data name="content_finalpayment_title" xml:space="preserve">
+    <value>Endelig betaling</value>
+  </data>
+  <data name="content_finalpayment_helptext" xml:space="preserve">
+    <value>Hvis det er noen detaljer eller særegenheter gjestene dine må være klar over for endelig betaling, kan du informere om dette her</value>
+  </data>
+  <data name="content_finalpayment_keywords" xml:space="preserve">
+    <value>betaling, penger, endelig</value>
+  </data>
+  <data name="content_housekeeping_title" xml:space="preserve">
+    <value>Rengjøring</value>
+  </data>
+  <data name="content_housekeeping_helptext" xml:space="preserve">
+    <value>Hvis en gjest kan be om rengjøring eller det er noe de trenger å vite, kan du informere om det her.</value>
+  </data>
+  <data name="content_housekeeping_keywords" xml:space="preserve">
+    <value>ren, hus, kost, feiebrett</value>
+  </data>
+  <data name="content_hiking_title" xml:space="preserve">
+    <value>Fotturisme</value>
+  </data>
+  <data name="content_hiking_helptext" xml:space="preserve">
+    <value>Fortell gjestene om fotturer eller stier i området</value>
+  </data>
+  <data name="content_hiking_keywords" xml:space="preserve">
+    <value>gåtur, mosjon ,utendørs, vandring, fjell</value>
+  </data>
+  <data name="content_beforeyouleave_title" xml:space="preserve">
+    <value>Før besøket</value>
+  </data>
+  <data name="content_beforeyouleave_helptext" xml:space="preserve">
+    <value>Hvis du har informasjon som restaurantreservasjon, osv., kan du informere dem om det her før de reiser til ferieboligen</value>
+  </data>
+  <data name="content_beforeyouleave_keywords" xml:space="preserve">
+    <value>kjøre, ankomme</value>
+  </data>
+</root>

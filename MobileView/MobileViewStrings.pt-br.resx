@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="access_rental" xml:space="preserve">
+    <value>Acessa imóvel</value>
+  </data>
+  <data name="advantage_recommendations" xml:space="preserve">
+    <value>Usufrua das recomendações</value>
+  </data>
+  <data name="check_in_date" xml:space="preserve">
+    <value>Data de Entrada</value>
+  </data>
+  <data name="check_in_date_required_message" xml:space="preserve">
+    <value>Obrigatório</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="email_maxlength_message" xml:space="preserve">
+    <value>O endereço de e-mail deve ter menos que 256 caracteres</value>
+  </data>
+  <data name="email_required_message" xml:space="preserve">
+    <value>E-mail é obrigatório</value>
+  </data>
+  <data name="first_name" xml:space="preserve">
+    <value>Primeiro Nome</value>
+  </data>
+  <data name="first_name_maxlength_message" xml:space="preserve">
+    <value>O primeiro nome deve ter menos que 50 caracteres</value>
+  </data>
+  <data name="first_name_required_message" xml:space="preserve">
+    <value>Primeiro Nome é obrigatório</value>
+  </data>
+  <data name="invite_others_info" xml:space="preserve">
+    <value>Você pode convidar outras pessoas que estão hospedadas com você para se juntarem às suas férias. Então, seus hóspedes podem fazer tudo o que você pode fazer:</value>
+  </data>
+  <data name="invite_other_guests" xml:space="preserve">
+    <value>Convide Outros Hóspedes</value>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="last_name_maxlength_message" xml:space="preserve">
+    <value>O sobrenome deve ter menos que 50 caracteres</value>
+  </data>
+  <data name="last_name_required_message" xml:space="preserve">
+    <value>Sobrenome é obrigatório</value>
+  </data>
+  <data name="mobile_invitation_code" xml:space="preserve">
+    <value>Código de convite mobile</value>
+  </data>
+  <data name="mobile_invitation_code_required_message" xml:space="preserve">
+    <value>Obrigatório</value>
+  </data>
+  <data name="resend_invitation_email" xml:space="preserve">
+    <value>Reenviar convite por email</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Busca</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="send_loading_text" xml:space="preserve">
+    <value>Enviando...</value>
+  </data>
+  <data name="sigin_info" xml:space="preserve">
+    <value>Você vai ficar animado com as suas próximas férias. Para acessar a sua permanência, insira as informações fornecidas no seu e-mail de convite.</value>
+  </data>
+  <data name="sign_in_required" xml:space="preserve">
+    <value>Inscreva-se</value>
+  </data>
+  <data name="tap_access_rental" xml:space="preserve">
+    <value>Toque em Acessar Imóvel, logo abaixo, para entrar na sua hospedagem</value>
+  </data>
+  <data name="terms_of_service" xml:space="preserve">
+    <value>Termos de Serviço</value>
+  </data>
+  <data name="view_access_codes" xml:space="preserve">
+    <value>Ver Códigos de Acesso e Conteúdo</value>
+  </data>
+  <data name="finding_your_reservation" xml:space="preserve">
+    <value>Encontrar Sua Reserva ...</value>
+  </data>
+  <data name="loading_map" xml:space="preserve">
+    <value>Carregando mapa ...</value>
+  </data>
+  <data name="loading_reviews" xml:space="preserve">
+    <value>Carregando Avaliações ...</value>
+  </data>
+  <data name="loading_your_stay" xml:space="preserve">
+    <value>Carregando Sua Permanência...</value>
+  </data>
+  <data name="resending_your_reservation" xml:space="preserve">
+    <value>Reenviando Sua Reserva ...</value>
+  </data>
+  <data name="i_agree_to" xml:space="preserve">
+    <value>Eu concordo com o</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="title_required_message" xml:space="preserve">
+    <value>Sobrenome é obrigatório</value>
+  </data>
+  <data name="title_maxlength_message" xml:space="preserve">
+    <value>O título deve ter menos que 128 caracteres</value>
+  </data>
+  <data name="your_review" xml:space="preserve">
+    <value>Sua Avaliação</value>
+  </data>
+  <data name="your_review_required_message" xml:space="preserve">
+    <value>Mensagem é obrigatória</value>
+  </data>
+  <data name="your_review_maxlength_message" xml:space="preserve">
+    <value>A mensagem deve ter menos que 4000 caracteres</value>
+  </data>
+  <data name="overall" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="overall_hidden" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="overall_hidden_required_message" xml:space="preserve">
+    <value>Geral é obrigatório</value>
+  </data>
+  <data name="experience" xml:space="preserve">
+    <value>Experiência</value>
+  </data>
+  <data name="experience_hidden" xml:space="preserve">
+    <value>Experiência</value>
+  </data>
+  <data name="experience_hidden_required_message" xml:space="preserve">
+    <value>Experiência é obrigatório</value>
+  </data>
+  <data name="property" xml:space="preserve">
+    <value>Propriedade</value>
+  </data>
+  <data name="property_hidden" xml:space="preserve">
+    <value>Propriedade</value>
+  </data>
+  <data name="property_hidden_required_message" xml:space="preserve">
+    <value>Propriedade é obrigatório</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="value_hidden" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="value_hidden_required_message" xml:space="preserve">
+    <value>Valor é obrigatório</value>
+  </data>
+  <data name="offline_info" xml:space="preserve">
+    <value>Informações offline</value>
+  </data>
+  <data name="offline_message" xml:space="preserve">
+    <value>Sinto muito, mas é necessário conectar-se à Internet para acessar esta função. Conecte seu dispositivo e tente novamente.</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Está bem</value>
+  </data>
+  <data name="request_error_message" xml:space="preserve">
+    <value>Houve um erro ao enviar o seu pedido. Tente novamente</value>
+  </data>
+  <data name="request_error_title" xml:space="preserve">
+    <value>Solicitação falhou</value>
+  </data>
+  <data name="text_app_message" xml:space="preserve">
+    <value>Digite o seu número de telefone para colocar um link para baixar grátis o aplicativo móvel HomeAway.</value>
+  </data>
+  <data name="text_app_success" xml:space="preserve">
+    <value>Seu link mandou uma mensagem para você.</value>
+  </data>
+  <data name="text_app_success_title" xml:space="preserve">
+    <value>Obrigado!</value>
+  </data>
+  <data name="get_the_app" xml:space="preserve">
+    <value>Obter o aplicativo!</value>
+  </data>
+  <data name="no_thanks" xml:space="preserve">
+    <value>Não, obrigado, eu vou continuar aqui.</value>
+  </data>
+  <data name="open_the_app" xml:space="preserve">
+    <value>Abra o aplicativo</value>
+  </data>
+  <data name="redirector_info" xml:space="preserve">
+    <value>Ei, parece que você está em um dispositivo móvel</value>
+  </data>
+  <data name="from_camera" xml:space="preserve">
+    <value>Da câmera</value>
+  </data>
+  <data name="from_photo_library" xml:space="preserve">
+    <value>Da fototeca</value>
+  </data>
+  <data name="rate_your_stay" xml:space="preserve">
+    <value>Classifique sua permanência</value>
+  </data>
+  <data name="select_photo" xml:space="preserve">
+    <value>Selecione a foto</value>
+  </data>
+  <data name="read_more" xml:space="preserve">
+    <value>Leia mais&gt;</value>
+  </data>
+  <data name="maps" xml:space="preserve">
+    <value>Maps</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="open_in_maps" xml:space="preserve">
+    <value>Open in maps</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="no_reviews" xml:space="preserve">
+    <value>No reviews</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="no_reviews_message" xml:space="preserve">
+    <value>There are no reviews for this property</value>
+    <comment>Needs Translation </comment>
+  </data>
+</root>

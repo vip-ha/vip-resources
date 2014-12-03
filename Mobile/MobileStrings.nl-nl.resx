@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FindMyRental" xml:space="preserve">
+    <value>Vindt Mijn Accommodatie</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HelpVideo" xml:space="preserve">
+    <value>Help Video</value>
+  </data>
+  <data name="LocalSuggestions" xml:space="preserve">
+    <value>Lokale Aanraders</value>
+  </data>
+  <data name="MyRental" xml:space="preserve">
+    <value>Mijn pand</value>
+  </data>
+  <data name="PreArrival" xml:space="preserve">
+    <value>Voor de aankomst</value>
+  </data>
+  <data name="Restaurants" xml:space="preserve">
+    <value>Restaurants</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="SwitchStay" xml:space="preserve">
+    <value>Verander verblijf</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Bedankt</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Hoofd</value>
+  </data>
+  <data name="MainSite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="ATMs" xml:space="preserve">
+    <value>Geldautomaten</value>
+  </data>
+  <data name="Attractions" xml:space="preserve">
+    <value>Wat is er te beleven?</value>
+  </data>
+  <data name="Bars" xml:space="preserve">
+    <value>Bars</value>
+  </data>
+  <data name="Coffee" xml:space="preserve">
+    <value>Koffie</value>
+  </data>
+  <data name="GasStations" xml:space="preserve">
+    <value>Benzinestations</value>
+  </data>
+  <data name="GroceryStores" xml:space="preserve">
+    <value>Supermarkten</value>
+  </data>
+  <data name="GTHYSuggested" xml:space="preserve">
+    <value>Aanraders via Google</value>
+  </data>
+  <data name="SignGuestbook" xml:space="preserve">
+    <value>Maak een beoordeling</value>
+  </data>
+  <data name="Hospitals" xml:space="preserve">
+    <value>Ziekenhuizen</value>
+  </data>
+  <data name="Hotels" xml:space="preserve">
+    <value>Hotels</value>
+  </data>
+  <data name="Malls" xml:space="preserve">
+    <value>Winkelen</value>
+  </data>
+  <data name="MovieTheaters" xml:space="preserve">
+    <value>Bioscopen</value>
+  </data>
+  <data name="OwnerSuggested" xml:space="preserve">
+    <value>Aanraders van de eigenaar</value>
+  </data>
+  <data name="Pharmacies" xml:space="preserve">
+    <value>Apotheken</value>
+  </data>
+  <data name="PostOffices" xml:space="preserve">
+    <value>Postkantoren</value>
+  </data>
+  <data name="SignGuestbookText" xml:space="preserve">
+    <value>Schrijf een beoordeling We willen graag meer over u en uw verblijf weten!</value>
+  </data>
+  <data name="GooglePlaces" xml:space="preserve">
+    <value>Google details</value>
+  </data>
+  <data name="NoRating" xml:space="preserve">
+    <value>Geen Beoordeling</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Beoordeling {0}</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Bel</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="FeedbackThanks" xml:space="preserve">
+    <value>Bedankt voor de feedback!</value>
+  </data>
+  <data name="InviteOthersResponse" xml:space="preserve">
+    <value>{0} zal dra een e-mail ontvangen met een beschrijving over het inschrijven.</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Kaart</value>
+  </data>
+  <data name="ViewGuestbook" xml:space="preserve">
+    <value>Bekijk beoordelingen</value>
+  </data>
+  <data name="Guestbook_Rating_1" xml:space="preserve">
+    <value>1 - Ster (slechtste)</value>
+  </data>
+  <data name="Guestbook_Rating_2" xml:space="preserve">
+    <value>2 - Sterren</value>
+  </data>
+  <data name="Guestbook_Rating_3" xml:space="preserve">
+    <value>3 - Sterren</value>
+  </data>
+  <data name="Guestbook_Rating_4" xml:space="preserve">
+    <value>4 - Sterren</value>
+  </data>
+  <data name="Guestbook_Rating_5" xml:space="preserve">
+    <value>5 - Sterren (Best)</value>
+  </data>
+  <data name="InviteOthers" xml:space="preserve">
+    <value>Nodig anderen uit</value>
+  </data>
+  <data name="InviteOthersText" xml:space="preserve">
+    <value>Nodig anderen uit die met u meegaan om ook toegang te krijgen tot deze informatie, enz.</value>
+  </data>
+  <data name="Photos" xml:space="preserve">
+    <value>Foto's</value>
+  </data>
+  <data name="MyStay" xml:space="preserve">
+    <value>Mijn verblijf</value>
+  </data>
+  <data name="MyStayDetails" xml:space="preserve">
+    <value>&lt;i class="icon-avatar-1" style="color: #cccccc"/&gt; {0}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-mail-1" style="color: #cccccc"/&gt; {1}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-calendar-empty" style="color: #cccccc"/&gt; {2} - {3}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-accommodation" style="color: #cccccc"/&gt; {4} in {5}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;</value>
+  </data>
+  <data name="ReinviteMessage" xml:space="preserve">
+    <value>{0} ontvangt binnenkort een e-mail met een beschrijving over hoe u zich kunt inschrijven.</value>
+  </data>
+  <data name="ReinviteTitle" xml:space="preserve">
+    <value>Boodschap is vereist</value>
+  </data>
+  <data name="RelevantDays" xml:space="preserve">
+    <value>&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;{0} Dag (en): &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="AccessMyRentalTemplate" xml:space="preserve">
+    <value>Deurcode &lt;b&gt;{0}&lt;/b&gt;&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;{1}</value>
+  </data>
+  <data name="AccessMyRental" xml:space="preserve">
+    <value>Toegang tot mijn pand</value>
+  </data>
+  <data name="GetTheApp" xml:space="preserve">
+    <value>Download de app</value>
+  </data>
+  <data name="Android" xml:space="preserve">
+    <value>Android</value>
+  </data>
+  <data name="GetTheAppDescription" xml:space="preserve">
+    <value>Daar hebben we een app voor! Zoek in uw app store naar "HomeAway " app of klik onderstaand voor de iPhone of Android apps.  </value>
+  </data>
+  <data name="iOS" xml:space="preserve">
+    <value>iPhone/iPod</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Ongeldige legitimatiegegevens ingevoerd.</value>
+  </data>
+  <data name="ValidCredentialsMobileNotEnabled" xml:space="preserve">
+    <value>Uw gegevens zijn geldig, maar u hebt geen toegang gekocht tot de mobiel van de eigenaar. Dit kunt u doen via owners.gladtohaveyou.com</value>
+  </data>
+  <data name="LocalWeather" xml:space="preserve">
+    <value>Lokaal Weer</value>
+  </data>
+  <data name="KilometersFromRental" xml:space="preserve">
+    <value>{0:N2} km. van de accommodatie</value>
+  </data>
+  <data name="MilesFromRental" xml:space="preserve">
+    <value>{0:N2} km. van de accommodatie</value>
+  </data>
+  <data name="Churches" xml:space="preserve">
+    <value>Aanbidding</value>
+  </data>
+  <data name="RequestContent" xml:space="preserve">
+    <value>Deze informatie werd niet verstrekt. We hebben de eigenaar gemeld dat u belangstelling heeft voor deze inhoud. Kijk later nog eens.</value>
+  </data>
+  <data name="AccessMyRentalDefault" xml:space="preserve">
+    <value>Binnen 14 dagen voor uw aankomst krijgt u, mits u volledig betaald hebt en de contracten getekend hebt, toegangsinstructies.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="SMSInviteMessage" xml:space="preserve">
+    <value>U bent uitgenodigd voor de HomeAway mobiele toepassing door {0}. {1}</value>
+  </data>
+  <data name="NoReservationFound" xml:space="preserve">
+    <value>Geen reservering gevonden die overeenstemt met die criteria.</value>
+  </data>
+  <data name="GetTheAppText" xml:space="preserve">
+    <value>Voer uw telefoonnummer in om een ​​link te texten voor het downloaden van de gratis HomeAway mobiele app.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>E-mail is vereist</value>
+  </data>
+  <data name="FirstNameRequired" xml:space="preserve">
+    <value>Voornaam is vereist</value>
+  </data>
+  <data name="LastNameRequired" xml:space="preserve">
+    <value>Achternaam is vereist</value>
+  </data>
+</root>

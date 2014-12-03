@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Owner_Onboard_Content" xml:space="preserve">
+    <value>Parabéns! Agora você tem acesso ao Gestor de Hospitalidade Móvel HomeAway.</value>
+  </data>
+  <data name="Owner_Onboard_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;O Gestor de Hospitalidade Móvel coloca informação útil sobre sua propriedade nas mãos do hóspede através de um website móvel ou do app HomeAway.
+                                                                                                        &lt;/p&gt;
+&lt;p&gt;Veja como funciona: quando um hóspede faz uma reserva no seu imóvel de férias, nós o convidamos a baixar o aplicativo ou visitar o site mobile para que eles possam acessar as dicas úteis que você forneceu, como instruções de registro da chegada, como chegar ao imóvel e recomendações de restaurantes na área. Eles também vão receber uma mensagem de boas-vindas e de agradecimento, bem como uma solicitação para deixarem uma avaliação logo antes do final da hospedagem.
+                                                                                                    &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section1_Title" xml:space="preserve">
+    <value>O que é o Gestor de Hospitalidade Mobile?</value>
+  </data>
+  <data name="Owner_Onboard_PreHeader" xml:space="preserve">
+    <value>Melhore a estada de seus hóspedes com mais informações</value>
+  </data>
+  <data name="Owner_Onboard_Title" xml:space="preserve">
+    <value>Forneça as informações que os hóspedes precisam... exatamente quando eles precisam!</value>
+  </data>
+  <data name="Shared_AccessYourRental" xml:space="preserve">
+    <value>Acesse o seu imóvel de aluguel</value>
+  </data>
+  <data name="Shared_CheckInDate" xml:space="preserve">
+    <value>Data de Entrada </value>
+  </data>
+  <data name="Shared_CheckOutDate" xml:space="preserve">
+    <value>Data de Saída</value>
+  </data>
+  <data name="Shared_EmailAddress" xml:space="preserve">
+    <value>Endereço de E-mail </value>
+  </data>
+  <data name="Shared_GuestEmail" xml:space="preserve">
+    <value>E-mail do Hóspede</value>
+  </data>
+  <data name="Shared_GuestName" xml:space="preserve">
+    <value>Sem Nome</value>
+  </data>
+  <data name="Shared_ManageThisStay" xml:space="preserve">
+    <value>Administre esta hospedagem</value>
+  </data>
+  <data name="Shared_MobileInvitationCode" xml:space="preserve">
+    <value>Código de convite mobile</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Content" xml:space="preserve">
+    <value>&lt;p&gt;Parabéns pela reserva de uma  &lt;b&gt;(Brand.Name)&lt;/b&gt; casa de férias Para deixar a sua próxima hospedagem ainda mais conveniente, todas as informações que você precisa saber sobre o imóvel alugado estão on-line, para que possa acessá-las sempre que precisar.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_PreHeader" xml:space="preserve">
+    <value>Informações de acesso sobre sua próxima hospedagem</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Section1_Content" xml:space="preserve">
+    <value>Quando você estiver com um smarphone, tablet ou computador, pode clicar abaixo para ver tudo o que você precisa sobre seu &lt;b&gt;(Rental.City)&lt;/b&gt; de férias, informações sobre a chegada e indicações, bem como recomendações para restaurantes, atividades e eventos para ir durante sua permanência.</value>
+  </data>
+  <data name="Traveler_PrimaryInvite_Title" xml:space="preserve">
+    <value>Bem vindo (Guest.FirstName)</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_PreHeader" xml:space="preserve">
+    <value>Atualize agora as informações do seu imóvel de aluguel para este e futuros hóspedes</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Title" xml:space="preserve">
+    <value>Forneça as informações que os hóspedes precisam</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Content" xml:space="preserve">
+    <value>&lt;p&gt;Um dos seus hóspedes, (Guest.FirstName), tentou acessar (Content.Description), que você ainda não forneceu. Certifique-se de que os seus hóspedes possam obter essas informações quando precisarem.&lt;/p&gt;
+&lt;p&gt;Depois de inserir essas informações no Gestor de Hospitalidade Mobile, você não precisará fornecê-las novamente – elas ficarão no sistema para que todos os seus hóspedes possam acessá-las. Isso vai facilitar futuras hospedagens para você e vai garantir que todos os seus hóspedes tenham a melhor permanência possível!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_ContentRequested_Subject" xml:space="preserve">
+    <value>(Guest.FullName) solicitou (Content.Title)</value>
+  </data>
+  <data name="Owner_Guest_Feedback_PreHeader" xml:space="preserve">
+    <value>Owner_Guest_Feedback_PreHeader</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Title" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Title</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Content" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Content</value>
+  </data>
+  <data name="Owner_Guest_Feedback_Subject" xml:space="preserve">
+    <value>Owner_Guest_Feedback_Subject</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_PreHeader" xml:space="preserve">
+    <value>Publicaremos no seu Gestor de Hospitalidade Mobile em breve</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Title" xml:space="preserve">
+    <value>Você recebeu uma nova avaliação</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) ou alguém do grupo submeteu uma avaliação de sua propriedade. No momento, estamos verificando se atende às nossas diretrizes de conteúdo antes de publicá-la para que outras pessoas a vejam.&lt;/p&gt;
+&lt;p&gt;(Guest.FirstName) ou alguém do grupo submeteu uma avaliação de sua propriedade. No momento, estamos verificando se atende às nossas diretrizes de conteúdo antes de publicá-la para que outras pessoas a vejam.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_Guestbook_Subject" xml:space="preserve">
+    <value>Foi enviada uma avaliação sobre apermanência de (Guest.LastName)</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_PreHeader" xml:space="preserve">
+    <value>Outras pessoas foram convidadas para o seu Gestor de Hospitalidade Mobile</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Title" xml:space="preserve">
+    <value>Suas informações de hospitalidade foram compartilhadas</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) ou alguém do grupo submeteu uma análise de sua propriedade. No momento, estamos verificando se ela atende às nossas diretrizes de conteúdo antes de publicá-la para que outras pessoas a vejam.&lt;/p&gt;
+&lt;p&gt;Quando a avaliação for aprovada, ela aparecerá no seu anúncio e no Gestor de Hospitalidade Mobile. Este processo geralmente leva alguns dias.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Subject" xml:space="preserve">
+    <value>(Guest.FullName) compartilhou suas informações de hospitalidade</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_PreHeader" xml:space="preserve">
+    <value>Ainda não acessaram suas informações de hospedagem</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Title" xml:space="preserve">
+    <value>Nós lembramos o convidado de (Guest.FirstName) sobre as suas informações de hospedagem</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Seu hóspede convidou outra pessoa para a experiência móvel. Enviamos um lembrete, pois eles ainda não efetuaram login. As informações de (Guest.FirstName) encontram-se abaixo. Tenha um ótimo dia!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_Followup_Subject" xml:space="preserve">
+    <value>O convidado (HostGuest.FullName) recebeu um lembrete</value>
+  </data>
+  <data name="Owner_System_GuestInvited_PreHeader" xml:space="preserve">
+    <value>Convidamos (Guest.FullName) para seu Gestor de Hospitalidade Móvel</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Title" xml:space="preserve">
+    <value>Sua informação de hospitalidade foi compartilhada.</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Content" xml:space="preserve">
+    <value>&lt;p&gt; Seu hóspede convidou outra pessoa para acessar o Gestor de Hospitalidade Mobile Os hóspedes podem compartilhar informações sobre sua propriedade e os detalhes da permanência com amigos e familiares que estão viajando com eles.&lt;/p&gt;
+&lt;p&gt;Suas informações encontram-se abaixo. Tenha um ótimo dia!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Subject" xml:space="preserve">
+    <value>(Guest.FullName) foi convidado a ver suas informações de hospitalidade</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_PreHeader" xml:space="preserve">
+    <value>(Guest.FirstName) ainda não acessou suas informações de hospitalidade</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Title" xml:space="preserve">
+    <value>Nós lembramos o convidado de (Guest.FirstName) sobre suas informações de hospitalidade</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Seu hóspede convidou outra pessoa para acessar o Gestor de Hospitalidade Móvel Nós lhe enviamos um lembrete, pois eles ainda não fizeram login. As informações de (Guest.FirstName) encontram-se abaixo. Tenha um ótimo dia!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_GuestInvited_Followup_Subject" xml:space="preserve">
+    <value>Owner_System_GuestInvited_Followup_Subject</value>
+  </data>
+  <data name="Owner_System_Reminded_PreHeader" xml:space="preserve">
+    <value>Enviamos um lembrete ao seu hóspede sobre conteúdo que você forneceu</value>
+  </data>
+  <data name="Owner_System_Reminded_Title" xml:space="preserve">
+    <value>Seu hóspede foi lembrado sobre (Content.Title)</value>
+  </data>
+  <data name="Owner_System_Reminded_Content" xml:space="preserve">
+    <value>&lt;p&gt; (Guest.FirstName) foi lembrado sobre (Content.Title). Suas informações encontram-se abaixo. Tenha um ótimo dia!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_Reminded_Subject" xml:space="preserve">
+    <value>(Guest.FullName) foi lembrado sobre (Content.Title)</value>
+  </data>
+  <data name="Owner_System_Thanked_PreHeader" xml:space="preserve">
+    <value>Enviamos um e-mail de agradecimento em seu nome</value>
+  </data>
+  <data name="Owner_System_Thanked_Title" xml:space="preserve">
+    <value>Seu hóspede recebeu um agradecimento por ter se hospedado com você</value>
+  </data>
+  <data name="Owner_System_Thanked_Content" xml:space="preserve">
+    <value>Como (Guest.FirstName) está indo embora hoje, nós enviamos um e-mail de agradecimento. Suas informações encontram-se abaixo. Tenha um ótimo dia!</value>
+  </data>
+  <data name="Owner_System_Thanked_Subject" xml:space="preserve">
+    <value>(Guest.FullName) recebeu um agradecimento</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_PreHeader" xml:space="preserve">
+    <value>Certifique-se de que você inseriu as informações do seu imóvel para alugar</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Title" xml:space="preserve">
+    <value>Forneça as informações que os hóspedes precisam... quando eles precisam</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) baixou o aplicativo e fez login recentemente no Gestor de Hospitalidade Mobile.
+                                                                  Se você ainda não inseriu informações úteis que seu hóspede pode precisar sobre a propriedade, faça agora. Isso vai garantir que todos os seus hóspedes tenham a melhor permanência possível Depois de atualizar o conteúdo, ele estará disponível para todos os seus hóspedes; assim, você só precisa fazer isso uma vez!
+                                                              &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_UsingApp_Subject" xml:space="preserve">
+    <value>(Guest.FullName) acessou as suas informações no nosso aplicativo móvel</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_PreHeader" xml:space="preserve">
+    <value>Certifique-se de que você inseriu as informações do seu imóvel</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Title" xml:space="preserve">
+    <value>(Guest.FullName) acessou as suas informações no nosso aplicativo móvel</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) baixou o aplicativo e fez login recentemente no Gestor de Hospitalidade Móvel.
+Se você ainda não inseriu informações úteis que seu hóspede pode precisar sobre a propriedade, faça agora. Isso vai  garantir que todos os seus hóspedes tenham a melhor permanência possível! Depois de atualizar o conteúdo, ele estará disponível para todos os seus hóspedes; assim, você só precisa fazer isso uma vez!
+&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Subject" xml:space="preserve">
+    <value>(Guest.FullName) acessou suas informações de hospitalidade</value>
+  </data>
+  <data name="Owner_System_Welcomed_PreHeader" xml:space="preserve">
+    <value>Enviamos informações sobre sua próxima hospedagem</value>
+  </data>
+  <data name="Owner_System_Welcomed_Title" xml:space="preserve">
+    <value>Um e-mail de boas-vindas foi enviado em seu nome</value>
+  </data>
+  <data name="Owner_System_Welcomed_Content" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) vai se hospedar na sua casa de férias em dois dias. Você deve desbloquear as informações de acesso ao seu imóvel se ainda não tiver feito isso, para que o seu hóspede saiba como acessar a sua propriedade. Certifique-se de incluir outros detalhes úteis antes da chegada, como indicações do caminho e instruções de registro da chegada.&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_Welcomed_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) recebeu um e-mail de boas-vindas</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_PreHeader" xml:space="preserve">
+    <value>Você tem mais dois dias para atualizar as informações da sua propriedade</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Title" xml:space="preserve">
+    <value>Forneça as informações que os hóspedes precisam... quando eles precisam</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content" xml:space="preserve">
+    <value>Em poucos dias, seus hóspedes serão convidados para o Gestor de Hospitalidade Móvel. Não esqueça de atualizar suas informações antes de eles as consultarem!</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Subject" xml:space="preserve">
+    <value>Atualize seu conteúdo de hospitalidade antes que os hóspedes possam vê-lo</value>
+  </data>
+  <data name="Owner_System_OnBoard_PreHeader" xml:space="preserve">
+    <value>Melhore a estada de seus hóspedes com mais informações</value>
+  </data>
+  <data name="Owner_System_OnBoard_Title" xml:space="preserve">
+    <value>Forneça as informações que os hóspedes precisam... quando eles precisam</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content" xml:space="preserve">
+    <value>Parabéns! Agora você tem acesso ao Gestor de Hospitalidade Móvel HomeAway.</value>
+  </data>
+  <data name="Owner_System_OnBoard_Subject" xml:space="preserve">
+    <value>Bem vindo ao Gestor de Hospitalidade Móvel</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_PreHeader" xml:space="preserve">
+    <value>Owner_Owner_UpcomingReservation_PreHeader</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Title" xml:space="preserve">
+    <value>Forneça aos seus hóspedes as informações necessárias antes da permanência</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                    A permanência de (Guest.FirstName) no seu imóvel de férias começa em poucos dias. Isso significa que nós enviaremos um e-mail de boas-vindas amanhã com um link para acessar o Gestor de Hospitalidade Móvel, que contém informações sobre a sua propriedade, para que a permanência do seu hóspede seja a melhor possível. Há duas coisas que você precisa fazer para ter certeza de que você está pronto:&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) chega em três dias</value>
+  </data>
+  <data name="Traveler_System_Content_PreHeader" xml:space="preserve">
+    <value>Informações importantes sobre (Rental.Name)</value>
+  </data>
+  <data name="Traveler_System_Content_Title" xml:space="preserve">
+    <value>(Content.Title)</value>
+  </data>
+  <data name="Traveler_System_Content_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_System_Content_Subject" xml:space="preserve">
+    <value>Traveler_System_Content_Subject</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_PreHeader" xml:space="preserve">
+    <value>Escreva uma avaliação sobre o seu imóvel de temporada</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Title" xml:space="preserve">
+    <value>Como foi a sua estada?</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Content" xml:space="preserve">
+    <value>&lt;p&gt;Todo período de férias chega a um fim, e a sua permanência está quase acabando. Mas antes de voltar para a agitação do seu cotidiano, reserve alguns minutos para nos dizer como foram as suas férias em (Rental.Name).
+                                                                &lt;/p&gt;
+&lt;p&gt;Clique abaixo para dizer ao proprietário ou gerente da propriedade se você gostou da sua casa de férias. Leva apenas um minuto.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_System_SignGuestbook_Subject" xml:space="preserve">
+    <value>Por favor, escreva um comentário</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_PreHeader" xml:space="preserve">
+    <value>Não deixe de dar informações importantes sobre o imóvel</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Title" xml:space="preserve">
+    <value>Tudo o que você precisa saber ... exatamente quando você precisa</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;(HostGuest.FullName)&lt;/b&gt; compartilhou detalhes recentemente sobresua (Brand.Name) casa de férias. Essa informação ainda está esperando por você.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Subject" xml:space="preserve">
+    <value>(Guest.FirstName) - (HostGuest.FirstName) compartilhou informações de aluguel com você</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_PreHeader" xml:space="preserve">
+    <value>Acesse informações úteis da propriedade com facilidade</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Title" xml:space="preserve">
+    <value>Tudo o que você precisa saber ... exatamente quando você precisa</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                    &lt;b&gt;(HostGuest.FullName)&lt;/b&gt; compartilhou informações sobre o seu imóvel de férias em (Brand.Name), e você pode acessá-las on-line, sempre que precisar.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Subject" xml:space="preserve">
+    <value>(HostGuest.FullName) compartilhou informações de acesso a imóvel de aluguel com você</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_PreHeader" xml:space="preserve">
+    <value>Acesso rápido e fácil a informações importantes sobre a sua próxima hospedagem</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Title" xml:space="preserve">
+    <value>Informações da propriedade na palma da sua mão</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Content" xml:space="preserve">
+    <value>&lt;p&gt;Você reservou recentemente um imóvel de temporada em (Brand.Name). Agora é a hora de começar a pensar sobre as coisas que você vai fazer quando estiver lá.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Subject" xml:space="preserve">
+    <value>Último lembrete sobre seu alugel em (Rental.City)</value>
+  </data>
+  <data name="Traveler_Guest_Invite_PreHeader" xml:space="preserve">
+    <value>Acesse informações sobre sua próxima hospedagem</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Title" xml:space="preserve">
+    <value>Tudo o que você precisa saber ... exatamente quando você precisa</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Content" xml:space="preserve">
+    <value>Parabéns pela reserva de um imóvel de temporada em (Brand.Name) Para deixar a sua próxima hospedagem ainda mais conveniente, todas as informações que você precisa saber sobre o imóvel alugado estão on-line, para que possa acessá-las sempre que precisar.</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Subject" xml:space="preserve">
+    <value>Sua próxima hospedagem em (Rental.City), (Rental.Region)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_PreHeader" xml:space="preserve">
+    <value>Esperamos que você tenha se divertido muito em (Rental.City)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Title" xml:space="preserve">
+    <value>Foi um prazer ter recebido você!</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_Guest_Thankyou_Subject" xml:space="preserve">
+    <value>Muito obrigado por se hospedar conosco!</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_PreHeader" xml:space="preserve">
+    <value>Confira os detalhes da propriedade para garantir que você está preparado para a sua próxima hospedagem</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Title" xml:space="preserve">
+    <value>Informações sobre a sua locação em (Rental.City)... Exatamente quando você precisa</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Content" xml:space="preserve">
+    <value>(Content.Description)</value>
+  </data>
+  <data name="Traveler_Guest_Welcome_Subject" xml:space="preserve">
+    <value>Bem-vindo a (Rental.City)</value>
+  </data>
+  <data name="Owner_Guest_GuestOfGuestInvited_SeeReviews" xml:space="preserve">
+    <value>Veja avaliações</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section1_Content" xml:space="preserve">
+    <value>Por razões de segurança, os hóspedes não podem ver as informações de acesso à sua propriedade até que você aprove. Clique em "Permitir" nas informações "Antes da Chegada" no guia "Meus Hóspedes".</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section1_Title" xml:space="preserve">
+    <value>1. Desbloqueie o acesso à informação de aluguel</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section2_Content" xml:space="preserve">
+    <value>Além de lhes dar a capacidade de acessar a sua propriedade, você pode adicionar sugestões sobre onde eles podem comer, comprar mantimentos, etc.</value>
+  </data>
+  <data name="Owner_Owner_UpcomingReservation_Content_Section2_Title" xml:space="preserve">
+    <value>2. Adicione informações úteis sobre a sua propriedade</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;O Gestor de Hospitalidade Móvel coloca informações úteis sobre sua propriedade nas mãos de seus hóspedes através de um website móvel ou do aplicativo móvel HomeAway
+                                                                                                        &lt;/p&gt;
+&lt;p&gt;Veja como funciona: quando um hóspede faz uma reserva no seu imóvel de férias, nós o convidamos a baixar o aplicativo ou visitar o site móvel para que possam acessar as dicas úteis que você forneceu, como instruções de registro da chegada, como chegar ao imóvel e recomendações de restaurantes na área. Eles também vão receber uma mensagem de boas-vindas e de agradecimento, bem como uma solicitação para deixarem uma avaliação antes do final da hospedagem.
+                                                                                                    &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Com um smartphone, tablet ou computador, você pode clicar abaixo para ver tudo o que precisa saber sobre seu &lt;b&gt;(Rental.City)&lt;/b&gt; de férias, informações sobre a chegada e indicações, bem como recomendações para restaurantes, atividades e eventos para ir durante sua permanência.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_GuestOfGuestInvite_Followup_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Clique abaixo para ver tudo o que precisa sobre seu &lt;b&gt;(Rental.City)&lt;/b&gt; aluguel. Com um computador, smartphone ou tablet, tudo o que você precisa está lá - sua reserva, informação de chegada, indicações, bem como recomendações para restaurantes, atividades e eventos para ir durante sua permanência.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Com um smartphone, tablet ou computador, você pode clicar abaixo para ver tudo o que precisa saber sobre seu &lt;b&gt;(Rental.City)&lt;/b&gt; de férias, informações sobre a chegada e indicações, bem como recomendações para restaurantes, atividades e eventos para ir durante sua permanência.&lt;/p&gt;</value>
+  </data>
+  <data name="Traveler_Guest_Invite_Followup_Content_Section1" xml:space="preserve">
+    <value>&lt;p&gt;Clique abaixo para ver tudo o que você precisa sobre seu (Rental.City) de férias. Com um computador, smarphone ou tablet, tudo o que você precisa está lá, exatamente quando você precisa - sua reserva, informações sobre a chegada e indicações, bem como recomendações para restaurantes, atividades e eventos para ir durante sua permanência.
+                                                                &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section2_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                            A partir de &lt;b&gt;(Owner.GracePeriodExpiration)&lt;/b&gt;, seus futuros hóspedes serão convidados a baixar o aplicativo para verem informações sobre sua futura permanência com você. Eles também podem acessar online.
+                                                                        &lt;/p&gt;
+&lt;p&gt;Atualize o Gestor de Hospitalidade Móvel para que tenham acesso a tudo o que precisam para uma excelente permanência. Você só precisa fazer isso uma vez, pois todos os futuros hóspedes poderão acessar essas informações a qualquer momento!&lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section2_Title" xml:space="preserve">
+    <value>O que você precisa fazer?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Content_Section3_Content" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Adicionar informações úteis, como indicações e pontos de interesse próximos&lt;/li&gt;&lt;li&gt;Fornecer detalhes, como códigos de acesso e senhas do Wi-Fi (pense nas coisas que seus hóspedes lhe perguntam sempre)&lt;/li&gt;&lt;li&gt;Personalizar suas mensagens de boas-vindas e de agradecimento&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section1_Content" xml:space="preserve">
+    <value>&lt;p&gt;
+                                                                A partir de &lt;b&gt;(Owner.GracePeriodExpiration)&lt;/b&gt;, seus hóspedes serão convidados a ver as informações sobre sua próxima hospedagem na sua propriedade. Atualize o Gestor de Hospitalidade Móvel para que eles tenham acesso a tudo o que precisam para terem uma excelente permanência. Você só precisa fazer isso uma vez, pois todos os futuros hóspedes poderão acessar essas informações a qualquer momento!
+                                                            &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section1_Title" xml:space="preserve">
+    <value>O que você precisa fazer?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section2_Content" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Adicionar informações úteis, como indicações e pontos de interesse próximos&lt;/li&gt;&lt;li&gt;Fornecer detalhes, como códigos de acesso e senhas do Wi-Fi (pense nas coisas que seus hóspedes lhe perguntam sempre)&lt;/li&gt;&lt;li&gt;Personalizar suas mensagens de boas-vindas e de agradecimento&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section3_Content" xml:space="preserve">
+    <value>&lt;p&gt;Você sempre pode acessar o Gestor de Hospitalidade Mobile através do link "Hospitalidade" no seu painel. &lt;/p&gt;</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section4_Content" xml:space="preserve">
+    <value>Para ativar a experiência para os seus hóspedes antes de (Owner.GracePeriodExpiration), selecione o guia "Meus Hóspedes" na seção "Hospitalidade" e clique no botão "Convidar hóspedes".</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section4_Title" xml:space="preserve">
+    <value>Quer ativar a sua experiência móvel antes?</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section5_Title" xml:space="preserve">
+    <value>Veja como Lianna usa o Gestor de Hospitalidade Móvel para proporcionar uma grande experiência aos seus hóspedes</value>
+  </data>
+  <data name="Owner_System_OnBoard_Followup_Content_Section6_Title" xml:space="preserve">
+    <value>Saiba mais sobre o Gestor de Hospitalidade Móvel</value>
+  </data>
+  <data name="Shared_AddYourInformation" xml:space="preserve">
+    <value>2. Adicione informações agora</value>
+  </data>
+  <data name="Shared_TakeMeThere" xml:space="preserve">
+    <value>Leve-me lá</value>
+  </data>
+  <data name="Shared_RentalName" xml:space="preserve">
+    <value>Rental name</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Owner_Guest_UsingWeb_Content_Engaged" xml:space="preserve">
+    <value>&lt;p&gt;(Guest.FirstName) has recently logged into the Mobile Hospitality Manager. If you are satisfied with the content you have provided for your guests, no action is required. If you prefer not to receive these notifications moving forward, you can control them in the Settings tab.&lt;/p&gt;</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Shared_GuestPhone" xml:space="preserve">
+    <value>Guest phone</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Traveler_Guest_Invite_Content_Section2" xml:space="preserve">
+    <value>(Brand.Name) is part of the HomeAway family and the HomeAway mobile app will support your stay.</value>
+    <comment>Needs Translation </comment>
+  </data>
+  <data name="Shared_ReservationDetails" xml:space="preserve">
+    <value>Reservation details</value>
+    <comment>Needs Translation </comment>
+  </data>
+</root>

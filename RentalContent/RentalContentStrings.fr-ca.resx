@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="content_contactinfo_title" xml:space="preserve">
+    <value>Coordonnées</value>
+  </data>
+  <data name="content_contactinfo_helptext" xml:space="preserve">
+    <value>Fournir au client votre numéro de téléphone, e-mail, etc., afin qu'il puisse entrer en contact avec vous avant, pendant et après le séjour.</value>
+  </data>
+  <data name="content_contactinfo_keywords" xml:space="preserve">
+    <value>contact, propriétaire, téléphone</value>
+  </data>
+  <data name="content_drivingdirections_title" xml:space="preserve">
+    <value>Itinéraire</value>
+  </data>
+  <data name="content_drivingdirections_helptext" xml:space="preserve">
+    <value>Une carte GPS de votre propriété sera fournie automatiquement, mais il est parfois utile d'avoir également des instructions écrites.</value>
+  </data>
+  <data name="content_drivingdirections_keywords" xml:space="preserve">
+    <value>conduite, indications géographiques</value>
+  </data>
+  <data name="content_whattopack_title" xml:space="preserve">
+    <value>Ce qu'il faut emporter</value>
+  </data>
+  <data name="content_whattopack_helptext" xml:space="preserve">
+    <value>Aidez vos clients à faire leurs valise pour s'assurer qu'ils apportent le objets nécessaires personnels qui permettront d'améliorer leur séjour.</value>
+  </data>
+  <data name="content_whattopack_keywords" xml:space="preserve">
+    <value>faire ses valises, apporter, fourni</value>
+  </data>
+  <data name="content_checkin_title" xml:space="preserve">
+    <value>Date d'arrivée</value>
+  </data>
+  <data name="content_checkin_helptext" xml:space="preserve">
+    <value>Fournir des détails aux clients sur ce qui est nécessaire pour l'arrivée dans votre propriété.  Fournissez des détails pour une arrivée de bonne heure ou tardive.</value>
+  </data>
+  <data name="content_checkin_keywords" xml:space="preserve">
+    <value>check-in, arriver, arrivée</value>
+  </data>
+  <data name="content_parking_title" xml:space="preserve">
+    <value>Parking</value>
+  </data>
+  <data name="content_parking_helptext" xml:space="preserve">
+    <value>S'il existe des informations spécifiques à connaître sur le parking de votre location, indiquez-lee au client ici.  Cela pourrait inclure des codes pour le parking, etc.</value>
+  </data>
+  <data name="content_parking_keywords" xml:space="preserve">
+    <value>parking, voiture, règles, stationnement</value>
+  </data>
+  <data name="content_whatsprovided_title" xml:space="preserve">
+    <value>Ce qui est fourni</value>
+  </data>
+  <data name="content_whatsprovided_helptext" xml:space="preserve">
+    <value>Fournir une liste d'articles tels que serviettes, etc., fournis avec votre location pour en informer le client avant qu'il arrive sur place.</value>
+  </data>
+  <data name="content_whatsprovided_keywords" xml:space="preserve">
+    <value>faire ses valises, apporter, fourni</value>
+  </data>
+  <data name="content_smoking_title" xml:space="preserve">
+    <value>Fumer</value>
+  </data>
+  <data name="content_smoking_helptext" xml:space="preserve">
+    <value>Si vous avez établi des règles ou des remarques sur ce qu'un client doit faire s'il est fumeur, indiquez-le ici.</value>
+  </data>
+  <data name="content_smoking_keywords" xml:space="preserve">
+    <value>fumer, fumée, cigarettes, règles</value>
+  </data>
+  <data name="content_pets_title" xml:space="preserve">
+    <value>Animaux</value>
+  </data>
+  <data name="content_pets_helptext" xml:space="preserve">
+    <value>Si vous autorisez les animaux ou avez des règles spécifiques pour les animaux, indiquez-le ici.</value>
+  </data>
+  <data name="content_pets_keywords" xml:space="preserve">
+    <value>chien, chat, animal de compagnie</value>
+  </data>
+  <data name="content_grilling_title" xml:space="preserve">
+    <value>Barbecue</value>
+  </data>
+  <data name="content_grilling_helptext" xml:space="preserve">
+    <value>Vos clients seront intéressés par le barbecue. Indiquez-leur donc s'il y a des choses à faire ou ne pas faire pour démarrer le barbecue.</value>
+  </data>
+  <data name="content_grilling_keywords" xml:space="preserve">
+    <value>cuisson au gril, cuisiner, feu</value>
+  </data>
+  <data name="content_trash_title" xml:space="preserve">
+    <value>Déchets</value>
+  </data>
+  <data name="content_trash_helptext" xml:space="preserve">
+    <value>Indiquez à vos clients quand les poubelles seront ramassées.  Choisissez les jours ci-dessous et un rappel sera mis en place la nuit précédente pour le leur rappeler.</value>
+  </data>
+  <data name="content_trash_keywords" xml:space="preserve">
+    <value>ordures, déchets, élimination</value>
+  </data>
+  <data name="content_elevator_title" xml:space="preserve">
+    <value>Ascenseur</value>
+  </data>
+  <data name="content_elevator_helptext" xml:space="preserve">
+    <value>Si votre location nécessite un ascenseur pour y accéder et qu'il y a des codes spéciaux ou des instructions, indiquez-les ici.</value>
+  </data>
+  <data name="content_elevator_keywords" xml:space="preserve">
+    <value>ascenseur, règles</value>
+  </data>
+  <data name="content_checkout_title" xml:space="preserve">
+    <value>Départ</value>
+  </data>
+  <data name="content_checkout_helptext" xml:space="preserve">
+    <value>Indiquez à vos clients ce qu'ils doivent faire pour que leur départ s'effectue correctement.  Le client recevra un rappel le jour précédant leur départ.</value>
+  </data>
+  <data name="content_checkout_keywords" xml:space="preserve">
+    <value>partir, départ, libérer la location</value>
+  </data>
+  <data name="content_wifi_title" xml:space="preserve">
+    <value>Wifi</value>
+  </data>
+  <data name="content_wifi_helptext" xml:space="preserve">
+    <value>Fournir toutes les informations nécessaires à vos clients pour accéder à Internet.  Indiquez le nom et les mots de passe du routeur.</value>
+  </data>
+  <data name="content_wifi_keywords" xml:space="preserve">
+    <value>Internet, wifi, routeur à large bande</value>
+  </data>
+  <data name="content_noisepolicy_title" xml:space="preserve">
+    <value>Politique relative au bruit</value>
+  </data>
+  <data name="content_noisepolicy_helptext" xml:space="preserve">
+    <value>S'il existe des arrêté particuliers relatifs au bruit passé une certaine heure dans votre région, faites-le savoir ici.</value>
+  </data>
+  <data name="content_noisepolicy_keywords" xml:space="preserve">
+    <value>bruit, musique, stéréo</value>
+  </data>
+  <data name="content_pool_title" xml:space="preserve">
+    <value>Piscine(s)</value>
+  </data>
+  <data name="content_pool_helptext" xml:space="preserve">
+    <value>Fournir des détails sur la piscine liée à votre location si vous en avez une.  De plus, si vous avez un jacuzzi, informez vos clients sur son fonctionnement.</value>
+  </data>
+  <data name="content_pool_keywords" xml:space="preserve">
+    <value>natation, piscine, eau</value>
+  </data>
+  <data name="content_coffeemaker_title" xml:space="preserve">
+    <value>Cafetière</value>
+  </data>
+  <data name="content_coffeemaker_helptext" xml:space="preserve">
+    <value>Fournir des détails au sujet de la machine à café à vos clients (par exemple s'ils doivent apporter des filtres) et des instructions spéciales.</value>
+  </data>
+  <data name="content_coffeemaker_keywords" xml:space="preserve">
+    <value>cuisine, café, expresso</value>
+  </data>
+  <data name="content_kitchen_title" xml:space="preserve">
+    <value>Cuisine</value>
+  </data>
+  <data name="content_kitchen_helptext" xml:space="preserve">
+    <value>Fournir à vos clients des détails au sujet de votre cuisine s'il existe quelque chose de spécial qu'ils devraient savoir.</value>
+  </data>
+  <data name="content_kitchen_keywords" xml:space="preserve">
+    <value>cuisine, four, cuisinière, micro-ondes, lave-vaisselle, congélateur, réfrigérateur, glace</value>
+  </data>
+  <data name="content_beachaccess_title" xml:space="preserve">
+    <value>Plage</value>
+  </data>
+  <data name="content_beachaccess_helptext" xml:space="preserve">
+    <value>Si votre location est à proximité d'une plage, indiquez à vos clientscomment accéder à la plage le plus facilement.</value>
+  </data>
+  <data name="content_beachaccess_keywords" xml:space="preserve">
+    <value>plage, océan, eau, code</value>
+  </data>
+  <data name="content_tv_title" xml:space="preserve">
+    <value>TV/Câble</value>
+  </data>
+  <data name="content_tv_helptext" xml:space="preserve">
+    <value>Donnez à vos clients des instructions sur l'utilisation des téléviseurs et des liens vers des listes de stations de câble dans votre région.</value>
+  </data>
+  <data name="content_tv_keywords" xml:space="preserve">
+    <value>tv, câble, HD, ESPN, HBO, satellite</value>
+  </data>
+  <data name="content_golfcart_title" xml:space="preserve">
+    <value>Golf</value>
+  </data>
+  <data name="content_golfcart_helptext" xml:space="preserve">
+    <value>Si vous fournissez une voiturette de golf ou des locations, etc.dans votre région, indiquez-le à vos clients.</value>
+  </data>
+  <data name="content_golfcart_keywords" xml:space="preserve">
+    <value>golf</value>
+  </data>
+  <data name="content_boating_title" xml:space="preserve">
+    <value>Nautisme</value>
+  </data>
+  <data name="content_boating_helptext" xml:space="preserve">
+    <value>Si vous fournissez un bateau avec votre location ou s'il y a des choses spécifiques sur la navigation de plaisance dans votre région, indiquez-le à vos clients.</value>
+  </data>
+  <data name="content_boating_keywords" xml:space="preserve">
+    <value>bateau, poissons, quai</value>
+  </data>
+  <data name="content_biking_title" xml:space="preserve">
+    <value>Vélo</value>
+  </data>
+  <data name="content_biking_helptext" xml:space="preserve">
+    <value>Si vous fournissez des vélos avec votre location ou s'il y a des choses spécifiques sur le vélo dans votre région, indiquez-le à vos clients.  Vous pourriez indiquer le meilleur endroit pour louer des vélos, etc.</value>
+  </data>
+  <data name="content_biking_keywords" xml:space="preserve">
+    <value>vélo, location, montagne</value>
+  </data>
+  <data name="content_skiing_title" xml:space="preserve">
+    <value>Ski</value>
+  </data>
+  <data name="content_skiing_helptext" xml:space="preserve">
+    <value>Donnez à vos clients de détails sur les options de ski, etc</value>
+  </data>
+  <data name="content_skiing_keywords" xml:space="preserve">
+    <value>ski, ascenseur, location, billets, montagne</value>
+  </data>
+  <data name="content_fireplace_title" xml:space="preserve">
+    <value>Cheminée/Foyer</value>
+  </data>
+  <data name="content_fireplace_helptext" xml:space="preserve">
+    <value>Indiquez à vos clients comment utiliser les cheminées de votre location</value>
+  </data>
+  <data name="content_fireplace_keywords" xml:space="preserve">
+    <value>feu, cheminée, bois, feu de camp</value>
+  </data>
+  <data name="content_maintenance_title" xml:space="preserve">
+    <value>Problèmes de maintenance</value>
+  </data>
+  <data name="content_maintenance_helptext" xml:space="preserve">
+    <value>Si quelque chose se passe mal lors durant le séjour de vos clients, indiquez-leur la procédure de résolution des problèmes.  Cela peut inclure un autre numéro de téléphone, mail, etc</value>
+  </data>
+  <data name="content_maintenance_keywords" xml:space="preserve">
+    <value>réparer, cassé, entretien</value>
+  </data>
+  <data name="content_fitness_title" xml:space="preserve">
+    <value>Fitness/Centre de remise en forme</value>
+  </data>
+  <data name="content_fitness_helptext" xml:space="preserve">
+    <value>S'il y a un centre de remise en forme ou de fitness dans la région, indiquez à votre client comment y accéder, etc.</value>
+  </data>
+  <data name="content_fitness_keywords" xml:space="preserve">
+    <value>fitness, exercice, vélo, course, promenade</value>
+  </data>
+  <data name="content_electronics_title" xml:space="preserve">
+    <value>Électronique</value>
+  </data>
+  <data name="content_electronics_helptext" xml:space="preserve">
+    <value>Si votre location comprend des appareils électroniques tels que des systèmes de jeux, dvd, etc., qui pourraient avoir besoin d'instructions spéciales, indiquez-les ici</value>
+  </data>
+  <data name="content_electronics_keywords" xml:space="preserve">
+    <value>dvd, xbox, nintendo, wii, ps3, sony, vidéo, chaîne stéréo</value>
+  </data>
+  <data name="content_homephone_title" xml:space="preserve">
+    <value>Téléphone de la maison</value>
+  </data>
+  <data name="content_homephone_helptext" xml:space="preserve">
+    <value>Si votre location dispose d'une ligne fixe, indiquez le numéro de téléphone que les clients peuvent utiliser pendant leur séjour.</value>
+  </data>
+  <data name="content_homephone_keywords" xml:space="preserve">
+    <value>maison, téléphone</value>
+  </data>
+  <data name="content_transportation_title" xml:space="preserve">
+    <value>Transport</value>
+  </data>
+  <data name="content_transportation_helptext" xml:space="preserve">
+    <value>Y a-t-il un tramway ou d'autres formes de transport à disposition de vos clients ?  Faites-leur savoir ici.</value>
+  </data>
+  <data name="content_transportation_keywords" xml:space="preserve">
+    <value>transport, bus, van, chariot</value>
+  </data>
+  <data name="content_helpfultips_title" xml:space="preserve">
+    <value>Conseils utiles</value>
+  </data>
+  <data name="content_helpfultips_helptext" xml:space="preserve">
+    <value>C'est un bon endroit pour indiquer d'autres conseils sur ce que vos clients pourraient faire dans la région, etc.</value>
+  </data>
+  <data name="content_helpfultips_keywords" xml:space="preserve">
+    <value>conseil, superficie, instructions</value>
+  </data>
+  <data name="content_emergency_title" xml:space="preserve">
+    <value>Urgence</value>
+  </data>
+  <data name="content_emergency_helptext" xml:space="preserve">
+    <value>Dans l'éventualité d'une urgence, fournissez à votre client tout ce qui pourrait être utile à sa sécurité.</value>
+  </data>
+  <data name="content_emergency_keywords" xml:space="preserve">
+    <value>police, urgence, évacuer</value>
+  </data>
+  <data name="content_delivery_title" xml:space="preserve">
+    <value>Livraison de courses</value>
+  </data>
+  <data name="content_delivery_helptext" xml:space="preserve">
+    <value>Est-ce que votre région dispose d'un service de livraison de courses que votre client pourrait utiliser ?  Si c'est le cas, indiquez-le ici.</value>
+  </data>
+  <data name="content_delivery_keywords" xml:space="preserve">
+    <value>épicerie, nourriture, marché</value>
+  </data>
+  <data name="content_laundry_title" xml:space="preserve">
+    <value>Blanchisserie</value>
+  </data>
+  <data name="content_laundry_helptext" xml:space="preserve">
+    <value>Donnez à vos clients des détails sur la lessive, comme la façon d'utiliser des machines à laver et des sèches-linges, etc.</value>
+  </data>
+  <data name="content_laundry_keywords" xml:space="preserve">
+    <value>machine à laver, sèche-linge, nettoyage à sec</value>
+  </data>
+  <data name="content_safety_title" xml:space="preserve">
+    <value>Sécurité</value>
+  </data>
+  <data name="content_safety_helptext" xml:space="preserve">
+    <value>Fournissez à vos clients toutes les informations de sécurité sur les plages, montagnes, etc.</value>
+  </data>
+  <data name="content_safety_keywords" xml:space="preserve">
+    <value>sécurité, situations d'urgence</value>
+  </data>
+  <data name="content_fishing_title" xml:space="preserve">
+    <value>Pêche</value>
+  </data>
+  <data name="content_fishing_helptext" xml:space="preserve">
+    <value>Fournissez à vos clients les informations sur les permis de pêche, les meilleurs endroits pour pêcher, etc.</value>
+  </data>
+  <data name="content_fishing_keywords" xml:space="preserve">
+    <value>poisson, bateau</value>
+  </data>
+  <data name="content_heatac_title" xml:space="preserve">
+    <value>Chauffage et climatisation</value>
+  </data>
+  <data name="content_heatac_helptext" xml:space="preserve">
+    <value>Fournissez à vos clients des indications sur le chauffage et la climatisation.</value>
+  </data>
+  <data name="content_heatac_keywords" xml:space="preserve">
+    <value>chaleur, climatisation, air conditionné</value>
+  </data>
+  <data name="content_houserules_title" xml:space="preserve">
+    <value>Règles relatives à la maison</value>
+  </data>
+  <data name="content_houserules_helptext" xml:space="preserve">
+    <value>Fournissez à vos clients les règles spécifiques que vos clients doivent respecter dans votre location.</value>
+  </data>
+  <data name="content_houserules_keywords" xml:space="preserve">
+    <value>règles, instructions</value>
+  </data>
+  <data name="content_aboutowner_title" xml:space="preserve">
+    <value>À propos du propriétaire</value>
+  </data>
+  <data name="content_aboutowner_helptext" xml:space="preserve">
+    <value>Indiquez à vos clients l'histoire de votre location.</value>
+  </data>
+  <data name="content_aboutowner_keywords" xml:space="preserve">
+    <value>histoire, à propos de</value>
+  </data>
+  <data name="content_accessrental_title" xml:space="preserve">
+    <value>Accéder à Ma location</value>
+  </data>
+  <data name="content_accessrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_accessrental_keywords" xml:space="preserve">
+    <value>accès, code, porte, indications</value>
+  </data>
+  <data name="content_thankyou_title" xml:space="preserve">
+    <value>Merci</value>
+  </data>
+  <data name="content_thankyou_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_thankyou_keywords" xml:space="preserve">
+    <value>Merci </value>
+  </data>
+  <data name="content_welcome_title" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="content_welcome_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_welcome_keywords" xml:space="preserve">
+    <value>bienvenue, intro, à propos de, propriétaire</value>
+  </data>
+  <data name="content_viewguestbook_title" xml:space="preserve">
+    <value>Voir le livre d'or</value>
+  </data>
+  <data name="content_viewguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_viewguestbook_keywords" xml:space="preserve">
+    <value>livre d'or</value>
+  </data>
+  <data name="content_signguestbook_title" xml:space="preserve">
+    <value>Signez le Livre d'or</value>
+  </data>
+  <data name="content_signguestbook_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_signguestbook_keywords" xml:space="preserve">
+    <value>signer, livre d'or</value>
+  </data>
+  <data name="content_inviteother_title" xml:space="preserve">
+    <value>Inviter d'autres personnes</value>
+  </data>
+  <data name="content_inviteother_helptext" xml:space="preserve">
+    <value>Invitez d'autres personnes séjournant avec vous pour avoir accès à cette information, etc.</value>
+  </data>
+  <data name="content_inviteother_keywords" xml:space="preserve">
+    <value>inviter, partager, accès, code</value>
+  </data>
+  <data name="content_findmyrental_title" xml:space="preserve">
+    <value>Trouver Ma location</value>
+  </data>
+  <data name="content_findmyrental_helptext" xml:space="preserve">
+    <value />
+  </data>
+  <data name="content_findmyrental_keywords" xml:space="preserve">
+    <value>carte, indications, emplacement, route, autoroute, trouver</value>
+  </data>
+  <data name="content_misc_title" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="content_misc_helptext" xml:space="preserve">
+    <value>C'est un endroit idéal pour mettre autre chose que votre client pourrait aimer</value>
+  </data>
+  <data name="content_misc_keywords" xml:space="preserve">
+    <value>divers</value>
+  </data>
+  <data name="content_tennis_title" xml:space="preserve">
+    <value>Tennis</value>
+  </data>
+  <data name="content_tennis_helptext" xml:space="preserve">
+    <value>C'est l'endroit idéal pour informer vos clients sur les possibilités de tennis qui existent dans la région</value>
+  </data>
+  <data name="content_tennis_keywords" xml:space="preserve">
+    <value>tennis, sports</value>
+  </data>
+  <data name="content_rainy_title" xml:space="preserve">
+    <value>Jours de pluie</value>
+  </data>
+  <data name="content_rainy_helptext" xml:space="preserve">
+    <value>Informez vos clients de ce qu'ils peuvent faire les jours de pluie.</value>
+  </data>
+  <data name="content_rainy_keywords" xml:space="preserve">
+    <value>pluie, météo</value>
+  </data>
+  <data name="content_tides_title" xml:space="preserve">
+    <value>Marées océaniques</value>
+  </data>
+  <data name="content_tides_helptext" xml:space="preserve">
+    <value>Si vos locations se situent dans des zones où les marées sont susceptibles de se produire, fournissez des liens et des détails pour que vos clients puissent voir les statistiques des marées.</value>
+  </data>
+  <data name="content_tides_keywords" xml:space="preserve">
+    <value>océan, eau, marées, sécurité, la lune</value>
+  </data>
+  <data name="content_finalpayment_title" xml:space="preserve">
+    <value>Paiement final</value>
+  </data>
+  <data name="content_finalpayment_helptext" xml:space="preserve">
+    <value>S'il ya des détails ou particularités que vos clients doivent connaître pour effectuer des paiements finaux, indiquez ces détails ici.</value>
+  </data>
+  <data name="content_finalpayment_keywords" xml:space="preserve">
+    <value>paiement, argent, final</value>
+  </data>
+  <data name="content_housekeeping_title" xml:space="preserve">
+    <value>Ménage</value>
+  </data>
+  <data name="content_housekeeping_helptext" xml:space="preserve">
+    <value>Si un client peut demander un service de ménage ou s'il ya quelque chose qu'il doit savoir, indiquez cette information ici</value>
+  </data>
+  <data name="content_housekeeping_keywords" xml:space="preserve">
+    <value>propre, maison, balai, casserole</value>
+  </data>
+  <data name="content_hiking_title" xml:space="preserve">
+    <value>Randonnée</value>
+  </data>
+  <data name="content_hiking_helptext" xml:space="preserve">
+    <value>Informez vos clients des randonnées ou excursions de la région ici</value>
+  </data>
+  <data name="content_hiking_keywords" xml:space="preserve">
+    <value>marche, exercice, plein air, randonnée, montagne</value>
+  </data>
+  <data name="content_beforeyouleave_title" xml:space="preserve">
+    <value>Avant votre visite</value>
+  </data>
+  <data name="content_beforeyouleave_helptext" xml:space="preserve">
+    <value>S'il y a des détails comme faire une réservation dans les restaurants, etc., informez-les ici avant qu'ils partent pour votre location</value>
+  </data>
+  <data name="content_beforeyouleave_keywords" xml:space="preserve">
+    <value>conduire, arrivée</value>
+  </data>
+</root>

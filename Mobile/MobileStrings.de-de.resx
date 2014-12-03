@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FindMyRental" xml:space="preserve">
+    <value>Mein Mietobjekt finden</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="HelpVideo" xml:space="preserve">
+    <value>Hilfe-Video</value>
+  </data>
+  <data name="LocalSuggestions" xml:space="preserve">
+    <value>Lokale Vorschläge</value>
+  </data>
+  <data name="MyRental" xml:space="preserve">
+    <value>Mein Mietobjekt</value>
+  </data>
+  <data name="PreArrival" xml:space="preserve">
+    <value>Vor der Anreise</value>
+  </data>
+  <data name="Restaurants" xml:space="preserve">
+    <value>Restaurants</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="SwitchStay" xml:space="preserve">
+    <value>Aufenthalt wechseln</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Danke</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="MainSite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="ATMs" xml:space="preserve">
+    <value>Geldautomaten</value>
+  </data>
+  <data name="Attractions" xml:space="preserve">
+    <value>Freizeitgestaltung</value>
+  </data>
+  <data name="Bars" xml:space="preserve">
+    <value>Bars</value>
+  </data>
+  <data name="Coffee" xml:space="preserve">
+    <value>Kaffee</value>
+  </data>
+  <data name="GasStations" xml:space="preserve">
+    <value>Tankstellen</value>
+  </data>
+  <data name="GroceryStores" xml:space="preserve">
+    <value>Lebensmittelgeschäfte</value>
+  </data>
+  <data name="GTHYSuggested" xml:space="preserve">
+    <value>Vorschläge von Google</value>
+  </data>
+  <data name="SignGuestbook" xml:space="preserve">
+    <value>Schreiben Sie eine Bewertung</value>
+  </data>
+  <data name="Hospitals" xml:space="preserve">
+    <value>Krankenhäuser</value>
+  </data>
+  <data name="Hotels" xml:space="preserve">
+    <value>Hotels</value>
+  </data>
+  <data name="Malls" xml:space="preserve">
+    <value>Einkaufen</value>
+  </data>
+  <data name="MovieTheaters" xml:space="preserve">
+    <value>Kinos</value>
+  </data>
+  <data name="OwnerSuggested" xml:space="preserve">
+    <value>Vorschläge vom Vermieter</value>
+  </data>
+  <data name="Pharmacies" xml:space="preserve">
+    <value>Apotheken</value>
+  </data>
+  <data name="PostOffices" xml:space="preserve">
+    <value>Postämter</value>
+  </data>
+  <data name="SignGuestbookText" xml:space="preserve">
+    <value>Bitte schreiben Sie eine Bewertung. Wir würden gerne mehr über Sie und Ihren Aufenthalt erfahren!</value>
+  </data>
+  <data name="GooglePlaces" xml:space="preserve">
+    <value>Google-Details</value>
+  </data>
+  <data name="NoRating" xml:space="preserve">
+    <value>Keine Bewertung</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Bewertung {0}</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Anruf</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="FeedbackThanks" xml:space="preserve">
+    <value>Vielen Dank für Ihr Feedback!</value>
+  </data>
+  <data name="InviteOthersResponse" xml:space="preserve">
+    <value>{0} erhält in Kürze eine E-Mail mit einer Anmeldeanleitung.</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Karte</value>
+  </data>
+  <data name="ViewGuestbook" xml:space="preserve">
+    <value>Bewertungen anzeigen</value>
+  </data>
+  <data name="Guestbook_Rating_1" xml:space="preserve">
+    <value>1 Stern (schlechteste Note)</value>
+  </data>
+  <data name="Guestbook_Rating_2" xml:space="preserve">
+    <value>2 Sterne</value>
+  </data>
+  <data name="Guestbook_Rating_3" xml:space="preserve">
+    <value>3 Sterne</value>
+  </data>
+  <data name="Guestbook_Rating_4" xml:space="preserve">
+    <value>4 Sterne</value>
+  </data>
+  <data name="Guestbook_Rating_5" xml:space="preserve">
+    <value>5 Sterne (Bestnote)</value>
+  </data>
+  <data name="InviteOthers" xml:space="preserve">
+    <value>Andere einladen</value>
+  </data>
+  <data name="InviteOthersText" xml:space="preserve">
+    <value>Laden Sie weitere Gäste ein, Zugang zu diesen Informationen zu erhalten.</value>
+  </data>
+  <data name="Photos" xml:space="preserve">
+    <value>Fotos</value>
+  </data>
+  <data name="MyStay" xml:space="preserve">
+    <value>Mein Aufenthalt</value>
+  </data>
+  <data name="MyStayDetails" xml:space="preserve">
+    <value>&lt;i class="icon-avatar-1" style="color: #cccccc"/&gt; {0}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-mail-1" style="color: #cccccc"/&gt; {1}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-calendar-empty" style="color: #cccccc"/&gt; {2} - {3}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;
+&lt;i class="icon-accommodation" style="color: #cccccc"/&gt; {4} in {5}&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;</value>
+  </data>
+  <data name="ReinviteMessage" xml:space="preserve">
+    <value>{0} erhält in Kürze eine E-Mail mit einer Anmeldeanleitung.</value>
+  </data>
+  <data name="ReinviteTitle" xml:space="preserve">
+    <value>Nachricht gesendet</value>
+  </data>
+  <data name="RelevantDays" xml:space="preserve">
+    <value>&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;{0} Tag(e): &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="AccessMyRentalTemplate" xml:space="preserve">
+    <value>Tür-Code: &lt;b&gt;{0}&lt;/b&gt;&lt;br clear="none"/&gt;&lt;br clear="none"/&gt;{1}</value>
+  </data>
+  <data name="AccessMyRental" xml:space="preserve">
+    <value>Zu meinem Mietobjekt</value>
+  </data>
+  <data name="GetTheApp" xml:space="preserve">
+    <value>Holen Sie sich die App</value>
+  </data>
+  <data name="Android" xml:space="preserve">
+    <value>Android</value>
+  </data>
+  <data name="GetTheAppDescription" xml:space="preserve">
+    <value>Wir haben eine App dafür! Suchen Sie in Ihrem App-Store nach "HomeAway" oder klicken Sie unten, um die App für iPhone/iPad oder Android zu erhalten.  </value>
+  </data>
+  <data name="iOS" xml:space="preserve">
+    <value>iPhone / iPod</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Ungültige Anmeldeinformationen</value>
+  </data>
+  <data name="ValidCredentialsMobileNotEnabled" xml:space="preserve">
+    <value>Ihre Anmeldeinformationen sind gültig, aber Sie haben den Zugriff auf das Besitzermobil nicht gekauft. Tun Sie dies bitte bei owners.gladtohaveyou.com</value>
+  </data>
+  <data name="LocalWeather" xml:space="preserve">
+    <value>Wetter vor Ort</value>
+  </data>
+  <data name="KilometersFromRental" xml:space="preserve">
+    <value>{0:N2} Kilometer vom Mietobjekt</value>
+  </data>
+  <data name="MilesFromRental" xml:space="preserve">
+    <value>{0:N2} Meilen vom Mietobjekt</value>
+  </data>
+  <data name="Churches" xml:space="preserve">
+    <value>Gottesdienst</value>
+  </data>
+  <data name="RequestContent" xml:space="preserve">
+    <value>Diese Information wurde nicht zur Verfügung gestellt. Wir haben den Vermieter benachrichtigt, dass Sie Interesse an diesem Inhalt haben. Bitte sehen Sie später erneut nach.</value>
+  </data>
+  <data name="AccessMyRentalDefault" xml:space="preserve">
+    <value>Zugangsanweisungen werden innerhalb von 14 Tagen nach Ihrer Ankunft bereitgestellt, vorausgesetzt, Sie haben in voller Höhe gezahlt und alle Verträge unterzeichnet.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="SMSInviteMessage" xml:space="preserve">
+    <value>Sie wurden von {0} eingeladen, die HomeAway App herunterzuladen. {1}</value>
+  </data>
+  <data name="NoReservationFound" xml:space="preserve">
+    <value>Es wurde keine Buchung gefunden, die diesen Kriterien entspricht.</value>
+  </data>
+  <data name="GetTheAppText" xml:space="preserve">
+    <value>Geben Sie Ihre Telefonnummer ein und Sie bekommen einen Link zugesendet, um das kostenlose HomeAway App herunterzuladen.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>E-Mail ist erforderlich</value>
+  </data>
+  <data name="FirstNameRequired" xml:space="preserve">
+    <value>Vorname ist erforderlich</value>
+  </data>
+  <data name="LastNameRequired" xml:space="preserve">
+    <value>Nachname ist erforderlich</value>
+  </data>
+</root>
