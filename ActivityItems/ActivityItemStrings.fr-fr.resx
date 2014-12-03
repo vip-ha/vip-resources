@@ -180,5 +180,8 @@
 <data name="system_owner_owneringraceperiod_category" xml:space="preserve">
 	<value>Heureux de vous recevoir</value>
 </data>
+<data name="new_item" xml:space="preserve">
+	<value>poopo</value>
+</data>
 
 </root>
