@@ -187,4 +187,7 @@ Notes: {2}</value>
   <data name="OGPD" xml:space="preserve">
     <value>Grace Period</value>
   </data>
+  <data name="newitem" xml:space="preserve">
+    <value>newitem</value>
+  </data>
 </root>
